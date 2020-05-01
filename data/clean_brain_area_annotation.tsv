@@ -1,0 +1,152 @@
+brain_code	main	long	species
+R1	"dorsal horn, spinal cord"	"dorsal horn, spinal cord (DH)"	rat
+R2	nucleus accumbens	nucleus accumbens (ACB)	rat
+R2.1	accumbens nucleus，core	accumbens nucleus，core (AcbC)	rat
+R2.2	accumbens nucleus，shell	accumbens nucleus，shell (AcbSh)	rat
+R3	periaqueductal gray	periaqueductal gray (PAG)	rat
+R3.1	"periaqueductal gray, dorsal division"	"periaqueductal gray, dorsal division (PAGd)"	rat
+R3.12	"periaqueductal gray, dorsolateral division"	"periaqueductal gray, dorsolateral division (PAGdl)"	rat
+R3.2	"periaqueductal gray, medial division"	"periaqueductal gray, medial division (PAGm)"	rat
+R3.3	lateral periaqueductal gray	lateral periaqueductal gray (LPAG)	rat
+R3.31	"periaqueductal gray, ventrolateral division"	"periaqueductal gray, ventrolateral division (PAGvl)"	rat
+R4	spinal nucleus of the trigeminal	spinal nucleus of the trigeminal (SPV)	rat
+R4.1	"spinal nucleus of the trigeminal, caudal part_sw"	"spinal nucleus of the trigeminal, caudal part_sw (SPVC)"	rat
+R4.2	"spinal nucleus of the trigeminal, interpolar part_sw"	"spinal nucleus of the trigeminal, interpolar part_sw (SPVI)"	rat
+R4.3	"spinal nucleus of the trigeminal,oral part"	"spinal nucleus of the trigeminal,oral part (SPVO)"	rat
+R4.31	"spinal nucleus of the trigeminal, oral part, ventrolateral part"	"spinal nucleus of the trigeminal, oral part, ventrolateral part (SPVOvl)"	rat
+R5	Parabrachial nucleus	Parabrachial nucleus (PB)	rat
+R5.1	"parabrachial nucleus, lateral division "	"parabrachial nucleus, lateral division  (PBl)"	rat
+R5.11	"parabrachial nucleus, external lateral part"	"parabrachial nucleus, external lateral part (PBle)"	rat
+R5.12	parabrachial nucleus，central lateral part	parabrachial nucleus，central lateral part (PBlc)	rat
+R5.13	parabrachial nucleus， dorsal lateral part	parabrachial nucleus， dorsal lateral part (PBld)	rat
+R5.14	parabrachial nucleus，superior lateral part	parabrachial nucleus，superior lateral part (PBls)	rat
+R5.15	parabrachial nucleus，internal lateral part	parabrachial nucleus，internal lateral part (Pbli)	rat
+R5.2	parabrachial nucleus，medial division	parabrachial nucleus，medial division (PBm)	rat
+R5.21	parabrachial nucleus，external medial part	parabrachial nucleus，external medial part (Pbme)	rat
+R6	ventral tegmental area	ventral tegmental area (VTA)	rat
+R6.1	"ventral tegmental area, rostral part"	"ventral tegmental area, rostral part (VTAR)"	rat
+R7	locus ceruleus	locus ceruleus (LC)	rat
+R10	lateral reticular nucleus	lateral reticular nucleus (LRN)	rat
+R10.1	"lateral reticular nucleus, parvicellular part"	"lateral reticular nucleus, parvicellular part (LRNp)"	rat
+R10.2	"lateral reticular nucleus,subtrigeminal part"	"lateral reticular nucleus,subtrigeminal part (LRtS5)"	rat
+R12	paramedian reticular nucleus	paramedian reticular nucleus (PMR)	rat
+R15	gigantocellular reticular nucleus	gigantocellular reticular nucleus (GRN)	rat
+R15.1	gigantocellular reticular nucleus， alpha part	gigantocellular reticular nucleus， alpha part (GiA)	rat
+R16	cingulate region	cingulate region (CNG)	rat
+R16.1	anterior cingulate area	anterior cingulate area (ACA)	rat
+R22	nucleus of the solitary tract	nucleus of the solitary tract (NTS)	rat
+R22.1	"nucleus of the solitary tract, central part"	"nucleus of the solitary tract, central part (NTSce)"	rat
+R22.2	nucleus of the solitary tract，medial part_sw	nucleus of the solitary tract，medial part_sw (NTSm)	rat
+R22.3	"nucleus of the solitary tract, lateral part"	"nucleus of the solitary tract, lateral part (NTSl)"	rat
+R22.4	parasolitary nucleus_sw	parasolitary nucleus_sw (PAS)	rat
+R22.5	nucleus of the solitary tract，intermediate part	nucleus of the solitary tract，intermediate part (SolIM)	rat
+R22.6	nucleus of the solitary tract， rostrolateral part	nucleus of the solitary tract， rostrolateral part (SolRL)	rat
+R23	nucleus raphé obscurus	nucleus raphé obscurus (RO)	rat
+R25	paraventricular hypothalamic nucleus_sw	paraventricular hypothalamic nucleus_sw (PVH)	rat
+R25.11	"paraventricular hypothalamic nucleus, anterior magnocellular part"	"paraventricular hypothalamic nucleus, anterior magnocellular part (PVHam)"	rat
+R25.12	"paraventricular hypothalamic nucleus, anterior parvicellular part"	"paraventricular hypothalamic nucleus, anterior parvicellular part (PVHap)"	rat
+R25.2	"paraventricular hypothalamic nucleus, dorsal part"	"paraventricular hypothalamic nucleus, dorsal part (PVHd)"	rat
+R25.31	"paraventricular hypothalamic nucleus, lateral parvicellular part"	"paraventricular hypothalamic nucleus, lateral parvicellular part (PVHlp)"	rat
+R25.4	"paraventricular hypothalamic nucleus, magnocellular division"	"paraventricular hypothalamic nucleus, magnocellular division (PVHm)"	rat
+R25.41	"paraventricular hypothalamic nucleus, medial magnocellular part"	"paraventricular hypothalamic nucleus, medial magnocellular part (PVHmm)"	rat
+R25.42	"paraventricular hypothalamic nucleus, medial parvicellular part"	"paraventricular hypothalamic nucleus, medial parvicellular part (PVHmp)"	rat
+R25.5	"paraventricular hypothalamic nucleus, parvicellular division "	"paraventricular hypothalamic nucleus, parvicellular division  (PVHp)"	rat
+R25.51	"paraventricular hypothalamic nucleus, dorsal parvicellular part"	"paraventricular hypothalamic nucleus, dorsal parvicellular part (PVHpd)"	rat
+R25.52	"paraventricular hypothalamic nucleus, posterior magnocellular part"	"paraventricular hypothalamic nucleus, posterior magnocellular part (PVHpm)"	rat
+R25.6	paraventricular hypothalamic nucleus，ventral part	paraventricular hypothalamic nucleus，ventral part (PaV)	rat
+R32	ventromedial hypothalamic nucleus	ventromedial hypothalamic nucleus (VMH)	rat
+R32.1	"ventromedial hypothalamic nucleus, dorsomedial part"	"ventromedial hypothalamic nucleus, dorsomedial part (VMHdm)"	rat
+R32.2	"ventromedial hypothalamic nucleus, ventrolateral part"	"ventromedial hypothalamic nucleus, ventrolateral part (VMHvl)"	rat
+R37	area postrema	area postrema (AP)	rat
+R38	basolateral amygdalar nucleus	basolateral amygdalar nucleus (BLA)	rat
+R44	central amygdalar nucleus	central amygdalar nucleus (CEA)	rat
+R50	dorsal motor nucleus vagus nerve	dorsal motor nucleus vagus nerve (DMX)	rat
+R57	lateral hypothalamic area	lateral hypothalamic area (LHA)	rat
+R64	paragigantocellular reticular nucleus	paragigantocellular reticular nucleus (PGRN)	rat
+R64.1	"paragigantocellular reticular nucleus, lateral part"	"paragigantocellular reticular nucleus, lateral part (PGRNl)"	rat
+R87	bed nuclei stria terminalis	bed nuclei stria terminalis (BST)	rat
+R87.12	"bed nuclei stria terminalis, anterior division, anteromedial area"	"bed nuclei stria terminalis, anterior division, anteromedial area (BSTam)"	rat
+R87.2	"bed nuclei stria terminalis, posterior division"	"bed nuclei stria terminalis, posterior division (BSTp)"	rat
+R96	"supraoptic nucleus, general"	"supraoptic nucleus, general (SOg)"	rat
+R106	prefrontal region_sw	prefrontal region_sw (PFR)	rat
+R114	thalamus_sw	thalamus_sw (TH)	rat
+R115	superior central nucleus raphé_sw	superior central nucleus raphé_sw (CS)	rat
+R115.1	"superior central nucleus raphé, lateral part_sw"	"superior central nucleus raphé, lateral part_sw (CSl)"	rat
+R115.2	"superior central nucleus raphé, medial part"	"superior central nucleus raphé, medial part (CSm)"	rat
+R116	dorsomedial hypothalamic nucleus	dorsomedial hypothalamic nucleus (DMH)	rat
+R122	amygdala	amygdala (AMY)	rat
+R124	anterior hypothalamic nucleus	anterior hypothalamic nucleus (AHN)	rat
+R126	anteroventral preoptic nucleus	anteroventral preoptic nucleus (AVP)	rat
+R140	infralimbic area	infralimbic area (ILA)	rat
+R147	lateral septal nucleus	lateral septal nucleus (LS)	rat
+R147.2	"lateral septal nucleus, ventral part"	"lateral septal nucleus, ventral part (LSv)"	rat
+R148	medial amygdalar nucleus	medial amygdalar nucleus (MEA)	rat
+R148.1	"medial amygdalar nucleus, posterodorsal part"	"medial amygdalar nucleus, posterodorsal part (MEApd)"	rat
+R148.2	"medial amygdalar nucleus, anterodorsal part"	"medial amygdalar nucleus, anterodorsal part (MEAad)"	rat
+R150	medial preoptic area	medial preoptic area (MPO)	rat
+R158	prelimbic area	prelimbic area (PL)	rat
+R168	arcuate hypothalamic nucleus	arcuate hypothalamic nucleus (ARH)	rat
+R184	accessory olfactory bulb	accessory olfactory bulb (AOB)	rat
+R184.1	"accessory olfactory bulb, granule cell layer"	"accessory olfactory bulb, granule cell layer (AOBgr)"	rat
+R184.2	"accessory olfactory bulb, mitral layer"	"accessory olfactory bulb, mitral layer (AOBmi)"	rat
+R185	bed nucleus of the accessory olfactory tract	bed nucleus of the accessory olfactory tract (BA)	rat
+R186	medial preoptic nucleus	medial preoptic nucleus (MPN)	rat
+R189	central tegmental bundle	central tegmental bundle (ctb)	rat
+R190	anterodorsal preoptic nucleus	anterodorsal preoptic nucleus (ADP)	rat
+R191	septohypothalamic nucleus	septohypothalamic nucleus (SHy)	rat
+B1.1	"spinal trigeminal nucleus, caudal part"	"spinal trigeminal nucleus, caudal part (Sp5C)"	mouse
+B10.1	central amygdaloid nucleus	central amygdaloid nucleus (Ce)	mouse
+B10.3	medial amygdaloid nucleus	medial amygdaloid nucleus (Me)	mouse
+B10.31	"medial amygdaloid nucleus, anterior part"	"medial amygdaloid nucleus, anterior part (MeA)"	mouse
+B10.32	"medial amygdaloid nucleus, posterodorsal part"	"medial amygdaloid nucleus, posterodorsal part (MePD)"	mouse
+B10.33	"medial amygdaloid nucleus, posteroventral part"	"medial amygdaloid nucleus, posteroventral part (MePV)"	mouse
+B11.1	"ventromedial hypothalamic nucleus, dorsomedial part"	"ventromedial hypothalamic nucleus, dorsomedial part (VMHDM)"	mouse
+B11.2	"ventromedial hypothalamic nucleus, ventrolateral part"	"ventromedial hypothalamic nucleus, ventrolateral part (VMHVL)"	mouse
+B12.1	"premammillary nucleus, dorsal part"	"premammillary nucleus, dorsal part (PMD)"	mouse
+B12.2	"premammillary nucleus, ventral part"	"premammillary nucleus, ventral part (PMV)"	mouse
+B13	piriform cortex	piriform cortex (Pir)	mouse
+B14	cingulate cortex	cingulate cortex (Cg)	mouse
+B14.1	cingulate cortex; area 1	cingulate cortex; area 1 (Cg1)	mouse
+B15	locus coeruleus	locus coeruleus (LC)	mouse
+B16	paraventricular thalamic nucleus	paraventricular thalamic nucleus (PV)	mouse
+B18	lateral septal nucleus	lateral septal nucleus (LS)	mouse
+B18.1	lateral septal nucleus; dorsal part	lateral septal nucleus; dorsal part (LSD)	mouse
+B18.2	"lateral septal nucleus, ventral part"	"lateral septal nucleus, ventral part (LSV)"	mouse
+B19	bed nucleus of the stria terminalis	bed nucleus of the stria terminalis (ST)	mouse
+B19.1	bed nucleus of the stria terminalis; lateral division; ventral part	bed nucleus of the stria terminalis; lateral division; ventral part (STLV)	mouse
+B19.2	bed nucleus of the stria terminalis; medial division; ventral part	bed nucleus of the stria terminalis; medial division; ventral part (STMV)	mouse
+B2	parabrachial nucleus	parabrachial nucleus (PB)	mouse
+B2.1	lateral parabrachial nucleus	lateral parabrachial nucleus (LPB)	mouse
+B2.11	"lateral parabrachial nucleus, dorsal part"	"lateral parabrachial nucleus, dorsal part (LPBD)"	mouse
+B2.12	lateral parabrachial nucleus; external part	lateral parabrachial nucleus; external part (LPBE)	mouse
+B20	paraventricular hypothalamic nucleus	paraventricular hypothalamic nucleus (Pa)	mouse
+B20.2	"paraventricular hypothalamic nucleus, posterior part"	"paraventricular hypothalamic nucleus, posterior part (PaPo)"	mouse
+B20.3	"paraventricular hypothalamic nucleus,ventral part"	"paraventricular hypothalamic nucleus,ventral part (PaV)"	mouse
+B21	periaqueductal gray	periaqueductal gray (PAG)	mouse
+B21.11	dorsolateral periaqueductal gray	dorsolateral periaqueductal gray (DLPAG)	mouse
+B21.12	ventrolateral periaqueductal gray	ventrolateral periaqueductal gray (VLPAG)	mouse
+B30	nucleus of the solitary tract	nucleus of the solitary tract (Sol)	mouse
+B33	accessory olfactory bulb	accessory olfactory bulb (AOB)	mouse
+B34	anterior hypothalamic area	anterior hypothalamic area (AH)	mouse
+B35	anterior olfactory area external part	anterior olfactory area external part (AOE)	mouse
+B37	caudate putamen (striatum)	caudate putamen (striatum) (Cpu)	mouse
+B39	claustrum	claustrum (CI)	mouse
+B42	dorsal raphe nucleus	dorsal raphe nucleus (DR)	mouse
+B46	granule cell layer of the accessory olfactory bulb	granule cell layer of the accessory olfactory bulb (GrA)	mouse
+B48	lateral periaqueductal gray	lateral periaqueductal gray (LPAG)	mouse
+B49	lateral preoptic area	lateral preoptic area (LPO)	mouse
+B50	laterodorsal tegmental nucleus	laterodorsal tegmental nucleus (LDTg)	mouse
+B51	medial preoptic area	medial preoptic area (MPA)	mouse
+B52.1	"medial preoptic nucleus, medial part"	"medial preoptic nucleus, medial part (MPOM)"	mouse
+B54	mitral cell layer of the accessory olfactory bulb	mitral cell layer of the accessory olfactory bulb (MiA)	mouse
+B59	superior colliculus	superior colliculus (SC)	mouse
+B6	basolateral amygdaloid nucleus	basolateral amygdaloid nucleus (BL)	mouse
+B61	ventral tegmental area	ventral tegmental area (VTA)	mouse
+B62	lateral habenular nucleus	lateral habenular nucleus (LHb)	mouse
+B63	dorsal horn	dorsal horn (DH)	mouse
+B64	diagonal band of Broca	diagonal band of Broca (DBB)	mouse
+B65	Insular cortex	Insular cortex (insula)	mouse
+B66	ventromedial thalamic nucleus	ventromedial thalamic nucleus (VM)	mouse
+B67	medial tuberal nucleus	medial tuberal nucleus (MTu)	mouse
+B7	lateral hypothalamic area	lateral hypothalamic area (LH)	mouse
+B9	dentate gyrus	dentate gyrus (DG)	mouse

@@ -1,0 +1,2602 @@
+[
+  {
+    "behavior": "pain",
+    "doi": "10.1002/ejp.1349",
+    "strain": "Sprague Dawley rats",
+    "gender": "male",
+    "figure": "Fig. 6",
+    "condition": "noxious cutaneous mechanical stimulation",
+    "brain_code": "R5",
+    "cell_type": ""
+  },
+  {
+    "behavior": "pain",
+    "doi": "10.1007/s12035-018-1116-7",
+    "strain": "Wistar rats",
+    "gender": "male",
+    "figure": "Fig. 6",
+    "condition": "chronic constrictive injury (CCI)",
+    "brain_code": "R2",
+    "cell_type": ""
+  },
+  {
+    "behavior": "pain",
+    "doi": "10.1007/s12035-018-1116-7",
+    "strain": "Wistar rats",
+    "gender": "male",
+    "figure": "Fig. 6",
+    "condition": "hindpaw injection of carrageenan",
+    "brain_code": "R3",
+    "cell_type": ""
+  },
+  {
+    "behavior": "pain",
+    "doi": "10.1007/s12035-018-1116-7",
+    "strain": "Wistar rats",
+    "gender": "male",
+    "figure": "Fig. 6",
+    "condition": "forepaw injection of capsaicin",
+    "brain_code": "R3",
+    "cell_type": ""
+  },
+  {
+    "behavior": "pain",
+    "doi": "10.1097/00006676-200305000-00017",
+    "strain": "Sprague-Dawley rats",
+    "gender": "male",
+    "figure": "Fig. 2",
+    "condition": "formalin injection",
+    "brain_code": "R3.1",
+    "cell_type": ""
+  },
+  {
+    "behavior": "pain",
+    "doi": "10.1097/00006676-200305000-00017",
+    "strain": "Sprague-Dawley rats",
+    "gender": "male",
+    "figure": "Fig. 2",
+    "condition": "formalin injection",
+    "brain_code": "R3.31",
+    "cell_type": ""
+  },
+  {
+    "behavior": "pain",
+    "doi": "10.1097/00006676-200305000-00017",
+    "strain": "Sprague-Dawley rats",
+    "gender": "male",
+    "figure": "Fig. 2",
+    "condition": "noxious cutaneous mechanical stimulation",
+    "brain_code": "R10",
+    "cell_type": ""
+  },
+  {
+    "behavior": "pain",
+    "doi": "10.1097/00006676-200305000-00017",
+    "strain": "Sprague-Dawley rats",
+    "gender": "male",
+    "figure": "Fig. 2",
+    "condition": "subcutaneous noxious stimulation on the left forepaw",
+    "brain_code": "R64.1",
+    "cell_type": ""
+  },
+  {
+    "behavior": "pain",
+    "doi": "10.1097/00006676-200305000-00017",
+    "strain": "Sprague-Dawley rats",
+    "gender": "male",
+    "figure": "Fig. 2",
+    "condition": "subcutaneous injection of formalin",
+    "brain_code": "R5",
+    "cell_type": ""
+  },
+  {
+    "behavior": "pain",
+    "doi": "10.1097/00006676-200305000-00017",
+    "strain": "Sprague-Dawley rats",
+    "gender": "male",
+    "figure": "Fig. 2",
+    "condition": "noxious cutaneous mechanical stimulation",
+    "brain_code": "R23",
+    "cell_type": ""
+  },
+  {
+    "behavior": "pain",
+    "doi": "10.1097/00006676-200305000-00017",
+    "strain": "Sprague-Dawley rats",
+    "gender": "male",
+    "figure": "Fig. 2",
+    "condition": "visceral noxious stimulation",
+    "brain_code": "R22",
+    "cell_type": ""
+  },
+  {
+    "behavior": "pain",
+    "doi": "10.1097/00006676-200305000-00017",
+    "strain": "Sprague-Dawley rats",
+    "gender": "male",
+    "figure": "Fig. 2",
+    "condition": "noxious heating of the hindpaw",
+    "brain_code": "R12",
+    "cell_type": ""
+  },
+  {
+    "behavior": "pain",
+    "doi": "10.1097/00006676-200305000-00017",
+    "strain": "Sprague-Dawley rats",
+    "gender": "male",
+    "figure": "Fig. 2",
+    "condition": "visceral noxious stimulation",
+    "brain_code": "R10",
+    "cell_type": ""
+  },
+  {
+    "behavior": "pain",
+    "doi": "10.1097/00006676-200305000-00017",
+    "strain": "Sprague-Dawley rats",
+    "gender": "male",
+    "figure": "Fig. 2",
+    "condition": "subcutaneous noxious stimulation on the left forepaw",
+    "brain_code": "R15.1",
+    "cell_type": ""
+  },
+  {
+    "behavior": "pain",
+    "doi": "10.1002/(sici)1096-9861(19960422)368:1<45::aid-cne4>3.0.co;2-k",
+    "strain": "Sprague-Dawley rats",
+    "gender": "male",
+    "figure": "Fig.1",
+    "condition": "hindpaw injection of carrageenan",
+    "brain_code": "R2",
+    "cell_type": ""
+  },
+  {
+    "behavior": "pain",
+    "doi": "10.1002/(sici)1096-9861(19960422)368:1<45::aid-cne4>3.0.co;2-k",
+    "strain": "Sprague-Dawley rats",
+    "gender": "male",
+    "figure": "Figs.2-5",
+    "condition": "visceral noxious stimulation",
+    "brain_code": "R115.1",
+    "cell_type": ""
+  },
+  {
+    "behavior": "pain",
+    "doi": "10.1002/(sici)1096-9861(19960422)368:1<45::aid-cne4>3.0.co;2-k",
+    "strain": "Sprague-Dawley rats",
+    "gender": "male",
+    "figure": "Fig.2",
+    "condition": "formalin injection into the lower lip",
+    "brain_code": "R5.21",
+    "cell_type": ""
+  },
+  {
+    "behavior": "pain",
+    "doi": "10.1002/(sici)1096-9861(19960422)368:1<45::aid-cne4>3.0.co;2-k",
+    "strain": "Sprague-Dawley rats",
+    "gender": "male",
+    "figure": "Fig.2",
+    "condition": "formalin injection into the lower lip",
+    "brain_code": "R5.11",
+    "cell_type": ""
+  },
+  {
+    "behavior": "pain",
+    "doi": "10.1002/(sici)1096-9861(19960422)368:1<45::aid-cne4>3.0.co;2-k",
+    "strain": "Sprague-Dawley rats",
+    "gender": "male",
+    "figure": "Fig.3",
+    "condition": "mechanical stimulation",
+    "brain_code": "R1",
+    "cell_type": ""
+  },
+  {
+    "behavior": "pain",
+    "doi": "10.1002/(sici)1096-9861(19960422)368:1<45::aid-cne4>3.0.co;2-k",
+    "strain": "Sprague-Dawley rats",
+    "gender": "male",
+    "figure": "Figs.4-5",
+    "condition": "formalin injection into the lower lip",
+    "brain_code": "R5.13",
+    "cell_type": ""
+  },
+  {
+    "behavior": "pain",
+    "doi": "10.1002/(sici)1096-9861(19960422)368:1<45::aid-cne4>3.0.co;2-k",
+    "strain": "Sprague-Dawley rats",
+    "gender": "male",
+    "figure": "Figs.2-4",
+    "condition": "formalin injection into one hindpaw",
+    "brain_code": "R5.12",
+    "cell_type": ""
+  },
+  {
+    "behavior": "pain",
+    "doi": "10.1002/(sici)1096-9861(19960422)368:1<45::aid-cne4>3.0.co;2-k",
+    "strain": "Sprague-Dawley rats",
+    "gender": "male",
+    "figure": "Figs.3-5",
+    "condition": "injection of 100 ul 5% formalin into the back of one hindpaw",
+    "brain_code": "R5.1",
+    "cell_type": ""
+  },
+  {
+    "behavior": "pain",
+    "doi": "10.1002/(sici)1096-9861(19960422)368:1<45::aid-cne4>3.0.co;2-k",
+    "strain": "Sprague-Dawley rats",
+    "gender": "male",
+    "figure": "Fig. 4",
+    "condition": "formalin injection into one hindpaw",
+    "brain_code": "R5.14",
+    "cell_type": ""
+  },
+  {
+    "behavior": "pain",
+    "doi": "10.1002/(sici)1096-9861(19960422)368:1<45::aid-cne4>3.0.co;2-k",
+    "strain": "Sprague-Dawley rats",
+    "gender": "male",
+    "figure": "Fig. 4",
+    "condition": "formalin injection into one hindpaw",
+    "brain_code": "R5.13",
+    "cell_type": ""
+  },
+  {
+    "behavior": "pain",
+    "doi": "10.1002/(sici)1096-9861(19960422)368:1<45::aid-cne4>3.0.co;2-k",
+    "strain": "Sprague-Dawley rats",
+    "gender": "male",
+    "figure": "Fig. 4",
+    "condition": "chronic constriction injury (CCI) of the sciatic nerve",
+    "brain_code": "R16.1",
+    "cell_type": ""
+  },
+  {
+    "behavior": "pain",
+    "doi": "10.1016/0306-4522(95)00541-2",
+    "strain": "Sprague Dawley rats",
+    "gender": "male",
+    "figure": "Figs.1",
+    "condition": "noxious (52°C,42°C,35°C, ) thermal probe stimulation of the cornea",
+    "brain_code": "R4.31",
+    "cell_type": ""
+  },
+  {
+    "behavior": "pain",
+    "doi": "10.1016/0306-4522(95)00541-2",
+    "strain": "Sprague Dawley rats",
+    "gender": "male",
+    "figure": "Fig.2",
+    "condition": "thermal probe and radiant heat ( ~ 47~C) stimulation",
+    "brain_code": "R4.31",
+    "cell_type": ""
+  },
+  {
+    "behavior": "pain",
+    "doi": "10.1016/0306-4522(95)00541-2",
+    "strain": "Sprague Dawley rats",
+    "gender": "male",
+    "figure": "Fig.5",
+    "condition": "radiant heat to the left cornea",
+    "brain_code": "R4.31",
+    "cell_type": ""
+  },
+  {
+    "behavior": "pain",
+    "doi": "10.1016/j.jpain.2010.09.005",
+    "strain": "offspring of Long-Evans Hooded rats",
+    "gender": "",
+    "figure": "Fig.1",
+    "condition": "noxious cutaneous mechanical stimulation",
+    "brain_code": "R4.1",
+    "cell_type": ""
+  },
+  {
+    "behavior": "pain",
+    "doi": "10.1016/j.jpain.2010.09.005",
+    "strain": "offspring of Long-Evans Hooded rats",
+    "gender": "",
+    "figure": "Fig.2",
+    "condition": "subcutaneous injection of formalin",
+    "brain_code": "R114",
+    "cell_type": ""
+  },
+  {
+    "behavior": "pain",
+    "doi": "10.1016/j.jpain.2010.09.005",
+    "strain": "offspring of Long-Evans Hooded rats",
+    "gender": "",
+    "figure": "Fig.3",
+    "condition": "Plantar incision of propofal",
+    "brain_code": "R1",
+    "cell_type": ""
+  },
+  {
+    "behavior": "pain",
+    "doi": "10.1523/JNEUROSCI.12-12-04878.1992",
+    "strain": "Wistar rats",
+    "gender": "female",
+    "figure": "Figs.6-8",
+    "condition": "mechanical Stimulation of the lower urinary tract(LUT)",
+    "brain_code": "R1",
+    "cell_type": ""
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.1038/s41398-019-0368-y",
+    "strain": "wildtype, SERT+/− and SERT−/− Wistar rats ",
+    "gender": "male",
+    "figure": "Fig. 2",
+    "condition": "exposure to 7.5% CO2",
+    "brain_code": "R116",
+    "cell_type": ""
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.1038/s41398-019-0368-y",
+    "strain": "wildtype, SERT+/− and SERT−/− Wistar rats ",
+    "gender": "male",
+    "figure": "Fig. 2",
+    "condition": "exposure to 7.5% CO2",
+    "brain_code": "R3.12",
+    "cell_type": ""
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.1038/s41398-019-0368-y",
+    "strain": "wildtype, SERT+/− and SERT−/− Wistar rats ",
+    "gender": "male",
+    "figure": "Fig. 2",
+    "condition": "exposure to 7.5% CO2",
+    "brain_code": "R38",
+    "cell_type": ""
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.1016/j.neuron.2016.10.015",
+    "strain": "FosTVA Knockin Mice",
+    "gender": "male",
+    "figure": "Fig. 7",
+    "condition": "second social-fear stimulation",
+    "brain_code": "R32.2",
+    "cell_type": ""
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.7554/eLife.12669",
+    "strain": "rats",
+    "gender": "",
+    "figure": "Fig. 1",
+    "condition": "fear conditioning",
+    "brain_code": "R38",
+    "cell_type": ""
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.1016/j.nlm.2015.10.001",
+    "strain": "F344 rats",
+    "gender": "male",
+    "figure": "Fig. 3",
+    "condition": "fear conditioning",
+    "brain_code": "R158",
+    "cell_type": ""
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.1016/j.nlm.2015.10.001",
+    "strain": "F344 rats",
+    "gender": "male",
+    "figure": "Fig. 3",
+    "condition": "fear conditioning",
+    "brain_code": "R140",
+    "cell_type": ""
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.1523/jneurosci.19-13-05666.1999",
+    "strain": "Sprague-Dawley rats",
+    "gender": "male",
+    "figure": "Fig3",
+    "condition": "fear conditioning",
+    "brain_code": "R158",
+    "cell_type": ""
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.1523/jneurosci.19-13-05666.1999",
+    "strain": "Sprague-Dawley rats",
+    "gender": "male",
+    "figure": "Fig3",
+    "condition": "fear conditioning",
+    "brain_code": "R158",
+    "cell_type": ""
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.1523/jneurosci.19-13-05666.1999",
+    "strain": "Sprague-Dawley rats",
+    "gender": "male",
+    "figure": "Fig4",
+    "condition": "fear conditioning",
+    "brain_code": "R140",
+    "cell_type": ""
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.1523/jneurosci.19-13-05666.1999",
+    "strain": "Sprague-Dawley rats",
+    "gender": "male",
+    "figure": "Fig4",
+    "condition": "fear conditioning",
+    "brain_code": "R158",
+    "cell_type": ""
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.1523/jneurosci.19-13-05666.1999",
+    "strain": "Sprague-Dawley rats",
+    "gender": "male",
+    "figure": "Fig4",
+    "condition": "fear conditioning",
+    "brain_code": "R140",
+    "cell_type": ""
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.1523/jneurosci.19-13-05666.1999",
+    "strain": "Sprague-Dawley rats",
+    "gender": "male",
+    "figure": "Fig4",
+    "condition": "fear conditioning",
+    "brain_code": "R158",
+    "cell_type": ""
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.1523/jneurosci.19-13-05666.1999",
+    "strain": "Sprague-Dawley rats",
+    "gender": "male",
+    "figure": "Fig5",
+    "condition": "sense oligonucleotide (SO) or antisense oligonucleotides（ASO）",
+    "brain_code": "R158",
+    "cell_type": ""
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.1523/jneurosci.19-13-05666.1999",
+    "strain": "Sprague-Dawley rats",
+    "gender": "male",
+    "figure": "Fig5",
+    "condition": "sense oligonucleotide (SO) or antisense oligonucleotides（ASO）",
+    "brain_code": "R106",
+    "cell_type": ""
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.1016/j.brainresbull.2012.04.001",
+    "strain": "Wistar rats",
+    "gender": "male",
+    "figure": "Fig. 2",
+    "condition": "fear conditioning",
+    "brain_code": "R106",
+    "cell_type": ""
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.1016/j.brainresbull.2012.04.001",
+    "strain": "Wistar rats",
+    "gender": "male",
+    "figure": "Fig. 4",
+    "condition": "fear conditioning",
+    "brain_code": "R148",
+    "cell_type": ""
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.1016/j.brainresbull.2012.04.001",
+    "strain": "Wistar rats",
+    "gender": "male",
+    "figure": "Fig. 4",
+    "condition": "fear conditioning",
+    "brain_code": "R124",
+    "cell_type": ""
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.1016/j.brainresbull.2012.04.001",
+    "strain": "Wistar rats",
+    "gender": "male",
+    "figure": "Fig. 4",
+    "condition": "fear conditioning",
+    "brain_code": "R32.1",
+    "cell_type": ""
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.1016/j.brainresbull.2012.04.001",
+    "strain": "Wistar rats",
+    "gender": "male",
+    "figure": "Fig. 5",
+    "condition": "fear conditioning",
+    "brain_code": "R115.2",
+    "cell_type": ""
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.1016/j.brainresbull.2012.04.001",
+    "strain": "Wistar rats",
+    "gender": "male",
+    "figure": "Fig. 5",
+    "condition": "fear conditioning",
+    "brain_code": "R7",
+    "cell_type": ""
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.1016/j.brainresbull.2012.04.001",
+    "strain": "Wistar rats",
+    "gender": "male",
+    "figure": "Fig. 6",
+    "condition": "fear conditioning",
+    "brain_code": "R3.1",
+    "cell_type": ""
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.1016/0006-8993(92)91503-7",
+    "strain": "rats of the Lewis strain,",
+    "gender": "male",
+    "figure": "Fig. 1",
+    "condition": "fear conditioning",
+    "brain_code": "R25.42",
+    "cell_type": ""
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.1016/0006-8993(92)91503-7",
+    "strain": "rats of the Lewis strain,",
+    "gender": "male",
+    "figure": "Fig. 1",
+    "condition": "fear conditioning",
+    "brain_code": "R25.52",
+    "cell_type": ""
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.1016/0006-8993(92)91503-7",
+    "strain": "rats of the Lewis strain,",
+    "gender": "male",
+    "figure": "Fig. 3",
+    "condition": "fear conditioning",
+    "brain_code": "R96.1",
+    "cell_type": ""
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.1016/0006-8993(92)91503-7",
+    "strain": "rats of the Lewis strain,",
+    "gender": "male",
+    "figure": "Fig. 3",
+    "condition": "fear conditioning",
+    "brain_code": "R96.1",
+    "cell_type": ""
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.1016/0006-8993(92)91503-7",
+    "strain": "rats of the Lewis strain,",
+    "gender": "male",
+    "figure": "Fig. 4",
+    "condition": "unconditioned stimulus",
+    "brain_code": "R148",
+    "cell_type": ""
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.1016/0006-8993(92)91503-7",
+    "strain": "rats of the Lewis strain,",
+    "gender": "male",
+    "figure": "Fig. 4",
+    "condition": "fear conditioning",
+    "brain_code": "R148",
+    "cell_type": ""
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.1016/0006-8993(92)91503-7",
+    "strain": "rats of the Lewis strain,",
+    "gender": "male",
+    "figure": "Fig.5",
+    "condition": "unconditioned stimulus",
+    "brain_code": "R147.2",
+    "cell_type": ""
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.1016/0006-8993(92)91503-7",
+    "strain": "rats of the Lewis strain,",
+    "gender": "male",
+    "figure": "Fig.5",
+    "condition": "fear conditioning",
+    "brain_code": "R147.2",
+    "cell_type": ""
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.1016/0006-8993(91)91669-R",
+    "strain": "albino Sprague-Dawley rats",
+    "gender": "male",
+    "figure": "Fig1",
+    "condition": "unconditioned fear by handling",
+    "brain_code": "R122",
+    "cell_type": ""
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.1016/0006-8993(91)91669-R",
+    "strain": "albino Sprague-Dawley rats",
+    "gender": "male",
+    "figure": "Fig1",
+    "condition": "unconditioned fear by footshock",
+    "brain_code": "R122",
+    "cell_type": ""
+  },
+  {
+    "behavior": "feeding",
+    "doi": "10.1006/mcne.1993.1011",
+    "strain": "Sprague- Dawley rats (250-300g)",
+    "gender": "male",
+    "figure": "Fig. 1",
+    "condition": "22-h food deprivation followed by spontaneous food ingestion (FD-FED)",
+    "brain_code": "R22",
+    "cell_type": ""
+  },
+  {
+    "behavior": "feeding",
+    "doi": "10.1006/mcne.1993.1011",
+    "strain": "Sprague- Dawley rats (250-300g)",
+    "gender": "male",
+    "figure": "Fig. 1",
+    "condition": "insulin treatment followed by spontaneous food ingestion (INS-FED)",
+    "brain_code": "R22",
+    "cell_type": ""
+  },
+  {
+    "behavior": "feeding",
+    "doi": "10.1006/mcne.1993.1011",
+    "strain": "Sprague- Dawley rats (250-300g)",
+    "gender": "male",
+    "figure": "Fig. 1",
+    "condition": "forced gastric distention (GD)",
+    "brain_code": "R22",
+    "cell_type": ""
+  },
+  {
+    "behavior": "feeding",
+    "doi": "10.1006/mcne.1993.1011",
+    "strain": "Sprague- Dawley rats (250-300g)",
+    "gender": "male",
+    "figure": "Fig. 3",
+    "condition": "administration of CCK",
+    "brain_code": "R37",
+    "cell_type": ""
+  },
+  {
+    "behavior": "feeding",
+    "doi": "10.1006/mcne.1993.1011",
+    "strain": "Sprague- Dawley rats (250-300g)",
+    "gender": "male",
+    "figure": "Fig. 3",
+    "condition": "forced gastric distention (GD)",
+    "brain_code": "R37",
+    "cell_type": ""
+  },
+  {
+    "behavior": "feeding",
+    "doi": "10.1006/mcne.1993.1011",
+    "strain": "Sprague- Dawley rats (250-300g)",
+    "gender": "male",
+    "figure": "Fig. 5",
+    "condition": "22-h food deprivation (FD)",
+    "brain_code": "R50",
+    "cell_type": ""
+  },
+  {
+    "behavior": "feeding",
+    "doi": "10.1006/mcne.1993.1011",
+    "strain": "Sprague- Dawley rats (250-300g)",
+    "gender": "male",
+    "figure": "Fig. 5",
+    "condition": "insulin induced hypoglycemia (INS)",
+    "brain_code": "R50",
+    "cell_type": ""
+  },
+  {
+    "behavior": "feeding",
+    "doi": "10.1006/mcne.1993.1011",
+    "strain": "Sprague- Dawley rats (250-300g)",
+    "gender": "male",
+    "figure": "Fig. 5",
+    "condition": "forced gastric distention (GD)",
+    "brain_code": "R50",
+    "cell_type": ""
+  },
+  {
+    "behavior": "feeding",
+    "doi": "10.1006/mcne.1993.1011",
+    "strain": "Sprague- Dawley rats (250-300g)",
+    "gender": "male",
+    "figure": "Fig. 6",
+    "condition": "administration of CCK",
+    "brain_code": "R25.42",
+    "cell_type": ""
+  },
+  {
+    "behavior": "feeding",
+    "doi": "10.1006/mcne.1993.1011",
+    "strain": "Sprague- Dawley rats (250-300g)",
+    "gender": "male",
+    "figure": "Fig. 6",
+    "condition": "administration of CCK",
+    "brain_code": "R25.52",
+    "cell_type": ""
+  },
+  {
+    "behavior": "feeding",
+    "doi": "10.1006/mcne.1993.1011",
+    "strain": "Sprague- Dawley rats (250-300g)",
+    "gender": "male",
+    "figure": "Fig. 6",
+    "condition": "administration of CCK",
+    "brain_code": "R44",
+    "cell_type": ""
+  },
+  {
+    "behavior": "feeding",
+    "doi": "10.1006/mcne.1993.1011",
+    "strain": "Sprague- Dawley rats (250-300g)",
+    "gender": "male",
+    "figure": "Fig. 6",
+    "condition": "administration of CCK",
+    "brain_code": "R87",
+    "cell_type": ""
+  },
+  {
+    "behavior": "feeding",
+    "doi": "10.1006/mcne.1993.1011",
+    "strain": "Sprague- Dawley rats (250-300g)",
+    "gender": "male",
+    "figure": "Fig. 6",
+    "condition": "administration of LiCl",
+    "brain_code": "R25.42",
+    "cell_type": ""
+  },
+  {
+    "behavior": "feeding",
+    "doi": "10.1006/mcne.1993.1011",
+    "strain": "Sprague- Dawley rats (250-300g)",
+    "gender": "male",
+    "figure": "Fig. 6",
+    "condition": "administration of LiCl",
+    "brain_code": "R25.52",
+    "cell_type": ""
+  },
+  {
+    "behavior": "feeding",
+    "doi": "10.1006/mcne.1993.1011",
+    "strain": "Sprague- Dawley rats (250-300g)",
+    "gender": "male",
+    "figure": "Fig. 6",
+    "condition": "administration of LiCl",
+    "brain_code": "R44",
+    "cell_type": ""
+  },
+  {
+    "behavior": "feeding",
+    "doi": "10.1006/mcne.1993.1011",
+    "strain": "Sprague- Dawley rats (250-300g)",
+    "gender": "male",
+    "figure": "Fig. 6",
+    "condition": "insulin induced hypoglycemia (INS)",
+    "brain_code": "R25.42",
+    "cell_type": ""
+  },
+  {
+    "behavior": "feeding",
+    "doi": "10.1006/mcne.1993.1011",
+    "strain": "Sprague- Dawley rats (250-300g)",
+    "gender": "male",
+    "figure": "Fig. 6",
+    "condition": "insulin induced hypoglycemia (INS)",
+    "brain_code": "R44",
+    "cell_type": ""
+  },
+  {
+    "behavior": "feeding",
+    "doi": "10.1006/mcne.1993.1011",
+    "strain": "Sprague- Dawley rats (250-300g)",
+    "gender": "male",
+    "figure": "Fig. 6",
+    "condition": "insulin treatment followed by spontaneous food ingestion (INS-FED)",
+    "brain_code": "R44",
+    "cell_type": ""
+  },
+  {
+    "behavior": "feeding",
+    "doi": "10.1006/mcne.1993.1011",
+    "strain": "Sprague- Dawley rats (250-300g)",
+    "gender": "male",
+    "figure": "Fig. 6",
+    "condition": "forced gastric distention (GD)",
+    "brain_code": "R25.42",
+    "cell_type": ""
+  },
+  {
+    "behavior": "feeding",
+    "doi": "10.1006/mcne.1993.1011",
+    "strain": "Sprague- Dawley rats (250-300g)",
+    "gender": "male",
+    "figure": "Fig. 6",
+    "condition": "forced gastric distention (GD)",
+    "brain_code": "R25.52",
+    "cell_type": ""
+  },
+  {
+    "behavior": "feeding",
+    "doi": "10.1006/mcne.1993.1011",
+    "strain": "Sprague- Dawley rats (250-300g)",
+    "gender": "male",
+    "figure": "Fig. 6",
+    "condition": "forced gastric distention (GD)",
+    "brain_code": "R44",
+    "cell_type": ""
+  },
+  {
+    "behavior": "feeding",
+    "doi": "10.1006/mcne.1993.1011",
+    "strain": "Sprague- Dawley rats (250-300g)",
+    "gender": "male",
+    "figure": "Fig. 6",
+    "condition": "forced gastric distention (GD)",
+    "brain_code": "R87",
+    "cell_type": ""
+  },
+  {
+    "behavior": "feeding",
+    "doi": "10.1006/mcne.1993.1011",
+    "strain": "Sprague- Dawley rats (250-300g)",
+    "gender": "male",
+    "figure": "Fig. 8",
+    "condition": "oxytocin administration into the lateral ventricle",
+    "brain_code": "R22",
+    "cell_type": ""
+  },
+  {
+    "behavior": "feeding",
+    "doi": "10.1006/mcne.1993.1011",
+    "strain": "Sprague- Dawley rats (250-300g)",
+    "gender": "male",
+    "figure": "Fig. 8",
+    "condition": "oxytocin administration into the lateral ventricle",
+    "brain_code": "R37",
+    "cell_type": ""
+  },
+  {
+    "behavior": "feeding",
+    "doi": "10.1006/mcne.1993.1011",
+    "strain": "Sprague- Dawley rats (250-300g)",
+    "gender": "male",
+    "figure": "Fig. 9",
+    "condition": "administration of CCK",
+    "brain_code": "R22",
+    "cell_type": ""
+  },
+  {
+    "behavior": "feeding",
+    "doi": "10.1006/mcne.1993.1011",
+    "strain": "Sprague- Dawley rats (250-300g)",
+    "gender": "male",
+    "figure": "Fig. 9",
+    "condition": "administration of CCK",
+    "brain_code": "R37",
+    "cell_type": ""
+  },
+  {
+    "behavior": "feeding",
+    "doi": "10.1006/mcne.1993.1011",
+    "strain": "Sprague- Dawley rats (250-300g)",
+    "gender": "male",
+    "figure": "Fig. 9",
+    "condition": "insulin induced hypoglycemia (INS)",
+    "brain_code": "R50",
+    "cell_type": ""
+  },
+  {
+    "behavior": "feeding",
+    "doi": "10.1152/ajpregu.1998.275.1.R262",
+    "strain": "Sprague-Dawley rats weighing 300–350 g",
+    "gender": "male",
+    "figure": "Fig.2",
+    "condition": "receive usual 1-h access to an unrestricted amount of pelleted chow",
+    "brain_code": "R22",
+    "cell_type": ""
+  },
+  {
+    "behavior": "feeding",
+    "doi": "10.1152/ajpregu.1998.275.1.R262",
+    "strain": "Sprague-Dawley rats weighing 300–350 g",
+    "gender": "male",
+    "figure": "Fig.2",
+    "condition": "receive usual 1-h access to an unrestricted amount of standard liquid diet",
+    "brain_code": "R22",
+    "cell_type": ""
+  },
+  {
+    "behavior": "feeding",
+    "doi": "10.1152/ajpregu.1998.275.1.R262",
+    "strain": "Sprague-Dawley rats weighing 300–350 g",
+    "gender": "male",
+    "figure": "Fig.2",
+    "condition": "given 1-h access to an unrestricted amount of liquid diet that had been diluted 50% with water to yield a solution containing 0.71 kcal/ml and 0.6 mosM/ml",
+    "brain_code": "R22",
+    "cell_type": ""
+  },
+  {
+    "behavior": "Sexual behavior",
+    "doi": "10.1111/j.1601-183x.2010.00621.x",
+    "strain": "Sprague Dawley rats",
+    "gender": "male",
+    "figure": "Fig. 2",
+    "condition": "Sexual experience",
+    "brain_code": "R140",
+    "cell_type": ""
+  },
+  {
+    "behavior": "Sexual behavior",
+    "doi": "10.1111/j.1601-183x.2010.00621.x",
+    "strain": "Sprague Dawley rats",
+    "gender": "male",
+    "figure": "Fig. 2",
+    "condition": "Sexual experience",
+    "brain_code": "R158",
+    "cell_type": ""
+  },
+  {
+    "behavior": "Sexual behavior",
+    "doi": "10.1111/j.1601-183x.2010.00621.x",
+    "strain": "Sprague Dawley rats",
+    "gender": "male",
+    "figure": "Fig. 2",
+    "condition": "Sexual experience",
+    "brain_code": "R16.1",
+    "cell_type": ""
+  },
+  {
+    "behavior": "Sexual behavior",
+    "doi": "10.1111/j.1601-183x.2010.00621.x",
+    "strain": "Sprague Dawley rats",
+    "gender": "male",
+    "figure": "Fig. 2",
+    "condition": "Sexual experience",
+    "brain_code": "R2",
+    "cell_type": ""
+  },
+  {
+    "behavior": "Sexual behavior",
+    "doi": "10.1111/j.1601-183x.2010.00621.x",
+    "strain": "Sprague Dawley rats",
+    "gender": "male",
+    "figure": "Fig. 2",
+    "condition": "Sexual experience",
+    "brain_code": "R6.1",
+    "cell_type": ""
+  },
+  {
+    "behavior": "Sexual behavior",
+    "doi": "10.1111/j.1365-2826.2012.02290.x",
+    "strain": "Sexually-naive Sprague–Dawley rats",
+    "gender": "male",
+    "figure": "Fig. 4A",
+    "condition": "fed males  paired with a receptive female",
+    "brain_code": "R87",
+    "cell_type": ""
+  },
+  {
+    "behavior": "Sexual behavior",
+    "doi": "10.1111/j.1365-2826.2012.02290.x",
+    "strain": "Sexually-naive Sprague–Dawley rats",
+    "gender": "male",
+    "figure": "Fig. 4A",
+    "condition": "hungry males  paired with a receptive female",
+    "brain_code": "R87",
+    "cell_type": ""
+  },
+  {
+    "behavior": "Sexual behavior",
+    "doi": "10.1111/j.1365-2826.2012.02290.x",
+    "strain": "Sexually-naive Sprague–Dawley rats",
+    "gender": "male",
+    "figure": "Fig. 4B",
+    "condition": "fed males  paired with a receptive female",
+    "brain_code": "R185",
+    "cell_type": ""
+  },
+  {
+    "behavior": "Sexual behavior",
+    "doi": "10.1111/j.1365-2826.2012.02290.x",
+    "strain": "Sexually-naive Sprague–Dawley rats",
+    "gender": "male",
+    "figure": "Fig. 4B",
+    "condition": "fed males  paired with a receptive female",
+    "brain_code": "R148.1",
+    "cell_type": ""
+  },
+  {
+    "behavior": "Sexual behavior",
+    "doi": "10.1111/j.1365-2826.2012.02290.x",
+    "strain": "Sexually-naive Sprague–Dawley rats",
+    "gender": "male",
+    "figure": "Fig. 4C",
+    "condition": "fed males  paired with a receptive female",
+    "brain_code": "R150",
+    "cell_type": ""
+  },
+  {
+    "behavior": "Sexual behavior",
+    "doi": "10.1111/j.1365-2826.2012.02290.x",
+    "strain": "Sexually-naive Sprague–Dawley rats",
+    "gender": "male",
+    "figure": "Fig. 4C",
+    "condition": "hungry males  paired with a receptive female",
+    "brain_code": "R150",
+    "cell_type": ""
+  },
+  {
+    "behavior": "Sexual behavior",
+    "doi": "10.1111/j.1365-2826.2012.02290.x",
+    "strain": "Sexually-naive Sprague–Dawley rats",
+    "gender": "male",
+    "figure": "Fig. 6",
+    "condition": "fed males  paired with a receptive female",
+    "brain_code": "R25.31",
+    "cell_type": ""
+  },
+  {
+    "behavior": "Sexual behavior",
+    "doi": "10.1016/j.brainres.2007.07.071",
+    "strain": "Long–Evans rats",
+    "gender": "female",
+    "figure": "Fig. 2&Fig. 3",
+    "condition": "sexually experienced subjects exposed to sexually active male-soiled bedding",
+    "brain_code": "R148.1",
+    "cell_type": ""
+  },
+  {
+    "behavior": "Sexual behavior",
+    "doi": "10.1016/j.brainres.2007.07.071",
+    "strain": "Long–Evans rats",
+    "gender": "female",
+    "figure": "Fig. 3",
+    "condition": "sexually experienced subjects exposed to sexually active male-soiled bedding",
+    "brain_code": "R87",
+    "cell_type": ""
+  },
+  {
+    "behavior": "Sexual behavior",
+    "doi": "10.1016/j.brainres.2007.07.071",
+    "strain": "Long–Evans rats",
+    "gender": "female",
+    "figure": "Fig. 2&Fig. 3",
+    "condition": "sexually naive subjects exposed to sexually active male-soiled bedding",
+    "brain_code": "R148.1",
+    "cell_type": ""
+  },
+  {
+    "behavior": "Sexual behavior",
+    "doi": "10.1016/j.brainres.2007.07.071",
+    "strain": "Long–Evans rats",
+    "gender": "female",
+    "figure": "Fig. 3",
+    "condition": "sexually naive subjects exposed to sexually active male-soiled bedding",
+    "brain_code": "R87",
+    "cell_type": ""
+  },
+  {
+    "behavior": "Sexual behavior",
+    "doi": "10.1016/j.brainres.2007.07.071",
+    "strain": "Long–Evans rats",
+    "gender": "Female",
+    "figure": "Fig. 3",
+    "condition": "sexually naïve female exposure to sexually active male-soiled bedding",
+    "brain_code": "R184.2",
+    "cell_type": ""
+  },
+  {
+    "behavior": "Sexual behavior",
+    "doi": "10.1016/j.brainres.2007.07.071",
+    "strain": "Long–Evans rats",
+    "gender": "Female",
+    "figure": "Fig. 3",
+    "condition": "sexually experenced female exposure to sexually active male-soiled bedding",
+    "brain_code": "R184.2",
+    "cell_type": ""
+  },
+  {
+    "behavior": "Sexual behavior",
+    "doi": "10.1016/j.brainres.2007.07.071",
+    "strain": "Long–Evans rats",
+    "gender": "Female",
+    "figure": "Fig. 3",
+    "condition": "sexually naïve female exposure to sexually active male-soiled bedding",
+    "brain_code": "R184.1",
+    "cell_type": ""
+  },
+  {
+    "behavior": "Sexual behavior",
+    "doi": "10.1016/j.brainres.2007.07.071",
+    "strain": "Long–Evans rats",
+    "gender": "Female",
+    "figure": "Fig. 3",
+    "condition": "sexually experenced female exposure to sexually active male-soiled bedding",
+    "brain_code": "R184.1",
+    "cell_type": ""
+  },
+  {
+    "behavior": "Sexual behavior",
+    "doi": "10.1016/j.brainres.2007.07.071",
+    "strain": "Long–Evans rats",
+    "gender": "female",
+    "figure": "Fig. 3",
+    "condition": "sexually experienced subjects exposed to sexually active male-soiled bedding",
+    "brain_code": "R148.2",
+    "cell_type": ""
+  },
+  {
+    "behavior": "Sexual behavior",
+    "doi": "10.1016/j.brainres.2007.07.071",
+    "strain": "Long–Evans rats",
+    "gender": "female",
+    "figure": "Fig. 2&Fig. 3",
+    "condition": "sexually experienced subjects exposed to sexually active male-soiled bedding",
+    "brain_code": "R150",
+    "cell_type": ""
+  },
+  {
+    "behavior": "Sexual behavior",
+    "doi": "10.1016/j.brainres.2007.07.071",
+    "strain": "Long–Evans rats",
+    "gender": "female",
+    "figure": "Fig. 2&Fig. 3",
+    "condition": "sexually experienced subjects exposed to sexually active male-soiled bedding",
+    "brain_code": "R2.1",
+    "cell_type": ""
+  },
+  {
+    "behavior": "Sexual behavior",
+    "doi": "10.1016/j.physbeh.2006.04.023",
+    "strain": "Wistar rats",
+    "gender": "male",
+    "figure": "Fig. 2",
+    "condition": "exposure to estrous bedding in copulating male rats",
+    "brain_code": "R184.2",
+    "cell_type": ""
+  },
+  {
+    "behavior": "Sexual behavior",
+    "doi": "10.1016/j.physbeh.2006.04.023",
+    "strain": "Wistar rats",
+    "gender": "male",
+    "figure": "Fig. 2",
+    "condition": "exposure to estrous bedding in sluggish male rats",
+    "brain_code": "R184.2",
+    "cell_type": ""
+  },
+  {
+    "behavior": "Sexual behavior",
+    "doi": "10.1016/j.physbeh.2006.04.023",
+    "strain": "Wistar rats",
+    "gender": "male",
+    "figure": "Fig. 2",
+    "condition": "exposure to estrous bedding in copulating male rats",
+    "brain_code": "R184.1",
+    "cell_type": ""
+  },
+  {
+    "behavior": "Sexual behavior",
+    "doi": "10.1016/j.physbeh.2006.04.023",
+    "strain": "Wistar rats",
+    "gender": "male",
+    "figure": "Fig. 2",
+    "condition": "exposure to estrous bedding in sluggish male rats",
+    "brain_code": "R184.1",
+    "cell_type": ""
+  },
+  {
+    "behavior": "Sexual behavior",
+    "doi": "10.1016/j.physbeh.2006.04.023",
+    "strain": "Wistar rats",
+    "gender": "male",
+    "figure": "Fig. 2",
+    "condition": "exposure to estrous bedding in copulating male rats",
+    "brain_code": "R148.2",
+    "cell_type": ""
+  },
+  {
+    "behavior": "Sexual behavior",
+    "doi": "10.1016/j.physbeh.2006.04.023",
+    "strain": "Wistar rats",
+    "gender": "male",
+    "figure": "Fig. 2",
+    "condition": "exposure to estrous bedding in sluggish male rats",
+    "brain_code": "R148.2",
+    "cell_type": ""
+  },
+  {
+    "behavior": "Sexual behavior",
+    "doi": "10.1016/j.physbeh.2006.04.023",
+    "strain": "Wistar rats",
+    "gender": "male",
+    "figure": "Fig. 2",
+    "condition": "exposure to estrous bedding in copulating male rats",
+    "brain_code": "R148.1",
+    "cell_type": ""
+  },
+  {
+    "behavior": "Sexual behavior",
+    "doi": "10.1016/j.physbeh.2006.04.023",
+    "strain": "Wistar rats",
+    "gender": "male",
+    "figure": "Fig. 2",
+    "condition": "exposure to estrous bedding in sluggish male rats",
+    "brain_code": "R148.1",
+    "cell_type": ""
+  },
+  {
+    "behavior": "aggression",
+    "doi": "10.1038/s41598-017-09106-3",
+    "strain": "C57BL/6J mice",
+    "gender": "male",
+    "figure": "Figure. 2",
+    "condition": "physical stress(placed into the home cage of a CD1 aggressor)",
+    "brain_code": "B14.1",
+    "cell_type": ""
+  },
+  {
+    "behavior": "aggression",
+    "doi": "10.1038/s41598-017-09106-3",
+    "strain": "C57BL/6J mice",
+    "gender": "male",
+    "figure": "Figure. 2",
+    "condition": "physical stress(placed into the home cage of a CD2 aggressor)",
+    "brain_code": "B37",
+    "cell_type": ""
+  },
+  {
+    "behavior": "aggression",
+    "doi": "10.1038/s41598-017-09106-3",
+    "strain": "C57BL/6J mice",
+    "gender": "male",
+    "figure": "Figure. 2",
+    "condition": "physical stress(placed into the home cage of a CD3 aggressor)",
+    "brain_code": "B9",
+    "cell_type": ""
+  },
+  {
+    "behavior": "aggression",
+    "doi": "10.1038/s41598-017-09106-3",
+    "strain": "C57BL/6J mice",
+    "gender": "male",
+    "figure": "Figure. 2",
+    "condition": "physical stress(placed into the home cage of a CD4 aggressor)",
+    "brain_code": "B9",
+    "cell_type": ""
+  },
+  {
+    "behavior": "aggression",
+    "doi": "10.1038/s41598-017-09106-3",
+    "strain": "C57BL/6J mice",
+    "gender": "male",
+    "figure": "Figure. 3",
+    "condition": "physical stress(placed into the home cage of a CD5 aggressor)",
+    "brain_code": "B37",
+    "cell_type": ""
+  },
+  {
+    "behavior": "aggression",
+    "doi": "10.1038/s41598-017-09106-3",
+    "strain": "C57BL/6J mice",
+    "gender": "male",
+    "figure": "Figure. 3",
+    "condition": "emotional stress",
+    "brain_code": "B37",
+    "cell_type": ""
+  },
+  {
+    "behavior": "aggression",
+    "doi": "10.1523/JNEUROSCI.5952-11.2012",
+    "strain": "EP1-deficient mice",
+    "gender": "male",
+    "figure": "Figure. 6",
+    "condition": "repeated social defeat stress",
+    "brain_code": "B61",
+    "cell_type": ""
+  },
+  {
+    "behavior": "aggression",
+    "doi": "10.1016/j.physbeh.2005.02.010",
+    "strain": "outbred hsd:ICR mice (Harlan, Madison, WI) 这是L和T小鼠共同的",
+    "gender": "female",
+    "figure": "Fig.4, Table. 4",
+    "condition": "exposing females to a male intruder",
+    "brain_code": "B52.1",
+    "cell_type": ""
+  },
+  {
+    "behavior": "aggression",
+    "doi": "10.1016/j.physbeh.2005.02.010",
+    "strain": "outbred hsd:ICR mice (Harlan, Madison, WI)",
+    "gender": "female",
+    "figure": "Fig.5, Table. 4",
+    "condition": "exposing females to a male intruder",
+    "brain_code": "B19",
+    "cell_type": ""
+  },
+  {
+    "behavior": "aggression",
+    "doi": "10.1016/j.physbeh.2005.02.010",
+    "strain": "outbred hsd:ICR mice (Harlan, Madison, WI) 只有V",
+    "gender": "female",
+    "figure": "Fig.4, Table. 4",
+    "condition": "exposing females to a male intruder",
+    "brain_code": "B18.1",
+    "cell_type": ""
+  },
+  {
+    "behavior": "aggression",
+    "doi": "10.1016/j.physbeh.2005.02.010",
+    "strain": "outbred hsd:ICR mice (Harlan, Madison, WI) 只有V",
+    "gender": "female",
+    "figure": "Fig.4, Table. 4",
+    "condition": "exposing females to a male intruder",
+    "brain_code": "B49",
+    "cell_type": ""
+  },
+  {
+    "behavior": "aggression",
+    "doi": "10.1016/j.physbeh.2005.02.010",
+    "strain": "outbred hsd:ICR mice (Harlan, Madison, WI) 只有V",
+    "gender": "female",
+    "figure": "Fig.4, Table. 4",
+    "condition": "exposing females to a male intruder",
+    "brain_code": "B51",
+    "cell_type": ""
+  },
+  {
+    "behavior": "aggression",
+    "doi": "10.1016/j.physbeh.2005.02.010",
+    "strain": "outbred hsd:ICR mice (Harlan, Madison, WI) 只有V",
+    "gender": "female",
+    "figure": "Fig.4, Table. 4",
+    "condition": "exposing females to a male intruder",
+    "brain_code": "B13",
+    "cell_type": ""
+  },
+  {
+    "behavior": "aggression",
+    "doi": "10.1016/j.physbeh.2005.02.010",
+    "strain": "outbred hsd:ICR mice (Harlan, Madison, WI) 只有V",
+    "gender": "female",
+    "figure": "Fig.4, Table. 4",
+    "condition": "exposing females to a male intruder",
+    "brain_code": "B16",
+    "cell_type": ""
+  },
+  {
+    "behavior": "aggression",
+    "doi": "10.1016/j.physbeh.2005.02.010",
+    "strain": "outbred hsd:ICR mice (Harlan, Madison, WI) 只有V",
+    "gender": "female",
+    "figure": "Fig.4, Table. 4",
+    "condition": "exposing females to a male intruder",
+    "brain_code": "B48",
+    "cell_type": ""
+  },
+  {
+    "behavior": "aggression",
+    "doi": "10.1016/j.physbeh.2005.02.010",
+    "strain": "outbred hsd:ICR mice (Harlan, Madison, WI) 只有V",
+    "gender": "female",
+    "figure": "Fig.4, Table. 4",
+    "condition": "exposing females to a male intruder",
+    "brain_code": "B42",
+    "cell_type": ""
+  },
+  {
+    "behavior": "aggression",
+    "doi": "10.1016/j.physbeh.2005.02.010",
+    "strain": "outbred hsd:ICR mice (Harlan, Madison, WI) 只有L",
+    "gender": "female",
+    "figure": "Fig.7, Table. 4",
+    "condition": "exposing females to a male intruder",
+    "brain_code": "B46",
+    "cell_type": ""
+  },
+  {
+    "behavior": "aggression",
+    "doi": "10.1016/j.physbeh.2005.02.010",
+    "strain": "outbred hsd:ICR mice (Harlan, Madison, WI) 只有L",
+    "gender": "female",
+    "figure": "Fig.7, Table. 4",
+    "condition": "exposing females to a male intruder",
+    "brain_code": "B54",
+    "cell_type": ""
+  },
+  {
+    "behavior": "aggression",
+    "doi": "10.1016/j.physbeh.2005.02.010",
+    "strain": "outbred hsd:ICR mice (Harlan, Madison, WI) 只有L",
+    "gender": "female",
+    "figure": "Fig.4, Table. 4",
+    "condition": "exposing females to a male intruder",
+    "brain_code": "B19",
+    "cell_type": ""
+  },
+  {
+    "behavior": "aggression",
+    "doi": "10.1016/j.physbeh.2005.02.010",
+    "strain": "outbred hsd:ICR mice (Harlan, Madison, WI) 只有L",
+    "gender": "female",
+    "figure": "Fig.6, Table. 4",
+    "condition": "exposing females to a male intruder",
+    "brain_code": "B10.3",
+    "cell_type": ""
+  },
+  {
+    "behavior": "aggression",
+    "doi": "10.1016/s0006-8993(01)02189-8",
+    "strain": "wild-type (WT) house mice (Mus musculus) of the C57B7J strain",
+    "gender": "female",
+    "figure": "Figure. 2",
+    "condition": "exposed to a male intruder for 20 min",
+    "brain_code": "B39",
+    "cell_type": ""
+  },
+  {
+    "behavior": "aggression",
+    "doi": "10.1016/s0006-8993(01)02189-8",
+    "strain": "wild-type (WT) house mice (Mus musculus) of the C57B7J strain",
+    "gender": "female",
+    "figure": "Figure. 2",
+    "condition": "exposed to a male intruder for 20 min",
+    "brain_code": "B19",
+    "cell_type": ""
+  },
+  {
+    "behavior": "aggression",
+    "doi": "10.1016/s0006-8993(01)02189-8",
+    "strain": "wild-type (WT) house mice (Mus musculus) of the C57B8J strain",
+    "gender": "female",
+    "figure": "Figure. 2",
+    "condition": "exposed to a male intruder for 20 min",
+    "brain_code": "B51",
+    "cell_type": ""
+  },
+  {
+    "behavior": "aggression",
+    "doi": "10.1016/s0006-8993(01)02189-8",
+    "strain": "wild-type (WT) house mice (Mus musculus) of the C57B9J strain",
+    "gender": "female",
+    "figure": "Figure. 3",
+    "condition": "exposed to a male intruder for 20 min",
+    "brain_code": "B16",
+    "cell_type": ""
+  },
+  {
+    "behavior": "aggression",
+    "doi": "10.1016/s0006-8993(01)02189-8",
+    "strain": "wild-type (WT) house mice (Mus musculus) of the C57B10J strain",
+    "gender": "female",
+    "figure": "Figure. 3",
+    "condition": "exposed to a male intruder for 20 min",
+    "brain_code": "B10.31",
+    "cell_type": ""
+  },
+  {
+    "behavior": "aggression",
+    "doi": "10.1016/s0006-8993(01)02189-8",
+    "strain": "wild-type (WT) house mice (Mus musculus) of the C57B11J strain",
+    "gender": "female",
+    "figure": "Figure. 3",
+    "condition": "exposed to a male intruder for 20 min",
+    "brain_code": "B10.1",
+    "cell_type": ""
+  },
+  {
+    "behavior": "aggression",
+    "doi": "10.1016/S0168-0102(96)01088-X",
+    "strain": "ICR albino mice",
+    "gender": "male",
+    "figure": "Figs.1-4, table 1",
+    "condition": "acute stress (placed in situations of species-specific intermale aggression only once at 24 h Acute stressintervals)",
+    "brain_code": "B34",
+    "cell_type": ""
+  },
+  {
+    "behavior": "aggression",
+    "doi": "10.1016/S0168-0102(96)01088-X",
+    "strain": "ICR albino mice",
+    "gender": "male",
+    "figure": "Figs.1-4, table 1",
+    "condition": "acute stress (placed in situations of species-specific intermale aggression only once at 24 h Acute stressintervals)",
+    "brain_code": "B12.1",
+    "cell_type": ""
+  },
+  {
+    "behavior": "aggression",
+    "doi": "10.1016/S0168-0102(96)01088-X",
+    "strain": "ICR albino mice",
+    "gender": "male",
+    "figure": "Figs.1-4, table 1",
+    "condition": "acute stress (placed in situations of species-specific intermale aggression only once at 24 h Acute stressintervals)",
+    "brain_code": "B20.3",
+    "cell_type": ""
+  },
+  {
+    "behavior": "aggression",
+    "doi": "10.1016/S0168-0102(96)01088-X",
+    "strain": "ICR albino mice",
+    "gender": "male",
+    "figure": "Figs.1-4, table 1",
+    "condition": "acute stress (placed in situations of species-specific intermale aggression only once at 24 h Acute stressintervals)",
+    "brain_code": "B59",
+    "cell_type": ""
+  },
+  {
+    "behavior": "aggression",
+    "doi": "10.1016/S0168-0102(96)01088-X",
+    "strain": "ICR albino mice",
+    "gender": "male",
+    "figure": "Figs.1-3,&5, table 1",
+    "condition": "chronic stress (placed in situations of species-specific intermale aggression five times at 24 h intervals)",
+    "brain_code": "B35",
+    "cell_type": ""
+  },
+  {
+    "behavior": "aggression",
+    "doi": "10.1016/S0168-0102(96)01088-X",
+    "strain": "ICR albino mice",
+    "gender": "male",
+    "figure": "Figs.1-3,&5, table 1",
+    "condition": "chronic stress (placed in situations of species-specific intermale aggression five times at 24 h intervals)",
+    "brain_code": "B14",
+    "cell_type": ""
+  },
+  {
+    "behavior": "mating",
+    "doi": "10.1016/0306-4522(96)00183-2",
+    "strain": "rat",
+    "gender": "male",
+    "figure": "Fig. 4.",
+    "condition": "mating",
+    "brain_code": "R150",
+    "cell_type": "androgen receptors (AR)"
+  },
+  {
+    "behavior": "mating",
+    "doi": "10.1016/0306-4522(96)00183-2",
+    "strain": "rat",
+    "gender": "male",
+    "figure": "Fig. 4.",
+    "condition": "mating",
+    "brain_code": "R148",
+    "cell_type": "androgen receptors (AR)"
+  },
+  {
+    "behavior": "mating",
+    "doi": "10.1016/0306-4522(96)00183-2",
+    "strain": "rat",
+    "gender": "male",
+    "figure": "Fig. 4.",
+    "condition": "mating",
+    "brain_code": "R189",
+    "cell_type": "androgen receptors (AR)"
+  },
+  {
+    "behavior": "mating",
+    "doi": "10.1016/0306-4522(96)00183-2",
+    "strain": "rat",
+    "gender": "male",
+    "figure": "Fig. 2.",
+    "condition": "mating",
+    "brain_code": "R184",
+    "cell_type": ""
+  },
+  {
+    "behavior": "mating",
+    "doi": "10.1016/0306-4522(96)00183-2",
+    "strain": "rat",
+    "gender": "male",
+    "figure": "Fig. 2.",
+    "condition": "mating",
+    "brain_code": "R147.2",
+    "cell_type": ""
+  },
+  {
+    "behavior": "mating",
+    "doi": "10.1016/0306-4522(96)00183-2",
+    "strain": "rat",
+    "gender": "male",
+    "figure": "Fig. 2.",
+    "condition": "mating",
+    "brain_code": "R87.2",
+    "cell_type": ""
+  },
+  {
+    "behavior": "mating",
+    "doi": "10.1016/0306-4522(96)00183-2",
+    "strain": "rat",
+    "gender": "male",
+    "figure": "Fig. 2.",
+    "condition": "mating",
+    "brain_code": "R3.1",
+    "cell_type": ""
+  },
+  {
+    "behavior": "mating",
+    "doi": "10.1016/0306-4522(96)00183-2",
+    "strain": "rat",
+    "gender": "male",
+    "figure": "Fig. 2.",
+    "condition": "mating",
+    "brain_code": "R168",
+    "cell_type": ""
+  },
+  {
+    "behavior": "mating",
+    "doi": "10.1016/0306-4522(96)00183-2",
+    "strain": "rat",
+    "gender": "male",
+    "figure": "Fig. 2.",
+    "condition": "mating",
+    "brain_code": "R3.31",
+    "cell_type": ""
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.1016/j.brainres.2004.07.079",
+    "strain": "rat",
+    "gender": "male",
+    "figure": "Fig. 2.",
+    "condition": " 2,5-dihydro-2,4,5-trimethylthiazoline \n(TMT) exposure",
+    "brain_code": "R25",
+    "cell_type": ""
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.1016/j.brainres.2004.07.079",
+    "strain": "rat",
+    "gender": "male",
+    "figure": "Fig. 2.",
+    "condition": " 2,5-dihydro-2,4,5-trimethylthiazoline \n(TMT) exposure",
+    "brain_code": "R57",
+    "cell_type": ""
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.1016/j.brainres.2004.07.079",
+    "strain": "rat",
+    "gender": "male",
+    "figure": "Fig. 2.",
+    "condition": " 2,5-dihydro-2,4,5-trimethylthiazoline \n(TMT) exposure",
+    "brain_code": "R126",
+    "cell_type": ""
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.1016/j.brainres.2004.07.079",
+    "strain": "rat",
+    "gender": "male",
+    "figure": "Fig. 2.",
+    "condition": " 2,5-dihydro-2,4,5-trimethylthiazoline \n(TMT) exposure",
+    "brain_code": "R190",
+    "cell_type": ""
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.1016/j.brainres.2004.07.079",
+    "strain": "rat",
+    "gender": "male",
+    "figure": "Fig. 2.",
+    "condition": " 2,5-dihydro-2,4,5-trimethylthiazoline \n(TMT) exposure",
+    "brain_code": "R150",
+    "cell_type": ""
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.1016/j.brainres.2004.07.079",
+    "strain": "rat",
+    "gender": "male",
+    "figure": "Fig. 2.",
+    "condition": " 2,5-dihydro-2,4,5-trimethylthiazoline \n(TMT) exposure",
+    "brain_code": "R87.12",
+    "cell_type": ""
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.1016/j.brainres.2004.07.079",
+    "strain": "rat",
+    "gender": "male",
+    "figure": "Fig. 2.",
+    "condition": " 2,5-dihydro-2,4,5-trimethylthiazoline \n(TMT) exposure",
+    "brain_code": "R191",
+    "cell_type": ""
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.1016/j.brainres.2004.07.079",
+    "strain": "rat",
+    "gender": "male",
+    "figure": "Fig. 2.",
+    "condition": " 2,5-dihydro-2,4,5-trimethylthiazoline \n(TMT) exposure",
+    "brain_code": "R147",
+    "cell_type": ""
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.1016/j.brainres.2004.07.079",
+    "strain": "rat",
+    "gender": "male",
+    "figure": "Fig. 2.",
+    "condition": " 2,5-dihydro-2,4,5-trimethylthiazoline \n(TMT) exposure",
+    "brain_code": "R5.11",
+    "cell_type": ""
+  },
+  {
+    "behavior": "pain",
+    "doi": "10.1038/s41593-017-0012-1",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "figure 1",
+    "condition": "formalin injections into the hindpaw",
+    "brain_code": "B2.1",
+    "cell_type": ""
+  },
+  {
+    "behavior": "pain",
+    "doi": "10.1038/s41593-017-0012-1",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "supplymentary figure 1",
+    "condition": "formalin injections into the right whisker pad",
+    "brain_code": "B1.1",
+    "cell_type": ""
+  },
+  {
+    "behavior": "pain",
+    "doi": "10.1038/s41593-017-0012-1",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "supplymentary figure 1;Supplementary Figure 2",
+    "condition": "formalin injections into the right whisker pad",
+    "brain_code": "B2.1",
+    "cell_type": "vGlut2"
+  },
+  {
+    "behavior": "pain",
+    "doi": "10.1038/s41593-017-0012-1",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "supplymentary figure 1;Supplementary Figure 2",
+    "condition": "formalin injections into the right whisker pad",
+    "brain_code": "B2.1",
+    "cell_type": "Gad1/2"
+  },
+  {
+    "behavior": "pain",
+    "doi": "10.1038/s41593-017-0012-1",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "supplymentary figure 1;Supplementary Figure 2",
+    "condition": "formalin injections into the right whisker pad",
+    "brain_code": "B2.1",
+    "cell_type": "CGRP"
+  },
+  {
+    "behavior": "pain",
+    "doi": "10.1038/s41593-017-0012-1",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "supplymentary figure 1;Supplementary Figure 2",
+    "condition": "formalin injections into the right whisker pad",
+    "brain_code": "B2.1",
+    "cell_type": "FoxP2"
+  },
+  {
+    "behavior": "pain",
+    "doi": "10.1038/s41593-017-0012-1",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "supplymentary figure 1",
+    "condition": "capsaicin injections into the right whisker pad",
+    "brain_code": "B2.1",
+    "cell_type": ""
+  },
+  {
+    "behavior": "pain",
+    "doi": "10.1038/s41586-018-0793-8",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "Extended Data Fig. 7",
+    "condition": "hindpaw pinch stimulation",
+    "brain_code": "B2.1",
+    "cell_type": ""
+  },
+  {
+    "behavior": "pain",
+    "doi": "10.1038/s41586-018-0793-8",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "Extended Data Fig. 7",
+    "condition": "hindpaw pinch stimulation",
+    "brain_code": "B62",
+    "cell_type": ""
+  },
+  {
+    "behavior": "pain",
+    "doi": "10.1038/s41586-018-0793-8",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "Extended Data Fig. 7",
+    "condition": "hindpaw pinch stimulation",
+    "brain_code": "B63",
+    "cell_type": "Tac1"
+  },
+  {
+    "behavior": "pain",
+    "doi": "10.1038/s41586-018-0793-8",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "Extended Data Fig. 4",
+    "condition": "hot plate",
+    "brain_code": "B63",
+    "cell_type": "Tac1"
+  },
+  {
+    "behavior": "pain",
+    "doi": "10.1038/s41586-018-0793-8",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "Extended Data Fig. 4",
+    "condition": "hot plate",
+    "brain_code": "B2.1",
+    "cell_type": ""
+  },
+  {
+    "behavior": "pain",
+    "doi": "10.1038/s41586-018-0793-8",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "Extended Data Fig. 10",
+    "condition": "hindpaw pinch stimulation",
+    "brain_code": "B63",
+    "cell_type": ""
+  },
+  {
+    "behavior": "pain",
+    "doi": "10.1016/j.cell.2018.02.057",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "Figure5",
+    "condition": "formalin paw injection",
+    "brain_code": "B20",
+    "cell_type": ""
+  },
+  {
+    "behavior": "pain",
+    "doi": "10.1016/j.cell.2018.02.057",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "Figure6",
+    "condition": "formalin paw injection",
+    "brain_code": "B2",
+    "cell_type": ""
+  },
+  {
+    "behavior": "pain",
+    "doi": "10.1016/j.cell.2018.02.057",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "Figure7",
+    "condition": "formalin paw injection",
+    "brain_code": "B10.1",
+    "cell_type": ""
+  },
+  {
+    "behavior": "pain",
+    "doi": "10.1016/j.cell.2018.02.057",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "Figure8",
+    "condition": "formalin paw injection",
+    "brain_code": "B7",
+    "cell_type": ""
+  },
+  {
+    "behavior": "pain",
+    "doi": "10.1016/j.cell.2018.02.057",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "Figure9",
+    "condition": "formalin paw injection",
+    "brain_code": "B21",
+    "cell_type": ""
+  },
+  {
+    "behavior": "pain",
+    "doi": "10.1016/j.cell.2018.02.057",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "Figure9",
+    "condition": "formalin paw injection",
+    "brain_code": "B19",
+    "cell_type": ""
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.1038/nn.4208",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "Supplementary Figure 1",
+    "condition": "exposure to TMT",
+    "brain_code": "B33",
+    "cell_type": " "
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.1038/nn.4208",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "Supplementary Figure 2",
+    "condition": "exposure to TMT",
+    "brain_code": "B16",
+    "cell_type": ""
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.1038/nn.4208",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "Supplementary Figure 3",
+    "condition": "TMT",
+    "brain_code": "B62",
+    "cell_type": ""
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.1038/nn.4208",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "Supplementary Figure 4",
+    "condition": "exposure to TMT",
+    "brain_code": "B10.1",
+    "cell_type": ""
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.1038/nn.4208",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "Supplementary Figure 5",
+    "condition": "exposure to TMT",
+    "brain_code": "B7",
+    "cell_type": ""
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.1038/nn.4208",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "Supplementary Figure 6",
+    "condition": "exposure to TMT",
+    "brain_code": "B11.1",
+    "cell_type": ""
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.1038/nn.4208",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "Supplementary Figure 7",
+    "condition": "TMT",
+    "brain_code": "B21.11",
+    "cell_type": ""
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.1038/nn.4208",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "Supplementary Figure 8",
+    "condition": "TMT",
+    "brain_code": "B21.12",
+    "cell_type": ""
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.1038/nn.4208",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "Figure 1",
+    "condition": "exposure to TMT",
+    "brain_code": "B50",
+    "cell_type": "GAD67"
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.1038/nn.4208",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "Supplementary Figure 10",
+    "condition": "exposure to TMT",
+    "brain_code": "B15",
+    "cell_type": ""
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.1016/j.cell.2015.05.057",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "Figure 1",
+    "condition": "foot shock",
+    "brain_code": "B2",
+    "cell_type": "CGRP"
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.1016/j.cell.2015.05.057",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "Figure 1",
+    "condition": "foot shock",
+    "brain_code": "B10.1",
+    "cell_type": ""
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.1016/j.neuron.2017.02.034",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "figure3",
+    "condition": "fear conditioning",
+    "brain_code": "B10.1",
+    "cell_type": "Prkcd+"
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.1016/j.neuron.2017.02.034",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "figure4",
+    "condition": "fear conditioning",
+    "brain_code": "B10.1",
+    "cell_type": "Prkcd+"
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.1016/j.cub.2015.03.026",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "Figure 4",
+    "condition": "CFO",
+    "brain_code": "B11.1",
+    "cell_type": ""
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.1016/j.cub.2015.03.026",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "Figure 4",
+    "condition": "exposure to PEA",
+    "brain_code": "B11.1",
+    "cell_type": ""
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.1016/j.cub.2015.03.026",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "Figure 4",
+    "condition": "exposure to 2-PT",
+    "brain_code": "B11.1",
+    "cell_type": ""
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.1016/j.cub.2015.03.026",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "Figure 4",
+    "condition": "rFeld4",
+    "brain_code": "B11.1",
+    "cell_type": ""
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.1016/j.cub.2015.03.026",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "Figure 4",
+    "condition": "exposure to CFO",
+    "brain_code": "B10.33",
+    "cell_type": ""
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.1016/j.cub.2015.03.026",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "Figure 4",
+    "condition": "exposure to PEA",
+    "brain_code": "B10.33",
+    "cell_type": ""
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.1016/j.cub.2015.03.026",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "Figure 4",
+    "condition": "2-PT",
+    "brain_code": "B10.33",
+    "cell_type": ""
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.1016/j.cub.2015.03.026",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "Figure 4",
+    "condition": "exposure to rFeld4",
+    "brain_code": "B10.33",
+    "cell_type": ""
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.1016/j.cub.2015.03.026",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "figure1",
+    "condition": "fear conditioning",
+    "brain_code": "B42",
+    "cell_type": "TPHtryptophan hydroxylase"
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.1016/j.neuron.2019.05.027",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "Figure1",
+    "condition": "Looming stimulus",
+    "brain_code": "B61",
+    "cell_type": "TH"
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.1038/ncomms7756",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "Figure1",
+    "condition": "Looming stimulus",
+    "brain_code": "B59",
+    "cell_type": "Vglut2,vesicular glutamate transporter 2 positive"
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.1038/ncomms7756",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "Figure1",
+    "condition": "Looming stimulus",
+    "brain_code": "B59",
+    "cell_type": "PV,parvalbumin"
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.1038/s41586-018-0078-2",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "Figure1",
+    "condition": "Looming stimulus",
+    "brain_code": "B66",
+    "cell_type": ""
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.1016/j.cell.2019.09.020",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "Figure5",
+    "condition": "social fear",
+    "brain_code": "B11.2",
+    "cell_type": "Esr1"
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.1016/j.cell.2019.09.020",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "Figure5",
+    "condition": "social fear",
+    "brain_code": "B11.2",
+    "cell_type": "Nup62cl"
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.1016/j.cell.2019.09.020",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "Figure5",
+    "condition": "social fear",
+    "brain_code": "B11.2",
+    "cell_type": "Dlk1"
+  },
+  {
+    "behavior": "feeding",
+    "doi": "10.1016/j.cell.2018.08.049",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "Figure S4",
+    "condition": "intraperitoneal injection of CCK",
+    "brain_code": "B30",
+    "cell_type": ""
+  },
+  {
+    "behavior": "feeding",
+    "doi": "10.1016/j.cell.2018.08.049",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "Figure S4",
+    "condition": "intraperitoneal injection of LiCl",
+    "brain_code": "B30",
+    "cell_type": ""
+  },
+  {
+    "behavior": "feeding",
+    "doi": "10.1016/j.cell.2018.08.049",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "Figure4",
+    "condition": "intraperitoneal injection of  CCK",
+    "brain_code": "B2.11",
+    "cell_type": ""
+  },
+  {
+    "behavior": "feeding",
+    "doi": "10.1016/j.cell.2018.08.049",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "Figure4",
+    "condition": "intraperitoneal injection of LiCl",
+    "brain_code": "B2.12",
+    "cell_type": "CGRP"
+  },
+  {
+    "behavior": "feeding",
+    "doi": "10.1038/nature12596",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "Figure 1",
+    "condition": "intraperitoneal injection of LiCl",
+    "brain_code": "B2.1",
+    "cell_type": "CGRP"
+  },
+  {
+    "behavior": "feeding",
+    "doi": "10.1038/nature12596",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "Figure 1",
+    "condition": "intraperitoneal injection of LPS",
+    "brain_code": "B2.1",
+    "cell_type": "CGRP"
+  },
+  {
+    "behavior": "feeding",
+    "doi": "10.1038/nature12596",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "Figure 1",
+    "condition": "AgRP ablation",
+    "brain_code": "B2.1",
+    "cell_type": "CGRP"
+  },
+  {
+    "behavior": "feeding",
+    "doi": "10.1016/j.cell.2017.06.045",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "Figure 1",
+    "condition": "fasted",
+    "brain_code": "B42",
+    "cell_type": "vgat"
+  },
+  {
+    "behavior": "feeding",
+    "doi": "10.1016/j.cell.2017.06.045",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "Figure 2",
+    "condition": "re-fasted",
+    "brain_code": "B42",
+    "cell_type": "Vglut3"
+  },
+  {
+    "behavior": "feeding",
+    "doi": "10.1038/nature19789",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "figure1",
+    "condition": "Re-fed",
+    "brain_code": "B64",
+    "cell_type": "ChAT"
+  },
+  {
+    "behavior": "feeding",
+    "doi": "10.1038/nn.3767",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "Figure 1",
+    "condition": "intraperitoneal injection of CCK",
+    "brain_code": "B10.1",
+    "cell_type": "PKC-δ+"
+  },
+  {
+    "behavior": "feeding",
+    "doi": "10.1038/nn.3767",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "Figure 2",
+    "condition": "intraperitoneal injection of LiCl",
+    "brain_code": "B10.1",
+    "cell_type": "PKC-δ+"
+  },
+  {
+    "behavior": "feeding",
+    "doi": "10.1038/nn.3767",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "Figure 3",
+    "condition": "intraperitoneal injection of LPS",
+    "brain_code": "B10.1",
+    "cell_type": "PKC-δ+"
+  },
+  {
+    "behavior": "feeding",
+    "doi": "10.1038/nn.3767",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "Figure 4",
+    "condition": "re-fed",
+    "brain_code": "B10.1",
+    "cell_type": "PKC-δ+"
+  },
+  {
+    "behavior": "feeding",
+    "doi": "10.1038/nn.3767",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "Figure 5",
+    "condition": "oral infusion of quinine",
+    "brain_code": "B10.1",
+    "cell_type": "PKC-δ+"
+  },
+  {
+    "behavior": "feeding",
+    "doi": "10.1038/nn.3767",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "figure6",
+    "condition": "intraperitoneal injection of LiCl",
+    "brain_code": "B2.1",
+    "cell_type": ""
+  },
+  {
+    "behavior": "feeding",
+    "doi": "10.1038/nn.3767",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "figure7",
+    "condition": "intraperitoneal injection of CCK",
+    "brain_code": "B2.1",
+    "cell_type": ""
+  },
+  {
+    "behavior": "feeding",
+    "doi": "10.1038/nn.3767",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "figure8",
+    "condition": "intraperitoneal injection of LiCl",
+    "brain_code": "B6",
+    "cell_type": ""
+  },
+  {
+    "behavior": "feeding",
+    "doi": "10.1038/nn.3767",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "figure9",
+    "condition": "intraperitoneal injection of CCK",
+    "brain_code": "B6",
+    "cell_type": ""
+  },
+  {
+    "behavior": "feeding",
+    "doi": "10.1038/nn.3767",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "figure10",
+    "condition": "intraperitoneal injection of LiCl",
+    "brain_code": "B65",
+    "cell_type": ""
+  },
+  {
+    "behavior": "feeding",
+    "doi": "10.1038/nn.3767",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "figure11",
+    "condition": "intraperitoneal injection of CCK",
+    "brain_code": "B65",
+    "cell_type": ""
+  },
+  {
+    "behavior": "feeding",
+    "doi": "10.1126/science.aar4983",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "Figure1",
+    "condition": "fasted",
+    "brain_code": "B67",
+    "cell_type": "SST,somatostatin"
+  },
+  {
+    "behavior": "feeding",
+    "doi": "10.1126/science.aar4983",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "Figure1",
+    "condition": "ghrelin(i.p.)",
+    "brain_code": "B67",
+    "cell_type": "SST,somatostatin"
+  },
+  {
+    "behavior": "agression",
+    "doi": "10.1016/j.cell.2014.07.049",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "Figure 1",
+    "condition": "attack",
+    "brain_code": "B10.32",
+    "cell_type": ""
+  },
+  {
+    "behavior": "agression",
+    "doi": "10.1016/j.cell.2019.09.020",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "Figure5",
+    "condition": "Resident-intruder assay(male)",
+    "brain_code": "B11.2",
+    "cell_type": "Esr1"
+  },
+  {
+    "behavior": "agression",
+    "doi": "10.1038/nature09736",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "Supplementary Figure S6",
+    "condition": "fighting",
+    "brain_code": "B11.2",
+    "cell_type": "vglut2"
+  },
+  {
+    "behavior": "agression",
+    "doi": "10.1038/nature09736",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "supplymentary figure 1",
+    "condition": "fighting",
+    "brain_code": "B10.32",
+    "cell_type": ""
+  },
+  {
+    "behavior": "agression",
+    "doi": "10.1038/nature09736",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "supplymentary figure 1",
+    "condition": "fighting",
+    "brain_code": "B10.33",
+    "cell_type": ""
+  },
+  {
+    "behavior": "agression",
+    "doi": "10.1038/nature09736",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "supplymentary figure 1",
+    "condition": "fighting",
+    "brain_code": "B12.2",
+    "cell_type": ""
+  },
+  {
+    "behavior": "agression",
+    "doi": "10.1038/nature09736",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "supplymentary figure 1",
+    "condition": "fighting",
+    "brain_code": "B12.2",
+    "cell_type": ""
+  },
+  {
+    "behavior": "mating",
+    "doi": "10.1016/j.cell.2019.09.020",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "Figure5",
+    "condition": "Resident-intruder assay(female)",
+    "brain_code": "B11.2",
+    "cell_type": "Dlk1"
+  },
+  {
+    "behavior": "mating",
+    "doi": "10.1038/nature09736",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "supplymentary figure 1",
+    "condition": "mating",
+    "brain_code": "B11.2",
+    "cell_type": ""
+  },
+  {
+    "behavior": "mating",
+    "doi": "10.1038/nature09736",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "supplymentary figure 1",
+    "condition": "mating",
+    "brain_code": "B10.32",
+    "cell_type": ""
+  },
+  {
+    "behavior": "mating",
+    "doi": "10.1038/nature09736",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "supplymentary figure 1",
+    "condition": "mating",
+    "brain_code": "B10.33",
+    "cell_type": ""
+  },
+  {
+    "behavior": "mating",
+    "doi": "10.1038/nature09736",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "supplymentary figure 1",
+    "condition": "mating",
+    "brain_code": "B12.2",
+    "cell_type": ""
+  },
+  {
+    "behavior": "mating",
+    "doi": "10.1038/nature09736",
+    "strain": "mice",
+    "gender": "male",
+    "figure": "supplymentary figure 1",
+    "condition": "mating",
+    "brain_code": "B12.2",
+    "cell_type": ""
+  }
+]
