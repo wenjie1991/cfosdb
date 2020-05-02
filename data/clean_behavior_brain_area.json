@@ -2470,7 +2470,7 @@
     "cell_type": "SST,somatostatin"
   },
   {
-    "behavior": "agression",
+    "behavior": "aggression",
     "doi": "10.1016/j.cell.2014.07.049",
     "strain": "mice",
     "gender": "male",
@@ -2480,7 +2480,7 @@
     "cell_type": ""
   },
   {
-    "behavior": "agression",
+    "behavior": "aggression",
     "doi": "10.1016/j.cell.2019.09.020",
     "strain": "mice",
     "gender": "male",
@@ -2490,7 +2490,7 @@
     "cell_type": "Esr1"
   },
   {
-    "behavior": "agression",
+    "behavior": "aggression",
     "doi": "10.1038/nature09736",
     "strain": "mice",
     "gender": "male",
@@ -2500,7 +2500,7 @@
     "cell_type": "vglut2"
   },
   {
-    "behavior": "agression",
+    "behavior": "aggression",
     "doi": "10.1038/nature09736",
     "strain": "mice",
     "gender": "male",
@@ -2510,7 +2510,7 @@
     "cell_type": ""
   },
   {
-    "behavior": "agression",
+    "behavior": "aggression",
     "doi": "10.1038/nature09736",
     "strain": "mice",
     "gender": "male",
@@ -2520,7 +2520,7 @@
     "cell_type": ""
   },
   {
-    "behavior": "agression",
+    "behavior": "aggression",
     "doi": "10.1038/nature09736",
     "strain": "mice",
     "gender": "male",
@@ -2530,7 +2530,7 @@
     "cell_type": ""
   },
   {
-    "behavior": "agression",
+    "behavior": "aggression",
     "doi": "10.1038/nature09736",
     "strain": "mice",
     "gender": "male",

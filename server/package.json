@@ -1,5 +1,9 @@
 {
+  "type": "module",
   "dependencies": {
-    "sqlite3": "^4.2.0"
+    "http": "^0.0.1-security",
+    "sqlite3": "^4.2.0",
+    "url": "^0.11.0",
+    "zlib": "^1.0.5"
   }
 }

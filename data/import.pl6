@@ -17,6 +17,7 @@ CREATE TABLE brain_area_annotation (
 	brain_code text primary key,
 	main	text,
 	long	text,
+	abbr	text,
 	species text
 );
 END
