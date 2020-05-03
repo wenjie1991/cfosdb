@@ -1,5 +1,17 @@
 # cfosdb
 
+## Prototyping
+Live prototype: http://47.114.44.79
+Full featured prototype: https://www.figma.com/proto/omgiSy8oK0iAFBXoCVWQbJ/cfosdb?node-id=3%3A25&scaling=min-zoom
+
+## Main features
+- behaviors matrix in the index page.
+- Search function. Default value: behavior (non selected); brain_area (all); species (mouse); gender (all).
+- Table. With search and column choosing function.
+- Network visualization (Can be left the space for @Wenjie_1991 to complete). https://echarts.apache.org/examples/en/editor.html?c=graph-circular-layout
+- Download feature: [mouse](https://github.com/wenjie1991/cfosdb/blob/master/data/clean_behavior_brain_area.json) and [rat]( https://github.com/wenjie1991/cfosdb/blob/master/data/clean_behavior_brain_area.json) files (the files do not realy, use the dummy file).
+- Help page, include three parts: 1).  Brain area annotation table, 2) Instruction, and 3) FAQ.
+
 # API script
 ## Start api service
 Run the nodejs file: [api.js](https://github.com/wenjie1991/cfosdb/blob/master/server/api.js)
