@@ -4,9 +4,11 @@ library(RSQLite)
 library(data.table)
 library(stringr)
 library(stringi)
+library(magrittr)
+library(plyr)
 
 d1 = fread("./clean_behavior_brain_area.tsv")
-d1$behavior %<>% revalue(c("agression" = "aggression"))
+d1$behavior %<>% revalue(c("agression" = "aggression", "Sexual behavior" = "mating"))
 j1 = jsonlite::toJSON(d1, pretty = T)
 write(j1, "./clean_behavior_brain_area.json")
 
@@ -17,7 +19,7 @@ write(j2, "./clean_brain_area_annotation.json")
 
 ## behavior overlap
 d = fread("./clean_behavior_brain_area.tsv")
-d$behavior %<>% revalue(c("agression" = "aggression"))
+d$behavior %<>% revalue(c("agression" = "aggression", "Sexual behavior" = "mating"))
 
 gen_count_table = function(dd) {
     behaviors = dd$behavior %>% unique
