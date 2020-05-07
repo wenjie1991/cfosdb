@@ -12,7 +12,7 @@
             </template>
         </v-app-bar>
 
-        <v-content>
+        <v-content class="content">
             <router-view></router-view>
         </v-content>
 
@@ -52,3 +52,9 @@ export default {
     name: 'App'
 }
 </script>
+
+<style lang="scss" scoped>
+.content {
+    margin: 50px 50px 250px;
+}
+</style>
