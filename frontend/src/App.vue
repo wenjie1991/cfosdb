@@ -44,12 +44,21 @@
             </v-card-text>
             </v-card>
         </v-footer>
+        <documentation-fab/>
     </v-app>
 </template>
 
 <script>
 export default {
-    name: 'App'
+    name: 'App',
+    components: {
+        DocumentationFab: () => import('./components/Fab')
+    },
+    watch: {
+        '$route.path' () {
+            typeof window !== 'undefined' && window.scrollTo(0, 0)
+        }
+    }
 }
 </script>
 
