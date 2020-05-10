@@ -53,26 +53,31 @@
                 </v-list-item-content>
             </v-list-item>
         </v-card>
-        <v-card class="mx-auto mt-12">
-            <v-card-title class="display-1 text--primary font-weight-bold">Feature</v-card-title>
-            <v-divider></v-divider>
-            <v-list-item>
-                <v-list-item-icon>
-                    <v-icon>mdi-checkbox-marked-circle</v-icon>
-                </v-list-item-icon>
-                <v-list-item-content>
-                    <v-list-item-subtitle>c-Fos data are extracted from the figure legend of original findings, namely, the results are supported by original figures, and can be easily traced via publications’ DOI hyperlinks; only c-Fos values increased at significant confidence level are included.</v-list-item-subtitle>
-                </v-list-item-content>
-            </v-list-item>
-            <v-list-item>
-                <v-list-item-icon>
-                    <v-icon>mdi-checkbox-marked-circle</v-icon>
-                </v-list-item-icon>
-                <v-list-item-content>
-                    <v-list-item-subtitle>An unified term of brain region is employed, the detailed relationships among behavior, brain nuclei, specific active conditions, and their network mappings, can be shown and downloaded.</v-list-item-subtitle>
-                </v-list-item-content>
-            </v-list-item>
-        </v-card>
+        <!-- <v-card class="mx-auto mt-12"> -->
+            <v-timeline dense class="mt-12">
+                <v-timeline-item small color="deep-purple lighten-2">
+                    <v-card class="elevation-2">
+                        <v-card-title class="headline">Data Version 2020.2.2</v-card-title>
+                        <v-card-text>
+                            <v-list-item three-line>
+                                <v-list-item-content>
+                                    <v-list-item-title>398 Nuclei and subnuclei</v-list-item-title>
+                                    <v-list-item-subtitle>
+                                        5 Types behaviors ( Pain, Feeding, Fear, Aggression, and Mating )
+                                    </v-list-item-subtitle>
+                                    <v-list-item-subtitle>
+                                        2 Species of animal ( Rat and Mouse )
+                                    </v-list-item-subtitle>
+                                </v-list-item-content>
+                              </v-list-item>
+                        </v-card-text>
+                        <v-card-actions class="flex-row-reverse">
+                            <v-btn text color="deep-purple accent-4" to="/download">to Download</v-btn>
+                        </v-card-actions>
+                    </v-card>
+                </v-timeline-item>
+            </v-timeline>
+        <!-- </v-card> -->
     </div>
 </template>
 
