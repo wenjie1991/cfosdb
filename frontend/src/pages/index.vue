@@ -53,31 +53,27 @@
                 </v-list-item-content>
             </v-list-item>
         </v-card>
-        <!-- <v-card class="mx-auto mt-12"> -->
-            <v-timeline dense class="mt-12">
-                <v-timeline-item small color="deep-purple lighten-2">
-                    <v-card class="elevation-2">
-                        <v-card-title class="headline">Data Version 2020.2.2</v-card-title>
-                        <v-card-text>
-                            <v-list-item three-line>
-                                <v-list-item-content>
-                                    <v-list-item-title>398 Nuclei and subnuclei</v-list-item-title>
-                                    <v-list-item-subtitle>
-                                        5 Types behaviors ( Pain, Feeding, Fear, Aggression, and Mating )
-                                    </v-list-item-subtitle>
-                                    <v-list-item-subtitle>
-                                        2 Species of animal ( Rat and Mouse )
-                                    </v-list-item-subtitle>
-                                </v-list-item-content>
-                              </v-list-item>
-                        </v-card-text>
-                        <v-card-actions class="flex-row-reverse">
-                            <v-btn text color="deep-purple accent-4" to="/download">to Download</v-btn>
-                        </v-card-actions>
-                    </v-card>
-                </v-timeline-item>
-            </v-timeline>
-        <!-- </v-card> -->
+        <v-timeline dense class="mt-12">
+            <v-timeline-item small color="deep-purple lighten-2">
+                <v-card class="elevation-2">
+                    <v-card-title class="headline">Data Version 2020.2.2</v-card-title>
+                    <v-list-item three-line>
+                        <v-list-item-content>
+                            <v-list-item-title>398 Nuclei and subnuclei</v-list-item-title>
+                            <v-list-item-subtitle>
+                                5 Types behaviors ( Pain, Feeding, Fear, Aggression, and Mating )
+                            </v-list-item-subtitle>
+                            <v-list-item-subtitle>
+                                2 Species of animal ( Rat and Mouse )
+                            </v-list-item-subtitle>
+                        </v-list-item-content>
+                    </v-list-item>
+                    <v-card-actions class="flex-row-reverse">
+                        <v-btn text color="deep-purple accent-4" to="/download">to Download</v-btn>
+                    </v-card-actions>
+                </v-card>
+            </v-timeline-item>
+        </v-timeline>
     </div>
 </template>
 
