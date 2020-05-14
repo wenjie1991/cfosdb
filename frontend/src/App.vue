@@ -24,7 +24,7 @@
             >
             <v-card-text>
                 <v-btn
-                v-for="icon in icons"
+                v-for="icon in []"
                 :key="icon"
                 class="mx-4 white--text"
                 icon

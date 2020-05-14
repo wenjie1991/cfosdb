@@ -25,31 +25,125 @@
             :items-per-page="5"
             class="elevation-1"
         ></v-data-table>
+        <div class="d-flex justify-center mt-12">
+            <v-chart :options="graphData"/>
+        </div>
     </div>
 </template>
 
 <script>
+import ECharts from 'vue-echarts'
+import 'echarts/lib/chart/graph'
+import 'echarts/lib/component/title'
+
 export default {
     name: 'search',
+    components: {
+        'v-chart': ECharts
+    },
     data () {
+        const option = {
+            title: {
+                text: 'Les Miserables',
+                subtext: 'Circular layout',
+                top: 'top',
+                left: 'left'
+            },
+            tooltip: {},
+            animationDurationUpdate: 1500,
+            animationEasingUpdate: 'quinticInOut',
+            series: [
+                {
+                    type: 'graph',
+                    layout: 'none',
+                    symbolSize: 50,
+                    roam: true,
+                    label: {
+                        show: true
+                    },
+                    edgeSymbol: ['circle', 'arrow'],
+                    edgeSymbolSize: [4, 10],
+                    edgeLabel: {
+                        fontSize: 20
+                    },
+                    data: [{
+                        name: '节点1',
+                        x: 300,
+                        y: 300
+                    }, {
+                        name: '节点2',
+                        x: 800,
+                        y: 300
+                    }, {
+                        name: '节点3',
+                        x: 550,
+                        y: 100
+                    }, {
+                        name: '节点4',
+                        x: 550,
+                        y: 500
+                    }],
+                    // links: [],
+                    links: [{
+                        source: 0,
+                        target: 1,
+                        symbolSize: [5, 20],
+                        label: {
+                            show: true
+                        },
+                        lineStyle: {
+                            width: 5,
+                            curveness: 0.2
+                        }
+                    }, {
+                        source: '节点2',
+                        target: '节点1',
+                        label: {
+                            show: true
+                        },
+                        lineStyle: {
+                            curveness: 0.2
+                        }
+                    }, {
+                        source: '节点1',
+                        target: '节点3'
+                    }, {
+                        source: '节点2',
+                        target: '节点3'
+                    }, {
+                        source: '节点2',
+                        target: '节点4'
+                    }, {
+                        source: '节点1',
+                        target: '节点4'
+                    }],
+                    lineStyle: {
+                        opacity: 0.9,
+                        width: 2,
+                        curveness: 0
+                    }
+                }
+            ]
+        };
         return {
             selectedFruits: '',
             brainAreaData: [],
             checkbox: '',
-          headers: [
-            {
-              text: 'Dessert (100g serving)',
-              align: 'start',
-              sortable: false,
-              value: 'name',
-            },
-            { text: 'Calories', value: 'calories' },
-            { text: 'Fat (g)', value: 'fat' },
-            { text: 'Carbs (g)', value: 'carbs' },
-            { text: 'Protein (g)', value: 'protein' },
-            { text: 'Iron (%)', value: 'iron' },
-          ],
-          desserts: [
+            graphData: option,
+            headers: [
+                {
+                text: 'Dessert (100g serving)',
+                align: 'start',
+                sortable: false,
+                value: 'name',
+                },
+                { text: 'Calories', value: 'calories' },
+                { text: 'Fat (g)', value: 'fat' },
+                { text: 'Carbs (g)', value: 'carbs' },
+                { text: 'Protein (g)', value: 'protein' },
+                { text: 'Iron (%)', value: 'iron' },
+            ],
+            desserts: [
             {
               name: 'Frozen Yogurt',
               calories: 159,
