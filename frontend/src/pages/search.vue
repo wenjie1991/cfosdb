@@ -1,26 +1,58 @@
 <template>
     <div>
-        <div>
-            <v-select v-model="selectedFruits" :items="brainAreaData" label="Behavior" multiple>
+        <div class="grey lighten-4 pa-8">
+            <p class="display-1">Search</p>
+            <v-row align="center">
+                <v-col class="d-flex" cols="12" sm="6">
+                    <v-select v-model="selectedFruits" :items="brainAreaData" label="Behavior" multiple></v-select>
+                </v-col>
+                <v-col class="d-flex" cols="12" sm="6">
+                    <v-select v-model="selectedFruits" :items="brainAreaData" label="Behavior" multiple></v-select>
+                </v-col>
+            </v-row>
 
-            </v-select>
-            <v-select v-model="selectedFruits" :items="brainAreaData" label="Behavior" multiple>
-
-            </v-select>
-            <v-select v-model="selectedFruits" :items="brainAreaData" label="Behavior" multiple>
-
-            </v-select>
-            <v-checkbox
-                v-model="checkbox"
-                :label="`Checkbox 1: ${checkbox.toString()}`"
-            ></v-checkbox>
-            <v-checkbox
-                v-model="checkbox"
-                :label="`Checkbox 1: ${checkbox.toString()}`"
-            ></v-checkbox>
+            <v-row align="center">
+                <v-col class="d-flex" cols="12" sm="6">
+                    <v-radio-group v-model="GenderData" row label="Gender:">
+                        <v-radio
+                            v-for="n in ['All', 'Male', 'Female']"
+                            :key="n"
+                            :label="`${n}`"
+                            :value="n"
+                        ></v-radio>
+                    </v-radio-group>
+                </v-col>
+                <v-col class="d-flex align-center" cols="12" sm="6">
+                    <span class="mr-4 text--secondary">Other: </span>
+                    <v-checkbox
+                        v-model="withFigure"
+                        label="With Figure"
+                        class="mr-8"
+                    ></v-checkbox>
+                    <v-checkbox
+                        v-model="statistics"
+                        label="Statistics Significant"
+                    ></v-checkbox>
+                </v-col>
+            </v-row>
+            <v-row justify="end">
+                <v-btn large color="primary lighten-3">Submit</v-btn>
+            </v-row>
         </div>
+        <v-card-title>
+            Results
+            <v-spacer></v-spacer>
+            <v-text-field
+              v-model="search"
+              append-icon="mdi-magnify"
+              label="Search"
+              single-line
+              hide-details
+            ></v-text-field>
+        </v-card-title>
         <v-data-table
             :headers="headers"
+            :search="search"
             :items="desserts"
             :items-per-page="5"
             class="elevation-1"
@@ -35,6 +67,7 @@
 import ECharts from 'vue-echarts'
 import 'echarts/lib/chart/graph'
 import 'echarts/lib/component/title'
+import 'echarts/lib/component/tooltip'
 
 export default {
     name: 'search',
@@ -129,7 +162,11 @@ export default {
             selectedFruits: '',
             brainAreaData: [],
             checkbox: '',
+            GenderData: 'All',
+            withFigure: false,
+            statistics: false,
             graphData: option,
+            search: '',
             headers: [
                 {
                 text: 'Dessert (100g serving)',
