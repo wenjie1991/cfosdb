@@ -4,10 +4,29 @@
             <p class="display-1">Search</p>
             <v-row align="center">
                 <v-col class="d-flex" cols="12" sm="6">
-                    <v-select v-model="selectedFruits" :items="brainAreaData" label="Behavior" multiple></v-select>
+                    <v-select v-model="selectedBrainArea" :items="brainAreaData" label="Behavior" multiple></v-select>
                 </v-col>
                 <v-col class="d-flex" cols="12" sm="6">
-                    <v-select v-model="selectedFruits" :items="brainAreaData" label="Behavior" multiple></v-select>
+                    <v-combobox
+                        v-model="selectedBrainArea"
+                        :items="brainAreaData"
+                        label="Brain Area"
+                        multiple>
+                        <template v-slot:prepend-item>
+                            <v-list-item
+                              ripple
+                              @click="toggle"
+                            >
+                              <v-list-item-action>
+                                <v-icon :color="selectedBrainArea.length > 0 ? 'indigo darken-4' : ''">{{ icon }}</v-icon>
+                              </v-list-item-action>
+                              <v-list-item-content>
+                                <v-list-item-title>Select All</v-list-item-title>
+                              </v-list-item-content>
+                            </v-list-item>
+                            <v-divider class="mt-2"></v-divider>
+                        </template>
+                    </v-combobox>
                 </v-col>
             </v-row>
 
@@ -159,8 +178,8 @@ export default {
             ]
         };
         return {
-            selectedFruits: '',
-            brainAreaData: [],
+            selectedBrainArea: [],
+            brainAreaData: ['1', '2', '3', '4'],
             checkbox: '',
             GenderData: 'All',
             withFigure: false,
@@ -263,6 +282,30 @@ export default {
             },
           ],
         }
+    },
+    computed: {
+        likesAllFruit () {
+            return this.selectedBrainArea.length === this.brainAreaData.length
+        },
+        likesSomeFruit () {
+            return this.selectedBrainArea.length > 0 && !this.likesAllFruit
+        },
+        icon () {
+            if (this.likesAllFruit) return 'mdi-close-box'
+            if (this.likesSomeFruit) return 'mdi-minus-box'
+            return 'mdi-checkbox-blank-outline'
+        }
+    },
+    methods: {
+      toggle () {
+        this.$nextTick(() => {
+          if (this.likesAllFruit) {
+            this.selectedBrainArea = []
+          } else {
+            this.selectedBrainArea = this.brainAreaData.slice()
+          }
+        })
+      }
     }
 }
 </script>

@@ -5,7 +5,7 @@
         v-show="fab"
         v-scroll="onScroll"
         :style="{
-          bottom: value ? '80px' : ''
+          bottom: '80px'
         }"
         aria-label="Scroll to top"
         bottom
