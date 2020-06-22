@@ -255,7 +255,7 @@
     "strain": "Sprague Dawley rats",
     "gender": "male",
     "figure": "Figs.1",
-    "condition": "noxious (52°C,42°C,35°C, ) thermal probe stimulation of the cornea",
+    "condition": "noxious (52¬∞C,42¬∞C,35¬∞C, ) thermal probe stimulation of the cornea",
     "brain_code": "R4.31",
     "cell_type": ""
   },
@@ -322,7 +322,7 @@
   {
     "behavior": "fear",
     "doi": "10.1038/s41398-019-0368-y",
-    "strain": "wildtype, SERT+/− and SERT−/− Wistar rats ",
+    "strain": "wildtype, SERT+/‚àí and SERT‚àí/‚àí Wistar rats",
     "gender": "male",
     "figure": "Fig. 2",
     "condition": "exposure to 7.5% CO2",
@@ -332,7 +332,7 @@
   {
     "behavior": "fear",
     "doi": "10.1038/s41398-019-0368-y",
-    "strain": "wildtype, SERT+/− and SERT−/− Wistar rats ",
+    "strain": "wildtype, SERT+/‚àí and SERT‚àí/‚àí Wistar rats",
     "gender": "male",
     "figure": "Fig. 2",
     "condition": "exposure to 7.5% CO2",
@@ -342,7 +342,7 @@
   {
     "behavior": "fear",
     "doi": "10.1038/s41398-019-0368-y",
-    "strain": "wildtype, SERT+/− and SERT−/− Wistar rats ",
+    "strain": "wildtype, SERT+/‚àí and SERT‚àí/‚àí Wistar rats",
     "gender": "male",
     "figure": "Fig. 2",
     "condition": "exposure to 7.5% CO2",
@@ -455,7 +455,7 @@
     "strain": "Sprague-Dawley rats",
     "gender": "male",
     "figure": "Fig5",
-    "condition": "sense oligonucleotide (SO) or antisense oligonucleotides（ASO）",
+    "condition": "sense oligonucleotide (SO) or antisense oligonucleotidesÔºàASOÔºâ",
     "brain_code": "R158",
     "cell_type": ""
   },
@@ -465,7 +465,7 @@
     "strain": "Sprague-Dawley rats",
     "gender": "male",
     "figure": "Fig5",
-    "condition": "sense oligonucleotide (SO) or antisense oligonucleotides（ASO）",
+    "condition": "sense oligonucleotide (SO) or antisense oligonucleotidesÔºàASOÔºâ",
     "brain_code": "R106",
     "cell_type": ""
   },
@@ -912,7 +912,7 @@
   {
     "behavior": "feeding",
     "doi": "10.1152/ajpregu.1998.275.1.R262",
-    "strain": "Sprague-Dawley rats weighing 300–350 g",
+    "strain": "Sprague-Dawley rats weighing 300‚Äì350 g",
     "gender": "male",
     "figure": "Fig.2",
     "condition": "receive usual 1-h access to an unrestricted amount of pelleted chow",
@@ -922,7 +922,7 @@
   {
     "behavior": "feeding",
     "doi": "10.1152/ajpregu.1998.275.1.R262",
-    "strain": "Sprague-Dawley rats weighing 300–350 g",
+    "strain": "Sprague-Dawley rats weighing 300‚Äì350 g",
     "gender": "male",
     "figure": "Fig.2",
     "condition": "receive usual 1-h access to an unrestricted amount of standard liquid diet",
@@ -932,7 +932,7 @@
   {
     "behavior": "feeding",
     "doi": "10.1152/ajpregu.1998.275.1.R262",
-    "strain": "Sprague-Dawley rats weighing 300–350 g",
+    "strain": "Sprague-Dawley rats weighing 300‚Äì350 g",
     "gender": "male",
     "figure": "Fig.2",
     "condition": "given 1-h access to an unrestricted amount of liquid diet that had been diluted 50% with water to yield a solution containing 0.71 kcal/ml and 0.6 mosM/ml",
@@ -992,7 +992,7 @@
   {
     "behavior": "mating",
     "doi": "10.1111/j.1365-2826.2012.02290.x",
-    "strain": "Sexually-naive Sprague–Dawley rats",
+    "strain": "Sexually-naive Sprague‚ÄìDawley rats",
     "gender": "male",
     "figure": "Fig. 4A",
     "condition": "fed males  paired with a receptive female",
@@ -1002,7 +1002,7 @@
   {
     "behavior": "mating",
     "doi": "10.1111/j.1365-2826.2012.02290.x",
-    "strain": "Sexually-naive Sprague–Dawley rats",
+    "strain": "Sexually-naive Sprague‚ÄìDawley rats",
     "gender": "male",
     "figure": "Fig. 4A",
     "condition": "hungry males  paired with a receptive female",
@@ -1012,7 +1012,7 @@
   {
     "behavior": "mating",
     "doi": "10.1111/j.1365-2826.2012.02290.x",
-    "strain": "Sexually-naive Sprague–Dawley rats",
+    "strain": "Sexually-naive Sprague‚ÄìDawley rats",
     "gender": "male",
     "figure": "Fig. 4B",
     "condition": "fed males  paired with a receptive female",
@@ -1022,7 +1022,7 @@
   {
     "behavior": "mating",
     "doi": "10.1111/j.1365-2826.2012.02290.x",
-    "strain": "Sexually-naive Sprague–Dawley rats",
+    "strain": "Sexually-naive Sprague‚ÄìDawley rats",
     "gender": "male",
     "figure": "Fig. 4B",
     "condition": "fed males  paired with a receptive female",
@@ -1032,7 +1032,7 @@
   {
     "behavior": "mating",
     "doi": "10.1111/j.1365-2826.2012.02290.x",
-    "strain": "Sexually-naive Sprague–Dawley rats",
+    "strain": "Sexually-naive Sprague‚ÄìDawley rats",
     "gender": "male",
     "figure": "Fig. 4C",
     "condition": "fed males  paired with a receptive female",
@@ -1042,7 +1042,7 @@
   {
     "behavior": "mating",
     "doi": "10.1111/j.1365-2826.2012.02290.x",
-    "strain": "Sexually-naive Sprague–Dawley rats",
+    "strain": "Sexually-naive Sprague‚ÄìDawley rats",
     "gender": "male",
     "figure": "Fig. 4C",
     "condition": "hungry males  paired with a receptive female",
@@ -1052,7 +1052,7 @@
   {
     "behavior": "mating",
     "doi": "10.1111/j.1365-2826.2012.02290.x",
-    "strain": "Sexually-naive Sprague–Dawley rats",
+    "strain": "Sexually-naive Sprague‚ÄìDawley rats",
     "gender": "male",
     "figure": "Fig. 6",
     "condition": "fed males  paired with a receptive female",
@@ -1062,7 +1062,7 @@
   {
     "behavior": "mating",
     "doi": "10.1016/j.brainres.2007.07.071",
-    "strain": "Long–Evans rats",
+    "strain": "Long‚ÄìEvans rats",
     "gender": "female",
     "figure": "Fig. 2&Fig. 3",
     "condition": "sexually experienced subjects exposed to sexually active male-soiled bedding",
@@ -1072,7 +1072,7 @@
   {
     "behavior": "mating",
     "doi": "10.1016/j.brainres.2007.07.071",
-    "strain": "Long–Evans rats",
+    "strain": "Long‚ÄìEvans rats",
     "gender": "female",
     "figure": "Fig. 3",
     "condition": "sexually experienced subjects exposed to sexually active male-soiled bedding",
@@ -1082,7 +1082,7 @@
   {
     "behavior": "mating",
     "doi": "10.1016/j.brainres.2007.07.071",
-    "strain": "Long–Evans rats",
+    "strain": "Long‚ÄìEvans rats",
     "gender": "female",
     "figure": "Fig. 2&Fig. 3",
     "condition": "sexually naive subjects exposed to sexually active male-soiled bedding",
@@ -1092,7 +1092,7 @@
   {
     "behavior": "mating",
     "doi": "10.1016/j.brainres.2007.07.071",
-    "strain": "Long–Evans rats",
+    "strain": "Long‚ÄìEvans rats",
     "gender": "female",
     "figure": "Fig. 3",
     "condition": "sexually naive subjects exposed to sexually active male-soiled bedding",
@@ -1102,17 +1102,17 @@
   {
     "behavior": "mating",
     "doi": "10.1016/j.brainres.2007.07.071",
-    "strain": "Long–Evans rats",
+    "strain": "Long‚ÄìEvans rats",
     "gender": "Female",
     "figure": "Fig. 3",
-    "condition": "sexually naïve female exposure to sexually active male-soiled bedding",
+    "condition": "sexually na√Øve female exposure to sexually active male-soiled bedding",
     "brain_code": "R184.2",
     "cell_type": ""
   },
   {
     "behavior": "mating",
     "doi": "10.1016/j.brainres.2007.07.071",
-    "strain": "Long–Evans rats",
+    "strain": "Long‚ÄìEvans rats",
     "gender": "Female",
     "figure": "Fig. 3",
     "condition": "sexually experenced female exposure to sexually active male-soiled bedding",
@@ -1122,17 +1122,17 @@
   {
     "behavior": "mating",
     "doi": "10.1016/j.brainres.2007.07.071",
-    "strain": "Long–Evans rats",
+    "strain": "Long‚ÄìEvans rats",
     "gender": "Female",
     "figure": "Fig. 3",
-    "condition": "sexually naïve female exposure to sexually active male-soiled bedding",
+    "condition": "sexually na√Øve female exposure to sexually active male-soiled bedding",
     "brain_code": "R184.1",
     "cell_type": ""
   },
   {
     "behavior": "mating",
     "doi": "10.1016/j.brainres.2007.07.071",
-    "strain": "Long–Evans rats",
+    "strain": "Long‚ÄìEvans rats",
     "gender": "Female",
     "figure": "Fig. 3",
     "condition": "sexually experenced female exposure to sexually active male-soiled bedding",
@@ -1142,7 +1142,7 @@
   {
     "behavior": "mating",
     "doi": "10.1016/j.brainres.2007.07.071",
-    "strain": "Long–Evans rats",
+    "strain": "Long‚ÄìEvans rats",
     "gender": "female",
     "figure": "Fig. 3",
     "condition": "sexually experienced subjects exposed to sexually active male-soiled bedding",
@@ -1152,7 +1152,7 @@
   {
     "behavior": "mating",
     "doi": "10.1016/j.brainres.2007.07.071",
-    "strain": "Long–Evans rats",
+    "strain": "Long‚ÄìEvans rats",
     "gender": "female",
     "figure": "Fig. 2&Fig. 3",
     "condition": "sexually experienced subjects exposed to sexually active male-soiled bedding",
@@ -1162,7 +1162,7 @@
   {
     "behavior": "mating",
     "doi": "10.1016/j.brainres.2007.07.071",
-    "strain": "Long–Evans rats",
+    "strain": "Long‚ÄìEvans rats",
     "gender": "female",
     "figure": "Fig. 2&Fig. 3",
     "condition": "sexually experienced subjects exposed to sexually active male-soiled bedding",
@@ -1322,7 +1322,7 @@
   {
     "behavior": "aggression",
     "doi": "10.1016/j.physbeh.2005.02.010",
-    "strain": "outbred hsd:ICR mice (Harlan, Madison, WI) 这是L和T小鼠共同的",
+    "strain": "outbred hsd:ICR mice (Harlan, Madison, WI) ËøôÊòØLÂíåTÂ∞èÈº†ÂÖ±ÂêåÁöÑ",
     "gender": "female",
     "figure": "Fig.4, Table. 4",
     "condition": "exposing females to a male intruder",
@@ -1342,7 +1342,7 @@
   {
     "behavior": "aggression",
     "doi": "10.1016/j.physbeh.2005.02.010",
-    "strain": "outbred hsd:ICR mice (Harlan, Madison, WI) 只有V",
+    "strain": "outbred hsd:ICR mice (Harlan, Madison, WI) Âè™ÊúâV",
     "gender": "female",
     "figure": "Fig.4, Table. 4",
     "condition": "exposing females to a male intruder",
@@ -1352,7 +1352,7 @@
   {
     "behavior": "aggression",
     "doi": "10.1016/j.physbeh.2005.02.010",
-    "strain": "outbred hsd:ICR mice (Harlan, Madison, WI) 只有V",
+    "strain": "outbred hsd:ICR mice (Harlan, Madison, WI) Âè™ÊúâV",
     "gender": "female",
     "figure": "Fig.4, Table. 4",
     "condition": "exposing females to a male intruder",
@@ -1362,7 +1362,7 @@
   {
     "behavior": "aggression",
     "doi": "10.1016/j.physbeh.2005.02.010",
-    "strain": "outbred hsd:ICR mice (Harlan, Madison, WI) 只有V",
+    "strain": "outbred hsd:ICR mice (Harlan, Madison, WI) Âè™ÊúâV",
     "gender": "female",
     "figure": "Fig.4, Table. 4",
     "condition": "exposing females to a male intruder",
@@ -1372,7 +1372,7 @@
   {
     "behavior": "aggression",
     "doi": "10.1016/j.physbeh.2005.02.010",
-    "strain": "outbred hsd:ICR mice (Harlan, Madison, WI) 只有V",
+    "strain": "outbred hsd:ICR mice (Harlan, Madison, WI) Âè™ÊúâV",
     "gender": "female",
     "figure": "Fig.4, Table. 4",
     "condition": "exposing females to a male intruder",
@@ -1382,7 +1382,7 @@
   {
     "behavior": "aggression",
     "doi": "10.1016/j.physbeh.2005.02.010",
-    "strain": "outbred hsd:ICR mice (Harlan, Madison, WI) 只有V",
+    "strain": "outbred hsd:ICR mice (Harlan, Madison, WI) Âè™ÊúâV",
     "gender": "female",
     "figure": "Fig.4, Table. 4",
     "condition": "exposing females to a male intruder",
@@ -1392,7 +1392,7 @@
   {
     "behavior": "aggression",
     "doi": "10.1016/j.physbeh.2005.02.010",
-    "strain": "outbred hsd:ICR mice (Harlan, Madison, WI) 只有V",
+    "strain": "outbred hsd:ICR mice (Harlan, Madison, WI) Âè™ÊúâV",
     "gender": "female",
     "figure": "Fig.4, Table. 4",
     "condition": "exposing females to a male intruder",
@@ -1402,7 +1402,7 @@
   {
     "behavior": "aggression",
     "doi": "10.1016/j.physbeh.2005.02.010",
-    "strain": "outbred hsd:ICR mice (Harlan, Madison, WI) 只有V",
+    "strain": "outbred hsd:ICR mice (Harlan, Madison, WI) Âè™ÊúâV",
     "gender": "female",
     "figure": "Fig.4, Table. 4",
     "condition": "exposing females to a male intruder",
@@ -1412,7 +1412,7 @@
   {
     "behavior": "aggression",
     "doi": "10.1016/j.physbeh.2005.02.010",
-    "strain": "outbred hsd:ICR mice (Harlan, Madison, WI) 只有L",
+    "strain": "outbred hsd:ICR mice (Harlan, Madison, WI) Âè™ÊúâL",
     "gender": "female",
     "figure": "Fig.7, Table. 4",
     "condition": "exposing females to a male intruder",
@@ -1422,7 +1422,7 @@
   {
     "behavior": "aggression",
     "doi": "10.1016/j.physbeh.2005.02.010",
-    "strain": "outbred hsd:ICR mice (Harlan, Madison, WI) 只有L",
+    "strain": "outbred hsd:ICR mice (Harlan, Madison, WI) Âè™ÊúâL",
     "gender": "female",
     "figure": "Fig.7, Table. 4",
     "condition": "exposing females to a male intruder",
@@ -1432,7 +1432,7 @@
   {
     "behavior": "aggression",
     "doi": "10.1016/j.physbeh.2005.02.010",
-    "strain": "outbred hsd:ICR mice (Harlan, Madison, WI) 只有L",
+    "strain": "outbred hsd:ICR mice (Harlan, Madison, WI) Âè™ÊúâL",
     "gender": "female",
     "figure": "Fig.4, Table. 4",
     "condition": "exposing females to a male intruder",
@@ -1442,7 +1442,7 @@
   {
     "behavior": "aggression",
     "doi": "10.1016/j.physbeh.2005.02.010",
-    "strain": "outbred hsd:ICR mice (Harlan, Madison, WI) 只有L",
+    "strain": "outbred hsd:ICR mice (Harlan, Madison, WI) Âè™ÊúâL",
     "gender": "female",
     "figure": "Fig.6, Table. 4",
     "condition": "exposing females to a male intruder",
@@ -1665,7 +1665,7 @@
     "strain": "rat",
     "gender": "male",
     "figure": "Fig. 2.",
-    "condition": " 2,5-dihydro-2,4,5-trimethylthiazoline \n(TMT) exposure",
+    "condition": "2,5-dihydro-2,4,5-trimethylthiazoline \n(TMT) exposure",
     "brain_code": "R25",
     "cell_type": ""
   },
@@ -1675,7 +1675,7 @@
     "strain": "rat",
     "gender": "male",
     "figure": "Fig. 2.",
-    "condition": " 2,5-dihydro-2,4,5-trimethylthiazoline \n(TMT) exposure",
+    "condition": "2,5-dihydro-2,4,5-trimethylthiazoline \n(TMT) exposure",
     "brain_code": "R57",
     "cell_type": ""
   },
@@ -1685,7 +1685,7 @@
     "strain": "rat",
     "gender": "male",
     "figure": "Fig. 2.",
-    "condition": " 2,5-dihydro-2,4,5-trimethylthiazoline \n(TMT) exposure",
+    "condition": "2,5-dihydro-2,4,5-trimethylthiazoline \n(TMT) exposure",
     "brain_code": "R126",
     "cell_type": ""
   },
@@ -1695,7 +1695,7 @@
     "strain": "rat",
     "gender": "male",
     "figure": "Fig. 2.",
-    "condition": " 2,5-dihydro-2,4,5-trimethylthiazoline \n(TMT) exposure",
+    "condition": "2,5-dihydro-2,4,5-trimethylthiazoline \n(TMT) exposure",
     "brain_code": "R190",
     "cell_type": ""
   },
@@ -1705,7 +1705,7 @@
     "strain": "rat",
     "gender": "male",
     "figure": "Fig. 2.",
-    "condition": " 2,5-dihydro-2,4,5-trimethylthiazoline \n(TMT) exposure",
+    "condition": "2,5-dihydro-2,4,5-trimethylthiazoline \n(TMT) exposure",
     "brain_code": "R150",
     "cell_type": ""
   },
@@ -1715,7 +1715,7 @@
     "strain": "rat",
     "gender": "male",
     "figure": "Fig. 2.",
-    "condition": " 2,5-dihydro-2,4,5-trimethylthiazoline \n(TMT) exposure",
+    "condition": "2,5-dihydro-2,4,5-trimethylthiazoline \n(TMT) exposure",
     "brain_code": "R87.12",
     "cell_type": ""
   },
@@ -1725,7 +1725,7 @@
     "strain": "rat",
     "gender": "male",
     "figure": "Fig. 2.",
-    "condition": " 2,5-dihydro-2,4,5-trimethylthiazoline \n(TMT) exposure",
+    "condition": "2,5-dihydro-2,4,5-trimethylthiazoline \n(TMT) exposure",
     "brain_code": "R191",
     "cell_type": ""
   },
@@ -1735,7 +1735,7 @@
     "strain": "rat",
     "gender": "male",
     "figure": "Fig. 2.",
-    "condition": " 2,5-dihydro-2,4,5-trimethylthiazoline \n(TMT) exposure",
+    "condition": "2,5-dihydro-2,4,5-trimethylthiazoline \n(TMT) exposure",
     "brain_code": "R147",
     "cell_type": ""
   },
@@ -1745,7 +1745,7 @@
     "strain": "rat",
     "gender": "male",
     "figure": "Fig. 2.",
-    "condition": " 2,5-dihydro-2,4,5-trimethylthiazoline \n(TMT) exposure",
+    "condition": "2,5-dihydro-2,4,5-trimethylthiazoline \n(TMT) exposure",
     "brain_code": "R5.11",
     "cell_type": ""
   },
@@ -1947,7 +1947,7 @@
     "figure": "Supplementary Figure 1",
     "condition": "exposure to TMT",
     "brain_code": "B33",
-    "cell_type": " "
+    "cell_type": "¬†"
   },
   {
     "behavior": "fear",
@@ -2347,7 +2347,7 @@
     "figure": "Figure 1",
     "condition": "intraperitoneal injection of CCK",
     "brain_code": "B10.1",
-    "cell_type": "PKC-δ+"
+    "cell_type": "PKC-Œ¥+"
   },
   {
     "behavior": "feeding",
@@ -2357,7 +2357,7 @@
     "figure": "Figure 2",
     "condition": "intraperitoneal injection of LiCl",
     "brain_code": "B10.1",
-    "cell_type": "PKC-δ+"
+    "cell_type": "PKC-Œ¥+"
   },
   {
     "behavior": "feeding",
@@ -2367,7 +2367,7 @@
     "figure": "Figure 3",
     "condition": "intraperitoneal injection of LPS",
     "brain_code": "B10.1",
-    "cell_type": "PKC-δ+"
+    "cell_type": "PKC-Œ¥+"
   },
   {
     "behavior": "feeding",
@@ -2377,7 +2377,7 @@
     "figure": "Figure 4",
     "condition": "re-fed",
     "brain_code": "B10.1",
-    "cell_type": "PKC-δ+"
+    "cell_type": "PKC-Œ¥+"
   },
   {
     "behavior": "feeding",
@@ -2387,7 +2387,7 @@
     "figure": "Figure 5",
     "condition": "oral infusion of quinine",
     "brain_code": "B10.1",
-    "cell_type": "PKC-δ+"
+    "cell_type": "PKC-Œ¥+"
   },
   {
     "behavior": "feeding",

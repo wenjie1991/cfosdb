@@ -24,16 +24,16 @@ pain	10.1002/(sici)1096-9861(19960422)368:1<45::aid-cne4>3.0.co;2-k	Sprague-Dawl
 pain	10.1002/(sici)1096-9861(19960422)368:1<45::aid-cne4>3.0.co;2-k	Sprague-Dawley rats	male	Fig. 4	formalin injection into one hindpaw	R5.14	
 pain	10.1002/(sici)1096-9861(19960422)368:1<45::aid-cne4>3.0.co;2-k	Sprague-Dawley rats	male	Fig. 4	formalin injection into one hindpaw	R5.13	
 pain	10.1002/(sici)1096-9861(19960422)368:1<45::aid-cne4>3.0.co;2-k	Sprague-Dawley rats	male	Fig. 4	chronic constriction injury (CCI) of the sciatic nerve	R16.1	
-pain	10.1016/0306-4522(95)00541-2	Sprague Dawley rats	male	Figs.1	"noxious (52°C,42°C,35°C, ) thermal probe stimulation of the cornea"	R4.31	
+pain	10.1016/0306-4522(95)00541-2	Sprague Dawley rats	male	Figs.1	noxious (52¬∞C,42¬∞C,35¬∞C, ) thermal probe stimulation of the cornea	R4.31	
 pain	10.1016/0306-4522(95)00541-2	Sprague Dawley rats	male	Fig.2	thermal probe and radiant heat ( ~ 47~C) stimulation	R4.31	
 pain	10.1016/0306-4522(95)00541-2	Sprague Dawley rats	male	Fig.5	radiant heat to the left cornea	R4.31	
 pain	10.1016/j.jpain.2010.09.005	offspring of Long-Evans Hooded rats		Fig.1	noxious cutaneous mechanical stimulation	R4.1	
 pain	10.1016/j.jpain.2010.09.005	offspring of Long-Evans Hooded rats		Fig.2	subcutaneous injection of formalin	R114	
 pain	10.1016/j.jpain.2010.09.005	offspring of Long-Evans Hooded rats		Fig.3	Plantar incision of propofal	R1	
 pain	10.1523/JNEUROSCI.12-12-04878.1992	Wistar rats	female	Figs.6-8	mechanical Stimulation of the lower urinary tract(LUT)	R1	
-fear	10.1038/s41398-019-0368-y	"wildtype, SERT+/− and SERT−/− Wistar rats "	male	Fig. 2	exposure to 7.5% CO2	R116	
-fear	10.1038/s41398-019-0368-y	"wildtype, SERT+/− and SERT−/− Wistar rats "	male	Fig. 2	exposure to 7.5% CO2	R3.12	
-fear	10.1038/s41398-019-0368-y	"wildtype, SERT+/− and SERT−/− Wistar rats "	male	Fig. 2	exposure to 7.5% CO2	R38	
+fear	10.1038/s41398-019-0368-y	wildtype, SERT+/‚àí and SERT‚àí/‚àí Wistar rats	male	Fig. 2	exposure to 7.5% CO2	R116	
+fear	10.1038/s41398-019-0368-y	wildtype, SERT+/‚àí and SERT‚àí/‚àí Wistar rats	male	Fig. 2	exposure to 7.5% CO2	R3.12	
+fear	10.1038/s41398-019-0368-y	wildtype, SERT+/‚àí and SERT‚àí/‚àí Wistar rats	male	Fig. 2	exposure to 7.5% CO2	R38	
 fear	10.1016/j.neuron.2016.10.015	FosTVA Knockin Mice	male	Fig. 7	second social-fear stimulation	R32.2	
 fear	10.7554/eLife.12669	rats		Fig. 1	fear conditioning	R38	
 fear	10.1016/j.nlm.2015.10.001	F344 rats	male	Fig. 3	fear conditioning	R158	
@@ -44,8 +44,8 @@ fear	10.1523/jneurosci.19-13-05666.1999	Sprague-Dawley rats	male	Fig4	fear condi
 fear	10.1523/jneurosci.19-13-05666.1999	Sprague-Dawley rats	male	Fig4	fear conditioning	R158	
 fear	10.1523/jneurosci.19-13-05666.1999	Sprague-Dawley rats	male	Fig4	fear conditioning	R140	
 fear	10.1523/jneurosci.19-13-05666.1999	Sprague-Dawley rats	male	Fig4	fear conditioning	R158	
-fear	10.1523/jneurosci.19-13-05666.1999	Sprague-Dawley rats	male	Fig5	sense oligonucleotide (SO) or antisense oligonucleotides（ASO）	R158	
-fear	10.1523/jneurosci.19-13-05666.1999	Sprague-Dawley rats	male	Fig5	sense oligonucleotide (SO) or antisense oligonucleotides（ASO）	R106	
+fear	10.1523/jneurosci.19-13-05666.1999	Sprague-Dawley rats	male	Fig5	sense oligonucleotide (SO) or antisense oligonucleotidesÔºàASOÔºâ	R158	
+fear	10.1523/jneurosci.19-13-05666.1999	Sprague-Dawley rats	male	Fig5	sense oligonucleotide (SO) or antisense oligonucleotidesÔºàASOÔºâ	R106	
 fear	10.1016/j.brainresbull.2012.04.001	Wistar rats	male	Fig. 2	fear conditioning	R106	
 fear	10.1016/j.brainresbull.2012.04.001	Wistar rats	male	Fig. 4	fear conditioning	R148	
 fear	10.1016/j.brainresbull.2012.04.001	Wistar rats	male	Fig. 4	fear conditioning	R124	
@@ -53,14 +53,14 @@ fear	10.1016/j.brainresbull.2012.04.001	Wistar rats	male	Fig. 4	fear conditionin
 fear	10.1016/j.brainresbull.2012.04.001	Wistar rats	male	Fig. 5	fear conditioning	R115.2	
 fear	10.1016/j.brainresbull.2012.04.001	Wistar rats	male	Fig. 5	fear conditioning	R7	
 fear	10.1016/j.brainresbull.2012.04.001	Wistar rats	male	Fig. 6	fear conditioning	R3.1	
-fear	10.1016/0006-8993(92)91503-7	"rats of the Lewis strain,"	male	Fig. 1	fear conditioning	R25.42	
-fear	10.1016/0006-8993(92)91503-7	"rats of the Lewis strain,"	male	Fig. 1	fear conditioning	R25.52	
-fear	10.1016/0006-8993(92)91503-7	"rats of the Lewis strain,"	male	Fig. 3	fear conditioning	R96.1	
-fear	10.1016/0006-8993(92)91503-7	"rats of the Lewis strain,"	male	Fig. 3	fear conditioning	R96.1	
-fear	10.1016/0006-8993(92)91503-7	"rats of the Lewis strain,"	male	Fig. 4	unconditioned stimulus	R148	
-fear	10.1016/0006-8993(92)91503-7	"rats of the Lewis strain,"	male	Fig. 4	fear conditioning	R148	
-fear	10.1016/0006-8993(92)91503-7	"rats of the Lewis strain,"	male	Fig.5	unconditioned stimulus	R147.2	
-fear	10.1016/0006-8993(92)91503-7	"rats of the Lewis strain,"	male	Fig.5	fear conditioning	R147.2	
+fear	10.1016/0006-8993(92)91503-7	rats of the Lewis strain,	male	Fig. 1	fear conditioning	R25.42	
+fear	10.1016/0006-8993(92)91503-7	rats of the Lewis strain,	male	Fig. 1	fear conditioning	R25.52	
+fear	10.1016/0006-8993(92)91503-7	rats of the Lewis strain,	male	Fig. 3	fear conditioning	R96.1	
+fear	10.1016/0006-8993(92)91503-7	rats of the Lewis strain,	male	Fig. 3	fear conditioning	R96.1	
+fear	10.1016/0006-8993(92)91503-7	rats of the Lewis strain,	male	Fig. 4	unconditioned stimulus	R148	
+fear	10.1016/0006-8993(92)91503-7	rats of the Lewis strain,	male	Fig. 4	fear conditioning	R148	
+fear	10.1016/0006-8993(92)91503-7	rats of the Lewis strain,	male	Fig.5	unconditioned stimulus	R147.2	
+fear	10.1016/0006-8993(92)91503-7	rats of the Lewis strain,	male	Fig.5	fear conditioning	R147.2	
 fear	10.1016/0006-8993(91)91669-R	albino Sprague-Dawley rats	male	Fig1	unconditioned fear by handling	R122	
 fear	10.1016/0006-8993(91)91669-R	albino Sprague-Dawley rats	male	Fig1	unconditioned fear by footshock	R122	
 feeding	10.1006/mcne.1993.1011	Sprague- Dawley rats (250-300g)	male	Fig. 1	22-h food deprivation followed by spontaneous food ingestion (FD-FED)	R22	
@@ -90,32 +90,32 @@ feeding	10.1006/mcne.1993.1011	Sprague- Dawley rats (250-300g)	male	Fig. 8	oxyto
 feeding	10.1006/mcne.1993.1011	Sprague- Dawley rats (250-300g)	male	Fig. 9	administration of CCK	R22	
 feeding	10.1006/mcne.1993.1011	Sprague- Dawley rats (250-300g)	male	Fig. 9	administration of CCK	R37	
 feeding	10.1006/mcne.1993.1011	Sprague- Dawley rats (250-300g)	male	Fig. 9	insulin induced hypoglycemia (INS)	R50	
-feeding	10.1152/ajpregu.1998.275.1.R262	Sprague-Dawley rats weighing 300–350 g	male	Fig.2	receive usual 1-h access to an unrestricted amount of pelleted chow	R22	
-feeding	10.1152/ajpregu.1998.275.1.R262	Sprague-Dawley rats weighing 300–350 g	male	Fig.2	receive usual 1-h access to an unrestricted amount of standard liquid diet	R22	
-feeding	10.1152/ajpregu.1998.275.1.R262	Sprague-Dawley rats weighing 300–350 g	male	Fig.2	given 1-h access to an unrestricted amount of liquid diet that had been diluted 50% with water to yield a solution containing 0.71 kcal/ml and 0.6 mosM/ml	R22	
+feeding	10.1152/ajpregu.1998.275.1.R262	Sprague-Dawley rats weighing 300‚Äì350 g	male	Fig.2	receive usual 1-h access to an unrestricted amount of pelleted chow	R22	
+feeding	10.1152/ajpregu.1998.275.1.R262	Sprague-Dawley rats weighing 300‚Äì350 g	male	Fig.2	receive usual 1-h access to an unrestricted amount of standard liquid diet	R22	
+feeding	10.1152/ajpregu.1998.275.1.R262	Sprague-Dawley rats weighing 300‚Äì350 g	male	Fig.2	given 1-h access to an unrestricted amount of liquid diet that had been diluted 50% with water to yield a solution containing 0.71 kcal/ml and 0.6 mosM/ml	R22	
 Sexual behavior	10.1111/j.1601-183x.2010.00621.x	Sprague Dawley rats	male	Fig. 2	Sexual experience	R140	
 Sexual behavior	10.1111/j.1601-183x.2010.00621.x	Sprague Dawley rats	male	Fig. 2	Sexual experience	R158	
 Sexual behavior	10.1111/j.1601-183x.2010.00621.x	Sprague Dawley rats	male	Fig. 2	Sexual experience	R16.1	
 Sexual behavior	10.1111/j.1601-183x.2010.00621.x	Sprague Dawley rats	male	Fig. 2	Sexual experience	R2	
 Sexual behavior	10.1111/j.1601-183x.2010.00621.x	Sprague Dawley rats	male	Fig. 2	Sexual experience	R6.1	
-Sexual behavior	10.1111/j.1365-2826.2012.02290.x	Sexually-naive Sprague–Dawley rats	male	Fig. 4A	fed males  paired with a receptive female	R87	
-Sexual behavior	10.1111/j.1365-2826.2012.02290.x	Sexually-naive Sprague–Dawley rats	male	Fig. 4A	hungry males  paired with a receptive female	R87	
-Sexual behavior	10.1111/j.1365-2826.2012.02290.x	Sexually-naive Sprague–Dawley rats	male	Fig. 4B	fed males  paired with a receptive female	R185	
-Sexual behavior	10.1111/j.1365-2826.2012.02290.x	Sexually-naive Sprague–Dawley rats	male	Fig. 4B	fed males  paired with a receptive female	R148.1	
-Sexual behavior	10.1111/j.1365-2826.2012.02290.x	Sexually-naive Sprague–Dawley rats	male	Fig. 4C	fed males  paired with a receptive female	R150	
-Sexual behavior	10.1111/j.1365-2826.2012.02290.x	Sexually-naive Sprague–Dawley rats	male	Fig. 4C	hungry males  paired with a receptive female	R150	
-Sexual behavior	10.1111/j.1365-2826.2012.02290.x	Sexually-naive Sprague–Dawley rats	male	Fig. 6	fed males  paired with a receptive female	R25.31	
-Sexual behavior	10.1016/j.brainres.2007.07.071	Long–Evans rats	female	Fig. 2&Fig. 3	sexually experienced subjects exposed to sexually active male-soiled bedding	R148.1	
-Sexual behavior	10.1016/j.brainres.2007.07.071	Long–Evans rats	female	Fig. 3	sexually experienced subjects exposed to sexually active male-soiled bedding	R87	
-Sexual behavior	10.1016/j.brainres.2007.07.071	Long–Evans rats	female	Fig. 2&Fig. 3	sexually naive subjects exposed to sexually active male-soiled bedding	R148.1	
-Sexual behavior	10.1016/j.brainres.2007.07.071	Long–Evans rats	female	Fig. 3	sexually naive subjects exposed to sexually active male-soiled bedding	R87	
-Sexual behavior	10.1016/j.brainres.2007.07.071	Long–Evans rats	Female	Fig. 3	sexually naïve female exposure to sexually active male-soiled bedding	R184.2	
-Sexual behavior	10.1016/j.brainres.2007.07.071	Long–Evans rats	Female	Fig. 3	sexually experenced female exposure to sexually active male-soiled bedding	R184.2	
-Sexual behavior	10.1016/j.brainres.2007.07.071	Long–Evans rats	Female	Fig. 3	sexually naïve female exposure to sexually active male-soiled bedding	R184.1	
-Sexual behavior	10.1016/j.brainres.2007.07.071	Long–Evans rats	Female	Fig. 3	sexually experenced female exposure to sexually active male-soiled bedding	R184.1	
-Sexual behavior	10.1016/j.brainres.2007.07.071	Long–Evans rats	female	Fig. 3	sexually experienced subjects exposed to sexually active male-soiled bedding	R148.2	
-Sexual behavior	10.1016/j.brainres.2007.07.071	Long–Evans rats	female	Fig. 2&Fig. 3	sexually experienced subjects exposed to sexually active male-soiled bedding	R150	
-Sexual behavior	10.1016/j.brainres.2007.07.071	Long–Evans rats	female	Fig. 2&Fig. 3	sexually experienced subjects exposed to sexually active male-soiled bedding	R2.1	
+Sexual behavior	10.1111/j.1365-2826.2012.02290.x	Sexually-naive Sprague‚ÄìDawley rats	male	Fig. 4A	fed males  paired with a receptive female	R87	
+Sexual behavior	10.1111/j.1365-2826.2012.02290.x	Sexually-naive Sprague‚ÄìDawley rats	male	Fig. 4A	hungry males  paired with a receptive female	R87	
+Sexual behavior	10.1111/j.1365-2826.2012.02290.x	Sexually-naive Sprague‚ÄìDawley rats	male	Fig. 4B	fed males  paired with a receptive female	R185	
+Sexual behavior	10.1111/j.1365-2826.2012.02290.x	Sexually-naive Sprague‚ÄìDawley rats	male	Fig. 4B	fed males  paired with a receptive female	R148.1	
+Sexual behavior	10.1111/j.1365-2826.2012.02290.x	Sexually-naive Sprague‚ÄìDawley rats	male	Fig. 4C	fed males  paired with a receptive female	R150	
+Sexual behavior	10.1111/j.1365-2826.2012.02290.x	Sexually-naive Sprague‚ÄìDawley rats	male	Fig. 4C	hungry males  paired with a receptive female	R150	
+Sexual behavior	10.1111/j.1365-2826.2012.02290.x	Sexually-naive Sprague‚ÄìDawley rats	male	Fig. 6	fed males  paired with a receptive female	R25.31	
+Sexual behavior	10.1016/j.brainres.2007.07.071	Long‚ÄìEvans rats	female	Fig. 2&Fig. 3	sexually experienced subjects exposed to sexually active male-soiled bedding	R148.1	
+Sexual behavior	10.1016/j.brainres.2007.07.071	Long‚ÄìEvans rats	female	Fig. 3	sexually experienced subjects exposed to sexually active male-soiled bedding	R87	
+Sexual behavior	10.1016/j.brainres.2007.07.071	Long‚ÄìEvans rats	female	Fig. 2&Fig. 3	sexually naive subjects exposed to sexually active male-soiled bedding	R148.1	
+Sexual behavior	10.1016/j.brainres.2007.07.071	Long‚ÄìEvans rats	female	Fig. 3	sexually naive subjects exposed to sexually active male-soiled bedding	R87	
+Sexual behavior	10.1016/j.brainres.2007.07.071	Long‚ÄìEvans rats	Female	Fig. 3	sexually na√Øve female exposure to sexually active male-soiled bedding	R184.2	
+Sexual behavior	10.1016/j.brainres.2007.07.071	Long‚ÄìEvans rats	Female	Fig. 3	sexually experenced female exposure to sexually active male-soiled bedding	R184.2	
+Sexual behavior	10.1016/j.brainres.2007.07.071	Long‚ÄìEvans rats	Female	Fig. 3	sexually na√Øve female exposure to sexually active male-soiled bedding	R184.1	
+Sexual behavior	10.1016/j.brainres.2007.07.071	Long‚ÄìEvans rats	Female	Fig. 3	sexually experenced female exposure to sexually active male-soiled bedding	R184.1	
+Sexual behavior	10.1016/j.brainres.2007.07.071	Long‚ÄìEvans rats	female	Fig. 3	sexually experienced subjects exposed to sexually active male-soiled bedding	R148.2	
+Sexual behavior	10.1016/j.brainres.2007.07.071	Long‚ÄìEvans rats	female	Fig. 2&Fig. 3	sexually experienced subjects exposed to sexually active male-soiled bedding	R150	
+Sexual behavior	10.1016/j.brainres.2007.07.071	Long‚ÄìEvans rats	female	Fig. 2&Fig. 3	sexually experienced subjects exposed to sexually active male-soiled bedding	R2.1	
 Sexual behavior	10.1016/j.physbeh.2006.04.023	Wistar rats	male	Fig. 2	exposure to estrous bedding in copulating male rats	R184.2	
 Sexual behavior	10.1016/j.physbeh.2006.04.023	Wistar rats	male	Fig. 2	exposure to estrous bedding in sluggish male rats	R184.2	
 Sexual behavior	10.1016/j.physbeh.2006.04.023	Wistar rats	male	Fig. 2	exposure to estrous bedding in copulating male rats	R184.1	
@@ -131,31 +131,31 @@ aggression	10.1038/s41598-017-09106-3	C57BL/6J mice	male	Figure. 2	physical stre
 aggression	10.1038/s41598-017-09106-3	C57BL/6J mice	male	Figure. 3	physical stress(placed into the home cage of a CD5 aggressor)	B37	
 aggression	10.1038/s41598-017-09106-3	C57BL/6J mice	male	Figure. 3	emotional stress	B37	
 aggression	10.1523/JNEUROSCI.5952-11.2012	EP1-deficient mice	male	Figure. 6	repeated social defeat stress	B61	
-aggression	10.1016/j.physbeh.2005.02.010	"outbred hsd:ICR mice (Harlan, Madison, WI) 这是L和T小鼠共同的"	female	"Fig.4, Table. 4"	exposing females to a male intruder	B52.1	
-aggression	10.1016/j.physbeh.2005.02.010	"outbred hsd:ICR mice (Harlan, Madison, WI)"	female	"Fig.5, Table. 4"	exposing females to a male intruder	B19	
-aggression	10.1016/j.physbeh.2005.02.010	"outbred hsd:ICR mice (Harlan, Madison, WI) 只有V"	female	"Fig.4, Table. 4"	exposing females to a male intruder	B18.1	
-aggression	10.1016/j.physbeh.2005.02.010	"outbred hsd:ICR mice (Harlan, Madison, WI) 只有V"	female	"Fig.4, Table. 4"	exposing females to a male intruder	B49	
-aggression	10.1016/j.physbeh.2005.02.010	"outbred hsd:ICR mice (Harlan, Madison, WI) 只有V"	female	"Fig.4, Table. 4"	exposing females to a male intruder	B51	
-aggression	10.1016/j.physbeh.2005.02.010	"outbred hsd:ICR mice (Harlan, Madison, WI) 只有V"	female	"Fig.4, Table. 4"	exposing females to a male intruder	B13	
-aggression	10.1016/j.physbeh.2005.02.010	"outbred hsd:ICR mice (Harlan, Madison, WI) 只有V"	female	"Fig.4, Table. 4"	exposing females to a male intruder	B16	
-aggression	10.1016/j.physbeh.2005.02.010	"outbred hsd:ICR mice (Harlan, Madison, WI) 只有V"	female	"Fig.4, Table. 4"	exposing females to a male intruder	B48	
-aggression	10.1016/j.physbeh.2005.02.010	"outbred hsd:ICR mice (Harlan, Madison, WI) 只有V"	female	"Fig.4, Table. 4"	exposing females to a male intruder	B42	
-aggression	10.1016/j.physbeh.2005.02.010	"outbred hsd:ICR mice (Harlan, Madison, WI) 只有L"	female	"Fig.7, Table. 4"	exposing females to a male intruder	B46	
-aggression	10.1016/j.physbeh.2005.02.010	"outbred hsd:ICR mice (Harlan, Madison, WI) 只有L"	female	"Fig.7, Table. 4"	exposing females to a male intruder	B54	
-aggression	10.1016/j.physbeh.2005.02.010	"outbred hsd:ICR mice (Harlan, Madison, WI) 只有L"	female	"Fig.4, Table. 4"	exposing females to a male intruder	B19	
-aggression	10.1016/j.physbeh.2005.02.010	"outbred hsd:ICR mice (Harlan, Madison, WI) 只有L"	female	"Fig.6, Table. 4"	exposing females to a male intruder	B10.3	
+aggression	10.1016/j.physbeh.2005.02.010	outbred hsd:ICR mice (Harlan, Madison, WI) ËøôÊòØLÂíåTÂ∞èÈº†ÂÖ±ÂêåÁöÑ	female	Fig.4, Table. 4	exposing females to a male intruder	B52.1	
+aggression	10.1016/j.physbeh.2005.02.010	outbred hsd:ICR mice (Harlan, Madison, WI)	female	Fig.5, Table. 4	exposing females to a male intruder	B19	
+aggression	10.1016/j.physbeh.2005.02.010	outbred hsd:ICR mice (Harlan, Madison, WI) Âè™ÊúâV	female	Fig.4, Table. 4	exposing females to a male intruder	B18.1	
+aggression	10.1016/j.physbeh.2005.02.010	outbred hsd:ICR mice (Harlan, Madison, WI) Âè™ÊúâV	female	Fig.4, Table. 4	exposing females to a male intruder	B49	
+aggression	10.1016/j.physbeh.2005.02.010	outbred hsd:ICR mice (Harlan, Madison, WI) Âè™ÊúâV	female	Fig.4, Table. 4	exposing females to a male intruder	B51	
+aggression	10.1016/j.physbeh.2005.02.010	outbred hsd:ICR mice (Harlan, Madison, WI) Âè™ÊúâV	female	Fig.4, Table. 4	exposing females to a male intruder	B13	
+aggression	10.1016/j.physbeh.2005.02.010	outbred hsd:ICR mice (Harlan, Madison, WI) Âè™ÊúâV	female	Fig.4, Table. 4	exposing females to a male intruder	B16	
+aggression	10.1016/j.physbeh.2005.02.010	outbred hsd:ICR mice (Harlan, Madison, WI) Âè™ÊúâV	female	Fig.4, Table. 4	exposing females to a male intruder	B48	
+aggression	10.1016/j.physbeh.2005.02.010	outbred hsd:ICR mice (Harlan, Madison, WI) Âè™ÊúâV	female	Fig.4, Table. 4	exposing females to a male intruder	B42	
+aggression	10.1016/j.physbeh.2005.02.010	outbred hsd:ICR mice (Harlan, Madison, WI) Âè™ÊúâL	female	Fig.7, Table. 4	exposing females to a male intruder	B46	
+aggression	10.1016/j.physbeh.2005.02.010	outbred hsd:ICR mice (Harlan, Madison, WI) Âè™ÊúâL	female	Fig.7, Table. 4	exposing females to a male intruder	B54	
+aggression	10.1016/j.physbeh.2005.02.010	outbred hsd:ICR mice (Harlan, Madison, WI) Âè™ÊúâL	female	Fig.4, Table. 4	exposing females to a male intruder	B19	
+aggression	10.1016/j.physbeh.2005.02.010	outbred hsd:ICR mice (Harlan, Madison, WI) Âè™ÊúâL	female	Fig.6, Table. 4	exposing females to a male intruder	B10.3	
 aggression	10.1016/s0006-8993(01)02189-8	wild-type (WT) house mice (Mus musculus) of the C57B7J strain	female	Figure. 2	exposed to a male intruder for 20 min	B39	
 aggression	10.1016/s0006-8993(01)02189-8	wild-type (WT) house mice (Mus musculus) of the C57B7J strain	female	Figure. 2	exposed to a male intruder for 20 min	B19	
 aggression	10.1016/s0006-8993(01)02189-8	wild-type (WT) house mice (Mus musculus) of the C57B8J strain	female	Figure. 2	exposed to a male intruder for 20 min	B51	
 aggression	10.1016/s0006-8993(01)02189-8	wild-type (WT) house mice (Mus musculus) of the C57B9J strain	female	Figure. 3	exposed to a male intruder for 20 min	B16	
 aggression	10.1016/s0006-8993(01)02189-8	wild-type (WT) house mice (Mus musculus) of the C57B10J strain	female	Figure. 3	exposed to a male intruder for 20 min	B10.31	
 aggression	10.1016/s0006-8993(01)02189-8	wild-type (WT) house mice (Mus musculus) of the C57B11J strain	female	Figure. 3	exposed to a male intruder for 20 min	B10.1	
-aggression	10.1016/S0168-0102(96)01088-X	ICR albino mice	male	"Figs.1-4, table 1"	acute stress (placed in situations of species-specific intermale aggression only once at 24 h Acute stressintervals)	B34	
-aggression	10.1016/S0168-0102(96)01088-X	ICR albino mice	male	"Figs.1-4, table 1"	acute stress (placed in situations of species-specific intermale aggression only once at 24 h Acute stressintervals)	B12.1	
-aggression	10.1016/S0168-0102(96)01088-X	ICR albino mice	male	"Figs.1-4, table 1"	acute stress (placed in situations of species-specific intermale aggression only once at 24 h Acute stressintervals)	B20.3	
-aggression	10.1016/S0168-0102(96)01088-X	ICR albino mice	male	"Figs.1-4, table 1"	acute stress (placed in situations of species-specific intermale aggression only once at 24 h Acute stressintervals)	B59	
-aggression	10.1016/S0168-0102(96)01088-X	ICR albino mice	male	"Figs.1-3,&5, table 1"	chronic stress (placed in situations of species-specific intermale aggression five times at 24 h intervals)	B35	
-aggression	10.1016/S0168-0102(96)01088-X	ICR albino mice	male	"Figs.1-3,&5, table 1"	chronic stress (placed in situations of species-specific intermale aggression five times at 24 h intervals)	B14	
+aggression	10.1016/S0168-0102(96)01088-X	ICR albino mice	male	Figs.1-4, table 1	acute stress (placed in situations of species-specific intermale aggression only once at 24 h Acute stressintervals)	B34	
+aggression	10.1016/S0168-0102(96)01088-X	ICR albino mice	male	Figs.1-4, table 1	acute stress (placed in situations of species-specific intermale aggression only once at 24 h Acute stressintervals)	B12.1	
+aggression	10.1016/S0168-0102(96)01088-X	ICR albino mice	male	Figs.1-4, table 1	acute stress (placed in situations of species-specific intermale aggression only once at 24 h Acute stressintervals)	B20.3	
+aggression	10.1016/S0168-0102(96)01088-X	ICR albino mice	male	Figs.1-4, table 1	acute stress (placed in situations of species-specific intermale aggression only once at 24 h Acute stressintervals)	B59	
+aggression	10.1016/S0168-0102(96)01088-X	ICR albino mice	male	Figs.1-3,&5, table 1	chronic stress (placed in situations of species-specific intermale aggression five times at 24 h intervals)	B35	
+aggression	10.1016/S0168-0102(96)01088-X	ICR albino mice	male	Figs.1-3,&5, table 1	chronic stress (placed in situations of species-specific intermale aggression five times at 24 h intervals)	B14	
 mating	10.1016/0306-4522(96)00183-2	rat	male	Fig. 4.	mating	R150	androgen receptors (AR)
 mating	10.1016/0306-4522(96)00183-2	rat	male	Fig. 4.	mating	R148	androgen receptors (AR)
 mating	10.1016/0306-4522(96)00183-2	rat	male	Fig. 4.	mating	R189	androgen receptors (AR)
@@ -165,23 +165,23 @@ mating	10.1016/0306-4522(96)00183-2	rat	male	Fig. 2.	mating	R87.2
 mating	10.1016/0306-4522(96)00183-2	rat	male	Fig. 2.	mating	R3.1	
 mating	10.1016/0306-4522(96)00183-2	rat	male	Fig. 2.	mating	R168	
 mating	10.1016/0306-4522(96)00183-2	rat	male	Fig. 2.	mating	R3.31	
-fear	10.1016/j.brainres.2004.07.079	rat	male	Fig. 2.	" 2,5-dihydro-2,4,5-trimethylthiazoline 
+fear	10.1016/j.brainres.2004.07.079	rat	male	Fig. 2.	"2,5-dihydro-2,4,5-trimethylthiazoline 
 (TMT) exposure"	R25	
-fear	10.1016/j.brainres.2004.07.079	rat	male	Fig. 2.	" 2,5-dihydro-2,4,5-trimethylthiazoline 
+fear	10.1016/j.brainres.2004.07.079	rat	male	Fig. 2.	"2,5-dihydro-2,4,5-trimethylthiazoline 
 (TMT) exposure"	R57	
-fear	10.1016/j.brainres.2004.07.079	rat	male	Fig. 2.	" 2,5-dihydro-2,4,5-trimethylthiazoline 
+fear	10.1016/j.brainres.2004.07.079	rat	male	Fig. 2.	"2,5-dihydro-2,4,5-trimethylthiazoline 
 (TMT) exposure"	R126	
-fear	10.1016/j.brainres.2004.07.079	rat	male	Fig. 2.	" 2,5-dihydro-2,4,5-trimethylthiazoline 
+fear	10.1016/j.brainres.2004.07.079	rat	male	Fig. 2.	"2,5-dihydro-2,4,5-trimethylthiazoline 
 (TMT) exposure"	R190	
-fear	10.1016/j.brainres.2004.07.079	rat	male	Fig. 2.	" 2,5-dihydro-2,4,5-trimethylthiazoline 
+fear	10.1016/j.brainres.2004.07.079	rat	male	Fig. 2.	"2,5-dihydro-2,4,5-trimethylthiazoline 
 (TMT) exposure"	R150	
-fear	10.1016/j.brainres.2004.07.079	rat	male	Fig. 2.	" 2,5-dihydro-2,4,5-trimethylthiazoline 
+fear	10.1016/j.brainres.2004.07.079	rat	male	Fig. 2.	"2,5-dihydro-2,4,5-trimethylthiazoline 
 (TMT) exposure"	R87.12	
-fear	10.1016/j.brainres.2004.07.079	rat	male	Fig. 2.	" 2,5-dihydro-2,4,5-trimethylthiazoline 
+fear	10.1016/j.brainres.2004.07.079	rat	male	Fig. 2.	"2,5-dihydro-2,4,5-trimethylthiazoline 
 (TMT) exposure"	R191	
-fear	10.1016/j.brainres.2004.07.079	rat	male	Fig. 2.	" 2,5-dihydro-2,4,5-trimethylthiazoline 
+fear	10.1016/j.brainres.2004.07.079	rat	male	Fig. 2.	"2,5-dihydro-2,4,5-trimethylthiazoline 
 (TMT) exposure"	R147	
-fear	10.1016/j.brainres.2004.07.079	rat	male	Fig. 2.	" 2,5-dihydro-2,4,5-trimethylthiazoline 
+fear	10.1016/j.brainres.2004.07.079	rat	male	Fig. 2.	"2,5-dihydro-2,4,5-trimethylthiazoline 
 (TMT) exposure"	R5.11	
 pain	10.1038/s41593-017-0012-1	mice	male	figure 1	formalin injections into the hindpaw	B2.1	
 pain	10.1038/s41593-017-0012-1	mice	male	supplymentary figure 1	formalin injections into the right whisker pad	B1.1	
@@ -202,7 +202,7 @@ pain	10.1016/j.cell.2018.02.057	mice	male	Figure7	formalin paw injection	B10.1
 pain	10.1016/j.cell.2018.02.057	mice	male	Figure8	formalin paw injection	B7	
 pain	10.1016/j.cell.2018.02.057	mice	male	Figure9	formalin paw injection	B21	
 pain	10.1016/j.cell.2018.02.057	mice	male	Figure9	formalin paw injection	B19	
-fear	10.1038/nn.4208	mice	male	Supplementary Figure 1	exposure to TMT	B33	 
+fear	10.1038/nn.4208	mice	male	Supplementary Figure 1	exposure to TMT	B33	¬†
 fear	10.1038/nn.4208	mice	male	Supplementary Figure 2	exposure to TMT	B16	
 fear	10.1038/nn.4208	mice	male	Supplementary Figure 3	TMT	B62	
 fear	10.1038/nn.4208	mice	male	Supplementary Figure 4	exposure to TMT	B10.1	
@@ -226,8 +226,8 @@ fear	10.1016/j.cub.2015.03.026	mice	male	Figure 4	2-PT	B10.33
 fear	10.1016/j.cub.2015.03.026	mice	male	Figure 4	exposure to rFeld4	B10.33	
 fear	10.1016/j.cub.2015.03.026	mice	male	figure1	fear conditioning	B42	TPHtryptophan hydroxylase
 fear	10.1016/j.neuron.2019.05.027	mice	male	Figure1	Looming stimulus	B61	TH
-fear	10.1038/ncomms7756	mice	male	Figure1	Looming stimulus	B59	"Vglut2,vesicular glutamate transporter 2 positive"
-fear	10.1038/ncomms7756	mice	male	Figure1	Looming stimulus	B59	"PV,parvalbumin"
+fear	10.1038/ncomms7756	mice	male	Figure1	Looming stimulus	B59	Vglut2,vesicular glutamate transporter 2 positive
+fear	10.1038/ncomms7756	mice	male	Figure1	Looming stimulus	B59	PV,parvalbumin
 fear	10.1038/s41586-018-0078-2	mice	male	Figure1	Looming stimulus	B66	
 fear	10.1016/j.cell.2019.09.020	mice	male	Figure5	social fear	B11.2	Esr1
 fear	10.1016/j.cell.2019.09.020	mice	male	Figure5	social fear	B11.2	Nup62cl
@@ -242,19 +242,19 @@ feeding	10.1038/nature12596	mice	male	Figure 1	AgRP ablation	B2.1	CGRP
 feeding	10.1016/j.cell.2017.06.045	mice	male	Figure 1	fasted	B42	vgat
 feeding	10.1016/j.cell.2017.06.045	mice	male	Figure 2	re-fasted	B42	Vglut3
 feeding	10.1038/nature19789	mice	male	figure1	Re-fed	B64	ChAT
-feeding	10.1038/nn.3767	mice	male	Figure 1	intraperitoneal injection of CCK	B10.1	PKC-δ+
-feeding	10.1038/nn.3767	mice	male	Figure 2	intraperitoneal injection of LiCl	B10.1	PKC-δ+
-feeding	10.1038/nn.3767	mice	male	Figure 3	intraperitoneal injection of LPS	B10.1	PKC-δ+
-feeding	10.1038/nn.3767	mice	male	Figure 4	re-fed	B10.1	PKC-δ+
-feeding	10.1038/nn.3767	mice	male	Figure 5	oral infusion of quinine	B10.1	PKC-δ+
+feeding	10.1038/nn.3767	mice	male	Figure 1	intraperitoneal injection of CCK	B10.1	PKC-Œ¥+
+feeding	10.1038/nn.3767	mice	male	Figure 2	intraperitoneal injection of LiCl	B10.1	PKC-Œ¥+
+feeding	10.1038/nn.3767	mice	male	Figure 3	intraperitoneal injection of LPS	B10.1	PKC-Œ¥+
+feeding	10.1038/nn.3767	mice	male	Figure 4	re-fed	B10.1	PKC-Œ¥+
+feeding	10.1038/nn.3767	mice	male	Figure 5	oral infusion of quinine	B10.1	PKC-Œ¥+
 feeding	10.1038/nn.3767	mice	male	figure6	intraperitoneal injection of LiCl	B2.1	
 feeding	10.1038/nn.3767	mice	male	figure7	intraperitoneal injection of CCK	B2.1	
 feeding	10.1038/nn.3767	mice	male	figure8	intraperitoneal injection of LiCl	B6	
 feeding	10.1038/nn.3767	mice	male	figure9	intraperitoneal injection of CCK	B6	
 feeding	10.1038/nn.3767	mice	male	figure10	intraperitoneal injection of LiCl	B65	
 feeding	10.1038/nn.3767	mice	male	figure11	intraperitoneal injection of CCK	B65	
-feeding	10.1126/science.aar4983	mice	male	Figure1	fasted	B67	"SST,somatostatin"
-feeding	10.1126/science.aar4983	mice	male	Figure1	ghrelin(i.p.)	B67	"SST,somatostatin"
+feeding	10.1126/science.aar4983	mice	male	Figure1	fasted	B67	SST,somatostatin
+feeding	10.1126/science.aar4983	mice	male	Figure1	ghrelin(i.p.)	B67	SST,somatostatin
 agression	10.1016/j.cell.2014.07.049	mice	male	Figure 1	attack	B10.32	
 agression	10.1016/j.cell.2019.09.020	mice	male	Figure5	Resident-intruder assay(male)	B11.2	Esr1
 agression	10.1038/nature09736	mice	male	Supplementary Figure S6	fighting	B11.2	vglut2

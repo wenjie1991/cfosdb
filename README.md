@@ -39,10 +39,13 @@ There are two table in the database.
 ```sql
 CREATE TABLE brain_area_annotation ( 
   brain_code text primary key, 
-  main text, 
-  long text, 
-  abbr text, 
-  species text 
+	long_1	text,
+	short_1	text,
+    long_2	text,
+	short_2	text,
+    long_3	text,
+	short_3	text,
+	species text
 )
 ```
 
