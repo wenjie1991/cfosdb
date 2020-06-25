@@ -3,9 +3,6 @@
         <div class="grey lighten-4 pa-8">
             <p class="display-1">Search</p>
             <v-row align="center">
-                <v-col class="d-flex" cols="12" sm="2">
-                    <v-select v-model="selectedSpecies" :items="speciesData" label="Species" multiple></v-select>
-                </v-col>
                 <v-col class="d-flex" cols="12" sm="5">
                     <v-select v-model="selectedBehavior" :items="behaviorData" label="Behavior" multiple></v-select>
                 </v-col>
@@ -34,7 +31,17 @@
             </v-row>
 
             <v-row align="center">
-                <v-col class="d-flex" cols="12" sm="6">
+                <v-col class="d-flex" cols="12" sm="3">
+                    <v-radio-group v-model="speciesData" row label="Species:">
+                        <v-radio
+                            v-for="n in ['Mouse', 'Rat']"
+                            :key="n"
+                            :label="`${n}`"
+                            :value="n"
+                        ></v-radio>
+                    </v-radio-group>
+                </v-col>
+                <v-col class="d-flex" cols="12" sm="4">
                     <v-radio-group v-model="GenderData" row label="Gender:">
                         <v-radio
                             v-for="n in ['All', 'Male', 'Female']"
@@ -44,7 +51,7 @@
                         ></v-radio>
                     </v-radio-group>
                 </v-col>
-                <v-col class="d-flex align-center" cols="12" sm="6">
+                <v-col class="d-flex align-center" cols="12" sm="4">
                     <span class="mr-4 text--secondary">Other: </span>
                     <v-checkbox
                         v-model="withFigure"
@@ -183,13 +190,12 @@ export default {
             ]
         };
         return {
-            selectedSpecies: [],
             selectedBrainArea: [],
             selectedBehavior: [],
-            speciesData: ["Rat", "Mouse"],
             brainAreaData: options_json.brain_area.map(function(x) { return x.display}),
             behaviorData: options_json.behavior.map(function(x) { return x.display}),
             checkbox: '',
+            speciesData: 'Mouse',
             GenderData: 'All',
             withFigure: false,
             statistics: false,

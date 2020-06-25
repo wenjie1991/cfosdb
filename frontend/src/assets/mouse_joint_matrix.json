@@ -1,0 +1,52 @@
+[
+  {
+    "behavior1": "aggression",
+    "behavior2": "pain",
+    "counts": "2"
+  },
+  {
+    "behavior1": "aggression",
+    "behavior2": "fear",
+    "counts": "7"
+  },
+  {
+    "behavior1": "aggression",
+    "behavior2": "feeding",
+    "counts": "2"
+  },
+  {
+    "behavior1": "aggression",
+    "behavior2": "mating",
+    "counts": "4"
+  },
+  {
+    "behavior1": "pain",
+    "behavior2": "fear",
+    "counts": "4"
+  },
+  {
+    "behavior1": "pain",
+    "behavior2": "feeding",
+    "counts": "2"
+  },
+  {
+    "behavior1": "pain",
+    "behavior2": "mating",
+    "counts": "0"
+  },
+  {
+    "behavior1": "fear",
+    "behavior2": "feeding",
+    "counts": "2"
+  },
+  {
+    "behavior1": "fear",
+    "behavior2": "mating",
+    "counts": "2"
+  },
+  {
+    "behavior1": "feeding",
+    "behavior2": "mating",
+    "counts": "0"
+  }
+]
