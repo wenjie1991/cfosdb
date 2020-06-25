@@ -1047,6 +1047,7 @@
   {
     "brain_code": "B1.1",
     "main": "spinal trigeminal nucleus, caudal part",
+    "species": "Mouse",
     "long_1": "spinal trigeminal nucleus, caudal part",
     "short_1": "Sp5C",
     "long_2": "spinal trigeminal nucleus, caudal part",
@@ -1057,6 +1058,7 @@
   {
     "brain_code": "B2",
     "main": "parabrachial nucleus",
+    "species": "Mouse",
     "long_1": "",
     "short_1": "",
     "long_2": "parabrachial nucleus",
@@ -1067,6 +1069,7 @@
   {
     "brain_code": "B2.1",
     "main": "lateral parabrachial nucleus",
+    "species": "Mouse",
     "long_1": "lateral parabrachial nucleus",
     "short_1": "LPB",
     "long_2": "lateral parabrachial nucleus",
@@ -1077,6 +1080,7 @@
   {
     "brain_code": "B2.11",
     "main": "lateral parabrachial nucleus, dorsal part",
+    "species": "Mouse",
     "long_1": "lateral parabrachial nucleus, dorsal part",
     "short_1": "LPBD",
     "long_2": "lateral parabrachial nucleus, dorsal part",
@@ -1087,6 +1091,7 @@
   {
     "brain_code": "B2.12",
     "main": "lateral parabrachial nucleus; external part",
+    "species": "Mouse",
     "long_1": "lateral parabrachial nucleus; external part",
     "short_1": "LPBE",
     "long_2": "lateral parabrachial nucleus, external part",
@@ -1097,6 +1102,7 @@
   {
     "brain_code": "B7",
     "main": "lateral hypothalamic area",
+    "species": "Mouse",
     "long_1": "lateral hypothalamic area",
     "short_1": "LH",
     "long_2": "lateral hypothalamic area",
@@ -1107,6 +1113,7 @@
   {
     "brain_code": "B9",
     "main": "dentate gyrus",
+    "species": "Mouse",
     "long_1": "dentate gyrus",
     "short_1": "DG",
     "long_2": "dentate gyrus",
@@ -1117,6 +1124,7 @@
   {
     "brain_code": "B10.1",
     "main": "central amygdaloid nucleus",
+    "species": "Mouse",
     "long_1": "central amygdaloid nucleus",
     "short_1": "Ce",
     "long_2": "central amygdaloid nucleus",
@@ -1127,6 +1135,7 @@
   {
     "brain_code": "B10.3",
     "main": "medial amygdaloid nucleus",
+    "species": "Mouse",
     "long_1": "medial amygdaloid nucleus",
     "short_1": "Me",
     "long_2": "medial amygdaloid nucleus",
@@ -1137,6 +1146,7 @@
   {
     "brain_code": "B10.31",
     "main": "medial amygdaloid nucleus, anterodorsal",
+    "species": "Mouse",
     "long_1": "medial amygdaloid nucleus, anterodorsal",
     "short_1": "MeAD",
     "long_2": "medial amygdaloid nucleus, anterior part",
@@ -1147,6 +1157,7 @@
   {
     "brain_code": "B10.32",
     "main": "medial amygdaloid nucleus, posterodorsal part",
+    "species": "Mouse",
     "long_1": "medial amygdaloid nucleus, posterodorsal part",
     "short_1": "MePD",
     "long_2": "medial amygdaloid nucleus, posterodorsal part",
@@ -1157,6 +1168,7 @@
   {
     "brain_code": "B10.33",
     "main": "medial amygdaloid nucleus, posteroventral part",
+    "species": "Mouse",
     "long_1": "medial amygdaloid nucleus, posteroventral part",
     "short_1": "MePV",
     "long_2": "medial amygdaloid nucleus, posteroventral part",
@@ -1167,6 +1179,7 @@
   {
     "brain_code": "B11.1",
     "main": "ventromedial hypothalamic nucleus, dorsomedial part",
+    "species": "Mouse",
     "long_1": "ventromedial hypothalamic nucleus, dorsomedial part",
     "short_1": "VMHDM",
     "long_2": "ventromedial hypothalamic nucleus, dorsomedial part",
@@ -1177,6 +1190,7 @@
   {
     "brain_code": "B11.2",
     "main": "ventromedial hypothalamic nucleus, ventrolateral part",
+    "species": "Mouse",
     "long_1": "",
     "short_1": "",
     "long_2": "ventromedial hypothalamic nucleus, ventrolateral part",
@@ -1187,6 +1201,7 @@
   {
     "brain_code": "B12.1",
     "main": "premammillary nucleus, dorsal part",
+    "species": "Mouse",
     "long_1": "premammillary nucleus, dorsal part",
     "short_1": "PMD",
     "long_2": "premammillary nucleus, dorsal part",
@@ -1197,6 +1212,7 @@
   {
     "brain_code": "B12.2",
     "main": "premammillary nucleus, ventral part",
+    "species": "Mouse",
     "long_1": "premammillary nucleus, ventral part",
     "short_1": "PMV",
     "long_2": "premammillary nucleus, ventral part",
@@ -1207,6 +1223,7 @@
   {
     "brain_code": "B13",
     "main": "piriform cortex",
+    "species": "Mouse",
     "long_1": "piriform cortex",
     "short_1": "Pir",
     "long_2": "piriform cortex",
@@ -1217,6 +1234,7 @@
   {
     "brain_code": "B14",
     "main": "cingulum",
+    "species": "Mouse",
     "long_1": "cingulum",
     "short_1": "cg",
     "long_2": "cingulate cortex",
@@ -1227,6 +1245,7 @@
   {
     "brain_code": "B14.1",
     "main": "cingulate cortex; area 1",
+    "species": "Mouse",
     "long_1": "",
     "short_1": "",
     "long_2": "cingulate cortex; area 1",
@@ -1237,6 +1256,7 @@
   {
     "brain_code": "B15",
     "main": "locus coeruleus",
+    "species": "Mouse",
     "long_1": "locus coeruleus",
     "short_1": "LC",
     "long_2": "locus coeruleus",
@@ -1247,6 +1267,7 @@
   {
     "brain_code": "B16",
     "main": "paraventricular thalamic nucleus",
+    "species": "Mouse",
     "long_1": "paraventricular thalamic nucleus",
     "short_1": "PV",
     "long_2": "paraventricular thalamic nucleus",
@@ -1257,6 +1278,7 @@
   {
     "brain_code": "B18",
     "main": "lateral septal nucleus",
+    "species": "Mouse",
     "long_1": "lateral septal nucleus",
     "short_1": "LS",
     "long_2": "",
@@ -1267,6 +1289,7 @@
   {
     "brain_code": "B18.1",
     "main": "lateral septal nucleus, dorsal part",
+    "species": "Mouse",
     "long_1": "lateral septal nucleus, dorsal part",
     "short_1": "LSD",
     "long_2": "lateral septal nucleus, dorsal part",
@@ -1277,6 +1300,7 @@
   {
     "brain_code": "B18.2",
     "main": "lateral septal nucleus, ventral part",
+    "species": "Mouse",
     "long_1": "lateral septal nucleus, ventral part",
     "short_1": "LSV",
     "long_2": "lateral septal nucleus, ventral part",
@@ -1287,6 +1311,7 @@
   {
     "brain_code": "B19",
     "main": "bed nucleus of the stria terminalis",
+    "species": "Mouse",
     "long_1": "bed nucleus of the stria terminalis",
     "short_1": "ST",
     "long_2": "bed nucleus of the stria terminalis",
@@ -1297,6 +1322,7 @@
   {
     "brain_code": "B19.1",
     "main": "bed nucleus of the stria terminalis; lateral division; ventral part",
+    "species": "Mouse",
     "long_1": "bed nucleus of the stria terminalis; lateral division; ventral part",
     "short_1": "STLV",
     "long_2": "bed nucleus of the stria terminalis; lateral division; ventral part",
@@ -1307,6 +1333,7 @@
   {
     "brain_code": "B19.2",
     "main": "bed nucleus of the stria terminalis; medial division; ventral part",
+    "species": "Mouse",
     "long_1": "bed nucleus of the stria terminalis; medial division; ventral part",
     "short_1": "STMV",
     "long_2": "bed nucleus of the stria terminalis; medial division; ventral part",
@@ -1317,6 +1344,7 @@
   {
     "brain_code": "B20",
     "main": "paraventricular hypothalamic nucleus",
+    "species": "Mouse",
     "long_1": "paraventricular hypothalamic nucleus",
     "short_1": "Pa",
     "long_2": "paraventricular hypothalamic nucleus",
@@ -1327,6 +1355,7 @@
   {
     "brain_code": "B20.2",
     "main": "paraventricular hypothalamic nucleus, posterior part",
+    "species": "Mouse",
     "long_1": "paraventricular hypothalamic nucleus, posterior part",
     "short_1": "PaPo",
     "long_2": "paraventricular hypothalamic nucleus, posterior part",
@@ -1337,6 +1366,7 @@
   {
     "brain_code": "B20.3",
     "main": "paraventricular hypothalamic nucleus,ventral part",
+    "species": "Mouse",
     "long_1": "paraventricular hypothalamic nucleus,ventral part",
     "short_1": "PaV",
     "long_2": "paraventricular hypothalamic nucleus,ventral part",
@@ -1347,6 +1377,7 @@
   {
     "brain_code": "B21",
     "main": "periaqueductal gray",
+    "species": "Mouse",
     "long_1": "periaqueductal gray",
     "short_1": "PAG",
     "long_2": "periaqueductal gray",
@@ -1357,6 +1388,7 @@
   {
     "brain_code": "B21.11",
     "main": "dorsolateral periaqueductal gray",
+    "species": "Mouse",
     "long_1": "dorsolateral periaqueductal gray",
     "short_1": "DLPAG",
     "long_2": "dorsolateral periaqueductal gray",
@@ -1367,6 +1399,7 @@
   {
     "brain_code": "B21.12",
     "main": "ventrolateral periaqueductal gray",
+    "species": "Mouse",
     "long_1": "ventrolateral periaqueductal gray",
     "short_1": "VLPAG",
     "long_2": "ventrolateral periaqueductal gray",
@@ -1377,6 +1410,7 @@
   {
     "brain_code": "B30",
     "main": "solitary nucleus",
+    "species": "Mouse",
     "long_1": "solitary nucleus",
     "short_1": "Sol",
     "long_2": "nucleus of the solitary tract",
@@ -1387,6 +1421,7 @@
   {
     "brain_code": "B33",
     "main": "accessory olfactory bulb",
+    "species": "Mouse",
     "long_1": "accessory olfactory bulb",
     "short_1": "AOB",
     "long_2": "accessory olfactory bulb",
@@ -1397,6 +1432,7 @@
   {
     "brain_code": "B34",
     "main": "anterior hypothalamic area",
+    "species": "Mouse",
     "long_1": "anterior hypothalamic area",
     "short_1": "AH",
     "long_2": "anterior hypothalamic area",
@@ -1407,6 +1443,7 @@
   {
     "brain_code": "B35",
     "main": "anterior olfactory area external part",
+    "species": "Mouse",
     "long_1": "anterior olfactory area external part",
     "short_1": "AOE",
     "long_2": "anterior olfactory area external part",
@@ -1417,6 +1454,7 @@
   {
     "brain_code": "B37",
     "main": "caudate putamen (striatum)",
+    "species": "Mouse",
     "long_1": "caudate putamen (striatum)",
     "short_1": "Cpu",
     "long_2": "caudate putamen (striatum)",
@@ -1427,6 +1465,7 @@
   {
     "brain_code": "B39",
     "main": "claustrum",
+    "species": "Mouse",
     "long_1": "claustrum",
     "short_1": "cl",
     "long_2": "claustrum",
@@ -1437,6 +1476,7 @@
   {
     "brain_code": "B42",
     "main": "dorsal raphe nucleus",
+    "species": "Mouse",
     "long_1": "dorsal raphe nucleus",
     "short_1": "DR",
     "long_2": "dorsal raphe nucleus",
@@ -1447,6 +1487,7 @@
   {
     "brain_code": "B46",
     "main": "granule cell layer of the accessory olfactory bulb",
+    "species": "Mouse",
     "long_1": "granule cell layer of the accessory olfactory bulb",
     "short_1": "GrA",
     "long_2": "granule cell layer of the accessory olfactory bulb",
@@ -1457,6 +1498,7 @@
   {
     "brain_code": "B48",
     "main": "lateral periaqueductal gray",
+    "species": "Mouse",
     "long_1": "lateral periaqueductal gray",
     "short_1": "LPAG",
     "long_2": "lateral periaqueductal gray",
@@ -1467,6 +1509,7 @@
   {
     "brain_code": "B49",
     "main": "lateral preoptic area",
+    "species": "Mouse",
     "long_1": "lateral preoptic area",
     "short_1": "LPO",
     "long_2": "lateral preoptic area",
@@ -1477,6 +1520,7 @@
   {
     "brain_code": "B50",
     "main": "laterodorsal tegmental nucleus",
+    "species": "Mouse",
     "long_1": "laterodorsal tegmental nucleus",
     "short_1": "LDTg",
     "long_2": "laterodorsal tegmental nucleus",
@@ -1487,6 +1531,7 @@
   {
     "brain_code": "B51",
     "main": "medial preoptic area",
+    "species": "Mouse",
     "long_1": "medial preoptic area",
     "short_1": "MPA",
     "long_2": "medial preoptic area",
@@ -1497,6 +1542,7 @@
   {
     "brain_code": "B52.1",
     "main": "medial preoptic nucleus, medial part",
+    "species": "Mouse",
     "long_1": "medial preoptic nucleus, medial part",
     "short_1": "MPOM",
     "long_2": "medial preoptic nucleus, medial part",
@@ -1507,6 +1553,7 @@
   {
     "brain_code": "B54",
     "main": "mitral cell layer of the accessory olfactory bulb",
+    "species": "Mouse",
     "long_1": "mitral cell layer of the accessory olfactory bulb",
     "short_1": "MiA",
     "long_2": "mitral cell layer of the accessory olfactory bulb",
@@ -1517,6 +1564,7 @@
   {
     "brain_code": "B59",
     "main": "superior colliculus",
+    "species": "Mouse",
     "long_1": "superior colliculus",
     "short_1": "SC",
     "long_2": "superior colliculus",
@@ -1527,6 +1575,7 @@
   {
     "brain_code": "B6",
     "main": "basolateral amygdaloid nucleus",
+    "species": "Mouse",
     "long_1": "basolateral amygdaloid nucleus",
     "short_1": "BL",
     "long_2": "basolateral amygdaloid nucleus",
@@ -1537,6 +1586,7 @@
   {
     "brain_code": "B61",
     "main": "ventral tegmental area, rostral part",
+    "species": "Mouse",
     "long_1": "ventral tegmental area, rostral part",
     "short_1": "VTAR",
     "long_2": "ventral tegmental area",
@@ -1547,6 +1597,7 @@
   {
     "brain_code": "B62",
     "main": "lateral habenular nucleus",
+    "species": "Mouse",
     "long_1": "lateral habenular nucleus",
     "short_1": "LHb",
     "long_2": "lateral habenular nucleus",
@@ -1557,6 +1608,7 @@
   {
     "brain_code": "B63",
     "main": "dorsal horn",
+    "species": "Mouse",
     "long_1": "",
     "short_1": "",
     "long_2": "dorsal horn",
@@ -1567,6 +1619,7 @@
   {
     "brain_code": "B64",
     "main": "diagonal band of Broca",
+    "species": "Mouse",
     "long_1": "",
     "short_1": "",
     "long_2": "diagonal band of Broca",
@@ -1577,6 +1630,7 @@
   {
     "brain_code": "B65",
     "main": "Insular cortex",
+    "species": "Mouse",
     "long_1": "",
     "short_1": "",
     "long_2": "Insular cortex",
@@ -1587,6 +1641,7 @@
   {
     "brain_code": "B66",
     "main": "ventromedial thalamic nucleus x",
+    "species": "Mouse",
     "long_1": "ventromedial thalamic nucleus x",
     "short_1": "VM",
     "long_2": "ventromedial thalamic nucleus",
@@ -1597,6 +1652,7 @@
   {
     "brain_code": "B67",
     "main": "medial tuberal nucleus",
+    "species": "Mouse",
     "long_1": "medial tuberal nucleus",
     "short_1": "MTu",
     "long_2": "medial tuberal nucleus",
