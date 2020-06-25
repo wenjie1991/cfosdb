@@ -3,10 +3,13 @@
         <div class="grey lighten-4 pa-8">
             <p class="display-1">Search</p>
             <v-row align="center">
-                <v-col class="d-flex" cols="12" sm="6">
-                    <v-select v-model="selectedBrainArea" :items="brainAreaData" label="Behavior" multiple></v-select>
+                <v-col class="d-flex" cols="12" sm="2">
+                    <v-select v-model="selectedSpecies" :items="speciesData" label="Species" multiple></v-select>
                 </v-col>
-                <v-col class="d-flex" cols="12" sm="6">
+                <v-col class="d-flex" cols="12" sm="5">
+                    <v-select v-model="selectedBehavior" :items="behaviorData" label="Behavior" multiple></v-select>
+                </v-col>
+                <v-col class="d-flex" cols="12" sm="5">
                     <v-combobox
                         v-model="selectedBrainArea"
                         :items="brainAreaData"
@@ -87,6 +90,8 @@ import ECharts from 'vue-echarts'
 import 'echarts/lib/chart/graph'
 import 'echarts/lib/component/title'
 import 'echarts/lib/component/tooltip'
+import options_json from '@/assets/front_end.json'
+
 
 export default {
     name: 'search',
@@ -178,8 +183,12 @@ export default {
             ]
         };
         return {
+            selectedSpecies: [],
             selectedBrainArea: [],
-            brainAreaData: ['1', '2', '3', '4'],
+            selectedBehavior: [],
+            speciesData: ["Rat", "Mouse"],
+            brainAreaData: options_json.brain_area.map(function(x) { return x.display}),
+            behaviorData: options_json.behavior.map(function(x) { return x.display}),
             checkbox: '',
             GenderData: 'All',
             withFigure: false,

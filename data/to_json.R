@@ -7,11 +7,13 @@ library(stringi)
 library(magrittr)
 library(plyr)
 
+## behavior brain area table
 d1 = fread("./clean_behavior_brain_area.tsv")
 d1$behavior %<>% revalue(c("agression" = "aggression", "Sexual behavior" = "mating"))
 j1 = jsonlite::toJSON(d1, pretty = T)
 write(j1, "./clean_behavior_brain_area.json")
 
+## brain area annotation table
 d2 = fread("./clean_brain_area_annotation.tsv")
 d2$abbr = d2$long %>% stri_reverse() %>%  str_split_fixed("[()]", 3) %>% extract(, 2) %>% stri_reverse()
 j2 = jsonlite::toJSON(d2, pretty = T)
@@ -41,14 +43,26 @@ gen_count_table = function(dd) {
     count_table
 }
 
+## Rat joint matrix
 dd = d[grepl("R", d$brain_code)]
 gen_count_table(dd) %>% jsonlite::toJSON(pretty=T) %>% write("./rat_joint_matrix.json")
 
+## Mouse joint matrix
 dd = d[grepl("B", d$brain_code)]
 gen_count_table(dd) %>% jsonlite::toJSON(pretty=T) %>% write("./mouse_joint_matrix.json")
 
-## Explore
-# d = fread("./clean_brain_area_annotation.tsv")
-# x = d$brain_code %>% strsplit("\\.") %>% sapply(function(x) {x[1]})
-# x = unique(x)
-# sum(x %in% d$brain_code)
+## Json for front end
+## 1. Brain Area list, 2. Behavior list.
+d1 = fread("./clean_behavior_brain_area.tsv")
+d2 = fread("./clean_brain_area_annotation.tsv")
+firstup <- function(x) {
+  substr(x, 1, 1) <- toupper(substr(x, 1, 1))
+  x
+}
+behavior = data.frame(value = d1$behavior %>% unique %>% sort)
+behavior$display  = behavior$value %>% firstup
+brain_area = data.frame(value = d2$brain_code, display = d2$main %>% firstup, species = d2$species)
+output = list(behavior = behavior, brain_area = brain_area)
+
+j = jsonlite::toJSON(output, pretty = T)
+write(j, './front_end.json')
