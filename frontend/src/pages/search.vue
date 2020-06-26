@@ -11,6 +11,8 @@
                         v-model="selectedBrainArea"
                         :items="brainAreaData"
                         label="Brain Area"
+                        allow-overflow=false
+                        single-line=true
                         multiple>
                         <template v-slot:prepend-item>
                             <v-list-item
@@ -44,10 +46,10 @@
                 <v-col class="d-flex" cols="12" sm="4">
                     <v-radio-group v-model="GenderData" row label="Gender:">
                         <v-radio
-                            v-for="n in ['All', 'Male', 'Female']"
-                            :key="n"
-                            :label="`${n}`"
-                            :value="n"
+                            v-for="n in [{label: 'All', value: '%'}, {label: 'Male', value: 'male'}, {label: 'Female', value: 'female'}]"
+                            :key="n.label"
+                            :label= n.label
+                            :value= n.value
                         ></v-radio>
                     </v-radio-group>
                 </v-col>
@@ -65,7 +67,7 @@
                 </v-col>
             </v-row>
             <v-row justify="end">
-                <v-btn large color="primary lighten-3">Submit</v-btn>
+                <v-btn large color="primary lighten-3" v-on:click="submitQuery">Submit</v-btn>
             </v-row>
         </div>
         <v-card-title>
@@ -82,7 +84,7 @@
         <v-data-table
             :headers="headers"
             :search="search"
-            :items="desserts"
+            :items="table_cotent"
             :items-per-page="5"
             class="elevation-1"
         ></v-data-table>
@@ -99,202 +101,205 @@ import 'echarts/lib/component/title'
 import 'echarts/lib/component/tooltip'
 import options_json from '@/assets/front_end.json'
 
+function draw_network(tbJson, brain_area_level = 1, behavior_level = 1) {
+	var behavior_dict = {};
+	var brain_area_dict = {};
+
+	var generate_dict = {};
+
+	if (behavior_level == 1) {
+		generate_dict["behavior_value"] = (function(tb_row) {
+			return tb_row.condition;
+		});
+	} else {
+		generate_dict["behavior_value"] = (function(tb_row) {
+			return tb_row.behavior;
+		});
+	}
+
+	generate_dict["brain_area_value"] = (function(tb_row) {
+		return [tb_row.brain_code, tb_row.main];
+	});
+
+	
+	for (var i=0; i<tbJson.length; i++) {
+		brain_area_dict[tbJson[i].brain_code] = generate_dict.brain_area_value(tbJson[i]);
+		behavior_dict[tbJson[i].condition] = generate_dict.behavior_value(tbJson[i]);
+	}
+
+	var query_dict;
+	if (brain_area_level == 1) {
+		query_dict = (function(x) {
+			return x;
+		})
+	} else {
+		query_dict = (function(x) {
+			var parent = x.split(".")[0];
+			if (brain_area_dict[parent]) {
+				return parent;
+			} else {
+				return x;
+			}
+		})
+	}
+
+	var links = {}, data = {};
+	for (i=0; i<tbJson.length; i++) {
+		var source = behavior_dict[tbJson[i].condition],
+			target = brain_area_dict[query_dict(tbJson[i].brain_code)],
+			link_key = source + target[0];
+
+		if (links[link_key]) {
+			links[link_key].lineStyle.width++;
+		} else {
+			links[link_key] = {
+				source : source,
+				target : target[0],
+				lineStyle : {
+					width : 1
+				}
+			}
+		}
+
+		if (data[source]) {
+			data[source].value++;
+		} else {
+			data[source] = {
+				id : source,
+				name : source,
+				value : 1,
+				category : 0,
+			}
+		}
+
+		if (data[target[0]]) {
+			data[target[0]].value++;
+		} else {
+			data[target[0]] = {
+				id : target[0],
+				name : target[1],
+				value : 1,
+				category : 1,
+			}
+		}
+	}
+
+	var graph = {links : [], nodes: []};
+	for (i in links) {
+		graph.links.push(links[i]);
+	}
+	for (i in data) {
+		graph.nodes.push(data[i]);
+	}
+
+	var categories = [
+		{
+			name: "Condition",
+		},
+		{
+			name: "Brain Area"
+		}
+	];
+	graph.nodes.forEach(function (node) {
+		node.itemStyle = null;
+		node.symbolSize = node.value * 5;
+		node.label = {
+			normal: {
+				show: true
+				//node.symbolSize > 0
+			}
+		};
+		// node.category = node.attributes.modularity_class;
+	});
+
+	var option = {
+		title: {
+			text: 'cFOS Brain Area - Treatment Mapping',
+			subtext: '',
+			top: 'top',
+			left: 'left'
+		},
+		tooltip: {},
+		legend: [{
+			// selectedMode: 'single',
+			data: categories.map(function (a) {
+				return a.name;
+			}),
+			left: 'right'
+		}],
+		animationDuration: 1500,
+		animationEasingUpdate: 'quinticInOut',
+		series : [
+			{
+				name: '',
+				type: 'graph',
+				layout: 'circular',
+				data: graph.nodes,
+				links: graph.links,
+				categories: categories,
+				roam: true,
+				focusNodeAdjacency: true,
+				itemStyle: {
+					normal: {
+						borderColor: '#fff',
+						borderWidth: 1,
+						shadowBlur: 10,
+						shadowColor: 'rgba(0, 0, 0, 0.3)'
+					}
+				},
+				label: {
+					position: 'right',
+					formatter: '{b}'
+				},
+				lineStyle: {
+					color: 'source',
+					curveness: 0.3
+				},
+				emphasis: {
+					lineStyle: {
+						width: 10
+					}
+				}
+			}
+		]
+	};
+
+    return option
+}
+
+
 export default {
     name: 'search',
     components: {
         'v-chart': ECharts
     },
     data () {
-        const option = {
-            title: {
-                text: 'Les Miserables',
-                subtext: 'Circular layout',
-                top: 'top',
-                left: 'left'
-            },
-            tooltip: {},
-            animationDurationUpdate: 1500,
-            animationEasingUpdate: 'quinticInOut',
-            series: [
-                {
-                    type: 'graph',
-                    layout: 'none',
-                    symbolSize: 50,
-                    roam: true,
-                    label: {
-                        show: true
-                    },
-                    edgeSymbol: ['circle', 'arrow'],
-                    edgeSymbolSize: [4, 10],
-                    edgeLabel: {
-                        fontSize: 20
-                    },
-                    data: [{
-                        name: '节点1',
-                        x: 300,
-                        y: 300
-                    }, {
-                        name: '节点2',
-                        x: 800,
-                        y: 300
-                    }, {
-                        name: '节点3',
-                        x: 550,
-                        y: 100
-                    }, {
-                        name: '节点4',
-                        x: 550,
-                        y: 500
-                    }],
-                    // links: [],
-                    links: [{
-                        source: 0,
-                        target: 1,
-                        symbolSize: [5, 20],
-                        label: {
-                            show: true
-                        },
-                        lineStyle: {
-                            width: 5,
-                            curveness: 0.2
-                        }
-                    }, {
-                        source: '节点2',
-                        target: '节点1',
-                        label: {
-                            show: true
-                        },
-                        lineStyle: {
-                            curveness: 0.2
-                        }
-                    }, {
-                        source: '节点1',
-                        target: '节点3'
-                    }, {
-                        source: '节点2',
-                        target: '节点3'
-                    }, {
-                        source: '节点2',
-                        target: '节点4'
-                    }, {
-                        source: '节点1',
-                        target: '节点4'
-                    }],
-                    lineStyle: {
-                        opacity: 0.9,
-                        width: 2,
-                        curveness: 0
-                    }
-                }
-            ]
-        };
         return {
             selectedBrainArea: [],
             selectedBehavior: [],
-            brainAreaData: options_json.brain_area.map(function(x) { return x.display}),
-            behaviorData: options_json.behavior.map(function(x) { return x.display}),
+            brainAreaData: options_json.brain_area.map(function(x) { return {text: x.display, value: x.value}}),
+            behaviorData: options_json.behavior.map(function(x) { return {text: x.display, value: x.value}}),
             checkbox: '',
             speciesData: 'Mouse',
-            GenderData: 'All',
+            GenderData: '%',
             withFigure: false,
             statistics: false,
-            graphData: option,
             search: '',
             headers: [
                 {
-                text: 'Dessert (100g serving)',
+                text: 'Behavior',
                 align: 'start',
                 sortable: false,
-                value: 'name',
+                value: 'behavior',
                 },
-                { text: 'Calories', value: 'calories' },
-                { text: 'Fat (g)', value: 'fat' },
-                { text: 'Carbs (g)', value: 'carbs' },
-                { text: 'Protein (g)', value: 'protein' },
-                { text: 'Iron (%)', value: 'iron' },
+                { text: 'Brain Area', value: 'main' },
+                { text: 'Treatment', value: 'condition' },
+                { text: 'Strain', value: 'strain' },
+                { text: 'Source', value: 'doi' },
+                { text: 'Cell Type', value: 'cell_type' },
             ],
-            desserts: [
-            {
-              name: 'Frozen Yogurt',
-              calories: 159,
-              fat: 6.0,
-              carbs: 24,
-              protein: 4.0,
-              iron: '1%',
-            },
-            {
-              name: 'Ice cream sandwich',
-              calories: 237,
-              fat: 9.0,
-              carbs: 37,
-              protein: 4.3,
-              iron: '1%',
-            },
-            {
-              name: 'Eclair',
-              calories: 262,
-              fat: 16.0,
-              carbs: 23,
-              protein: 6.0,
-              iron: '7%',
-            },
-            {
-              name: 'Cupcake',
-              calories: 305,
-              fat: 3.7,
-              carbs: 67,
-              protein: 4.3,
-              iron: '8%',
-            },
-            {
-              name: 'Gingerbread',
-              calories: 356,
-              fat: 16.0,
-              carbs: 49,
-              protein: 3.9,
-              iron: '16%',
-            },
-            {
-              name: 'Jelly bean',
-              calories: 375,
-              fat: 0.0,
-              carbs: 94,
-              protein: 0.0,
-              iron: '0%',
-            },
-            {
-              name: 'Lollipop',
-              calories: 392,
-              fat: 0.2,
-              carbs: 98,
-              protein: 0,
-              iron: '2%',
-            },
-            {
-              name: 'Honeycomb',
-              calories: 408,
-              fat: 3.2,
-              carbs: 87,
-              protein: 6.5,
-              iron: '45%',
-            },
-            {
-              name: 'Donut',
-              calories: 452,
-              fat: 25.0,
-              carbs: 51,
-              protein: 4.9,
-              iron: '22%',
-            },
-            {
-              name: 'KitKat',
-              calories: 518,
-              fat: 26.0,
-              carbs: 65,
-              protein: 7,
-              iron: '6%',
-            },
-          ],
+            table_cotent: [],
+            graphData: draw_network([])
         }
     },
     computed: {
@@ -319,6 +324,17 @@ export default {
             this.selectedBrainArea = this.brainAreaData.slice()
           }
         })
+      },
+      submitQuery: function () {
+        var behavior_x = this.selectedBehavior.join(",")
+        var brain_code_x = this.selectedBrainArea.map(function(x) {return x.value}).join(",")
+        console.log([behavior_x, brain_code_x])
+        fetch(`http://localhost:8081?brain_code=${brain_code_x}&gender=${this.GenderData}&species=${this.speciesData}&behavior=${behavior_x}`)
+            .then(response => response.json())
+            .then(json => {
+                this.table_cotent = json
+                this.graphData = draw_network(json)
+            })
       }
     }
 }
