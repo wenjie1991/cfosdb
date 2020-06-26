@@ -33,25 +33,15 @@
                 </v-list-item-content>
             </v-list-item>
         </v-card>
-        <v-card class="mx-auto mt-12">
-            <v-card-title class="display-1 text--primary font-weight-bold">Feature</v-card-title>
-            <v-divider></v-divider>
-            <v-list-item>
-                <v-list-item-icon>
-                    <v-icon>mdi-checkbox-marked-circle</v-icon>
-                </v-list-item-icon>
-                <v-list-item-content>
-                    <v-list-item-subtitle>c-Fos data are extracted from the figure legend of original findings, namely, the results are supported by original figures, and can be easily traced via publications’ DOI hyperlinks; only c-Fos values increased at significant confidence level are included.</v-list-item-subtitle>
-                </v-list-item-content>
-            </v-list-item>
-            <v-list-item>
-                <v-list-item-icon>
-                    <v-icon>mdi-checkbox-marked-circle</v-icon>
-                </v-list-item-icon>
-                <v-list-item-content>
-                    <v-list-item-subtitle>An unified term of brain region is employed, the detailed relationships among behavior, brain nuclei, specific active conditions, and their network mappings, can be shown and downloaded.</v-list-item-subtitle>
-                </v-list-item-content>
-            </v-list-item>
+        <v-card class="mx-auto mt-12" align="center">
+            <table id="behavior_matrix">
+              <tbody>
+                <tr v-for="(row, index) in rows" :key="index">
+                  <td>{{row.id}}</td>
+                  <td v-for="(col, index) in row.value" :key="index">{{col.value}}</td>
+                </tr>
+              </tbody>
+            </table>
         </v-card>
         <v-timeline dense class="mt-12">
             <v-timeline-item small color="deep-purple lighten-2">
@@ -78,10 +68,14 @@
 </template>
 
 <script>
+import behavior_cor_matrix from "@/assets/behavior_correlation_matrix.json"
+
 export default {
     name: 'index',
     data() {
-        return {}
+        return {
+            rows: behavior_cor_matrix
+        }
     }
 }
 </script>

@@ -99,7 +99,6 @@ import 'echarts/lib/component/title'
 import 'echarts/lib/component/tooltip'
 import options_json from '@/assets/front_end.json'
 
-
 export default {
     name: 'search',
     components: {

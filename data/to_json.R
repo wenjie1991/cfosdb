@@ -45,11 +45,51 @@ gen_count_table = function(dd) {
 
 ## Rat joint matrix
 dd = d[grepl("R", d$brain_code)]
-gen_count_table(dd) %>% jsonlite::toJSON(pretty=T) %>% write("./rat_joint_matrix.json")
+d1 = gen_count_table(dd)  %>% data.table
 
 ## Mouse joint matrix
 dd = d[grepl("B", d$brain_code)]
-gen_count_table(dd) %>% jsonlite::toJSON(pretty=T) %>% write("./mouse_joint_matrix.json")
+d2 = gen_count_table(dd) %>% data.table
+
+level_v = c(d1$behavior1, d1$behavior2, d2$behavior1, d2$behavior2) %>% unique %>% sort
+m1 = matrix('0', nrow = length(level_v), ncol = length(level_v))
+for (i in 1:length(level_v)) {
+    for (j in i+1:length(level_v)) {
+        x = d1[behavior1 == level_v[i] & behavior2 == level_v[j], counts]
+        y = d1[behavior1 == level_v[j] & behavior2 == level_v[i], counts]
+        if (length(x) != 0) {
+            m1[j, i] = x
+        } else if (length(y) != 0) {
+            m1[j, i] = y
+        }
+    }
+}
+
+for (i in 1:length(level_v)) {
+    for (j in i+1:length(level_v)) {
+        x = d2[behavior1 == level_v[i] & behavior2 == level_v[j], counts]
+        y = d2[behavior1 == level_v[j] & behavior2 == level_v[i], counts]
+        if (length(x) != 0) {
+            m1[i, j] = x
+        } else if (length(y) != 0) {
+            m1[i, j] = y
+        }
+    }
+}
+
+for (i in 1:length(level_v)) {
+    m1[i, i] = level_v[i]
+}
+
+matrix_l = list()
+for (i in 1:length(level_v)) {
+    matrix_l[[i]] = 
+        list(id = level_v[i], value = 
+            lapply(1:length(m1[i, ]), function(j) { list(id = m1[i, i], value = m1[i, j], behaviors = c(level_v[i], level_v[j])) })
+            )
+}
+
+matrix_l %>% jsonlite::toJSON(pretty = T, auto_unbox = T) %>% write("./behavior_correlation_matrix.json")
 
 ## Json for front end
 ## 1. Brain Area list, 2. Behavior list.

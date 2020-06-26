@@ -1,0 +1,152 @@
+[
+  {
+    "id": "aggression",
+    "value": [
+      {
+        "id": "aggression",
+        "value": "aggression",
+        "behaviors": ["aggression", "aggression"]
+      },
+      {
+        "id": "aggression",
+        "value": "7",
+        "behaviors": ["aggression", "fear"]
+      },
+      {
+        "id": "aggression",
+        "value": "2",
+        "behaviors": ["aggression", "feeding"]
+      },
+      {
+        "id": "aggression",
+        "value": "4",
+        "behaviors": ["aggression", "mating"]
+      },
+      {
+        "id": "aggression",
+        "value": "2",
+        "behaviors": ["aggression", "pain"]
+      }
+    ]
+  },
+  {
+    "id": "fear",
+    "value": [
+      {
+        "id": "fear",
+        "value": "0",
+        "behaviors": ["fear", "aggression"]
+      },
+      {
+        "id": "fear",
+        "value": "fear",
+        "behaviors": ["fear", "fear"]
+      },
+      {
+        "id": "fear",
+        "value": "2",
+        "behaviors": ["fear", "feeding"]
+      },
+      {
+        "id": "fear",
+        "value": "2",
+        "behaviors": ["fear", "mating"]
+      },
+      {
+        "id": "fear",
+        "value": "4",
+        "behaviors": ["fear", "pain"]
+      }
+    ]
+  },
+  {
+    "id": "feeding",
+    "value": [
+      {
+        "id": "feeding",
+        "value": "0",
+        "behaviors": ["feeding", "aggression"]
+      },
+      {
+        "id": "feeding",
+        "value": "2",
+        "behaviors": ["feeding", "fear"]
+      },
+      {
+        "id": "feeding",
+        "value": "feeding",
+        "behaviors": ["feeding", "feeding"]
+      },
+      {
+        "id": "feeding",
+        "value": "0",
+        "behaviors": ["feeding", "mating"]
+      },
+      {
+        "id": "feeding",
+        "value": "2",
+        "behaviors": ["feeding", "pain"]
+      }
+    ]
+  },
+  {
+    "id": "mating",
+    "value": [
+      {
+        "id": "mating",
+        "value": "0",
+        "behaviors": ["mating", "aggression"]
+      },
+      {
+        "id": "mating",
+        "value": "6",
+        "behaviors": ["mating", "fear"]
+      },
+      {
+        "id": "mating",
+        "value": "1",
+        "behaviors": ["mating", "feeding"]
+      },
+      {
+        "id": "mating",
+        "value": "mating",
+        "behaviors": ["mating", "mating"]
+      },
+      {
+        "id": "mating",
+        "value": "0",
+        "behaviors": ["mating", "pain"]
+      }
+    ]
+  },
+  {
+    "id": "pain",
+    "value": [
+      {
+        "id": "pain",
+        "value": "0",
+        "behaviors": ["pain", "aggression"]
+      },
+      {
+        "id": "pain",
+        "value": "2",
+        "behaviors": ["pain", "fear"]
+      },
+      {
+        "id": "pain",
+        "value": "1",
+        "behaviors": ["pain", "feeding"]
+      },
+      {
+        "id": "pain",
+        "value": "4",
+        "behaviors": ["pain", "mating"]
+      },
+      {
+        "id": "pain",
+        "value": "pain",
+        "behaviors": ["pain", "pain"]
+      }
+    ]
+  }
+]
