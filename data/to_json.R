@@ -7,6 +7,11 @@ library(stringi)
 library(magrittr)
 library(plyr)
 
+firstup <- function(x) {
+  substr(x, 1, 1) <- toupper(substr(x, 1, 1))
+  x
+}
+
 ## behavior brain area table
 d1 = fread("./clean_behavior_brain_area.tsv")
 d1$behavior %<>% revalue(c("agression" = "aggression", "Sexual behavior" = "mating"))
@@ -84,8 +89,8 @@ for (i in 1:length(level_v)) {
 matrix_l = list()
 for (i in 1:length(level_v)) {
     matrix_l[[i]] = 
-        list(id = level_v[i], value = 
-            lapply(1:length(m1[i, ]), function(j) { list(id = m1[i, i], value = m1[i, j], behaviors = c(level_v[i], level_v[j])) })
+        list(id = firstup(level_v[i]), value = 
+            lapply(1:length(m1[i, ]), function(j) { list(id = firstup(m1[i, i]), value = firstup(m1[i, j]), behaviors = c(level_v[i], level_v[j])) })
             )
 }
 
@@ -95,10 +100,7 @@ matrix_l %>% jsonlite::toJSON(pretty = T, auto_unbox = T) %>% write("./behavior_
 ## 1. Brain Area list, 2. Behavior list.
 d1 = fread("./clean_behavior_brain_area.tsv")
 d2 = fread("./clean_brain_area_annotation.tsv")
-firstup <- function(x) {
-  substr(x, 1, 1) <- toupper(substr(x, 1, 1))
-  x
-}
+
 behavior = data.frame(value = d1$behavior %>% unique %>% sort)
 behavior$display  = behavior$value %>% firstup
 brain_area = data.frame(value = d2$brain_code, display = d2$main %>% firstup, species = d2$species)

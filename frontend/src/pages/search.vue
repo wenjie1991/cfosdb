@@ -20,7 +20,7 @@
                     <v-combobox
                         v-model="selectedBrainArea"
                         :items="brainAreaData"
-                        label="Brain Area"
+                        label="Brain Nucleus"
                         :allow-overflow="false"
                         :single-line="true"
                         multiple>
@@ -48,6 +48,9 @@
                             >(+{{ selectedBrainArea.length - 1 }} others)</span>
                         </template>
                     </v-combobox>
+                </v-col>
+                <v-col class="d-flex" cols="12" sm="1">
+                    <v-btn text color="deep-purple accent-4" to="/help#brain_area_annot">[Brain Nucleus List]</v-btn>
                 </v-col>
             </v-row>
 
@@ -216,7 +219,7 @@ function draw_network(tbJson, brain_area_level = 1, behavior_level = 1) {
 			name: "Condition",
 		},
 		{
-			name: "Brain Area"
+			name: "Brain Nucleus"
 		}
 	];
 	graph.nodes.forEach(function (node) {
@@ -228,12 +231,11 @@ function draw_network(tbJson, brain_area_level = 1, behavior_level = 1) {
 				//node.symbolSize > 0
 			}
 		};
-		// node.category = node.attributes.modularity_class;
 	});
 
 	var option = {
 		title: {
-			text: 'cFOS Brain Area - Treatment Mapping',
+			text: 'cFOS Brain Nucleus- Condition Mapping',
 			subtext: '',
 			top: 'top',
 			left: 'left'
@@ -292,6 +294,7 @@ export default {
     components: {
         'v-chart': ECharts
     },
+
     data () {
         return {
             selectedBrainArea: [],

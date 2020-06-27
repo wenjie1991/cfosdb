@@ -1,7 +1,7 @@
 <template>
     <div class="index">
         <v-card class="mx-auto">
-            <v-card-title class="display-1 text--primary font-weight-bold">cFOS Database</v-card-title>
+            <v-card-title class="display-1 text--primary font-weight-bold">cFos-ANAB</v-card-title>
             <v-divider></v-divider>
             <v-card-text>
                 <div class="text--primary pt-3 body-1">
@@ -34,22 +34,22 @@
             </v-list-item>
         </v-card>
         <v-card class="mx-auto mt-12" align="center">
-            <v-card-title class="display-0 text--primary">Sharing brain area between behaviors</v-card-title>
+            <v-card-title class="display-0 text--primary">Sharing brain nuclei between behaviors</v-card-title>
             <v-divider></v-divider>
             <v-row no-gutters align="center">
-                <v-col class="text-right">Mouse</v-col>
-                <v-col>
-                    <table id="behavior_matrix" class="matrixStyle">
-                        <tbody>
-                          <tr v-for="(row, index1) in rows" :key="index1">
-                            <td>{{row.id}}</td>
-                            <td v-for="(col, index2) in row.value" :key="index2"
-                            :style="{ borderColor: col.isRat && colors.blue.base }">{{col.value}}</td>
-                          </tr>
-                        </tbody>
-                    </table>
-                </v-col>
-                <v-col class="text-left" :style="{color: colors.blue.base}">Rat</v-col>
+            <v-col class="matrixLegend">Mouse</v-col>
+            <v-col cols='12' sm='7'>
+                <table id="behavior_matrix" class="matrixStyle">
+                    <tbody>
+                      <tr v-for="(row, index1) in rows" :key="index1">
+                    <!--    <td>{{row.id}}</td> -->
+                        <td v-for="(col, index2) in row.value" :key="index2">{{col.value}}</td>
+                    <!--    <td>{{row.id}}</td> -->
+                      </tr>
+                    </tbody>
+                </table>
+            </v-col>
+            <v-col class="matrixLegend">Rat</v-col>
             </v-row>
         </v-card>
         <v-timeline dense class="mt-12">
@@ -80,6 +80,7 @@
 import behavior_cor_matrix from "@/assets/behavior_correlation_matrix.json"
 import colors from 'vuetify/lib/util/colors'
 
+
 export default {
     name: 'index',
     data() {
@@ -94,6 +95,7 @@ export default {
             }
             return _json
         }
+
         return {
             colors: colors,
             rows: addTypeMatrix(behavior_cor_matrix)
@@ -107,13 +109,16 @@ export default {
     margin: 50px;
     border-collapse: collapse;
     td {
-        padding: 20px;
-        height: 60px;
+        padding: 0px;
+        height: 100px;
+        width: 100px;
         text-align: center;
         border: 1px solid #000;
+        font-size: 15px;
     }
 }
-.ratClass {
-    border-color: #2196;
+.matrixLegend {
+    font-size: 20px;
+    font-weight: bold;
 }
 </style>

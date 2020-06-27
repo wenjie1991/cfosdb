@@ -1,12 +1,6 @@
 <template>
     <div>
-        <p class="display-3 font-weight-black">Brain Area Annotation</p>
-        <v-data-table
-            :headers="headers"
-            :items="desserts"
-            :items-per-page="5"
-            class="elevation-1"
-        ></v-data-table>
+
         <div class="d-flex align-start mt-8">
             <v-img :src="require('../assets/placeholder.png')" class="my-3" height="300" contain/>
             <v-list-item two-line>
@@ -53,108 +47,100 @@
                 </v-list-item-content>
             </v-list-item>
         </div>
+
+
+       <v-card-title class="display-2 font-weight-black" id='brain_area_annot'> Brain Nucleus List </v-card-title>
+           <v-card-title class="display-1 font-weight-black">
+                Mouse 
+                <v-spacer></v-spacer>
+                <v-text-field
+                  v-model="search_mouse"
+                  append-icon="mdi-magnify"
+                  label="Search"
+                  single-line
+                  hide-details
+                ></v-text-field>
+            </v-card-title>
+            <v-data-table
+                :headers="headers_mouse"
+                :search="search_mouse"
+                :items="brain_area_annotation_mouse"
+                :items-per-page="5"
+                class="elevation-1"
+            ></v-data-table>
+           <v-card-title class="display-1 font-weight-black">
+                Rat 
+                <v-spacer></v-spacer>
+                <v-text-field
+                  v-model="search_rat"
+                  append-icon="mdi-magnify"
+                  label="Search"
+                  single-line
+                  hide-details
+                ></v-text-field>
+            </v-card-title>
+            <v-data-table
+                :headers="headers_rat"
+                :search="search_rat"
+                :items="brain_area_annotation_rat"
+                :items-per-page="5"
+                class="elevation-1"
+            ></v-data-table>
     </div>
 </template>
 
 <script>
+import brain_area_annotation from "@/assets/clean_brain_area_annotation.json"
+
     export default {
       data () {
         return {
-          headers: [
+          search_mouse: "",
+          search_rat: "",
+          headers_mouse: [
             {
-              text: 'Dessert (100g serving)',
+              text: 'Display Name',
               align: 'start',
               sortable: false,
-              value: 'name',
+              value: 'main',
             },
-            { text: 'Calories', value: 'calories' },
-            { text: 'Fat (g)', value: 'fat' },
-            { text: 'Carbs (g)', value: 'carbs' },
-            { text: 'Protein (g)', value: 'protein' },
-            { text: 'Iron (%)', value: 'iron' },
+            { text: 'Paxinos & Franklin, 2013 (Abbr)', value: 'long_1' },
+            { text: 'Mouse brain_Franklin & Paxinos, 2007 (Abbr)', value: 'long_2' },
           ],
-          desserts: [
+          brain_area_annotation_mouse: brain_area_annotation.filter(function(x) { return x.species === "Mouse" }).map(
+                  function(x) {
+                      var long_1 = "", long_2 = "";
+                      if (x.long_1 != "") {
+                          long_1 = `${x.long_1} (${x.short_1})`
+                      }
+                      if (x.long_2 != "") {
+                          long_2 = `${x.long_2} (${x.short_2})`
+                      }
+                      return {main: x.main, long_1: long_1, long_2: long_2}
+                  }
+          ),
+          headers_rat: [
             {
-              name: 'Frozen Yogurt',
-              calories: 159,
-              fat: 6.0,
-              carbs: 24,
-              protein: 4.0,
-              iron: '1%',
+              text: 'Display Name',
+              align: 'start',
+              sortable: false,
+              value: 'main',
             },
-            {
-              name: 'Ice cream sandwich',
-              calories: 237,
-              fat: 9.0,
-              carbs: 37,
-              protein: 4.3,
-              iron: '1%',
-            },
-            {
-              name: 'Eclair',
-              calories: 262,
-              fat: 16.0,
-              carbs: 23,
-              protein: 6.0,
-              iron: '7%',
-            },
-            {
-              name: 'Cupcake',
-              calories: 305,
-              fat: 3.7,
-              carbs: 67,
-              protein: 4.3,
-              iron: '8%',
-            },
-            {
-              name: 'Gingerbread',
-              calories: 356,
-              fat: 16.0,
-              carbs: 49,
-              protein: 3.9,
-              iron: '16%',
-            },
-            {
-              name: 'Jelly bean',
-              calories: 375,
-              fat: 0.0,
-              carbs: 94,
-              protein: 0.0,
-              iron: '0%',
-            },
-            {
-              name: 'Lollipop',
-              calories: 392,
-              fat: 0.2,
-              carbs: 98,
-              protein: 0,
-              iron: '2%',
-            },
-            {
-              name: 'Honeycomb',
-              calories: 408,
-              fat: 3.2,
-              carbs: 87,
-              protein: 6.5,
-              iron: '45%',
-            },
-            {
-              name: 'Donut',
-              calories: 452,
-              fat: 25.0,
-              carbs: 51,
-              protein: 4.9,
-              iron: '22%',
-            },
-            {
-              name: 'KitKat',
-              calories: 518,
-              fat: 26.0,
-              carbs: 65,
-              protein: 7,
-              iron: '6%',
-            },
+            { text: 'L.W.Swanson, 2004 (Abbr)', value: 'long_1' },
+            { text: 'Paxinos & Watson, 2007 (Abbr)', value: 'long_2' },
           ],
+          brain_area_annotation_rat: brain_area_annotation.filter(function(x) { return x.species === "Rat" }).map(
+                  function(x) {
+                      var long_1 = "", long_2 = "";
+                      if (x.long_1 != "") {
+                          long_1 = `${x.long_1} (${x.short_1})`
+                      }
+                      if (x.long_2 != "") {
+                          long_2 = `${x.long_2} (${x.short_2})`
+                      }
+                      return {main: x.main, long_1: long_1, long_2: long_2}
+                  }
+          )
         }
       },
     }
