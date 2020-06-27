@@ -4,15 +4,25 @@
             <p class="display-1">Search</p>
             <v-row align="center">
                 <v-col class="d-flex" cols="12" sm="5">
-                    <v-select v-model="selectedBehavior" :items="behaviorData" label="Behavior" multiple></v-select>
+                    <v-select v-model="selectedBehavior" :items="behaviorData" label="Behavior" multiple>
+                        <template v-slot:selection="{ item, index }">
+                            <v-chip v-if="index < 3">
+                              <span>{{ item.text }}</span>
+                            </v-chip>
+                            <span
+                              v-if="index === 3"
+                              class="grey--text caption"
+                            >(+{{ selectedBehavior.length - 3 }} others)</span>
+                        </template>
+                    </v-select>
                 </v-col>
                 <v-col class="d-flex" cols="12" sm="5">
                     <v-combobox
                         v-model="selectedBrainArea"
                         :items="brainAreaData"
                         label="Brain Area"
-                        allow-overflow=false
-                        single-line=true
+                        :allow-overflow="false"
+                        :single-line="true"
                         multiple>
                         <template v-slot:prepend-item>
                             <v-list-item
@@ -27,6 +37,15 @@
                               </v-list-item-content>
                             </v-list-item>
                             <v-divider class="mt-2"></v-divider>
+                        </template>
+                        <template v-slot:selection="{ item, index }">
+                            <v-chip v-if="index < 1">
+                              <span>{{ item.text }}</span>
+                            </v-chip>
+                            <span
+                              v-if="index === 1"
+                              class="grey--text caption"
+                            >(+{{ selectedBrainArea.length - 1 }} others)</span>
                         </template>
                     </v-combobox>
                 </v-col>
