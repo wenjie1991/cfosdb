@@ -34,14 +34,23 @@
             </v-list-item>
         </v-card>
         <v-card class="mx-auto mt-12" align="center">
-            <table id="behavior_matrix">
-              <tbody>
-                <tr v-for="(row, index) in rows" :key="index">
-                  <td>{{row.id}}</td>
-                  <td v-for="(col, index) in row.value" :key="index">{{col.value}}</td>
-                </tr>
-              </tbody>
-            </table>
+            <v-card-title class="display-0 text--primary">Sharing brain area between behaviors</v-card-title>
+            <v-divider></v-divider>
+            <v-row no-gutters align="center">
+                <v-col class="text-right">Mouse</v-col>
+                <v-col>
+                    <table id="behavior_matrix" class="matrixStyle">
+                        <tbody>
+                          <tr v-for="(row, index1) in rows" :key="index1">
+                            <td>{{row.id}}</td>
+                            <td v-for="(col, index2) in row.value" :key="index2"
+                            :style="{ borderColor: col.isRat && colors.blue.base }">{{col.value}}</td>
+                          </tr>
+                        </tbody>
+                    </table>
+                </v-col>
+                <v-col class="text-left" :style="{color: colors.blue.base}">Rat</v-col>
+            </v-row>
         </v-card>
         <v-timeline dense class="mt-12">
             <v-timeline-item small color="deep-purple lighten-2">
@@ -69,16 +78,42 @@
 
 <script>
 import behavior_cor_matrix from "@/assets/behavior_correlation_matrix.json"
+import colors from 'vuetify/lib/util/colors'
 
 export default {
     name: 'index',
     data() {
-        return {
-            rows: behavior_cor_matrix
+        function addTypeMatrix(json) {
+            let _json = json
+            for (let i = 0; i < _json.length; i++) {
+                for (let j = 0; j < _json[i].value.length; j++) {
+                    if (j > i) {
+                        _json[i].value[j]['isRat'] = true
+                    }
+                }
+            }
+            return _json
         }
-    }
+        return {
+            colors: colors,
+            rows: addTypeMatrix(behavior_cor_matrix)
+        }
+    },
 }
 </script>
 
 <style lang="scss" scoped>
+.matrixStyle {
+    margin: 50px;
+    border-collapse: collapse;
+    td {
+        padding: 20px;
+        height: 60px;
+        text-align: center;
+        border: 1px solid #000;
+    }
+}
+.ratClass {
+    border-color: #2196;
+}
 </style>
