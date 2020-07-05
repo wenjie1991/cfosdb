@@ -299,15 +299,16 @@ export default {
         return {
             selectedBrainArea: [],
             selectedBehavior: [],
-            brainAreaData: options_json.brain_area.map(function(x) { return {text: x.display, value: x.value}}),
-            behaviorData: options_json.behavior.map(function(x) { return {text: x.display, value: x.value}}),
+            brainAreaData: options_json.brain_area.map(function(x) { return {text: x.display, value: x.value}}), // update
+            behaviorData: options_json.behavior.map(function(x) { return {text: x.display, value: x.value}}),  // update, watch
             checkbox: '',
-            speciesData: 'Mouse',
-            GenderData: '%',
+            speciesData: 'Mouse', // watch
+            GenderData: '%',  //watch
             withFigure: false,
             statistics: false,
             search: '',
-            headers: [
+            // selectedColumns: foobar, "watch"
+            headers: [ // update
                 {
                 text: 'Behavior',
                 align: 'start',
@@ -321,7 +322,8 @@ export default {
                 { text: 'Cell Type', value: 'cell_type' },
             ],
             table_cotent: [],
-            graphData: draw_network([])
+            // figure_parameter: foobar, *watch
+            graphData: draw_network([]) // listen
         }
     },
     computed: {
