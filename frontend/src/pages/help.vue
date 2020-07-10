@@ -48,8 +48,8 @@
             </v-list-item>
         </div>
 
-
-       <v-card-title class="display-2 font-weight-black" id='brain_area_annot'> Brain Nucleus List </v-card-title>
+        <a name='brain_area_annot' style="line-height: 50px;opacity: 0;">hidden anchor</a>
+        <v-card-title class="display-2 font-weight-black"> Brain Nucleus List </v-card-title>
            <v-card-title class="display-1 font-weight-black">
                 Mouse 
                 <v-spacer></v-spacer>
