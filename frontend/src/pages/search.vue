@@ -95,21 +95,46 @@
         <v-card-title>
             Results
             <v-spacer></v-spacer>
+            <v-col cols="12" sm="3">
+                <v-select
+                    class="tableRowClass"
+                    v-model="selectedTableRow"
+                    :return-object="true"
+                    :items="headers"
+                    label="Selected Row Item"
+                    multiple
+                    :small-chips="true"
+                >
+                    <template v-slot:selection="{ item, index }">
+                        <v-chip v-if="index < 1" :small="true">
+                          <span>{{ item.text }}</span>
+                        </v-chip>
+                        <span
+                          v-if="index === 1"
+                          class="grey--text caption"
+                        >(+{{ selectedTableRow.length - 1 }} others)</span>
+                    </template>
+                </v-select>
+            </v-col>
             <v-text-field
-              v-model="search"
-              append-icon="mdi-magnify"
-              label="Search"
-              single-line
-              hide-details
+                v-model="search"
+                append-icon="mdi-magnify"
+                label="Search"
+                single-line
+                hide-details
             ></v-text-field>
         </v-card-title>
         <v-data-table
-            :headers="headers"
+            :headers="selectedTableRow"
             :search="search"
             :items="table_cotent"
             :items-per-page="5"
             class="elevation-1"
-        ></v-data-table>
+        >
+            <template v-slot:header.name="{ selectedTableRow }">
+                {{ selectedTableRow.text }}
+            </template>
+        </v-data-table>
         <div class="d-flex justify-center mt-12">
             <v-chart :options="graphData"/>
         </div>
@@ -322,9 +347,13 @@ export default {
                 { text: 'Cell Type', value: 'cell_type' },
             ],
             table_cotent: [],
+            selectedTableRow: [],
             // figure_parameter: foobar, *watch
             graphData: draw_network([]) // listen
         }
+    },
+    mounted() {
+        this.selectedTableRow = this.headers
     },
     computed: {
         likesAllFruit () {
@@ -337,6 +366,11 @@ export default {
             if (this.likesAllFruit) return 'mdi-close-box'
             if (this.likesSomeFruit) return 'mdi-minus-box'
             return 'mdi-checkbox-blank-outline'
+        }
+    },
+    watch: {
+        selectedTableRow(val) {
+            console.log(val)
         }
     },
     methods: {
@@ -365,5 +399,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
+.tableRowClass {
+    position: relative;
+    bottom: -11px;
+    right: 5px;
+}
 </style>
