@@ -23,12 +23,10 @@
                         label="Brain Nucleus"
                         :allow-overflow="false"
                         :single-line="true"
+                        ref="brainAreaComboBox"
                         multiple>
                         <template v-slot:prepend-item>
-                            <v-list-item
-                              ripple
-                              @click="toggle"
-                            >
+                            <v-list-item ripple @click="toggle">
                               <v-list-item-action>
                                 <v-icon :color="selectedBrainArea.length > 0 ? 'indigo darken-4' : ''">{{ icon }}</v-icon>
                               </v-list-item-action>
@@ -47,6 +45,7 @@
                               class="grey--text caption"
                             >(+{{ selectedBrainArea.length - 1 }} others)</span>
                         </template>
+
                     </v-combobox>
                 </v-col>
                 <v-col class="d-flex" cols="12" sm="1">
@@ -369,8 +368,8 @@ export default {
         }
     },
     watch: {
-        selectedTableRow(val) {
-            console.log(val)
+        selectedBrainArea() {
+            this.$refs.brainAreaComboBox.internalSearch = ''
         }
     },
     methods: {
@@ -383,7 +382,7 @@ export default {
           }
         })
       },
-      submitQuery: function () {
+      submitQuery () {
         var behavior_x = this.selectedBehavior.join(",")
         var brain_code_x = this.selectedBrainArea.map(function(x) {return x.value}).join(",")
         console.log([behavior_x, brain_code_x])
