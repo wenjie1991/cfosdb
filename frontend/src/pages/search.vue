@@ -135,8 +135,12 @@
             </template>
         </v-data-table>
         <div class="d-flex justify-center mt-12">
-            <v-chart :options="graphData"/>
+            <v-chart :options="graphData" v-show="!dialogChart"/>
         </div>
+        <v-btn @click="dialogChart = true">dialogChart</v-btn>
+        <v-dialog v-model="dialogChart" scrollable max-width="1000px">
+            <v-chart :options="graphData"/>
+        </v-dialog>
     </div>
 </template>
 
@@ -325,11 +329,11 @@ export default {
             selectedBehavior: [],
             brainAreaData: options_json.brain_area.map(function(x) { return {text: x.display, value: x.value}}), // update
             behaviorData: options_json.behavior.map(function(x) { return {text: x.display, value: x.value}}),  // update, watch
-            checkbox: '',
             speciesData: 'Mouse', // watch
             GenderData: '%',  //watch
             withFigure: false,
             statistics: false,
+            dialogChart: false,
             search: '',
             // selectedColumns: foobar, "watch"
             headers: [ // update
