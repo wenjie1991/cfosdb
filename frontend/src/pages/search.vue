@@ -136,14 +136,68 @@
             <template v-slot:item.doi="{ item }">
                 <a :href="`https://doi.org/${item.doi}`" target="_blank">{{item.doi}}</a>
             </template>
+            <template v-slot:item.main="{ item }">
+                <a :href="`https://www.ncbi.nlm.nih.gov/pubmed/?term=${item.main}`" target="_blank">{{item.main}}</a>
+            </template>
+            <!-- https://www.ncbi.nlm.nih.gov/pubmed/?term="{{main}} -->
         </v-data-table>
-        <div class="d-flex justify-center mt-12">
-            <v-chart :options="graphData" v-show="!dialogChart"/>
-        </div>
-        <v-btn @click="dialogChart = true">dialogChart</v-btn>
+
+        <v-row>
+        <v-card-title> 
+            Visualization
+        </v-card-title>
+        </v-row>
         <v-dialog v-model="dialogChart" scrollable max-width="1000px">
             <v-chart :options="graphData"/>
         </v-dialog>
+        <v-row>
+        <v-col class="d-flex" cols="12" sm="2">
+        
+        <!-- Use the tab to choose the combination of the options: -->
+        <!-- brain_area_level and behavior_level -->
+        <v-tabs
+          v-model="tab"
+          background-color="deep-purple accent-4"
+          class="elevation-2"
+          dark
+          :centered="centered"
+          :grow="grow"
+          :vertical="vertical"
+          :right="right"
+          :prev-icon="prevIcon ? 'mdi-arrow-left-bold-box-outline' : undefined"
+          :next-icon="nextIcon ? 'mdi-arrow-right-bold-box-outline' : undefined"
+          :icons-and-text="icons"
+        >
+       
+        <v-tabs-slider></v-tabs-slider>
+
+        <v-tab
+          v-for="i in tabs"
+          :key="i"
+          :href="`#tab-${i}`"
+          >
+          Tab {{ i }}
+          <v-icon v-if="icons">mdi-phone</v-icon>
+        </v-tab>
+        </v-tabs>
+        </v-col>
+
+        <v-col class="d-flex" cols="12" sm="8">
+         <v-hover v-slot:default="{ hover }">
+                            <v-card
+              :elevation="hover ? 16 : 2"
+              class="mx-auto"
+           >
+           <v-chart :options="graphData" v-show="!dialogChart"/>
+           </v-card>
+           <!-- TODO -->
+           <!-- Add a button to full screen the graph -->
+           <!-- <v-btn @click="dialogChart = true">dialogChart</v-btn> -->
+           </v-hover>
+           
+        </v-col>
+        </v-row>
+
     </div>
 </template>
 
@@ -154,13 +208,13 @@ import 'echarts/lib/component/title'
 import 'echarts/lib/component/tooltip'
 import options_json from '@/assets/front_end.json'
 
-function draw_network(tbJson, brain_area_level = 1, behavior_level = 1) {
+function draw_network(tbJson, brain_area_level = 1, behavior_level = 0) {
 	var behavior_dict = {};
 	var brain_area_dict = {};
 
 	var generate_dict = {};
 
-	if (behavior_level == 1) {
+	if (behavior_level === 1) {
 		generate_dict["behavior_value"] = (function(tb_row) {
 			return tb_row.condition;
 		});
@@ -181,7 +235,7 @@ function draw_network(tbJson, brain_area_level = 1, behavior_level = 1) {
 	}
 
 	var query_dict;
-	if (brain_area_level == 1) {
+	if (brain_area_level === 1) {
 		query_dict = (function(x) {
 			return x;
 		})
@@ -255,21 +309,22 @@ function draw_network(tbJson, brain_area_level = 1, behavior_level = 1) {
 	];
 	graph.nodes.forEach(function (node) {
 		node.itemStyle = null;
-		node.symbolSize = node.value * 5;
+		node.symbolSize = Math.log2(node.value + 1) * 5 + 1;
 		node.label = {
 			normal: {
-				show: true
+				show: false
 				//node.symbolSize > 0
 			}
 		};
 	});
 
+
 	var option = {
 		title: {
-			text: 'cFOS Brain Nucleus- Condition Mapping',
+			text: 'Nucleus - Behavior Network',
 			subtext: '',
 			top: 'top',
-			left: 'left'
+            left: 'center'
 		},
 		tooltip: {},
 		legend: [{
@@ -289,7 +344,7 @@ function draw_network(tbJson, brain_area_level = 1, behavior_level = 1) {
 				data: graph.nodes,
 				links: graph.links,
 				categories: categories,
-				roam: true,
+				roam: false,
 				focusNodeAdjacency: true,
 				itemStyle: {
 					normal: {
@@ -300,8 +355,9 @@ function draw_network(tbJson, brain_area_level = 1, behavior_level = 1) {
 					}
 				},
 				label: {
-					position: 'right',
-					formatter: '{b}'
+                    show: false,
+                    //position: 'right',
+					//formatter: '{b}'
 				},
 				lineStyle: {
 					color: 'source',
@@ -330,16 +386,16 @@ export default {
         return {
             selectedBrainArea: [],
             selectedBehavior: [],
-            brainAreaData: options_json.brain_area.map(function(x) { return {text: x.display, value: x.value}}), // update
-            behaviorData: options_json.behavior.map(function(x) { return {text: x.display, value: x.value}}),  // update, watch
-            speciesData: 'Mouse', // watch
-            GenderData: '%',  //watch
+            brainAreaData: options_json.brain_area.map(function(x) { return {text: x.display, value: x.value}}),
+            behaviorData: options_json.behavior.map(function(x) { return {text: x.display, value: x.value}}),
+            speciesData: 'Mouse',
+            GenderData: '%',
             withFigure: false,
             statistics: false,
             dialogChart: false,
             search: '',
-            // selectedColumns: foobar, "watch"
-            headers: [ // update
+            headers: [
+                { text: 'Nucleus ID', value: 'brain_code' },
                 {
                 text: 'Behavior',
                 align: 'start',
@@ -351,15 +407,21 @@ export default {
                 { text: 'Species', value: 'species' },
                 { text: 'Source', value: 'doi' },
                 { text: 'Cell Type', value: 'cell_type' },
+                { text: 'Gender', value: 'gender' },
+                { text: 'Figure', value: 'figure' },
+
             ],
             table_cotent: [],
             selectedTableRow: [],
             // figure_parameter: foobar, *watch
-            graphData: draw_network([]) // listen
+            // graphData: draw_network([]) // listen
+            graphData_json: [],
+            brain_area_level: 1,
+            behavior_level: 1
         }
     },
     mounted() {
-        this.selectedTableRow = this.headers
+        this.selectedTableRow = this.headers.slice(1, 5)
     },
     computed: {
         likesAllFruit () {
@@ -372,11 +434,18 @@ export default {
             if (this.likesAllFruit) return 'mdi-close-box'
             if (this.likesSomeFruit) return 'mdi-minus-box'
             return 'mdi-checkbox-blank-outline'
+        },
+        graphData () {
+            return draw_network(this.graphData_json, this.brain_area_level, this.behavior_level)
         }
     },
     watch: {
         selectedBrainArea() {
             this.$refs.brainAreaComboBox.internalSearch = ''
+        },
+
+        table_cotent: function() {
+            this.graphData_json = this.table_cotent
         }
     },
     methods: {
@@ -392,12 +461,11 @@ export default {
       submitQuery () {
         var behavior_x = this.selectedBehavior.join(",")
         var brain_code_x = this.selectedBrainArea.map(function(x) {return x.value}).join(",")
-        console.log([behavior_x, brain_code_x])
+        // console.log([behavior_x, brain_code_x])
         fetch(`http://47.114.44.79/api?brain_code=${brain_code_x}&gender=${this.GenderData}&species=${this.speciesData}&behavior=${behavior_x}`)
             .then(response => response.json())
             .then(json => {
                 this.table_cotent = json
-                this.graphData = draw_network(json)
             })
       }
     }
