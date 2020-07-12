@@ -9,8 +9,8 @@
                 </div>
             </v-card-text>
             <v-card-actions class="flex-row-reverse">
-                <v-btn text color="deep-purple accent-4" to="/help">Instruction</v-btn>
-                <v-btn text color="deep-purple accent-4" to="/search"><v-icon left>mdi-magnify</v-icon>Search Database</v-btn>
+                <v-btn text color="secondary accent-4" to="/help">Instruction</v-btn>
+                <v-btn text color="secondary accent-4" to="/search"><v-icon left>mdi-magnify</v-icon>Search Database</v-btn>
             </v-card-actions>
         </v-card>
         <v-card class="mx-auto mt-12">
@@ -53,7 +53,7 @@
             </v-row>
         </v-card>
         <v-timeline dense class="mt-12">
-            <v-timeline-item small color="deep-purple lighten-2">
+            <v-timeline-item small color="secondary lighten-2">
                 <v-card class="elevation-2">
                     <v-card-title class="headline">Data Version 2020.2.2</v-card-title>
                     <v-list-item three-line>
@@ -68,7 +68,7 @@
                         </v-list-item-content>
                     </v-list-item>
                     <v-card-actions class="flex-row-reverse">
-                        <v-btn text color="deep-purple accent-4" to="/download">to Download</v-btn>
+                        <v-btn text color="secondary accent-4" to="/download">to Download</v-btn>
                     </v-card-actions>
                 </v-card>
             </v-timeline-item>

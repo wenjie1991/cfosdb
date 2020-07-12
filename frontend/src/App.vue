@@ -21,7 +21,7 @@
             <v-col
                 flat
                 tile
-                class="indigo lighten-1 white--text text-center"
+                class="indigo secondary white--text text-center"
             >
                 <v-card-text>
                 The web is under development
