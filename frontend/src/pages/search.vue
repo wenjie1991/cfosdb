@@ -390,7 +390,7 @@ export default {
         var behavior_x = this.selectedBehavior.join(",")
         var brain_code_x = this.selectedBrainArea.map(function(x) {return x.value}).join(",")
         console.log([behavior_x, brain_code_x])
-        fetch(`http://localhost:8081?brain_code=${brain_code_x}&gender=${this.GenderData}&species=${this.speciesData}&behavior=${behavior_x}`)
+        fetch(`http://47.114.44.79/api?brain_code=${brain_code_x}&gender=${this.GenderData}&species=${this.speciesData}&behavior=${behavior_x}`)
             .then(response => response.json())
             .then(json => {
                 this.table_cotent = json
