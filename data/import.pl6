@@ -36,7 +36,7 @@ DROP TABLE IF EXISTS $table-name;
 CREATE TABLE $table-name (
 	brain_code    text,
 	behavior      text,
-	strain        text,
+	species       text,
 	gender        text,
 	doi           text,
 	condition     text,

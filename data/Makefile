@@ -1,4 +1,5 @@
 Run:
+	cp ../../data/*.tsv ./
 	Rscript ./to_json.R
 	raku ./import.pl6
 

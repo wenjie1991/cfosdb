@@ -14,19 +14,26 @@ firstup <- function(x) {
 
 ## behavior brain area table
 d1 = fread("./clean_behavior_brain_area.tsv")
-d1$behavior %<>% revalue(c("agression" = "aggression", "Sexual behavior" = "mating"))
+d1$behavior %<>% revalue(c("agression" = "aggression", "Sexual behavior" = "sexual behavior"))
+d1$figure %<>% firstup()
+d1$condition %<>% firstup()
+d1$cell_type %<>% firstup()
 j1 = jsonlite::toJSON(d1, pretty = T)
 write(j1, "./clean_behavior_brain_area.json")
 
 ## brain area annotation table
 d2 = fread("./clean_brain_area_annotation.tsv")
 d2$abbr = d2$long %>% stri_reverse() %>%  str_split_fixed("[()]", 3) %>% extract(, 2) %>% stri_reverse()
+d2$main %<>% firstup()
+d2$long_1 %<>% firstup()
+d2$long_2 %<>% firstup()
+d2$long_3 %<>% firstup()
 j2 = jsonlite::toJSON(d2, pretty = T)
 write(j2, "./clean_brain_area_annotation.json")
 
 ## behavior overlap
 d = fread("./clean_behavior_brain_area.tsv")
-d$behavior %<>% revalue(c("agression" = "aggression", "Sexual behavior" = "mating"))
+d$behavior %<>% revalue(c("agression" = "aggression", "Sexual behavior" = "sexual behavior"))
 
 gen_count_table = function(dd) {
     behaviors = dd$behavior %>% unique
