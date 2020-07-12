@@ -134,7 +134,7 @@
                 {{ selectedTableRow.text }}
             </template>
             <template v-slot:item.doi="{ item }">
-                <a :href="`http://47.114.44.79/${item.doi}`" target="_blank">{{item.doi}}</a>
+                <a :href="`https://doi.org/${item.doi}`" target="_blank">{{item.doi}}</a>
             </template>
         </v-data-table>
         <div class="d-flex justify-center mt-12">

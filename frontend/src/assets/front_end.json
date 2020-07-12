@@ -5,10 +5,6 @@
       "display": "Aggression"
     },
     {
-      "value": "agression",
-      "display": "Agression"
-    },
-    {
       "value": "fear",
       "display": "Fear"
     },
@@ -17,15 +13,11 @@
       "display": "Feeding"
     },
     {
-      "value": "mating",
-      "display": "Mating"
-    },
-    {
       "value": "pain",
       "display": "Pain"
     },
     {
-      "value": "Sexual behavior",
+      "value": "sexual behavior",
       "display": "Sexual behavior"
     }
   ],

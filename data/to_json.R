@@ -108,6 +108,17 @@ matrix_l %>% jsonlite::toJSON(pretty = T, auto_unbox = T) %>% write("./behavior_
 d1 = fread("./clean_behavior_brain_area.tsv")
 d2 = fread("./clean_brain_area_annotation.tsv")
 
+d1$behavior %<>% revalue(c("agression" = "aggression", "Sexual behavior" = "sexual behavior"))
+d1$figure %<>% firstup()
+d1$condition %<>% firstup()
+d1$cell_type %<>% firstup()
+
+d2$abbr = d2$long %>% stri_reverse() %>%  str_split_fixed("[()]", 3) %>% extract(, 2) %>% stri_reverse()
+d2$main %<>% firstup()
+d2$long_1 %<>% firstup()
+d2$long_2 %<>% firstup()
+d2$long_3 %<>% firstup()
+
 behavior = data.frame(value = d1$behavior %>% unique %>% sort)
 behavior$display  = behavior$value %>% firstup
 brain_area = data.frame(value = d2$brain_code, display = d2$main %>% firstup, species = d2$species)
