@@ -48,7 +48,7 @@
             </v-list-item>
         </div>
 
-        <a name='brain_area_annot' style="line-height: 50px;opacity: 0;">hidden anchor</a>
+        <a ref="BrainNucleusList" style="line-height: 160px;opacity: 0;">hidden anchor</a>
         <v-card-title class="display-2 font-weight-black"> Brain Nucleus List </v-card-title>
            <v-card-title class="display-1 font-weight-black">
                 Mouse 
@@ -143,6 +143,11 @@ import brain_area_annotation from "@/assets/clean_brain_area_annotation.json"
           )
         }
       },
+      mounted() {
+        if (this.$route.hash.indexOf('#brain_area_annot') > -1) {
+          this.$refs.BrainNucleusList.scrollIntoView()
+        }
+      }
     }
 </script>
 
