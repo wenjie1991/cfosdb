@@ -29,7 +29,7 @@
                     <v-icon>mdi-checkbox-marked-circle</v-icon>
                 </v-list-item-icon>
                 <v-list-item-content>
-                    <v-list-item-subtitle>An unified term of brain region is employed, the detailed relationships among behavior, brain nuclei, specific active conditions, and their network mappings, can be shown and downloaded.</v-list-item-subtitle>
+                    <v-list-item-subtitle>An unified term of brain region is employed, the detailed relationships among behaviors, brain nucleus, specific active conditions, and their network mappings, can be shown and downloaded.</v-list-item-subtitle>
                 </v-list-item-content>
             </v-list-item>
         </v-card>

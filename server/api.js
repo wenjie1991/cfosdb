@@ -40,7 +40,6 @@ http.createServer(function(req, res) {
                 res.end()
             } else {
                 rows.forEach((row) => {
-                    // console.log(row);
                     output_json.push(row);
                 });
                 var buf = new Buffer(JSON.stringify(output_json), "utf-8");

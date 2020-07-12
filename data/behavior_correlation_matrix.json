@@ -19,13 +19,13 @@
       },
       {
         "id": "Aggression",
-        "value": "4",
-        "behaviors": ["aggression", "mating"]
+        "value": "2",
+        "behaviors": ["aggression", "pain"]
       },
       {
         "id": "Aggression",
-        "value": "2",
-        "behaviors": ["aggression", "pain"]
+        "value": "4",
+        "behaviors": ["aggression", "sexual behavior"]
       }
     ]
   },
@@ -49,13 +49,13 @@
       },
       {
         "id": "Fear",
-        "value": "2",
-        "behaviors": ["fear", "mating"]
+        "value": "4",
+        "behaviors": ["fear", "pain"]
       },
       {
         "id": "Fear",
-        "value": "4",
-        "behaviors": ["fear", "pain"]
+        "value": "2",
+        "behaviors": ["fear", "sexual behavior"]
       }
     ]
   },
@@ -79,43 +79,13 @@
       },
       {
         "id": "Feeding",
-        "value": "0",
-        "behaviors": ["feeding", "mating"]
+        "value": "2",
+        "behaviors": ["feeding", "pain"]
       },
       {
         "id": "Feeding",
-        "value": "2",
-        "behaviors": ["feeding", "pain"]
-      }
-    ]
-  },
-  {
-    "id": "Mating",
-    "value": [
-      {
-        "id": "Mating",
         "value": "0",
-        "behaviors": ["mating", "aggression"]
-      },
-      {
-        "id": "Mating",
-        "value": "6",
-        "behaviors": ["mating", "fear"]
-      },
-      {
-        "id": "Mating",
-        "value": "1",
-        "behaviors": ["mating", "feeding"]
-      },
-      {
-        "id": "Mating",
-        "value": "Mating",
-        "behaviors": ["mating", "mating"]
-      },
-      {
-        "id": "Mating",
-        "value": "0",
-        "behaviors": ["mating", "pain"]
+        "behaviors": ["feeding", "sexual behavior"]
       }
     ]
   },
@@ -139,13 +109,43 @@
       },
       {
         "id": "Pain",
-        "value": "4",
-        "behaviors": ["pain", "mating"]
+        "value": "Pain",
+        "behaviors": ["pain", "pain"]
       },
       {
         "id": "Pain",
-        "value": "Pain",
-        "behaviors": ["pain", "pain"]
+        "value": "0",
+        "behaviors": ["pain", "sexual behavior"]
+      }
+    ]
+  },
+  {
+    "id": "Sexual behavior",
+    "value": [
+      {
+        "id": "Sexual behavior",
+        "value": "0",
+        "behaviors": ["sexual behavior", "aggression"]
+      },
+      {
+        "id": "Sexual behavior",
+        "value": "6",
+        "behaviors": ["sexual behavior", "fear"]
+      },
+      {
+        "id": "Sexual behavior",
+        "value": "1",
+        "behaviors": ["sexual behavior", "feeding"]
+      },
+      {
+        "id": "Sexual behavior",
+        "value": "4",
+        "behaviors": ["sexual behavior", "pain"]
+      },
+      {
+        "id": "Sexual behavior",
+        "value": "Sexual behavior",
+        "behaviors": ["sexual behavior", "sexual behavior"]
       }
     ]
   }
