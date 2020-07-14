@@ -23,7 +23,7 @@
                         label="Brain Nucleus"
                         :allow-overflow="false"
                         :single-line="true"
-                        ref="brainAreaComboBox"
+                        :search-input.sync="brainAreaComboBoxInput"
                         multiple>
                         <template v-slot:prepend-item>
                             <v-list-item ripple @click="toggle">
@@ -386,6 +386,7 @@ export default {
         return {
             selectedBrainArea: [],
             selectedBehavior: [],
+            brainAreaComboBoxInput: '',
             brainAreaData: options_json.brain_area.map(function(x) { return {text: x.display, value: x.value}}),
             behaviorData: options_json.behavior.map(function(x) { return {text: x.display, value: x.value}}),
             speciesData: 'Mouse',
@@ -441,7 +442,7 @@ export default {
     },
     watch: {
         selectedBrainArea() {
-            this.$refs.brainAreaComboBox.internalSearch = ''
+            this.brainAreaComboBoxInput = ''
         },
 
         table_cotent: function() {
