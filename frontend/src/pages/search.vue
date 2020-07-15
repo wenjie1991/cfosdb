@@ -94,7 +94,7 @@
         <v-card-title>
             Results
             <v-spacer></v-spacer>
-            <v-col cols="12" sm="3">
+            <v-col cols="12" sm="2">
                 <v-select
                     class="tableRowClass"
                     v-model="selectedTableRow"
@@ -115,13 +115,15 @@
                     </template>
                 </v-select>
             </v-col>
-            <v-text-field
-                v-model="search"
-                append-icon="mdi-magnify"
-                label="Search"
-                single-line
-                hide-details
-            ></v-text-field>
+            <v-col cols="12" sm="3">
+                <v-text-field
+                    v-model="search"
+                    append-icon="mdi-magnify"
+                    label="Search"
+                    single-line
+                    hide-details
+                ></v-text-field>
+            </v-col>
         </v-card-title>
         <v-data-table
             :headers="selectedTableRow"

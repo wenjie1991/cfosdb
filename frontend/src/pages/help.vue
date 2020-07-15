@@ -53,13 +53,15 @@
            <v-card-title class="display-1 font-weight-black">
                 Mouse 
                 <v-spacer></v-spacer>
-                <v-text-field
-                  v-model="search_mouse"
-                  append-icon="mdi-magnify"
-                  label="Search"
-                  single-line
-                  hide-details
-                ></v-text-field>
+                <v-col cols="12" sm="3">
+                    <v-text-field
+                      v-model="search_mouse"
+                      append-icon="mdi-magnify"
+                      label="Search"
+                      single-line
+                      hide-details
+                    ></v-text-field>
+                </v-col>
             </v-card-title>
             <v-data-table
                 :headers="headers_mouse"
@@ -71,13 +73,15 @@
            <v-card-title class="display-1 font-weight-black">
                 Rat 
                 <v-spacer></v-spacer>
-                <v-text-field
-                  v-model="search_rat"
-                  append-icon="mdi-magnify"
-                  label="Search"
-                  single-line
-                  hide-details
-                ></v-text-field>
+                <v-col cols="12" sm="3">
+                    <v-text-field
+                      v-model="search_rat"
+                      append-icon="mdi-magnify"
+                      label="Search"
+                      single-line
+                      hide-details
+                    ></v-text-field>
+                </v-col>
             </v-card-title>
             <v-data-table
                 :headers="headers_rat"
@@ -99,11 +103,12 @@ import brain_area_annotation from "@/assets/clean_brain_area_annotation.json"
           search_rat: "",
           headers_mouse: [
             {
-              text: 'Display Name',
+              text: 'Database ID',
               align: 'start',
               sortable: false,
-              value: 'main',
+              value: 'brain_code',
             },
+            { text: 'Database Name', value: 'main' },
             { text: 'Paxinos & Franklin, 2013 (Abbr)', value: 'long_1' },
             { text: 'Mouse brain_Franklin & Paxinos, 2007 (Abbr)', value: 'long_2' },
           ],
@@ -116,16 +121,17 @@ import brain_area_annotation from "@/assets/clean_brain_area_annotation.json"
                       if (x.long_2 != "") {
                           long_2 = `${x.long_2} (${x.short_2})`
                       }
-                      return {main: x.main, long_1: long_1, long_2: long_2}
+                      return {brain_code: x.brain_code, main: x.main, long_1: long_1, long_2: long_2}
                   }
           ),
           headers_rat: [
             {
-              text: 'Display Name',
+              text: 'Database ID',
               align: 'start',
               sortable: false,
-              value: 'main',
+              value: 'brain_code',
             },
+            { text: 'Database Name', value: 'main' },
             { text: 'L.W.Swanson, 2004 (Abbr)', value: 'long_1' },
             { text: 'Paxinos & Watson, 2007 (Abbr)', value: 'long_2' },
           ],
@@ -138,7 +144,7 @@ import brain_area_annotation from "@/assets/clean_brain_area_annotation.json"
                       if (x.long_2 != "") {
                           long_2 = `${x.long_2} (${x.short_2})`
                       }
-                      return {main: x.main, long_1: long_1, long_2: long_2}
+                      return {brain_code: x.brain_code, main: x.main, long_1: long_1, long_2: long_2}
                   }
           )
         }
