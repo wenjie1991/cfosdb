@@ -62,6 +62,7 @@ export default {
 
 <style lang="scss" scoped>
 .content {
-    margin: 50px 50px 250px;
+    margin: 50px auto 350px;
+    width: 1440px;
 }
 </style>

@@ -147,55 +147,48 @@
             Visualization
         </v-card-title>
         </v-row>
-        <v-dialog v-model="dialogChart" scrollable max-width="1000px">
-            <v-chart :options="graphData"/>
-        </v-dialog>
-        <v-row>
-        <v-col class="d-flex" cols="12" sm="2">
-        
-        <!-- Use the tab to choose the combination of the options: -->
-        <!-- brain_area_level and behavior_level -->
-        <v-tabs
-          v-model="tab"
-          background-color="deep-purple accent-4"
-          class="elevation-2"
-          dark
-          :centered="centered"
-          :grow="grow"
-          :vertical="vertical"
-          :right="right"
-          :prev-icon="prevIcon ? 'mdi-arrow-left-bold-box-outline' : undefined"
-          :next-icon="nextIcon ? 'mdi-arrow-right-bold-box-outline' : undefined"
-          :icons-and-text="icons"
-        >
-       
-        <v-tabs-slider></v-tabs-slider>
 
-        <v-tab
-          v-for="i in tabs"
-          :key="i"
-          :href="`#tab-${i}`"
-          >
-          Tab {{ i }}
-          <v-icon v-if="icons">mdi-phone</v-icon>
-        </v-tab>
-        </v-tabs>
-        </v-col>
+        <v-row class="justify-center" v-show="!haveSearchResult">
+            <v-chip outlined>No data for visualization</v-chip>
+        </v-row>
 
-        <v-col class="d-flex" cols="12" sm="8">
-         <v-hover v-slot:default="{ hover }">
-                            <v-card
-              :elevation="hover ? 16 : 2"
-              class="mx-auto"
-           >
-           <v-chart :options="graphData" v-show="!dialogChart"/>
-           </v-card>
-           <!-- TODO -->
-           <!-- Add a button to full screen the graph -->
-           <!-- <v-btn @click="dialogChart = true">dialogChart</v-btn> -->
-           </v-hover>
-           
-        </v-col>
+        <v-row v-show="haveSearchResult">
+            <v-col class="flex-column" cols = "12" sm = "4">
+                <header>Nucleus - Behaviors Network Options:</header>
+                    <v-switch class="flex-column"
+                        v-model="graph_option.brain_area_level" 
+                        label="Display Nucleus detail"
+                        true-value=1
+                        false-value=0
+                    ></v-switch>
+                    <v-switch 
+                        v-model="graph_option.behavior_level" 
+                        label="Display treatments detail"
+                        true-value=1
+                        false-value=0
+                    ></v-switch>
+                    <v-switch 
+                        v-model="graph_option.show_label" 
+                        label="Display the node label"
+                        ></v-switch>
+            </v-col>
+            
+            <v-col cols="12" sm="8" align='center' @click="dialogChart = true" >
+                <v-hover v-slot:default="{ hover }" v-show="!dialogChart" title="Click to show the graph">
+                    <v-card :elevation="hover ? 16 : 2" class="mx-auto" >
+                        <v-chart class="echarts-inline" autoresize :options="graphData"/>
+                    </v-card>
+                </v-hover>
+            <v-dialog v-model="dialogChart" 
+                max-width="1000px" 
+                class="graphpopup"
+                >
+                <div class="dialog-frame">
+                    <v-chart class="echarts-pop" :options="graphData"/>
+                </div>
+             </v-dialog>
+               
+            </v-col>
         </v-row>
 
     </div>
@@ -208,13 +201,15 @@ import 'echarts/lib/component/title'
 import 'echarts/lib/component/tooltip'
 import options_json from '@/assets/front_end.json'
 
-function draw_network(tbJson, brain_area_level = 1, behavior_level = 0) {
+function draw_network(tbJson, graph_option) {
+    // brain_area_level: 1 more detail, else less detail
+    // behavior_level: 1 more detail, else less detail
 	var behavior_dict = {};
 	var brain_area_dict = {};
 
 	var generate_dict = {};
 
-	if (behavior_level === 1) {
+	if (graph_option.behavior_level == 1) {
 		generate_dict["behavior_value"] = (function(tb_row) {
 			return tb_row.condition;
 		});
@@ -235,7 +230,7 @@ function draw_network(tbJson, brain_area_level = 1, behavior_level = 0) {
 	}
 
 	var query_dict;
-	if (brain_area_level === 1) {
+	if (graph_option.brain_area_level == 1) {
 		query_dict = (function(x) {
 			return x;
 		})
@@ -312,8 +307,8 @@ function draw_network(tbJson, brain_area_level = 1, behavior_level = 0) {
 		node.symbolSize = Math.log2(node.value + 1) * 5 + 1;
 		node.label = {
 			normal: {
-				show: false
-				//node.symbolSize > 0
+				show: graph_option.show_label, 
+                //node.symbolSize > 0
 			}
 		};
 	});
@@ -344,7 +339,7 @@ function draw_network(tbJson, brain_area_level = 1, behavior_level = 0) {
 				data: graph.nodes,
 				links: graph.links,
 				categories: categories,
-				roam: false,
+                roam: graph_option.roam_enable,
 				focusNodeAdjacency: true,
 				itemStyle: {
 					normal: {
@@ -355,9 +350,9 @@ function draw_network(tbJson, brain_area_level = 1, behavior_level = 0) {
 					}
 				},
 				label: {
-                    show: false,
-                    //position: 'right',
-					//formatter: '{b}'
+                    show: graph_option.show_label,
+                    position: 'right',
+					formatter: '{b}'
 				},
 				lineStyle: {
 					color: 'source',
@@ -414,11 +409,13 @@ export default {
             ],
             table_cotent: [],
             selectedTableRow: [],
-            // figure_parameter: foobar, *watch
-            // graphData: draw_network([]) // listen
             graphData_json: [],
-            brain_area_level: 1,
-            behavior_level: 1
+            graph_option: {
+                brain_area_level: 0,
+                behavior_level: 0,
+                show_label: false,
+                roam_enable: false,
+            }
         }
     },
     mounted() {
@@ -437,7 +434,10 @@ export default {
             return 'mdi-checkbox-blank-outline'
         },
         graphData () {
-            return draw_network(this.graphData_json, this.brain_area_level, this.behavior_level)
+            return draw_network(this.graphData_json, this.graph_option)
+        },
+        haveSearchResult: function() {
+            return this.table_cotent.length > 0
         }
     },
     watch: {
@@ -447,6 +447,9 @@ export default {
 
         table_cotent: function() {
             this.graphData_json = this.table_cotent
+        },
+        dialogChart: function() {
+            this.graph_option.roam_enable = this.dialogChart
         }
     },
     methods: {
@@ -478,5 +481,25 @@ export default {
     position: relative;
     bottom: -11px;
     right: 5px;
+}
+
+.echarts-pop {
+    height: 1000px;
+    width: 1000px;
+}
+
+.echarts-inline {
+    height: 400px;
+    width: 100%;
+}
+
+.dialog-frame {
+    height: 1000px;
+    width: 1000px;
+    background: white;
+}
+
+.graphPopup {
+    background: "white";
 }
 </style>
