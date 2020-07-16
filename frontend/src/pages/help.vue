@@ -68,6 +68,7 @@
                 :search="search_mouse"
                 :items="brain_area_annotation_mouse"
                 :items-per-page="5"
+                :sort-by="['main']"
                 class="elevation-1"
             ></v-data-table>
            <v-card-title class="display-1 font-weight-black">
@@ -88,6 +89,7 @@
                 :search="search_rat"
                 :items="brain_area_annotation_rat"
                 :items-per-page="5"
+                :sort-by="['main']"
                 class="elevation-1"
             ></v-data-table>
     </div>
@@ -105,7 +107,7 @@ import brain_area_annotation from "@/assets/clean_brain_area_annotation.json"
             {
               text: 'Database ID',
               align: 'start',
-              sortable: false,
+              sortable: true,
               value: 'brain_code',
             },
             { text: 'Database Name', value: 'main' },
@@ -128,7 +130,7 @@ import brain_area_annotation from "@/assets/clean_brain_area_annotation.json"
             {
               text: 'Database ID',
               align: 'start',
-              sortable: false,
+              sortable: true,
               value: 'brain_code',
             },
             { text: 'Database Name', value: 'main' },

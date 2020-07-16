@@ -127,6 +127,7 @@
             :search="search"
             :items="table_cotent"
             :items-per-page="5"
+            :sort-by="['behavior', 'main']"
             class="elevation-1"
         >
             <template v-slot:header.name="{ selectedTableRow }">
@@ -204,6 +205,10 @@ import 'echarts/lib/chart/graph'
 import 'echarts/lib/component/title'
 import 'echarts/lib/component/tooltip'
 import options_json from '@/assets/front_end.json'
+
+options_json.brain_area.sort(function(a, b) {
+    return a.display > b.display;
+});
 
 function draw_network(tbJson, graph_option) {
     // brain_area_level: 1 more detail, else less detail
@@ -414,12 +419,12 @@ export default {
                 {
                 text: 'Behavior',
                 align: 'start',
-                sortable: false,
+                sortable: true,
                 value: 'behavior',
                 },
                 { text: 'Brain Nucleus', value: 'main' },
                 { text: 'Condition', value: 'condition' },
-                { text: 'Species', value: 'species' },
+                // { text: 'Species', value: 'species' },
                 { text: 'Source', value: 'doi' },
                 { text: 'Cell Type', value: 'cell_type' },
                 { text: 'Gender', value: 'gender' },
