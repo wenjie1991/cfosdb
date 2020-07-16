@@ -2,20 +2,22 @@
     <div>
         <div class="grey lighten-4 pa-8">
             <p class="display-1">Search</p>
-            <v-row align="center">
-                <v-col class="d-flex" cols="12" sm="5">
-                    <v-select v-model="selectedBehavior" :items="behaviorData" label="Behavior" multiple>
-                        <template v-slot:selection="{ item, index }">
-                            <v-chip v-if="index < 3">
-                              <span>{{ item.text }}</span>
-                            </v-chip>
-                            <span
-                              v-if="index === 3"
-                              class="grey--text caption"
-                            >(+{{ selectedBehavior.length - 3 }} others)</span>
-                        </template>
-                    </v-select>
+
+            <v-row>
+                <v-col class="d-flex" cols="12" sm="7">
+                    <v-radio-group v-model="speciesData" row label="Species:">
+                        <v-radio
+                            v-for="n in ['Mouse', 'Rat']"
+                            :key="n"
+                            :label="`${n}`"
+                            :value="n"
+                        ></v-radio>
+                    </v-radio-group>
                 </v-col>
+            </v-row>
+            
+            <v-row align="center">
+
                 <v-col class="d-flex" cols="12" sm="5">
                     <v-combobox
                         v-model="selectedBrainArea"
@@ -54,16 +56,23 @@
             </v-row>
 
             <v-row align="center">
-                <v-col class="d-flex" cols="12" sm="3">
-                    <v-radio-group v-model="speciesData" row label="Species:">
-                        <v-radio
-                            v-for="n in ['Mouse', 'Rat']"
-                            :key="n"
-                            :label="`${n}`"
-                            :value="n"
-                        ></v-radio>
-                    </v-radio-group>
+                <v-col class="d-flex" cols="12" sm="5">
+                    <v-select v-model="selectedBehavior" :items="behaviorData" label="Behavior" multiple>
+                        <template v-slot:selection="{ item, index }">
+                            <v-chip v-if="index < 5">
+                              <span>{{ item.text }}</span>
+                            </v-chip>
+                            <span
+                              v-if="index === 5"
+                              class="grey--text caption"
+                            >(+{{ selectedBehavior.length - 5 }} others)</span>
+                        </template>
+                    </v-select>
                 </v-col>
+            </v-row>
+
+            <v-row align="center">
+            
                 <v-col class="d-flex" cols="12" sm="4">
                     <v-radio-group v-model="GenderData" row label="Gender:">
                         <v-radio
@@ -73,18 +82,6 @@
                             :value= n.value
                         ></v-radio>
                     </v-radio-group>
-                </v-col>
-                <v-col class="d-flex align-center" cols="12" sm="4">
-                    <span class="mr-4 text--secondary">Other: </span>
-                    <v-checkbox
-                        v-model="withFigure"
-                        label="With Figure"
-                        class="mr-8"
-                    ></v-checkbox>
-                    <v-checkbox
-                        v-model="statistics"
-                        label="Statistics Significant"
-                    ></v-checkbox>
                 </v-col>
             </v-row>
             <v-row justify="end">
@@ -173,6 +170,11 @@
                         v-model="graph_option.show_label" 
                         label="Display the node label"
                         ></v-switch>
+                    <v-switch 
+                        v-show="selectedBehavior.length > 1"
+                        v-model="graph_option.isOnlyOverlap" 
+                        label="Only show the shared nucleus"
+                        ></v-switch>
             </v-col>
             
             <v-col cols="12" sm="8" align='center' @click="dialogChart = true" >
@@ -224,7 +226,6 @@ function draw_network(tbJson, graph_option) {
 	generate_dict["brain_area_value"] = (function(tb_row) {
 		return [tb_row.brain_code, tb_row.main];
 	});
-
 	
 	for (var i=0; i<tbJson.length; i++) {
 		brain_area_dict[tbJson[i].brain_code] = generate_dict.brain_area_value(tbJson[i]);
@@ -272,6 +273,7 @@ function draw_network(tbJson, graph_option) {
 				id : source,
 				name : source,
 				value : 1,
+                n_link: 0,
 				category : 0,
 			}
 		}
@@ -283,18 +285,31 @@ function draw_network(tbJson, graph_option) {
 				id : target[0],
 				name : target[1],
 				value : 1,
+                n_link: 0,
 				category : 1,
 			}
 		}
 	}
 
+  
 	var graph = {links : [], nodes: []};
 	for (i in links) {
-		graph.links.push(links[i]);
+        let link = links[i];
+		graph.links.push(link);
+        data[link.source].n_link++;
+        data[link.target].n_link++;
 	}
 	for (i in data) {
 		graph.nodes.push(data[i]);
 	}
+
+    // if only display the overlaped nodes
+    // remove the nucleus nodes with value == 1 
+    if (graph_option.isOnlyOverlap) {
+        graph.nodes = graph.nodes.filter(function(x) {
+            return x.category === 0 | x.n_link > 1
+        })
+    }
 
 	var categories = [
 		{
@@ -311,8 +326,11 @@ function draw_network(tbJson, graph_option) {
 			normal: {
 				show: graph_option.show_label, 
                 //node.symbolSize > 0
-			}
+			},
 		};
+        node.tooltip = {
+            formatter: '{b}'
+        };
 	});
 
 
@@ -384,7 +402,6 @@ export default {
             selectedBrainArea: [],
             selectedBehavior: [],
             brainAreaComboBoxInput: '',
-            brainAreaData: options_json.brain_area.map(function(x) { return {text: x.display, value: x.value}}),
             behaviorData: options_json.behavior.map(function(x) { return {text: x.display, value: x.value}}),
             speciesData: 'Mouse',
             GenderData: '%',
@@ -417,6 +434,7 @@ export default {
                 behavior_level: 0,
                 show_label: false,
                 roam_enable: false,
+                isOnlyOverlap: false,
             }
         }
     },
@@ -440,7 +458,16 @@ export default {
         },
         haveSearchResult: function() {
             return this.table_cotent.length > 0
-        }
+        },
+        brainAreaData: function() {
+            let selectedSpecies = this.speciesData;
+            return options_json.brain_area.filter(function(x) {
+                return x.species == selectedSpecies;
+            }).map(function(x) { 
+                return {text: x.display, value: x.value}
+            })
+        },
+        
     },
     watch: {
         selectedBrainArea() {
@@ -452,6 +479,9 @@ export default {
         },
         dialogChart: function() {
             this.graph_option.roam_enable = this.dialogChart
+        },
+        speciesData: function() {
+            this.selectedBrainArea = [];
         }
     },
     methods: {
