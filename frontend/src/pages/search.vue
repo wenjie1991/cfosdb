@@ -51,7 +51,7 @@
                     </v-combobox>
                 </v-col>
                 <v-col class="d-flex" cols="12" sm="1">
-                    <v-btn text color="secondary accent-4" to="/help#brain_area_annot">[Brain Nucleus List]</v-btn>
+                    <v-btn text color="accent accent-4" to="/help#brain_area_annot">[Brain Nucleus List]</v-btn>
                 </v-col>
             </v-row>
 
@@ -85,7 +85,7 @@
                 </v-col>
             </v-row>
             <v-row justify="end">
-                <v-btn large color="secondary lighten-3" v-on:click="submitQuery">Submit</v-btn>
+                <v-btn large color="accent lighten-0" v-on:click="submitQuery">Submit</v-btn>
             </v-row>
         </div>
         <v-card-title>

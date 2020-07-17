@@ -1,22 +1,20 @@
 <template>
     <div class="index">
         <v-card class="mx-auto">
-            <v-card-title class="display-1 text--primary font-weight-bold">cFos-ANAB</v-card-title>
-            <v-divider></v-divider>
+            <v-card-title class="display-1 tertiary--text font-weight-bold ">cFos-ANAB</v-card-title>
+            <v-divider light="true"></v-divider>
             <v-card-text>
-                <div class="text--primary pt-3 body-1">
-                    c-Fos is one of the most widely studied immediate early genes in the field of neuroscience, which are expressed very soon after different stimuli. By using in situ hybridization and immunostaining technology, the mRNA and protein product of c-Fos can be identified respectively. As the field of brain science has rapidly developed in recent years, scientists desire to understand more functional meaning of neurons, c-Fos still can be the foundation of all functional studies. Currently, there is still not very mature database. Our c-Fos database will provide a good reference for early neuroscience exploration.
-
-                    
+                <div class="pt-3 body-1">
+                    c-Fos is one of the most widely studied immediate early genes in the field of neuroscience, which are expressed very soon after different stimuli. By using in situ hybridization and immunostaining technology, the mRNA and protein product of c-Fos can be identified respectively. As the field of brain science has rapidly developed in recent years, scientists desire to understand more functional meaning of neurons, c-Fos still can be the foundation of all functional studies. Currently, there is still not very mature database. Our c-Fos database will provide a good reference for early neuroscience exploration.                    
                 </div>
             </v-card-text>
             <v-card-actions class="flex-row-reverse">
-                <v-btn text color="secondary accent-4" to="/help">Instruction</v-btn>
-                <v-btn text color="secondary accent-4" to="/search"><v-icon left>mdi-magnify</v-icon>Search Database</v-btn>
+                <v-btn text color="accent lighten-0" to="/help">Instruction</v-btn>
+                <v-btn text color="accent lighten-0" to="/search"><v-icon left>mdi-magnify</v-icon>Search Database</v-btn>
             </v-card-actions>
         </v-card>
         <v-card class="mx-auto mt-12">
-            <v-card-title class="display-1 text--primary font-weight-bold">Feature</v-card-title>
+            <v-card-title class="display-1 tertiary--text font-weight-bold">Feature</v-card-title>
             <v-divider></v-divider>
             <v-list-item>
                 <v-list-item-icon>
@@ -40,7 +38,7 @@
             </v-list-item>
         </v-card>
         <v-card class="mx-auto mt-12" align="center">
-            <v-card-title class="display-0 text--primary">Sharing brain Nucleus between behaviors</v-card-title>
+            <v-card-title class="display-0 tertiary--text">Sharing brain Nucleus between behaviors</v-card-title>
             <v-divider></v-divider>
             <v-row no-gutters align="center">
             <v-col class="matrixLegend">Mouse</v-col>
@@ -74,7 +72,7 @@
                         </v-list-item-content>
                     </v-list-item>
                     <v-card-actions class="flex-row-reverse">
-                        <v-btn text color="secondary accent-4" to="/download">to Download</v-btn>
+                        <v-btn text color="secondary lighten-0" to="/download">to Download</v-btn>
                     </v-card-actions>
                 </v-card>
             </v-timeline-item>

@@ -5,7 +5,7 @@
             <v-img :src="require('../assets/placeholder.png')" class="my-3" height="300" contain/>
             <v-list-item two-line>
                 <v-list-item-content>
-                  <v-list-item-title class="display-3 font-weight-black">Demo Title</v-list-item-title>
+                  <v-list-item-title class="display-3 font-weight-black tertiary--text">Demo Title</v-list-item-title>
                   <v-list-item-subtitle>demo description</v-list-item-subtitle>
                   <v-list-item-subtitle>demo description</v-list-item-subtitle>
                   <v-list-item-subtitle>demo description</v-list-item-subtitle>
@@ -16,7 +16,7 @@
         <div class="d-flex align-start my-8">
             <v-list-item two-line>
                 <v-list-item-content>
-                  <v-list-item-title class="display-3 font-weight-black">Demo Title</v-list-item-title>
+                  <v-list-item-title class="display-3 font-weight-black tertiary--text">Demo Title</v-list-item-title>
                   <v-list-item-subtitle>demo description</v-list-item-subtitle>
                   <v-list-item-subtitle>demo description</v-list-item-subtitle>
                   <v-list-item-subtitle>demo description</v-list-item-subtitle>
@@ -28,47 +28,49 @@
 
         <div class="d-flex flex-column align-center">
             <p class="font-weight-black display-3">FAQ</p>
-            <v-list-item two-line>
-                <v-list-item-content>
-                  <v-list-item-title><span class="font-weight-black">Question 1: </span>
-                      Where are the data included in cFos-ANAB from?
-                  </v-list-item-title>
-                  <v-list-item-subtitle><span class="font-weight-black">Answer: </span>
-                      All data used in the cFos-ANAB (1.0) are manually extracted from publications of original experiments. 
- In order to ensure the high quality of data provided by cFos-ANAB, we employ a distinct criterion for data being included in the project, that is, only the results supported by figure legends are focused, of which cFos positive expression with significant statistics are required.  Furthermore, data in each record is linked to the DOI of original publication.
-  More detailed answers, see Wang, et al (2020). cFos-ANAB: a c-Fos based web tool for exploring activated neurons and associated behaviors.  Preprint.
-                 </v-list-item-subtitle>
-                </v-list-item-content>
-            </v-list-item>
-            <v-list-item two-line>
-                <v-list-item-content>
-                  <v-list-item-title><span class="font-weight-black">Question 2: </span>
-                     What are the main functions of cFos-ANAB (1.0)?
-                  </v-list-item-title>
-                  <v-list-item-subtitle><span class="font-weight-black">Answer: </span>
-                      cFos-ANAB (1.0) is a user-friendly interface tool for exploring activated CNS neurons and associated behaviors based on cFos expression. 398 nuclei and subnuclei in total associated to 5 behaviors ( pain, feeding, fear, aggression, and sexual behavior ) of rats and mice are provided for quick analyses before experimental designs, more than 1900 records in total are available online.
-                      </v-list-item-subtitle>
-                </v-list-item-content>
-            </v-list-item>
-            <v-list-item two-line>
-                <v-list-item-content>
-                  <v-list-item-title><span class="font-weight-black">Question 3: </span>
-                      Which type of data could to be downloaded from cFos-ANAB (1.0) for non-commercial use?
-                  </v-list-item-title>
-                  <v-list-item-subtitle><span class="font-weight-black">Answer: </span>
-                      Users can download any type data results for academic research, in formats preferable for programming (JSON format), including:
-                        <ol>
-                            <li>Original data.</li>
-                            <li>Data on different brain nuclei.</li>
-                            <li>Data on different behavior.</li>
-                            <li>Data on different species.</li>
-                            <li>Pictures of Network mapping.</li>
-                            <li>Overlapping rat brain nuclei (subnuclei) among different behaviors.</li>
-                            <li>Overlapping mouse brain nuclei (subnuclei) among different behaviors.</li>
-                        </ol>
+            <v-col cols="12" sm="12">
+              <v-list-item line>
+                  <v-list-item-content>
+                    <v-list-item-title><span class="font-weight-black">Question 1: </span>
+                        Where are the data included in cFos-ANAB from?
+                    </v-list-item-title>
+                    <v-list-item-subtitle><span class="font-weight-black">Answer: </span>
+                        All data used in the cFos-ANAB (1.0) are manually extracted from publications of original experiments. 
+  In order to ensure the high quality of data provided by cFos-ANAB, we employ a distinct criterion for data being included in the project, that is, only the results supported by figure legends are focused, of which cFos positive expression with significant statistics are required.  Furthermore, data in each record is linked to the DOI of original publication.
+    More detailed answers, see Wang, et al (2020). cFos-ANAB: a c-Fos based web tool for exploring activated neurons and associated behaviors.  Preprint.
                   </v-list-item-subtitle>
-                </v-list-item-content>
-            </v-list-item>
+                  </v-list-item-content>
+              </v-list-item>
+              <v-list-item line>
+                  <v-list-item-content>
+                    <v-list-item-title><span class="font-weight-black">Question 2: </span>
+                      What are the main functions of cFos-ANAB (1.0)?
+                    </v-list-item-title>
+                    <v-list-item-subtitle><span class="font-weight-black">Answer: </span>
+                        cFos-ANAB (1.0) is a user-friendly interface tool for exploring activated CNS neurons and associated behaviors based on cFos expression. 398 nuclei and subnuclei in total associated to 5 behaviors ( pain, feeding, fear, aggression, and sexual behavior ) of rats and mice are provided for quick analyses before experimental designs, more than 1900 records in total are available online.
+                        </v-list-item-subtitle>
+                  </v-list-item-content>
+              </v-list-item>
+              <v-list-item line>
+                  <v-list-item-content>
+                    <v-list-item-title><span class="font-weight-black">Question 3: </span>
+                        Which type of data could to be downloaded from cFos-ANAB (1.0) for non-commercial use?
+                    </v-list-item-title>
+                    <v-list-item-subtitle><span class="font-weight-black">Answer: </span>
+                        Users can download any type data results for academic research, in formats preferable for programming (JSON format), including:
+                          <ol>
+                              <li>Original data.</li>
+                              <li>Data on different brain nuclei.</li>
+                              <li>Data on different behavior.</li>
+                              <li>Data on different species.</li>
+                              <li>Pictures of Network mapping.</li>
+                              <li>Overlapping rat brain nuclei (subnuclei) among different behaviors.</li>
+                              <li>Overlapping mouse brain nuclei (subnuclei) among different behaviors.</li>
+                          </ol>
+                    </v-list-item-subtitle>
+                  </v-list-item-content>
+              </v-list-item>
+            </v-col>
         </div>
 
         <a ref="BrainNucleusList" style="line-height: 160px;opacity: 0;">hidden anchor</a>

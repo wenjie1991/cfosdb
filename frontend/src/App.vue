@@ -4,11 +4,12 @@
             <v-toolbar-title class="text-uppercase font-weight-black display-1">cFos-ANAB</v-toolbar-title>
             <p class="mb-n2 ml-4" style="font-size: 1.2em;">A c-Fos based web tool for exploring activated neurons and associated behaviors</p>
             <template v-slot:extension>
-                <v-tabs centered class="secondary" optional>
-                  <v-tab to="/">index</v-tab>
-                  <v-tab to="/search">search</v-tab>
-                  <v-tab to="/download">download</v-tab>
-                  <v-tab to="/help">help</v-tab>
+                <v-tabs centered class="secondary" optional active-class="accent--text">
+                  <v-tabs-slider color="accent"></v-tabs-slider>
+                  <v-tab to="/"><v-icon left>mdi-home</v-icon>index</v-tab>
+                  <v-tab to="/search"><v-icon left>mdi-search-web</v-icon>search</v-tab>
+                  <v-tab to="/download"><v-icon left>mdi-download</v-icon>download</v-tab>
+                  <v-tab to="/help"><v-icon left>mdi-help-circle</v-icon>help</v-tab>
                 </v-tabs>
             </template>
         </v-app-bar>
@@ -21,7 +22,7 @@
             <v-col
                 flat
                 tile
-                class="indigo secondary white--text text-center"
+                class="indigo tertiary white--text text-center"
             >
                 <v-card-text>
                 The web is under development
