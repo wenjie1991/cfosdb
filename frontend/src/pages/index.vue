@@ -6,6 +6,8 @@
             <v-card-text>
                 <div class="text--primary pt-3 body-1">
                     c-Fos is one of the most widely studied immediate early genes in the field of neuroscience, which are expressed very soon after different stimuli. By using in situ hybridization and immunostaining technology, the mRNA and protein product of c-Fos can be identified respectively. As the field of brain science has rapidly developed in recent years, scientists desire to understand more functional meaning of neurons, c-Fos still can be the foundation of all functional studies. Currently, there is still not very mature database. Our c-Fos database will provide a good reference for early neuroscience exploration.
+
+                    
                 </div>
             </v-card-text>
             <v-card-actions class="flex-row-reverse">
@@ -21,7 +23,9 @@
                     <v-icon>mdi-checkbox-marked-circle</v-icon>
                 </v-list-item-icon>
                 <v-list-item-content>
-                    <v-list-item-subtitle>c-Fos data are extracted from the figure legend of original findings, namely, the results are supported by original figures, and can be easily traced via publications’ DOI hyperlinks; only c-Fos values increased at significant confidence level are included.</v-list-item-subtitle>
+                    <v-list-item-subtitle>
+                        cFos-ANAB (1.0) is a user-friendly interface tool for exploring activated CNS neurons and associated behaviors based on cFos expression. 398 nuclei and subnuclei in total associated to 5 behaviors ( pain, feeding, fear, aggression, and sexual behavior ) of rats and mice are provided for quick analyses before experimental designs, more than 1900 records in total are available online.
+                    </v-list-item-subtitle>
                 </v-list-item-content>
             </v-list-item>
             <v-list-item>
@@ -29,12 +33,14 @@
                     <v-icon>mdi-checkbox-marked-circle</v-icon>
                 </v-list-item-icon>
                 <v-list-item-content>
-                    <v-list-item-subtitle>An unified term of brain region is employed, the detailed relationships among behaviors, brain nucleus, specific active conditions, and their network mappings, can be shown and downloaded.</v-list-item-subtitle>
+                    <v-list-item-subtitle>
+                        All data used in the cFos-ANAB (1.0) are manually extracted from publications of original experiments.  In order to ensure the high quality of data provided by cFos-ANAB, we employ a distinct criterion for data being included in the project, that is, only the results supported by figure legends are focused, of which cFos positive expression with significant statistics are required.  Moreover, data in each record is linked to the DOI of original publication.
+                    </v-list-item-subtitle>
                 </v-list-item-content>
             </v-list-item>
         </v-card>
         <v-card class="mx-auto mt-12" align="center">
-            <v-card-title class="display-0 text--primary">Sharing brain nuclei between behaviors</v-card-title>
+            <v-card-title class="display-0 text--primary">Sharing brain Nucleus between behaviors</v-card-title>
             <v-divider></v-divider>
             <v-row no-gutters align="center">
             <v-col class="matrixLegend">Mouse</v-col>
