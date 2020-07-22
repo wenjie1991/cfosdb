@@ -41,19 +41,17 @@
             <v-card-title class="display-0 tertiary--text">Sharing brain Nucleus between behaviors</v-card-title>
             <v-divider></v-divider>
             <v-row no-gutters align="center">
-            <v-col class="matrixLegend">Mouse</v-col>
+            <v-col class="matrixLegend">Rat</v-col>
             <v-col cols='12' sm='7'>
                 <table id="behavior_matrix" class="matrixStyle">
                     <tbody>
                       <tr v-for="(row, index1) in rows" :key="index1">
-                    <!--    <td>{{row.id}}</td> -->
                         <td v-for="(col, index2) in row.value" :key="index2" @click="jumpSearch(col)" :class="{ active: !isNaN(col.value)}">{{col.value}}</td>
-                    <!--    <td>{{row.id}}</td> -->
                       </tr>
                     </tbody>
                 </table>
             </v-col>
-            <v-col class="matrixLegend">Rat</v-col>
+            <v-col class="matrixLegend">Mouse</v-col>
             </v-row>
         </v-card>
         <v-timeline dense class="mt-12">
@@ -92,7 +90,7 @@ export default {
             for (let i = 0; i < _json.length; i++) {
                 for (let j = 0; j < _json[i].value.length; j++) {
                     if (j > i) {
-                        _json[i].value[j]['isRat'] = true
+                        _json[i].value[j]['isRat'] = false
                     }
                 }
             }
