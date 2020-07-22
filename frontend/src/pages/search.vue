@@ -509,6 +509,22 @@ export default {
                 this.table_cotent = json
             })
       }
+    },
+    beforeRouteEnter (to, from, next) {
+        if (to.name === 'search' && to.query.behavior) {
+            console.log(to.query)
+            next(vm => {
+                vm.speciesData = to.query.species // Mouse or Rat
+                vm.selectedBehavior = to.query.behavior.split(',')
+                vm.toggle()
+                vm.graph_option.isOnlyOverlap = true
+                vm.$nextTick(() => {
+                    vm.submitQuery()
+                })
+            })
+        } else {
+            next()
+        }
     }
 }
 </script>

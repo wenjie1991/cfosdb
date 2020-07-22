@@ -2,7 +2,7 @@
     <div class="index">
         <v-card class="mx-auto">
             <v-card-title class="display-1 tertiary--text font-weight-bold ">cFos-ANAB</v-card-title>
-            <v-divider light="true"></v-divider>
+            <v-divider :light="true"></v-divider>
             <v-card-text>
                 <div class="pt-3 body-1">
                     c-Fos is one of the most widely studied immediate early genes in the field of neuroscience, which are expressed very soon after different stimuli. By using in situ hybridization and immunostaining technology, the mRNA and protein product of c-Fos can be identified respectively. As the field of brain science has rapidly developed in recent years, scientists desire to understand more functional meaning of neurons, c-Fos still can be the foundation of all functional studies. Currently, there is still not very mature database. Our c-Fos database will provide a good reference for early neuroscience exploration.                    
@@ -47,7 +47,7 @@
                     <tbody>
                       <tr v-for="(row, index1) in rows" :key="index1">
                     <!--    <td>{{row.id}}</td> -->
-                        <td v-for="(col, index2) in row.value" :key="index2">{{col.value}}</td>
+                        <td v-for="(col, index2) in row.value" :key="index2" @click="jumpSearch(col)" :class="{ active: !isNaN(col.value)}">{{col.value}}</td>
                     <!--    <td>{{row.id}}</td> -->
                       </tr>
                     </tbody>
@@ -84,7 +84,6 @@
 import behavior_cor_matrix from "@/assets/behavior_correlation_matrix.json"
 import colors from 'vuetify/lib/util/colors'
 
-
 export default {
     name: 'index',
     data() {
@@ -105,6 +104,13 @@ export default {
             rows: addTypeMatrix(behavior_cor_matrix)
         }
     },
+    methods: {
+        jumpSearch(y) {
+            const behaviors = y.behaviors
+            const species = y.isRat ? 'Rat' : 'Mouse'
+            this.$router.push({ name: 'search', query: { behavior: behaviors.join(','), species }})
+        }
+    }
 }
 </script>
 
@@ -119,6 +125,13 @@ export default {
         text-align: center;
         border: 1px solid #000;
         font-size: 15px;
+    }
+    .active {
+        background-color: #d7f2ff79;
+        cursor: pointer;
+        &:hover {
+            opacity: 0.5;
+        }
     }
 }
 .matrixLegend {
