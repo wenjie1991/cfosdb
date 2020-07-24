@@ -51,7 +51,7 @@
                     </v-combobox>
                 </v-col>
                 <v-col class="d-flex" cols="12" sm="1">
-                    <v-btn text color="accent accent-4" to="/help#brain_area_annot">[Brain Nucleus List]</v-btn>
+                    <v-btn text color="accent accent-4" class="toHelpBtn" to="/help#brain_area_annot">[Brain Nucleus List]</v-btn>
                 </v-col>
             </v-row>
 
@@ -554,5 +554,9 @@ export default {
 
 .graphPopup {
     background: "white";
+}
+
+.toHelpBtn {
+    /* box-shadow: 1px 1px 2px #88888862; */
 }
 </style>

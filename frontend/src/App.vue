@@ -1,7 +1,7 @@
 <template>
     <v-app>
         <v-app-bar app fixed color="primary" dark hide-on-scroll>
-            <v-toolbar-title class="text-uppercase font-weight-black display-1">cFos-ANAB</v-toolbar-title>
+            <v-toolbar-title class="font-weight-black display-1 effect01">cFos-ANAB</v-toolbar-title>
             <p class="mb-n2 ml-4" style="font-size: 1.2em;">A c-Fos based web tool for exploring activated neurons and associated behaviors</p>
             <template v-slot:extension>
                 <v-tabs centered class="secondary" optional active-class="accent--text">
@@ -43,7 +43,7 @@
                 </v-card-text>
             </v-col>
         </v-footer>
-        <documentation-fab/>
+        <!-- <documentation-fab/> -->
     </v-app>
 </template>
 
@@ -51,7 +51,7 @@
 export default {
     name: 'App',
     components: {
-        DocumentationFab: () => import('./components/Fab')
+        // DocumentationFab: () => import('./components/Fab')
     },
     watch: {
         '$route.path' () {
@@ -65,5 +65,14 @@ export default {
 .content {
     margin: 50px auto 350px;
     width: 1440px;
+}
+.effect01{
+    color:#fefefe;
+    text-shadow:
+    0px 1px 0px #c0c0c0,
+    0px 2px 0px #b0b0b0,
+    0px 3px 0px #a0a0a0,
+    0px 4px 0px #909090,
+    0px 5px 10px rgba(0, 0, 0, 0.3);
 }
 </style>

@@ -41,19 +41,19 @@
             <v-card-title class="display-0 tertiary--text">Sharing brain Nucleus between behaviors</v-card-title>
             <v-divider></v-divider>
             <v-row no-gutters align="center">
-            <v-col class="matrixLegend">Mouse</v-col>
+            <v-col class="matrixLegend display-1">Mouse</v-col>
             <v-col cols='12' sm='7'>
                 <table id="behavior_matrix" class="matrixStyle">
                     <tbody>
                       <tr v-for="(row, index1) in rows" :key="index1">
                     <!--    <td>{{row.id}}</td> -->
-                        <td v-for="(col, index2) in row.value" :key="index2" @click="jumpSearch(col)" :class="{ active: !isNaN(col.value)}">{{col.value}}</td>
+                        <td v-for="(col, index2) in row.value" :key="index2" @click="jumpSearch(col)" :class="{ active: !isNaN(col.value) && !col.isRat, activeRat: !isNaN(col.value) && col.isRat }">{{col.value}}</td>
                     <!--    <td>{{row.id}}</td> -->
                       </tr>
                     </tbody>
                 </table>
             </v-col>
-            <v-col class="matrixLegend">Rat</v-col>
+            <v-col class="matrixLegend display-1">Rat</v-col>
             </v-row>
         </v-card>
         <v-timeline dense class="mt-12">
@@ -118,17 +118,27 @@ export default {
 .matrixStyle {
     margin: 50px;
     border-collapse: collapse;
+    box-shadow: 5px 5px 5px #88888885;
     td {
         padding: 0px;
         height: 100px;
         width: 100px;
         text-align: center;
         border: 1px solid #000;
-        font-size: 15px;
+        font-size: 18px;
+    }
+    .activeRat {
+        background-color: #ffa600da;
+        cursor: pointer;
+        font-size: 20px;
+        &:hover {
+            opacity: 0.5;
+        }
     }
     .active {
-        background-color: #d7f2ff79;
+        background-color: #7ed0f879;
         cursor: pointer;
+        font-size: 20px;
         &:hover {
             opacity: 0.5;
         }
