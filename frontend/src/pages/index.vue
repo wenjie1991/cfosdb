@@ -126,19 +126,19 @@ export default {
         font-size: 18px;
     }
     .activeRat {
-        background-color: #ffa600da;
+        background-color: rgb(249, 193, 44);
         cursor: pointer;
         font-size: 20px;
         &:hover {
-            opacity: 0.5;
+            opacity: 0.8;
         }
     }
     .active {
-        background-color: #7ed0f879;
+        background-color: rgb(79, 172, 237);
         cursor: pointer;
         font-size: 20px;
         &:hover {
-            opacity: 0.5;
+            opacity: 0.8;
         }
     }
 }
