@@ -21,9 +21,9 @@
                     <v-icon>mdi-checkbox-marked-circle</v-icon>
                 </v-list-item-icon>
                 <v-list-item-content>
-                    <v-list-item-subtitle>
+                    <p class="pStyle">
                         cFos-ANAB (1.0) is a user-friendly interface tool for exploring activated CNS neurons and associated behaviors based on cFos expression. 398 nuclei and subnuclei in total associated to 5 behaviors ( pain, feeding, fear, aggression, and sexual behavior ) of rats and mice are provided for quick analyses before experimental designs, more than 1900 records in total are available online.
-                    </v-list-item-subtitle>
+                    </p>
                 </v-list-item-content>
             </v-list-item>
             <v-list-item>
@@ -31,9 +31,9 @@
                     <v-icon>mdi-checkbox-marked-circle</v-icon>
                 </v-list-item-icon>
                 <v-list-item-content>
-                    <v-list-item-subtitle>
+                    <p class="pStyle">
                         All data used in the cFos-ANAB (1.0) are manually extracted from publications of original experiments.  In order to ensure the high quality of data provided by cFos-ANAB, we employ a distinct criterion for data being included in the project, that is, only the results supported by figure legends are focused, of which cFos positive expression with significant statistics are required.  Moreover, data in each record is linked to the DOI of original publication.
-                    </v-list-item-subtitle>
+                    </p>
                 </v-list-item-content>
             </v-list-item>
         </v-card>
@@ -145,5 +145,9 @@ export default {
 .matrixLegend {
     font-size: 20px;
     font-weight: bold;
+}
+.pStyle {
+    line-height: 1.5rem;
+    color: rgba(0, 0, 0, 0.6);
 }
 </style>
