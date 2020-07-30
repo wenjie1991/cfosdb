@@ -1,29 +1,22 @@
 <template>
     <div>
+        <div class="d-flex flex-column align-center mt-8">
+            <p class="font-weight-black display-3">Demo</p>
+                <v-list-item two-line>
+                    <v-list-item-content>
+                        <v-list-item-title class="display-1 font-weight-black tertiary--text">Search by behaviors</v-list-item-title>
+                        <!-- <v&#45;list&#45;item&#45;subtitle>demo description</v&#45;list&#45;item&#45;subtitle> -->
+                    </v-list-item-content>
+                </v-list-item>
+                <v-img :src="require('../assets/search_by_behaviors.gif')" class="my-3" height="300" contain/>
 
-        <div class="d-flex align-start mt-8">
-            <v-img :src="require('../assets/placeholder.png')" class="my-3" height="300" contain/>
-            <v-list-item two-line>
-                <v-list-item-content>
-                  <v-list-item-title class="display-3 font-weight-black tertiary--text">Demo Title</v-list-item-title>
-                  <v-list-item-subtitle>demo description</v-list-item-subtitle>
-                  <v-list-item-subtitle>demo description</v-list-item-subtitle>
-                  <v-list-item-subtitle>demo description</v-list-item-subtitle>
-                  <v-list-item-subtitle>demo description</v-list-item-subtitle>
-                </v-list-item-content>
-            </v-list-item>
-        </div>
-        <div class="d-flex align-start my-8">
-            <v-list-item two-line>
-                <v-list-item-content>
-                  <v-list-item-title class="display-3 font-weight-black tertiary--text">Demo Title</v-list-item-title>
-                  <v-list-item-subtitle>demo description</v-list-item-subtitle>
-                  <v-list-item-subtitle>demo description</v-list-item-subtitle>
-                  <v-list-item-subtitle>demo description</v-list-item-subtitle>
-                  <v-list-item-subtitle>demo description</v-list-item-subtitle>
-                </v-list-item-content>
-            </v-list-item>
-            <v-img :src="require('../assets/placeholder.png')" class="my-3" height="300" contain/>
+                <v-list-item two-line>
+                    <v-list-item-content>
+                        <v-list-item-title class="display-1 font-weight-black tertiary--text">Search by nucleus</v-list-item-title>
+                        <!-- <v&#45;list&#45;item&#45;subtitle>demo description</v&#45;list&#45;item&#45;subtitle> -->
+                    </v-list-item-content>
+                </v-list-item>
+                <v-img :src="require('../assets/search_by_nuclus.gif')" class="my-3" height="300" contain/>
         </div>
 
         <div class="d-flex flex-column align-center">
@@ -136,17 +129,26 @@ import brain_area_annotation from "@/assets/clean_brain_area_annotation.json"
             { text: 'Database Name', value: 'main' },
             { text: 'Paxinos & Franklin, 2013 (Abbr)', value: 'long_1' },
             { text: 'Mouse brain_Franklin & Paxinos, 2007 (Abbr)', value: 'long_2' },
+            { text: 'Other Aliases (Abbr)', value: 'long_3' },
           ],
           brain_area_annotation_mouse: brain_area_annotation.filter(function(x) { return x.species === "Mouse" }).map(
                   function(x) {
-                      var long_1 = "", long_2 = "";
+                      var long_1 = "", long_2 = "", long_3 = "";
                       if (x.long_1 != "") {
                           long_1 = `${x.long_1} (${x.short_1})`
                       }
                       if (x.long_2 != "") {
                           long_2 = `${x.long_2} (${x.short_2})`
                       }
-                      return {brain_code: x.brain_code, main: x.main, long_1: long_1, long_2: long_2}
+                      if (x.long_3 != "") {
+                          if (x.short_3 != "") {
+                              long_3 = `${x.long_3} (${x.short_3})`
+                          } else {
+                              long_3 = x.long_3
+                          }
+                      }
+            
+                      return {brain_code: x.brain_code, main: x.main, long_1: long_1, long_2: long_2, long_3: long_3}
                   }
           ),
           headers_rat: [
@@ -159,17 +161,26 @@ import brain_area_annotation from "@/assets/clean_brain_area_annotation.json"
             { text: 'Database Name', value: 'main' },
             { text: 'L.W.Swanson, 2004 (Abbr)', value: 'long_1' },
             { text: 'Paxinos & Watson, 2007 (Abbr)', value: 'long_2' },
+            { text: 'Other Aliases (Abbr)', value: 'long_3' },
           ],
           brain_area_annotation_rat: brain_area_annotation.filter(function(x) { return x.species === "Rat" }).map(
                   function(x) {
-                      var long_1 = "", long_2 = "";
+                      var long_1 = "", long_2 = "", long_3 = "";
                       if (x.long_1 != "") {
                           long_1 = `${x.long_1} (${x.short_1})`
                       }
                       if (x.long_2 != "") {
                           long_2 = `${x.long_2} (${x.short_2})`
                       }
-                      return {brain_code: x.brain_code, main: x.main, long_1: long_1, long_2: long_2}
+                      if (x.long_3 != "") {
+                          if (x.short_3 != "") {
+                              long_3 = `${x.long_3} (${x.short_3})`
+                          } else {
+                              long_3 = x.long_3
+                          }
+                      }
+
+                      return {brain_code: x.brain_code, main: x.main, long_1: long_1, long_2: long_2, long_3: long_3}
                   }
           )
         }
