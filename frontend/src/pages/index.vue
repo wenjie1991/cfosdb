@@ -46,7 +46,7 @@
                 <table id="behavior_matrix" class="matrixStyle">
                     <tbody>
                       <tr v-for="(row, index1) in rows" :key="index1">
-                        <td v-for="(col, index2) in row.value" :key="index2" @click="jumpSearch(col)" :class="{ active: !isNaN(col.value) && col.isRat !== 0, activeRat: !isNaN(col.value) && col.isRat === 0 }">{{col.value}}</td>
+                        <td v-for="(col, index2) in row.value" :key="index2" @click="jumpSearch(col)" :class="{ active: !isNaN(col.value) && col.isRat !== 0, activeRat: !isNaN(col.value) && col.isRat === 0 }">{{!isNaN(col.value) ? 'x' : col.value}}</td>
                       </tr>
                     </tbody>
                 </table>
