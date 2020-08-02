@@ -163,7 +163,7 @@
                     ></v-switch>
                     <v-switch 
                         v-model="graph_option.behavior_level" 
-                        label="Display treatments detail"
+                        label="Display conditions detail"
                         true-value=1
                         false-value=0
                     ></v-switch>
