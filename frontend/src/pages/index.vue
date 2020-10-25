@@ -5,7 +5,10 @@
             <v-divider :light="true"></v-divider>
             <v-card-text>
                 <div class="pt-3 body-1">
-                    c-Fos is one of the most widely studied immediate early genes in the field of neuroscience, which are expressed very soon after different stimuli. By using in situ hybridization and immunostaining technology, the mRNA and protein product of c-Fos can be identified respectively. As the field of brain science has rapidly developed in recent years, scientists desire to understand more functional meaning of neurons, c-Fos still can be the foundation of all functional studies. Currently, there is still not very mature database. Our c-Fos database will provide a good reference for early neuroscience exploration.                    
+                    cFos is one of the most widely studied immediate early genes in the field of neuroscience, which are expressed very soon after different stimuli. By using in situ hybridization and immunostaining technology, the mRNA and protein product of cFos can be identified respectively. In the fast-developing field of brain science, scientists desire to better understand functional meanings of neurons, cFos mapping has become an important approach to assess neuronal activation and determine neuronal circuits underlying stimuli-elicited behaviors. Currently, there does not exist a systematic database focusing on cFos in neuroscience. Our database cFos-ANAB can serve as a helpful tool and good reference for early neuroscience exploration. 
+                </div>
+                <div class="pt-3 body-1">
+                    More detailed, see Wang, et al.(2020). cFos-ANAB: a cFos based web tool for exploring activated neurons and associated behaviors. Preprint.
                 </div>
             </v-card-text>
             <v-card-actions class="flex-row-reverse">
@@ -38,7 +41,7 @@
             </v-list-item>
         </v-card>
         <v-card class="mx-auto mt-12" align="center">
-            <v-card-title class="display-0 tertiary--text">Sharing brain Nucleus between behaviors</v-card-title>
+            <v-card-title class="display-0 tertiary--text">Shared brain Nucleus between behaviors</v-card-title>
             <v-divider></v-divider>
             <v-row no-gutters align="center">
             <v-col class="matrixLegend display-1">Rat</v-col>
@@ -46,7 +49,9 @@
                 <table id="behavior_matrix" class="matrixStyle">
                     <tbody>
                       <tr v-for="(row, index1) in rows" :key="index1">
-                        <td v-for="(col, index2) in row.value" :key="index2" @click="jumpSearch(col)" :class="{ active: !isNaN(col.value) && col.isRat !== 0, activeRat: !isNaN(col.value) && col.isRat === 0 }">{{!isNaN(col.value) ? 'x' : col.value}}</td>
+                       <!-- Here the is.NaN will test if the variable is a number or not  -->
+                        <!-- <td v&#45;for="(col, index2) in row.value" :key="index2" @click="jumpSearch(col)" :class="{ active: !isNaN(col.value) &#38;&#38; col.isRat !== 0, activeRat: !isNaN(col.value) &#38;&#38; col.isRat === 0 }">{{!isNaN(col.value) ? 'x' : col.value}}</td> -->
+                        <td v-for="(col, index2) in row.value" :key="index2" @click="jumpSearch(col)" :class="{ active: !isNaN(col.value) && col.isRat !== 0, activeRat: !isNaN(col.value) && col.isRat === 0 }">{{col.value}}</td>
                       </tr>
                     </tbody>
                 </table>

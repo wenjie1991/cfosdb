@@ -154,7 +154,7 @@
 
         <v-row v-show="haveSearchResult">
             <v-col class="flex-column" cols = "12" sm = "4">
-                <header>Nucleus - Behaviors Network Options:</header>
+                <header>Nucleus - Behavior Network Options:</header>
                     <v-switch class="flex-column"
                         v-model="graph_option.brain_area_level" 
                         label="Display Nucleus detail"
@@ -163,7 +163,7 @@
                     ></v-switch>
                     <v-switch 
                         v-model="graph_option.behavior_level" 
-                        label="Display conditions detail"
+                        label="Display stimulating conditions"
                         true-value=1
                         false-value=0
                     ></v-switch>
@@ -174,7 +174,7 @@
                     <v-switch 
                         v-show="selectedBehavior.length > 1"
                         v-model="graph_option.isOnlyOverlap" 
-                        label="Only show the shared nucleus"
+                        label="Display the shared nucleus"
                         ></v-switch>
             </v-col>
             
