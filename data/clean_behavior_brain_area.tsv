@@ -33,9 +33,9 @@ pain	10.1016/j.jpain.2010.09.005	rat		Fig.3	Plantar incision of propofal	R1
 pain	10.1523/JNEUROSCI.12-12-04878.1992	rat	female	Figs.6-8	mechanical Stimulation of the lower urinary tract(LUT)	R1	
 fear	10.1038/s41398-019-0368-y	rat	male	Fig. 2	exposure to 7.5% CO2	R116	
 fear	10.1038/s41398-019-0368-y	rat	male	Fig. 2	exposure to 7.5% CO2	R3.12	
-fear	10.1038/s41398-019-0368-y	rat	male	Fig. 2	exposure to 7.5% CO2	R38	
+fear	10.1038/s41398-019-0368-y	rat	male	Fig. 2	exposure to 7.5% CO2	R38.1	
 fear	10.1016/j.neuron.2016.10.015	rat	male	Fig. 7	second social-fear stimulation	R32.2	
-fear	10.7554/eLife.12669	rat		Fig. 1	fear conditioning	R38	
+fear	10.7554/eLife.12669	rat		Fig. 1	fear conditioning	R38.1	
 fear	10.1016/j.nlm.2015.10.001	rat	male	Fig. 3	fear conditioning	R158	
 fear	10.1016/j.nlm.2015.10.001	rat	male	Fig. 3	fear conditioning	R140	
 fear	10.1523/jneurosci.19-13-05666.1999	rat	male	Fig3	fear conditioning	R158	
@@ -47,7 +47,7 @@ fear	10.1523/jneurosci.19-13-05666.1999	rat	male	Fig4	fear conditioning	R158
 fear	10.1523/jneurosci.19-13-05666.1999	rat	male	Fig5	sense oligonucleotide (SO) or antisense oligonucleotides（ASO）	R158	
 fear	10.1523/jneurosci.19-13-05666.1999	rat	male	Fig5	sense oligonucleotide (SO) or antisense oligonucleotides（ASO）	R106	
 fear	10.1016/j.brainresbull.2012.04.001	rat	male	Fig. 2	fear conditioning	R106	
-fear	10.1016/j.brainresbull.2012.04.001	rat	male	Fig. 4	fear conditioning	R148	
+fear	10.1016/j.brainresbull.2012.04.001	rat	male	Fig. 4	fear conditioning	R38.3	
 fear	10.1016/j.brainresbull.2012.04.001	rat	male	Fig. 4	fear conditioning	R124	
 fear	10.1016/j.brainresbull.2012.04.001	rat	male	Fig. 4	fear conditioning	R32.1	
 fear	10.1016/j.brainresbull.2012.04.001	rat	male	Fig. 5	fear conditioning	R115.2	
@@ -57,12 +57,12 @@ fear	10.1016/0006-8993(92)91503-7	rat	male	Fig. 1	fear conditioning	R25.42
 fear	10.1016/0006-8993(92)91503-7	rat	male	Fig. 1	fear conditioning	R25.52	
 fear	10.1016/0006-8993(92)91503-7	rat	male	Fig. 3	fear conditioning	R96.1	
 fear	10.1016/0006-8993(92)91503-7	rat	male	Fig. 3	fear conditioning	R96.1	
-fear	10.1016/0006-8993(92)91503-7	rat	male	Fig. 4	unconditioned stimulus	R148	
-fear	10.1016/0006-8993(92)91503-7	rat	male	Fig. 4	fear conditioning	R148	
+fear	10.1016/0006-8993(92)91503-7	rat	male	Fig. 4	unconditioned stimulus	R38.3	
+fear	10.1016/0006-8993(92)91503-7	rat	male	Fig. 4	fear conditioning	R38.3	
 fear	10.1016/0006-8993(92)91503-7	rat	male	Fig.5	unconditioned stimulus	R147.2	
 fear	10.1016/0006-8993(92)91503-7	rat	male	Fig.5	fear conditioning	R147.2	
-fear	10.1016/0006-8993(91)91669-R	rat	male	Fig1	unconditioned fear by handling	R122	
-fear	10.1016/0006-8993(91)91669-R	rat	male	Fig1	unconditioned fear by footshock	R122	
+fear	10.1016/0006-8993(91)91669-R	rat	male	Fig1	unconditioned fear by handling	R38	
+fear	10.1016/0006-8993(91)91669-R	rat	male	Fig1	unconditioned fear by footshock	R38	
 feeding	10.1006/mcne.1993.1011	rat	male	Fig. 1	22-h food deprivation followed by spontaneous food ingestion (FD-FED)	R22	
 feeding	10.1006/mcne.1993.1011	rat	male	Fig. 1	insulin treatment followed by spontaneous food ingestion (INS-FED)	R22	
 feeding	10.1006/mcne.1993.1011	rat	male	Fig. 1	forced gastric distention (GD)	R22	
@@ -73,17 +73,17 @@ feeding	10.1006/mcne.1993.1011	rat	male	Fig. 5	insulin induced hypoglycemia (INS
 feeding	10.1006/mcne.1993.1011	rat	male	Fig. 5	forced gastric distention (GD)	R50	
 feeding	10.1006/mcne.1993.1011	rat	male	Fig. 6	administration of CCK	R25.42	
 feeding	10.1006/mcne.1993.1011	rat	male	Fig. 6	administration of CCK	R25.52	
-feeding	10.1006/mcne.1993.1011	rat	male	Fig. 6	administration of CCK	R44	
+feeding	10.1006/mcne.1993.1011	rat	male	Fig. 6	administration of CCK	R38.2	
 feeding	10.1006/mcne.1993.1011	rat	male	Fig. 6	administration of CCK	R87	
 feeding	10.1006/mcne.1993.1011	rat	male	Fig. 6	administration of LiCl	R25.42	
 feeding	10.1006/mcne.1993.1011	rat	male	Fig. 6	administration of LiCl	R25.52	
-feeding	10.1006/mcne.1993.1011	rat	male	Fig. 6	administration of LiCl	R44	
+feeding	10.1006/mcne.1993.1011	rat	male	Fig. 6	administration of LiCl	R38.2	
 feeding	10.1006/mcne.1993.1011	rat	male	Fig. 6	insulin induced hypoglycemia (INS)	R25.42	
-feeding	10.1006/mcne.1993.1011	rat	male	Fig. 6	insulin induced hypoglycemia (INS)	R44	
-feeding	10.1006/mcne.1993.1011	rat	male	Fig. 6	insulin treatment followed by spontaneous food ingestion (INS-FED)	R44	
+feeding	10.1006/mcne.1993.1011	rat	male	Fig. 6	insulin induced hypoglycemia (INS)	R38.2	
+feeding	10.1006/mcne.1993.1011	rat	male	Fig. 6	insulin treatment followed by spontaneous food ingestion (INS-FED)	R38.2	
 feeding	10.1006/mcne.1993.1011	rat	male	Fig. 6	forced gastric distention (GD)	R25.42	
 feeding	10.1006/mcne.1993.1011	rat	male	Fig. 6	forced gastric distention (GD)	R25.52	
-feeding	10.1006/mcne.1993.1011	rat	male	Fig. 6	forced gastric distention (GD)	R44	
+feeding	10.1006/mcne.1993.1011	rat	male	Fig. 6	forced gastric distention (GD)	R38.2	
 feeding	10.1006/mcne.1993.1011	rat	male	Fig. 6	forced gastric distention (GD)	R87	
 feeding	10.1006/mcne.1993.1011	rat	male	Fig. 8	oxytocin administration into the lateral ventricle	R22	
 feeding	10.1006/mcne.1993.1011	rat	male	Fig. 8	oxytocin administration into the lateral ventricle	R37	
@@ -101,29 +101,29 @@ Sexual behavior	10.1111/j.1601-183x.2010.00621.x	rat	male	Fig. 2	Sexual experien
 Sexual behavior	10.1111/j.1365-2826.2012.02290.x	rat	male	Fig. 4A	fed males  paired with a receptive female	R87	
 Sexual behavior	10.1111/j.1365-2826.2012.02290.x	rat	male	Fig. 4A	hungry males  paired with a receptive female	R87	
 Sexual behavior	10.1111/j.1365-2826.2012.02290.x	rat	male	Fig. 4B	fed males  paired with a receptive female	R185	
-Sexual behavior	10.1111/j.1365-2826.2012.02290.x	rat	male	Fig. 4B	fed males  paired with a receptive female	R148.1	
+Sexual behavior	10.1111/j.1365-2826.2012.02290.x	rat	male	Fig. 4B	fed males  paired with a receptive female	R38.32	
 Sexual behavior	10.1111/j.1365-2826.2012.02290.x	rat	male	Fig. 4C	fed males  paired with a receptive female	R150	
 Sexual behavior	10.1111/j.1365-2826.2012.02290.x	rat	male	Fig. 4C	hungry males  paired with a receptive female	R150	
 Sexual behavior	10.1111/j.1365-2826.2012.02290.x	rat	male	Fig. 6	fed males  paired with a receptive female	R25.31	
-Sexual behavior	10.1016/j.brainres.2007.07.071	rat	female	Fig. 2&Fig. 3	sexually experienced subjects exposed to sexually active male-soiled bedding	R148.1	
+Sexual behavior	10.1016/j.brainres.2007.07.071	rat	female	Fig. 2&Fig. 3	sexually experienced subjects exposed to sexually active male-soiled bedding	R38.32	
 Sexual behavior	10.1016/j.brainres.2007.07.071	rat	female	Fig. 3	sexually experienced subjects exposed to sexually active male-soiled bedding	R87	
-Sexual behavior	10.1016/j.brainres.2007.07.071	rat	female	Fig. 2&Fig. 3	sexually naive subjects exposed to sexually active male-soiled bedding	R148.1	
+Sexual behavior	10.1016/j.brainres.2007.07.071	rat	female	Fig. 2&Fig. 3	sexually naive subjects exposed to sexually active male-soiled bedding	R38.32	
 Sexual behavior	10.1016/j.brainres.2007.07.071	rat	female	Fig. 3	sexually naive subjects exposed to sexually active male-soiled bedding	R87	
 Sexual behavior	10.1016/j.brainres.2007.07.071	rat	Female	Fig. 3	sexually naïve female exposure to sexually active male-soiled bedding	R184.2	
 Sexual behavior	10.1016/j.brainres.2007.07.071	rat	Female	Fig. 3	sexually experenced female exposure to sexually active male-soiled bedding	R184.2	
 Sexual behavior	10.1016/j.brainres.2007.07.071	rat	Female	Fig. 3	sexually naïve female exposure to sexually active male-soiled bedding	R184.1	
 Sexual behavior	10.1016/j.brainres.2007.07.071	rat	Female	Fig. 3	sexually experenced female exposure to sexually active male-soiled bedding	R184.1	
-Sexual behavior	10.1016/j.brainres.2007.07.071	rat	female	Fig. 3	sexually experienced subjects exposed to sexually active male-soiled bedding	R148.2	
+Sexual behavior	10.1016/j.brainres.2007.07.071	rat	female	Fig. 3	sexually experienced subjects exposed to sexually active male-soiled bedding	R38.31	
 Sexual behavior	10.1016/j.brainres.2007.07.071	rat	female	Fig. 2&Fig. 3	sexually experienced subjects exposed to sexually active male-soiled bedding	R150	
 Sexual behavior	10.1016/j.brainres.2007.07.071	rat	female	Fig. 2&Fig. 3	sexually experienced subjects exposed to sexually active male-soiled bedding	R2.1	
 Sexual behavior	10.1016/j.physbeh.2006.04.023	rat	male	Fig. 2	exposure to estrous bedding in copulating male rats	R184.2	
 Sexual behavior	10.1016/j.physbeh.2006.04.023	rat	male	Fig. 2	exposure to estrous bedding in sluggish male rats	R184.2	
 Sexual behavior	10.1016/j.physbeh.2006.04.023	rat	male	Fig. 2	exposure to estrous bedding in copulating male rats	R184.1	
 Sexual behavior	10.1016/j.physbeh.2006.04.023	rat	male	Fig. 2	exposure to estrous bedding in sluggish male rats	R184.1	
-Sexual behavior	10.1016/j.physbeh.2006.04.023	rat	male	Fig. 2	exposure to estrous bedding in copulating male rats	R148.2	
-Sexual behavior	10.1016/j.physbeh.2006.04.023	rat	male	Fig. 2	exposure to estrous bedding in sluggish male rats	R148.2	
-Sexual behavior	10.1016/j.physbeh.2006.04.023	rat	male	Fig. 2	exposure to estrous bedding in copulating male rats	R148.1	
-Sexual behavior	10.1016/j.physbeh.2006.04.023	rat	male	Fig. 2	exposure to estrous bedding in sluggish male rats	R148.1	
+Sexual behavior	10.1016/j.physbeh.2006.04.023	rat	male	Fig. 2	exposure to estrous bedding in copulating male rats	R38.31	
+Sexual behavior	10.1016/j.physbeh.2006.04.023	rat	male	Fig. 2	exposure to estrous bedding in sluggish male rats	R38.31	
+Sexual behavior	10.1016/j.physbeh.2006.04.023	rat	male	Fig. 2	exposure to estrous bedding in copulating male rats	R38.32	
+Sexual behavior	10.1016/j.physbeh.2006.04.023	rat	male	Fig. 2	exposure to estrous bedding in sluggish male rats	R38.32	
 aggression	10.1038/s41598-017-09106-3	mouse	male	Figure. 2	physical stress(placed into the home cage of a CD1 aggressor)	B14.1	
 aggression	10.1038/s41598-017-09106-3	mouse	male	Figure. 2	physical stress(placed into the home cage of a CD2 aggressor)	B37	
 aggression	10.1038/s41598-017-09106-3	mouse	male	Figure. 2	physical stress(placed into the home cage of a CD3 aggressor)	B9	
@@ -249,8 +249,8 @@ feeding	10.1038/nn.3767	mouse	male	Figure 4	re-fed	B10.1	PKC-δ+
 feeding	10.1038/nn.3767	mouse	male	Figure 5	oral infusion of quinine	B10.1	PKC-δ+
 feeding	10.1038/nn.3767	mouse	male	figure6	intraperitoneal injection of LiCl	B2.1	
 feeding	10.1038/nn.3767	mouse	male	figure7	intraperitoneal injection of CCK	B2.1	
-feeding	10.1038/nn.3767	mouse	male	figure8	intraperitoneal injection of LiCl	B6	
-feeding	10.1038/nn.3767	mouse	male	figure9	intraperitoneal injection of CCK	B6	
+feeding	10.1038/nn.3767	mouse	male	figure8	intraperitoneal injection of LiCl	B10.4	
+feeding	10.1038/nn.3767	mouse	male	figure9	intraperitoneal injection of CCK	B10.4	
 feeding	10.1038/nn.3767	mouse	male	figure10	intraperitoneal injection of LiCl	B65	
 feeding	10.1038/nn.3767	mouse	male	figure11	intraperitoneal injection of CCK	B65	
 feeding	10.1126/science.aar4983	mouse	male	Figure1	fasted	B67	SST,somatostatin

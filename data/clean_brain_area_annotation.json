@@ -649,7 +649,7 @@
     "short_3": ""
   },
   {
-    "brain_code": "R38",
+    "brain_code": "R38.1",
     "main": "Basolateral amygdalar nucleus",
     "species": "Rat",
     "long_1": "Basolateral amygdalar nucleus",
@@ -660,7 +660,7 @@
     "short_3": ""
   },
   {
-    "brain_code": "R44",
+    "brain_code": "R38.2",
     "main": "Central amygdalar nucleus",
     "species": "Rat",
     "long_1": "Central amygdalar nucleus",
@@ -825,7 +825,7 @@
     "short_3": ""
   },
   {
-    "brain_code": "R122",
+    "brain_code": "R38",
     "main": "Amygdala",
     "species": "Rat",
     "long_1": "Amygdala",
@@ -891,7 +891,7 @@
     "short_3": ""
   },
   {
-    "brain_code": "R148",
+    "brain_code": "R38.3",
     "main": "Medial amygdalar nucleus",
     "species": "Rat",
     "long_1": "Medial amygdalar nucleus",
@@ -902,7 +902,7 @@
     "short_3": ""
   },
   {
-    "brain_code": "R148.1",
+    "brain_code": "R38.32",
     "main": "Medial amygdalar nucleus, posterodorsal part",
     "species": "Rat",
     "long_1": "Medial amygdalar nucleus, posterodorsal part",
@@ -913,7 +913,7 @@
     "short_3": "MEPD"
   },
   {
-    "brain_code": "R148.2",
+    "brain_code": "R38.31",
     "main": "Medial amygdalar nucleus, anterodorsal part",
     "species": "Rat",
     "long_1": "Medial amygdalar nucleus, anterodorsal part",
@@ -1573,7 +1573,7 @@
     "short_3": ""
   },
   {
-    "brain_code": "B6",
+    "brain_code": "B10.4",
     "main": "Basolateral amygdaloid nucleus",
     "species": "Mouse",
     "long_1": "Basolateral amygdaloid nucleus",

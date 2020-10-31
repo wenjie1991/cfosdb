@@ -318,12 +318,12 @@
       "species": "Rat"
     },
     {
-      "value": "R38",
+      "value": "R38.1",
       "display": "Basolateral amygdalar nucleus",
       "species": "Rat"
     },
     {
-      "value": "R44",
+      "value": "R38.2",
       "display": "Central amygdalar nucleus",
       "species": "Rat"
     },
@@ -398,7 +398,7 @@
       "species": "Rat"
     },
     {
-      "value": "R122",
+      "value": "R38",
       "display": "Amygdala",
       "species": "Rat"
     },
@@ -428,17 +428,17 @@
       "species": "Rat"
     },
     {
-      "value": "R148",
+      "value": "R38.3",
       "display": "Medial amygdalar nucleus",
       "species": "Rat"
     },
     {
-      "value": "R148.1",
+      "value": "R38.32",
       "display": "Medial amygdalar nucleus, posterodorsal part",
       "species": "Rat"
     },
     {
-      "value": "R148.2",
+      "value": "R38.31",
       "display": "Medial amygdalar nucleus, anterodorsal part",
       "species": "Rat"
     },
@@ -738,7 +738,7 @@
       "species": "Mouse"
     },
     {
-      "value": "B6",
+      "value": "B10.4",
       "display": "Basolateral amygdaloid nucleus",
       "species": "Mouse"
     },

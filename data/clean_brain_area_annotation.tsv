@@ -58,8 +58,8 @@ R32	ventromedial hypothalamic nucleus	Rat	ventromedial hypothalamic nucleus	VMH	
 R32.1	ventromedial hypothalamic nucleus, dorsomedial part	Rat	ventromedial hypothalamic nucleus, dorsomedial part	VMHdm	ventromedial hypothalamic nucleus, dorsomedial part	VMHDM	dorsomedial part of ventromedial hypothalamic nucleus	
 R32.2	ventromedial hypothalamic nucleus, ventrolateral part	Rat	ventromedial hypothalamic nucleus, ventrolateral part	VMHvl	ventromedial hypothalamic nucleus, ventrolateral part	VMHVL	ventrolateral part of ventromedial hypothalamic nucleus	
 R37	area postrema	Rat	area postrema	AP	area postrema	AP		
-R38	basolateral amygdalar nucleus	Rat	basolateral amygdalar nucleus	BLA	basolateral amygdaloid nucleus	BL	basolateral nucleus of the amygdala	
-R44	central amygdalar nucleus	Rat	central amygdalar nucleus	CEA	central amygdaloid nucleus	Ce	central nucleus of the amygdala	CeA
+R38.1	basolateral amygdalar nucleus	Rat	basolateral amygdalar nucleus	BLA	basolateral amygdaloid nucleus	BL	basolateral nucleus of the amygdala	
+R38.2	central amygdalar nucleus	Rat	central amygdalar nucleus	CEA	central amygdaloid nucleus	Ce	central nucleus of the amygdala	CeA
 R50	dorsal motor nucleus vagus nerve	Rat	dorsal motor nucleus vagus nerve	DMX	dorsal motor nucleus of vagus	10N	dorsal motor nucleus of the vagus nerve	DMN
 R57	lateral hypothalamic area	Rat	lateral hypothalamic area	LHA	lateral hypothalamic area	LH		
 R64	paragigantocellular reticular nucleus	Rat	paragigantocellular reticular nucleus	PGRN			paragigantocellular reticular nucleus	PGI
@@ -74,15 +74,15 @@ R115	superior central nucleus raphé_sw	Rat	superior central nucleus raphé_sw	C
 R115.1	superior central nucleus raphé, lateral part_sw	Rat	superior central nucleus raphé, lateral part_sw	CSl				
 R115.2	superior central nucleus raphé, medial part	Rat	superior central nucleus raphé, medial part	CSm	median raphe nucleus	MnR	median raphe	
 R116	dorsomedial hypothalamic nucleus	Rat	dorsomedial hypothalamic nucleus	DMH	dorsomedial hypothalamic nucleus	DM		
-R122	amygdala	Rat	amygdala	AMY				
+R38	amygdala	Rat	amygdala	AMY				
 R124	anterior hypothalamic nucleus	Rat	anterior hypothalamic nucleus	AHN	anterior hypothalamic nucleus	LA		
 R126	anteroventral preoptic nucleus	Rat	anteroventral preoptic nucleus	AVP			AVPO	
 R140	infralimbic area	Rat	infralimbic area	ILA	infralimbic cortex	IL		
 R147	lateral septal nucleus	Rat	lateral septal nucleus	LS	lateral septal nucleus	LS		
 R147.2	lateral septal nucleus, ventral part	Rat	lateral septal nucleus, ventral part	LSv	lateral septal nucleus, ventral part	LSV	septohypothalamic nucleus	
-R148	medial amygdalar nucleus	Rat	medial amygdalar nucleus	MEA	medial amygdaloid nucleus	Me	medial amygdala	
-R148.1	medial amygdalar nucleus, posterodorsal part	Rat	medial amygdalar nucleus, posterodorsal part	MEApd	medial amygdaloid nucleus, posterodorsal part	MePD	posterodorsal medial amygdala nucleus	MEPD
-R148.2	medial amygdalar nucleus, anterodorsal part	Rat	medial amygdalar nucleus, anterodorsal part	MEAad	medial amygdaloid nucleus, ant dorsal	MeAD	anterior-dorsal medial amygdala	MeAD
+R38.3	medial amygdalar nucleus	Rat	medial amygdalar nucleus	MEA	medial amygdaloid nucleus	Me	medial amygdala	
+R38.32	medial amygdalar nucleus, posterodorsal part	Rat	medial amygdalar nucleus, posterodorsal part	MEApd	medial amygdaloid nucleus, posterodorsal part	MePD	posterodorsal medial amygdala nucleus	MEPD
+R38.31	medial amygdalar nucleus, anterodorsal part	Rat	medial amygdalar nucleus, anterodorsal part	MEAad	medial amygdaloid nucleus, ant dorsal	MeAD	anterior-dorsal medial amygdala	MeAD
 R150	medial preoptic area	Rat	medial preoptic area	MPO	medial preoptic area	MPA		
 R158	prelimbic area	Rat	prelimbic area	PL	prelimbic cortex	PrL		
 R168	arcuate hypothalamic nucleus	Rat	arcuate hypothalamic nucleus	ARH	arcuate hypothalamic nucleus	Arc	Arcuate nucleus	
@@ -142,7 +142,7 @@ B51	medial preoptic area	Mouse	medial preoptic area	MPA	medial preoptic area	MPA
 B52.1	medial preoptic nucleus, medial part	Mouse	medial preoptic nucleus, medial part	MPOM	medial preoptic nucleus, medial part	MPOM		
 B54	mitral cell layer of the accessory olfactory bulb	Mouse	mitral cell layer of the accessory olfactory bulb	MiA	mitral cell layer of the accessory olfactory bulb	MiA	mitral cell layer, accessory olfactory bulb	
 B59	superior colliculus	Mouse	superior colliculus	SC	superior colliculus	SC		
-B6	basolateral amygdaloid nucleus	Mouse	basolateral amygdaloid nucleus	BL	basolateral amygdaloid nucleus	BL	BLA	
+B10.4	basolateral amygdaloid nucleus	Mouse	basolateral amygdaloid nucleus	BL	basolateral amygdaloid nucleus	BL	BLA	
 B61	ventral tegmental area, rostral part	Mouse	ventral tegmental area, rostral part	VTAR	ventral tegmental area	VTA		
 B62	lateral habenular nucleus	Mouse	lateral habenular nucleus	LHb	lateral habenular nucleus	LHb		
 B63	dorsal horn	Mouse			dorsal horn	DH	dorsal horn	

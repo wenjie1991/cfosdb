@@ -346,7 +346,7 @@
     "gender": "male",
     "figure": "Fig. 2",
     "condition": "Exposure to 7.5% CO2",
-    "brain_code": "R38",
+    "brain_code": "R38.1",
     "cell_type": ""
   },
   {
@@ -366,7 +366,7 @@
     "gender": "",
     "figure": "Fig. 1",
     "condition": "Fear conditioning",
-    "brain_code": "R38",
+    "brain_code": "R38.1",
     "cell_type": ""
   },
   {
@@ -486,7 +486,7 @@
     "gender": "male",
     "figure": "Fig. 4",
     "condition": "Fear conditioning",
-    "brain_code": "R148",
+    "brain_code": "R38.3",
     "cell_type": ""
   },
   {
@@ -586,7 +586,7 @@
     "gender": "male",
     "figure": "Fig. 4",
     "condition": "Unconditioned stimulus",
-    "brain_code": "R148",
+    "brain_code": "R38.3",
     "cell_type": ""
   },
   {
@@ -596,7 +596,7 @@
     "gender": "male",
     "figure": "Fig. 4",
     "condition": "Fear conditioning",
-    "brain_code": "R148",
+    "brain_code": "R38.3",
     "cell_type": ""
   },
   {
@@ -626,7 +626,7 @@
     "gender": "male",
     "figure": "Fig1",
     "condition": "Unconditioned fear by handling",
-    "brain_code": "R122",
+    "brain_code": "R38",
     "cell_type": ""
   },
   {
@@ -636,7 +636,7 @@
     "gender": "male",
     "figure": "Fig1",
     "condition": "Unconditioned fear by footshock",
-    "brain_code": "R122",
+    "brain_code": "R38",
     "cell_type": ""
   },
   {
@@ -746,7 +746,7 @@
     "gender": "male",
     "figure": "Fig. 6",
     "condition": "Administration of CCK",
-    "brain_code": "R44",
+    "brain_code": "R38.2",
     "cell_type": ""
   },
   {
@@ -786,7 +786,7 @@
     "gender": "male",
     "figure": "Fig. 6",
     "condition": "Administration of LiCl",
-    "brain_code": "R44",
+    "brain_code": "R38.2",
     "cell_type": ""
   },
   {
@@ -806,7 +806,7 @@
     "gender": "male",
     "figure": "Fig. 6",
     "condition": "Insulin induced hypoglycemia (INS)",
-    "brain_code": "R44",
+    "brain_code": "R38.2",
     "cell_type": ""
   },
   {
@@ -816,7 +816,7 @@
     "gender": "male",
     "figure": "Fig. 6",
     "condition": "Insulin treatment followed by spontaneous food ingestion (INS-FED)",
-    "brain_code": "R44",
+    "brain_code": "R38.2",
     "cell_type": ""
   },
   {
@@ -846,7 +846,7 @@
     "gender": "male",
     "figure": "Fig. 6",
     "condition": "Forced gastric distention (GD)",
-    "brain_code": "R44",
+    "brain_code": "R38.2",
     "cell_type": ""
   },
   {
@@ -1026,7 +1026,7 @@
     "gender": "male",
     "figure": "Fig. 4B",
     "condition": "Fed males  paired with a receptive female",
-    "brain_code": "R148.1",
+    "brain_code": "R38.32",
     "cell_type": ""
   },
   {
@@ -1066,7 +1066,7 @@
     "gender": "female",
     "figure": "Fig. 2&Fig. 3",
     "condition": "Sexually experienced subjects exposed to sexually active male-soiled bedding",
-    "brain_code": "R148.1",
+    "brain_code": "R38.32",
     "cell_type": ""
   },
   {
@@ -1086,7 +1086,7 @@
     "gender": "female",
     "figure": "Fig. 2&Fig. 3",
     "condition": "Sexually naive subjects exposed to sexually active male-soiled bedding",
-    "brain_code": "R148.1",
+    "brain_code": "R38.32",
     "cell_type": ""
   },
   {
@@ -1146,7 +1146,7 @@
     "gender": "female",
     "figure": "Fig. 3",
     "condition": "Sexually experienced subjects exposed to sexually active male-soiled bedding",
-    "brain_code": "R148.2",
+    "brain_code": "R38.31",
     "cell_type": ""
   },
   {
@@ -1216,7 +1216,7 @@
     "gender": "male",
     "figure": "Fig. 2",
     "condition": "Exposure to estrous bedding in copulating male rats",
-    "brain_code": "R148.2",
+    "brain_code": "R38.31",
     "cell_type": ""
   },
   {
@@ -1226,7 +1226,7 @@
     "gender": "male",
     "figure": "Fig. 2",
     "condition": "Exposure to estrous bedding in sluggish male rats",
-    "brain_code": "R148.2",
+    "brain_code": "R38.31",
     "cell_type": ""
   },
   {
@@ -1236,7 +1236,7 @@
     "gender": "male",
     "figure": "Fig. 2",
     "condition": "Exposure to estrous bedding in copulating male rats",
-    "brain_code": "R148.1",
+    "brain_code": "R38.32",
     "cell_type": ""
   },
   {
@@ -1246,7 +1246,7 @@
     "gender": "male",
     "figure": "Fig. 2",
     "condition": "Exposure to estrous bedding in sluggish male rats",
-    "brain_code": "R148.1",
+    "brain_code": "R38.32",
     "cell_type": ""
   },
   {
@@ -2416,7 +2416,7 @@
     "gender": "male",
     "figure": "Figure8",
     "condition": "Intraperitoneal injection of LiCl",
-    "brain_code": "B6",
+    "brain_code": "B10.4",
     "cell_type": ""
   },
   {
@@ -2426,7 +2426,7 @@
     "gender": "male",
     "figure": "Figure9",
     "condition": "Intraperitoneal injection of CCK",
-    "brain_code": "B6",
+    "brain_code": "B10.4",
     "cell_type": ""
   },
   {

@@ -157,9 +157,7 @@
                 <header>Nucleus - Behavior Network Options:</header>
                     <v-switch class="flex-column"
                         v-model="graph_option.brain_area_level" 
-                        label="Display Nucleus detail"
-                        true-value=1
-                        false-value=0
+                        label="Display nucleus detail"
                     ></v-switch>
                     <v-switch 
                         v-model="graph_option.behavior_level" 
@@ -211,14 +209,14 @@ options_json.brain_area.sort(function(a, b) {
 });
 
 function draw_network(tbJson, graph_option) {
-    // brain_area_level: 1 more detail, else less detail
+    // brain_area_level: true more detail, else less detail
     // behavior_level: 1 more detail, else less detail
 	var behavior_dict = {};
 	var brain_area_dict = {};
 
 	var generate_dict = {};
 
-	if (graph_option.behavior_level == 1) {
+	if (graph_option.behavior_level) {
 		generate_dict["behavior_value"] = (function(tb_row) {
 			return tb_row.condition;
 		});
@@ -238,7 +236,7 @@ function draw_network(tbJson, graph_option) {
 	}
 
 	var query_dict;
-	if (graph_option.brain_area_level == 1) {
+	if (graph_option.brain_area_level) {
 		query_dict = (function(x) {
 			return x;
 		})
@@ -420,7 +418,7 @@ export default {
                 text: 'Behavior',
                 align: 'start',
                 sortable: true,
-                value: 'behavior',
+                value: 'behavior'
                 },
                 { text: 'Brain Nucleus', value: 'main' },
                 { text: 'Condition', value: 'condition' },
@@ -428,18 +426,17 @@ export default {
                 { text: 'Source', value: 'doi' },
                 { text: 'Cell Type', value: 'cell_type' },
                 { text: 'Gender', value: 'gender' },
-                { text: 'Figure', value: 'figure' },
-
+                { text: 'Figure', value: 'figure' }
             ],
             table_cotent: [],
             selectedTableRow: [],
             graphData_json: [],
             graph_option: {
-                brain_area_level: 0,
+                brain_area_level: true,
                 behavior_level: 0,
                 show_label: false,
                 roam_enable: false,
-                isOnlyOverlap: false,
+                isOnlyOverlap: false
             }
         }
     },
@@ -512,12 +509,13 @@ export default {
     },
     beforeRouteEnter (to, from, next) {
         if (to.name === 'search' && to.query.behavior) {
-            console.log(to.query)
+            // console.log(to.query)
             next(vm => {
                 vm.speciesData = to.query.species // Mouse or Rat
                 vm.selectedBehavior = to.query.behavior.split(',')
                 vm.toggle()
-                vm.graph_option.isOnlyOverlap = true
+                vm.graph_option.isOnlyOverlap = true 
+                vm.graph_option.brain_area_level = true
                 vm.$nextTick(() => {
                     vm.submitQuery()
                 })
