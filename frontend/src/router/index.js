@@ -8,7 +8,7 @@ import help from '@/pages/help'
 Vue.use(Router)
  
 export default new Router({
-    mode: 'history',
+    mode: 'hash',
     routes: [
         {
             path: '/',
