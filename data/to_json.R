@@ -15,6 +15,7 @@ firstup <- function(x) {
 ## behavior brain area table
 d1 = fread("./clean_behavior_brain_area.tsv")
 d1$behavior %<>% revalue(c("agression" = "aggression", "Sexual behavior" = "sexual behavior"))
+table(d1$behavior)
 d1$species %<>% firstup()
 d1$figure %<>% firstup()
 d1$condition %<>% firstup()
@@ -44,6 +45,7 @@ write(j_rat, "../frontend/public/download/r_20190202.json")
 ## behavior overlap
 d = fread("./clean_behavior_brain_area.tsv")
 d$behavior %<>% revalue(c("agression" = "aggression", "Sexual behavior" = "sexual behavior"))
+table(d$behavior)
 
 gen_count_table = function(dd) {
     behaviors = dd$behavior %>% unique
@@ -67,10 +69,14 @@ gen_count_table = function(dd) {
 
 ## Rat joint matrix
 dd = d[grepl("R", d$brain_code)]
+dd$behavior %>% table
 d1 = gen_count_table(dd)  %>% data.table
 
 ## Mouse joint matrix
 dd = d[grepl("B", d$brain_code)]
+dd$behavior %>% table
+dd[behavior == "aggression", brain_code]
+dd[behavior == "sexual behavior", brain_code]
 d2 = gen_count_table(dd) %>% data.table
 
 level_v = c(d1$behavior1, d1$behavior2, d2$behavior1, d2$behavior2) %>% unique %>% sort
