@@ -15,6 +15,7 @@ firstup <- function(x) {
 ## behavior brain area table
 d1 = fread("./clean_behavior_brain_area.tsv")
 d1$behavior %<>% revalue(c("agression" = "aggression", "Sexual behavior" = "sexual behavior"))
+d1$species %<>% firstup()
 d1$figure %<>% firstup()
 d1$condition %<>% firstup()
 d1$cell_type %<>% firstup()
@@ -30,6 +31,15 @@ d2$long_2 %<>% firstup()
 d2$long_3 %<>% firstup()
 j2 = jsonlite::toJSON(d2, pretty = T)
 write(j2, "./clean_brain_area_annotation.json")
+
+## Create file for download
+d_merge = merge(d1, d2, by.x = c("brain_code", "species"), by.y = c("brain_code", "species"))
+
+j_mouse = jsonlite::toJSON(d_merge[species == "Mouse"], pretty = T)
+j_rat = jsonlite::toJSON(d_merge[species == "Rat"], pretty = T)
+write(j_mouse, "../frontend/public/download/m_20190202.json")
+write(j_rat, "../frontend/public/download/r_20190202.json")
+
 
 ## behavior overlap
 d = fread("./clean_behavior_brain_area.tsv")

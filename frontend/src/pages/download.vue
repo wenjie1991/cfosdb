@@ -29,8 +29,8 @@
                    The test dataset includes the relationship between 5 behaviors and 151 nuclei (56 nuclei for mice and 95 nuclei for rats). 
                     </p>
                     <div class="d-flex flex-row-reverse">
-                        <v-btn text color="orange lighten-2" class="mx-0" outlined>Mouse Data<v-icon>mdi-download</v-icon></v-btn>
-                        <v-btn text color="orange lighten-2" class="mx-0" outlined>Rat Data<v-icon>mdi-download</v-icon></v-btn>
+                        <a href="/download/m_20190202.json" download><v-btn text color="orange lighten-2" class="mx-0" outlined>Mouse Data<v-icon>mdi-download</v-icon></v-btn></a>
+                        <a href="/download/r_20190202.json" download><v-btn text color="orange lighten-2" class="mx-0" outlined>Rat Data<v-icon>mdi-download</v-icon></v-btn></a>
                     </div>
                 </v-card-text>
             </v-card>
