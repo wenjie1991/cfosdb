@@ -162,8 +162,6 @@
                     <v-switch 
                         v-model="graph_option.behavior_level" 
                         label="Display stimulating conditions"
-                        true-value=1
-                        false-value=0
                     ></v-switch>
                     <v-switch 
                         v-model="graph_option.show_label" 
@@ -236,7 +234,7 @@ function draw_network(tbJson, graph_option) {
 	}
 
 	var query_dict;
-	if (graph_option.brain_area_level) {
+	if (graph_option.brain_area_level === true) {
 		query_dict = (function(x) {
 			return x;
 		})
@@ -432,8 +430,8 @@ export default {
             selectedTableRow: [],
             graphData_json: [],
             graph_option: {
-                brain_area_level: true,
-                behavior_level: 0,
+                brain_area_level: false,
+                behavior_level: false,
                 show_label: false,
                 roam_enable: false,
                 isOnlyOverlap: false
@@ -500,7 +498,7 @@ export default {
         var behavior_x = this.selectedBehavior.join(",")
         var brain_code_x = this.selectedBrainArea.map(function(x) {return x.value}).join(",")
         // console.log([behavior_x, brain_code_x])
-        fetch(`http://47.114.44.79/api?brain_code=${brain_code_x}&gender=${this.GenderData}&species=${this.speciesData}&behavior=${behavior_x}`)
+        fetch(`http://47.241.63.31/api?brain_code=${brain_code_x}&gender=${this.GenderData}&species=${this.speciesData}&behavior=${behavior_x}`)
             .then(response => response.json())
             .then(json => {
                 this.table_cotent = json
