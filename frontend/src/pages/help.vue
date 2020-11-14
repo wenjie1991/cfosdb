@@ -8,7 +8,7 @@
                         <!-- <v&#45;list&#45;item&#45;subtitle>demo description</v&#45;list&#45;item&#45;subtitle> -->
                     </v-list-item-content>
                 </v-list-item>
-                <v-img :src="require('../assets/search_by_behaviors.gif')" class="my-3" height="300" contain/>
+                <v-img :src="require('../assets/search_by_behaviors.gif')" class="my-3" height="600" contain/>
 
                 <v-list-item two-line>
                     <v-list-item-content>
@@ -16,7 +16,7 @@
                         <!-- <v&#45;list&#45;item&#45;subtitle>demo description</v&#45;list&#45;item&#45;subtitle> -->
                     </v-list-item-content>
                 </v-list-item>
-                <v-img :src="require('../assets/search_by_nuclus.gif')" class="my-3" height="300" contain/>
+                <v-img :src="require('../assets/search_by_nuclus.gif')" class="my-3" height="600" contain/>
         </div>
 
         <div class="d-flex flex-column align-center">
