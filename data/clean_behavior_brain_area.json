@@ -1103,7 +1103,7 @@
     "behavior": "sexual behavior",
     "doi": "10.1016/j.brainres.2007.07.071",
     "species": "Rat",
-    "gender": "Female",
+    "gender": "female",
     "figure": "Fig. 3",
     "condition": "Sexually naïve female exposure to sexually active male-soiled bedding",
     "brain_code": "R184.2",
@@ -1113,7 +1113,7 @@
     "behavior": "sexual behavior",
     "doi": "10.1016/j.brainres.2007.07.071",
     "species": "Rat",
-    "gender": "Female",
+    "gender": "female",
     "figure": "Fig. 3",
     "condition": "Sexually experenced female exposure to sexually active male-soiled bedding",
     "brain_code": "R184.2",
@@ -1123,7 +1123,7 @@
     "behavior": "sexual behavior",
     "doi": "10.1016/j.brainres.2007.07.071",
     "species": "Rat",
-    "gender": "Female",
+    "gender": "female",
     "figure": "Fig. 3",
     "condition": "Sexually naïve female exposure to sexually active male-soiled bedding",
     "brain_code": "R184.1",
@@ -1133,7 +1133,7 @@
     "behavior": "sexual behavior",
     "doi": "10.1016/j.brainres.2007.07.071",
     "species": "Rat",
-    "gender": "Female",
+    "gender": "female",
     "figure": "Fig. 3",
     "condition": "Sexually experenced female exposure to sexually active male-soiled bedding",
     "brain_code": "R184.1",
@@ -2597,6 +2597,446 @@
     "figure": "Supplymentary figure 1",
     "condition": "Mating",
     "brain_code": "B12.2",
+    "cell_type": ""
+  },
+  {
+    "behavior": "aggression",
+    "doi": "10.1046/j.1460-9568.1998.00011.x",
+    "species": "Rat",
+    "gender": "male",
+    "figure": "Figures 3&4",
+    "condition": "Single defeat",
+    "brain_code": "R25",
+    "cell_type": ""
+  },
+  {
+    "behavior": "aggression",
+    "doi": "10.1046/j.1460-9568.1998.00011.x",
+    "species": "Rat",
+    "gender": "male",
+    "figure": "Figures 3&4",
+    "condition": "Repeated defeat",
+    "brain_code": "R25",
+    "cell_type": ""
+  },
+  {
+    "behavior": "pain",
+    "doi": "10.1016/0306-4522(95)00297-V",
+    "species": "Rat",
+    "gender": "male",
+    "figure": "Figure 3",
+    "condition": "Subcutaneous injection of formalin",
+    "brain_code": "R25",
+    "cell_type": ""
+  },
+  {
+    "behavior": "pain",
+    "doi": "10.1016/S0306-4522(99)00478-9",
+    "species": "Rat",
+    "gender": "male",
+    "figure": "Table 2",
+    "condition": "Formalin injection",
+    "brain_code": "R25",
+    "cell_type": ""
+  },
+  {
+    "behavior": "pain",
+    "doi": "10.1002/cne.902960402",
+    "species": "Rat",
+    "gender": "male",
+    "figure": "Figure 2",
+    "condition": "Received noxious mechanical stimulation",
+    "brain_code": "R25.52",
+    "cell_type": ""
+  },
+  {
+    "behavior": "pain",
+    "doi": "10.1002/cne.902960402",
+    "species": "Rat",
+    "gender": "male",
+    "figure": "Figure 4",
+    "condition": "Noxious mechanical stimulation.(Vibratory stimulation or the brushing of hairs)",
+    "brain_code": "R25",
+    "cell_type": ""
+  },
+  {
+    "behavior": "pain",
+    "doi": "10.1016/j.brainres.2008.08.022",
+    "species": "Rat",
+    "gender": "male",
+    "figure": "Figure 3",
+    "condition": "Intrastriatal injection of 6-hydroxydopamine (6-OHDA)",
+    "brain_code": "R25",
+    "cell_type": ""
+  },
+  {
+    "behavior": "pain",
+    "doi": "10.1016/j.brainres.2008.08.024",
+    "species": "Rat",
+    "gender": "male",
+    "figure": "Figure  2",
+    "condition": "Intrastriatal injection of 6-hydroxydopamine (6-OHDA)",
+    "brain_code": "R25",
+    "cell_type": ""
+  },
+  {
+    "behavior": "pain",
+    "doi": "10.1016/S0006-8993(99)01806-5",
+    "species": "Rat",
+    "gender": "male",
+    "figure": "Figure 6",
+    "condition": "The injection of the retrograde tracer in the locus coeruleus",
+    "brain_code": "R25",
+    "cell_type": ""
+  },
+  {
+    "behavior": "pain",
+    "doi": "10.1016/S0006-8993(99)01806-5",
+    "species": "Rat",
+    "gender": "male",
+    "figure": "Figure 3",
+    "condition": "PHA-L injection",
+    "brain_code": "R25",
+    "cell_type": ""
+  },
+  {
+    "behavior": "pain",
+    "doi": "10.1016/j.brainres.2007.08.012",
+    "species": "Rat",
+    "gender": "male",
+    "figure": "Figure 4",
+    "condition": "Formalin test",
+    "brain_code": "R25",
+    "cell_type": ""
+  },
+  {
+    "behavior": "pain",
+    "doi": "10.1016/S0006-8993(99)01806-5",
+    "species": "Rat",
+    "gender": "male",
+    "figure": "Figure 4",
+    "condition": "PHA-L injection,the injection of the retrograde tracer into the locus coeruleus",
+    "brain_code": "R25",
+    "cell_type": ""
+  },
+  {
+    "behavior": "pain",
+    "doi": "10.1016/S0006-8993(99)01806-5",
+    "species": "Rat",
+    "gender": "male",
+    "figure": "Figure 7",
+    "condition": "Stereotaxic injection of WGA-HRP into the parabrachial nucleus and systemic administration of nitroglycerin",
+    "brain_code": "R25",
+    "cell_type": ""
+  },
+  {
+    "behavior": "pain",
+    "doi": "10.1016/S0006-8993(99)01806-5",
+    "species": "Rat",
+    "gender": "male",
+    "figure": "Figure 4",
+    "condition": "PHA-L injection, the injection of the retrograde tracer into the parabrachial nucleus.",
+    "brain_code": "R25",
+    "cell_type": ""
+  },
+  {
+    "behavior": "pain",
+    "doi": "10.1016/S0006-8993(99)01806-5",
+    "species": "Rat",
+    "gender": "male",
+    "figure": "Figure 5",
+    "condition": "Stereotaxic injection of WGA-HRP into the locus coeruleus",
+    "brain_code": "R25",
+    "cell_type": ""
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.1016/j.bbr.2011.07.011",
+    "species": "Rat",
+    "gender": "male",
+    "figure": "Figure  4",
+    "condition": "Elevated plus maze exposure",
+    "brain_code": "R25",
+    "cell_type": ""
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.1016/j.bbr.2011.07.011",
+    "species": "Rat",
+    "gender": "male",
+    "figure": "Figure  4",
+    "condition": "Acute restraint",
+    "brain_code": "R25",
+    "cell_type": ""
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.1007/s00429-013-0544-4",
+    "species": "Rat",
+    "gender": "male",
+    "figure": "Table 2",
+    "condition": "Defeat animals exposed to the social defeat-associated context",
+    "brain_code": "R25.4",
+    "cell_type": ""
+  },
+  {
+    "behavior": "feeding",
+    "doi": "10.1016/j.brainres.2005.05.002",
+    "species": "Rat",
+    "gender": "male",
+    "figure": "Figure  4b",
+    "condition": "Muscimol injected into one AcbSh",
+    "brain_code": "R25",
+    "cell_type": ""
+  },
+  {
+    "behavior": "feeding",
+    "doi": "10.1016/j.neuroscience.2005.01.064",
+    "species": "Rat",
+    "gender": "male",
+    "figure": "Figure  4",
+    "condition": "Rats maintained under restricted feeding schedules (RFS)",
+    "brain_code": "R25",
+    "cell_type": ""
+  },
+  {
+    "behavior": "feeding",
+    "doi": "10.1016/j.bbr.2011.05.014",
+    "species": "Rat",
+    "gender": "male",
+    "figure": "Figure 3",
+    "condition": "Exposure to the open field",
+    "brain_code": "R25",
+    "cell_type": ""
+  },
+  {
+    "behavior": "feeding",
+    "doi": "10.1016/j.brainres.2003.07.005",
+    "species": "Rat",
+    "gender": "male",
+    "figure": "Figure  2",
+    "condition": "Injected with ghrelin",
+    "brain_code": "R25",
+    "cell_type": ""
+  },
+  {
+    "behavior": "feeding",
+    "doi": "10.1046/j.1365-2826.1997.00593.x",
+    "species": "Rat",
+    "gender": "male",
+    "figure": "Figure  7",
+    "condition": "30 min of auditory stimulation (white noise) at 90 dB",
+    "brain_code": "R25",
+    "cell_type": ""
+  },
+  {
+    "behavior": "feeding",
+    "doi": "10.1046/j.1365-2826.1997.00593.x",
+    "species": "Rat",
+    "gender": "male",
+    "figure": "Figure  7",
+    "condition": "30 min of auditory stimulation (white noise) at 105 dB",
+    "brain_code": "R25",
+    "cell_type": ""
+  },
+  {
+    "behavior": "feeding",
+    "doi": "10.1016/0006-8993(91)91559-J",
+    "species": "Rat",
+    "gender": "male",
+    "figure": "Figure  4",
+    "condition": "Daytime stress",
+    "brain_code": "R25.4",
+    "cell_type": ""
+  },
+  {
+    "behavior": "feeding",
+    "doi": "10.1016/0006-8993(91)91559-J",
+    "species": "Rat",
+    "gender": "male",
+    "figure": "Figure  4",
+    "condition": "Nighttime stress",
+    "brain_code": "R25.4",
+    "cell_type": ""
+  },
+  {
+    "behavior": "feeding",
+    "doi": "10.1016/0006-8993(91)91559-J",
+    "species": "Rat",
+    "gender": "male",
+    "figure": "Figure  4",
+    "condition": "Daytime stress",
+    "brain_code": "R25.5",
+    "cell_type": ""
+  },
+  {
+    "behavior": "feeding",
+    "doi": "10.1016/0006-8993(91)91559-J",
+    "species": "Rat",
+    "gender": "male",
+    "figure": "Figure  4",
+    "condition": "Nighttime stress",
+    "brain_code": "R25.5",
+    "cell_type": ""
+  },
+  {
+    "behavior": "sexual behavior",
+    "doi": "10.1159/000126562",
+    "species": "Rat",
+    "gender": "female",
+    "figure": "Figure 2,Table1",
+    "condition": "EB+P+matingbehavior(injectedwithestradiolbenzoate(EB:lOugin100ul)andprogesterone(P:500ugin100ulpropyleneglycol)andmatingbehavior)",
+    "brain_code": "R25",
+    "cell_type": ""
+  },
+  {
+    "behavior": "sexual behavior",
+    "doi": "10.1111/j.1365-2826.1994.tb00549.x",
+    "species": "Rat",
+    "gender": "male",
+    "figure": "Figure 1",
+    "condition": "Ejaculation",
+    "brain_code": "R25.12",
+    "cell_type": ""
+  },
+  {
+    "behavior": "sexual behavior",
+    "doi": "10.1159/000126562",
+    "species": "Rat",
+    "gender": "female",
+    "figure": "Figure 3",
+    "condition": "Sexualbehavior",
+    "brain_code": "R25.2",
+    "cell_type": ""
+  },
+  {
+    "behavior": "sexual behavior",
+    "doi": "10.1111/j.1365-2826.2012.02290.x",
+    "species": "Rat",
+    "gender": "male",
+    "figure": "Figure 6",
+    "condition": "Fedmalespairedwithareceptivefemale",
+    "brain_code": "R25.31",
+    "cell_type": ""
+  },
+  {
+    "behavior": "sexual behavior",
+    "doi": "10.1111/j.1365-2826.1994.tb00549.x",
+    "species": "Rat",
+    "gender": "male",
+    "figure": "Figure 1",
+    "condition": "Ejaculation",
+    "brain_code": "R25.31",
+    "cell_type": ""
+  },
+  {
+    "behavior": "sexual behavior",
+    "doi": "10.1159/000126562",
+    "species": "Rat",
+    "gender": "female",
+    "figure": "Figure 3",
+    "condition": "Sexualbehavior",
+    "brain_code": "R25.4",
+    "cell_type": ""
+  },
+  {
+    "behavior": "sexual behavior",
+    "doi": "10.1111/j.1365-2826.1994.tb00549.x",
+    "species": "Rat",
+    "gender": "male",
+    "figure": "Figure 1",
+    "condition": "Ejaculation",
+    "brain_code": "R25.42",
+    "cell_type": ""
+  },
+  {
+    "behavior": "sexual behavior",
+    "doi": "10.1159/000126562",
+    "species": "Rat",
+    "gender": "female",
+    "figure": "Figure 3",
+    "condition": "Sexualbehavior",
+    "brain_code": "R25.5",
+    "cell_type": ""
+  },
+  {
+    "behavior": "sexual behavior",
+    "doi": "10.1111/j.1365-2826.1994.tb00549.x",
+    "species": "Rat",
+    "gender": "male",
+    "figure": "Figure 1",
+    "condition": "Ejaculation",
+    "brain_code": "R25.51",
+    "cell_type": ""
+  },
+  {
+    "behavior": "sexual behavior",
+    "doi": "10.1111/j.1365-2826.1994.tb00549.x",
+    "species": "Rat",
+    "gender": "male",
+    "figure": "Figure 1",
+    "condition": "Ejaculation",
+    "brain_code": "R25.52",
+    "cell_type": ""
+  },
+  {
+    "behavior": "aggression",
+    "doi": "10.1016/j.physbeh.2006.03.030",
+    "species": "Mouse",
+    "gender": "male",
+    "figure": "Figure. 4",
+    "condition": "Agonistic encounter, frontal cortical areas",
+    "brain_code": "B20",
+    "cell_type": ""
+  },
+  {
+    "behavior": "aggression",
+    "doi": "10.1016/S0168-0102(96)01088-X",
+    "species": "Mouse",
+    "gender": "male",
+    "figure": "Figures1-4, table 1",
+    "condition": "Acute stress (placed in situations of species-specific intermale aggression only once at 24 h Acute stressintervals)",
+    "brain_code": "B20.3",
+    "cell_type": ""
+  },
+  {
+    "behavior": "aggression",
+    "doi": "10.1016/S0168-0102(96)01088-X",
+    "species": "Mouse",
+    "gender": "male",
+    "figure": "Figure7, table 1",
+    "condition": "Chronic stress (placed in situations of species-specific intermale aggression five times at 24 h intervals)",
+    "brain_code": "B20.3",
+    "cell_type": ""
+  },
+  {
+    "behavior": "pain",
+    "doi": "10.1016/j.cell.2018.02.057",
+    "species": "Mouse",
+    "gender": "male",
+    "figure": "Figure 5",
+    "condition": "Formalin paw injection",
+    "brain_code": "B20",
+    "cell_type": ""
+  },
+  {
+    "behavior": "fear",
+    "doi": "10.1016/j.physbeh.2009.12.013",
+    "species": "Mouse",
+    "gender": "male",
+    "figure": "Figure 5",
+    "condition": "Exposure to cocaine or LiCl-associated contextual cues",
+    "brain_code": "B20",
+    "cell_type": ""
+  },
+  {
+    "behavior": "feeding",
+    "doi": "10.1016/j.npep.2018.11.004",
+    "species": "Mouse",
+    "gender": "male",
+    "figure": "Figure  3",
+    "condition": "Administration of Peptide YY(3-36) + exendin-4 (Ex4)",
+    "brain_code": "B20.2",
     "cell_type": ""
   }
 ]

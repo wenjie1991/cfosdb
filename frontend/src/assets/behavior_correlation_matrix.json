@@ -9,7 +9,7 @@
       },
       {
         "id": "Aggression",
-        "value": "7",
+        "value": "8",
         "behaviors": ["aggression", "fear"]
       },
       {
@@ -19,7 +19,7 @@
       },
       {
         "id": "Aggression",
-        "value": "2",
+        "value": "3",
         "behaviors": ["aggression", "pain"]
       },
       {
@@ -34,7 +34,7 @@
     "value": [
       {
         "id": "Fear",
-        "value": "0",
+        "value": "1",
         "behaviors": ["fear", "aggression"]
       },
       {
@@ -49,7 +49,7 @@
       },
       {
         "id": "Fear",
-        "value": "4",
+        "value": "5",
         "behaviors": ["fear", "pain"]
       },
       {
@@ -64,12 +64,12 @@
     "value": [
       {
         "id": "Feeding",
-        "value": "0",
+        "value": "1",
         "behaviors": ["feeding", "aggression"]
       },
       {
         "id": "Feeding",
-        "value": "2",
+        "value": "4",
         "behaviors": ["feeding", "fear"]
       },
       {
@@ -94,17 +94,17 @@
     "value": [
       {
         "id": "Pain",
-        "value": "0",
+        "value": "1",
         "behaviors": ["pain", "aggression"]
       },
       {
         "id": "Pain",
-        "value": "2",
+        "value": "4",
         "behaviors": ["pain", "fear"]
       },
       {
         "id": "Pain",
-        "value": "1",
+        "value": "3",
         "behaviors": ["pain", "feeding"]
       },
       {
@@ -124,22 +124,22 @@
     "value": [
       {
         "id": "Sexual behavior",
-        "value": "0",
+        "value": "1",
         "behaviors": ["sexual behavior", "aggression"]
       },
       {
         "id": "Sexual behavior",
-        "value": "5",
+        "value": "9",
         "behaviors": ["sexual behavior", "fear"]
       },
       {
         "id": "Sexual behavior",
-        "value": "1",
+        "value": "6",
         "behaviors": ["sexual behavior", "feeding"]
       },
       {
         "id": "Sexual behavior",
-        "value": "4",
+        "value": "6",
         "behaviors": ["sexual behavior", "pain"]
       },
       {

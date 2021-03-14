@@ -109,10 +109,10 @@ Sexual behavior	10.1016/j.brainres.2007.07.071	rat	female	Fig. 2&Fig. 3	sexually
 Sexual behavior	10.1016/j.brainres.2007.07.071	rat	female	Fig. 3	sexually experienced subjects exposed to sexually active male-soiled bedding	R87	
 Sexual behavior	10.1016/j.brainres.2007.07.071	rat	female	Fig. 2&Fig. 3	sexually naive subjects exposed to sexually active male-soiled bedding	R38.32	
 Sexual behavior	10.1016/j.brainres.2007.07.071	rat	female	Fig. 3	sexually naive subjects exposed to sexually active male-soiled bedding	R87	
-Sexual behavior	10.1016/j.brainres.2007.07.071	rat	Female	Fig. 3	sexually naïve female exposure to sexually active male-soiled bedding	R184.2	
-Sexual behavior	10.1016/j.brainres.2007.07.071	rat	Female	Fig. 3	sexually experenced female exposure to sexually active male-soiled bedding	R184.2	
-Sexual behavior	10.1016/j.brainres.2007.07.071	rat	Female	Fig. 3	sexually naïve female exposure to sexually active male-soiled bedding	R184.1	
-Sexual behavior	10.1016/j.brainres.2007.07.071	rat	Female	Fig. 3	sexually experenced female exposure to sexually active male-soiled bedding	R184.1	
+Sexual behavior	10.1016/j.brainres.2007.07.071	rat	female	Fig. 3	sexually naïve female exposure to sexually active male-soiled bedding	R184.2	
+Sexual behavior	10.1016/j.brainres.2007.07.071	rat	female	Fig. 3	sexually experenced female exposure to sexually active male-soiled bedding	R184.2	
+Sexual behavior	10.1016/j.brainres.2007.07.071	rat	female	Fig. 3	sexually naïve female exposure to sexually active male-soiled bedding	R184.1	
+Sexual behavior	10.1016/j.brainres.2007.07.071	rat	female	Fig. 3	sexually experenced female exposure to sexually active male-soiled bedding	R184.1	
 Sexual behavior	10.1016/j.brainres.2007.07.071	rat	female	Fig. 3	sexually experienced subjects exposed to sexually active male-soiled bedding	R38.31	
 Sexual behavior	10.1016/j.brainres.2007.07.071	rat	female	Fig. 2&Fig. 3	sexually experienced subjects exposed to sexually active male-soiled bedding	R150	
 Sexual behavior	10.1016/j.brainres.2007.07.071	rat	female	Fig. 2&Fig. 3	sexually experienced subjects exposed to sexually active male-soiled bedding	R2.1	
@@ -268,3 +268,47 @@ Sexual behavior	10.1038/nature09736	mouse	male	supplymentary figure 1	mating	B10
 Sexual behavior	10.1038/nature09736	mouse	male	supplymentary figure 1	mating	B10.33	
 Sexual behavior	10.1038/nature09736	mouse	male	supplymentary figure 1	mating	B12.2	
 Sexual behavior	10.1038/nature09736	mouse	male	supplymentary figure 1	mating	B12.2	
+aggression	10.1046/j.1460-9568.1998.00011.x	rat	male	Figures 3&4	single defeat	R25	
+aggression	10.1046/j.1460-9568.1998.00011.x	rat	male	Figures 3&4	repeated defeat	R25	
+pain	10.1016/0306-4522(95)00297-V	rat	male	Figure 3	subcutaneous injection of formalin	R25	
+pain	10.1016/S0306-4522(99)00478-9	rat	male	Table 2	formalin injection	R25	
+pain	10.1002/cne.902960402	rat	male	Figure 2	received noxious mechanical stimulation	R25.52	
+pain	10.1002/cne.902960402	rat	male	Figure 4	noxious mechanical stimulation.(Vibratory stimulation or the brushing of hairs)	R25	
+pain	10.1016/j.brainres.2008.08.022	rat	male	Figure 3	intrastriatal injection of 6-hydroxydopamine (6-OHDA)	R25	
+pain	10.1016/j.brainres.2008.08.024	rat	male	Figure  2	intrastriatal injection of 6-hydroxydopamine (6-OHDA)	R25	
+pain	10.1016/S0006-8993(99)01806-5	rat	male	Figure 6	the injection of the retrograde tracer in the locus coeruleus	R25	
+pain	10.1016/S0006-8993(99)01806-5	rat	male	Figure 3	PHA-L injection	R25	
+pain	10.1016/j.brainres.2007.08.012	rat	male	Figure 4	formalin test	R25	
+pain	10.1016/S0006-8993(99)01806-5	rat	male	Figure 4	PHA-L injection,the injection of the retrograde tracer into the locus coeruleus	R25	
+pain	10.1016/S0006-8993(99)01806-5	rat	male	Figure 7	stereotaxic injection of WGA-HRP into the parabrachial nucleus and systemic administration of nitroglycerin	R25	
+pain	10.1016/S0006-8993(99)01806-5	rat	male	Figure 4	PHA-L injection, the injection of the retrograde tracer into the parabrachial nucleus.	R25	
+pain	10.1016/S0006-8993(99)01806-5	rat	male	Figure 5	stereotaxic injection of WGA-HRP into the locus coeruleus	R25	
+fear	10.1016/j.bbr.2011.07.011	rat	male	Figure  4	elevated plus maze exposure	R25	
+fear	10.1016/j.bbr.2011.07.011	rat	male	Figure  4	acute restraint	R25	
+fear	10.1007/s00429-013-0544-4	rat	male	Table 2	defeat animals exposed to the social defeat-associated context	R25.4	
+feeding	10.1016/j.brainres.2005.05.002	rat	male	Figure  4b	muscimol injected into one AcbSh	R25	
+feeding	10.1016/j.neuroscience.2005.01.064	rat	male	Figure  4	rats maintained under restricted feeding schedules (RFS)	R25	
+feeding	10.1016/j.bbr.2011.05.014	rat	male	Figure 3	exposure to the open field	R25	
+feeding	10.1016/j.brainres.2003.07.005	rat	male	Figure  2	injected with ghrelin	R25	
+feeding	10.1046/j.1365-2826.1997.00593.x	rat	male	Figure  7	30 min of auditory stimulation (white noise) at 90 dB	R25	
+feeding	10.1046/j.1365-2826.1997.00593.x	rat	male	Figure  7	30 min of auditory stimulation (white noise) at 105 dB	R25	
+feeding	10.1016/0006-8993(91)91559-J	rat	male	Figure  4	daytime stress	R25.4	
+feeding	10.1016/0006-8993(91)91559-J	rat	male	Figure  4	nighttime stress	R25.4	
+feeding	10.1016/0006-8993(91)91559-J	rat	male	Figure  4	daytime stress	R25.5	
+feeding	10.1016/0006-8993(91)91559-J	rat	male	Figure  4	nighttime stress	R25.5	
+Sexual behavior	10.1159/000126562	rat	female	Figure 2,Table1	EB+P+matingbehavior(injectedwithestradiolbenzoate(EB:lOugin100ul)andprogesterone(P:500ugin100ulpropyleneglycol)andmatingbehavior)	R25	
+Sexual behavior	10.1111/j.1365-2826.1994.tb00549.x	rat	male	Figure 1	ejaculation	R25.12	
+Sexual behavior	10.1159/000126562	rat	female	Figure 3	sexualbehavior	R25.2	
+Sexual behavior	10.1111/j.1365-2826.2012.02290.x	rat	male	Figure 6	fedmalespairedwithareceptivefemale	R25.31	
+Sexual behavior	10.1111/j.1365-2826.1994.tb00549.x	rat	male	Figure 1	ejaculation	R25.31	
+Sexual behavior	10.1159/000126562	rat	female	Figure 3	sexualbehavior	R25.4	
+Sexual behavior	10.1111/j.1365-2826.1994.tb00549.x	rat	male	Figure 1	ejaculation	R25.42	
+Sexual behavior	10.1159/000126562	rat	female	Figure 3	sexualbehavior	R25.5	
+Sexual behavior	10.1111/j.1365-2826.1994.tb00549.x	rat	male	Figure 1	ejaculation	R25.51	
+Sexual behavior	10.1111/j.1365-2826.1994.tb00549.x	rat	male	Figure 1	ejaculation	R25.52	
+aggression	10.1016/j.physbeh.2006.03.030	mouse	male	Figure. 4	agonistic encounter, frontal cortical areas	B20	
+aggression	10.1016/S0168-0102(96)01088-X	mouse	male	Figures1-4, table 1	acute stress (placed in situations of species-specific intermale aggression only once at 24 h Acute stressintervals)	B20.3	
+aggression	10.1016/S0168-0102(96)01088-X	mouse	male	Figure7, table 1	chronic stress (placed in situations of species-specific intermale aggression five times at 24 h intervals)	B20.3	
+pain	10.1016/j.cell.2018.02.057	mouse	male	Figure 5	formalin paw injection	B20	
+fear	10.1016/j.physbeh.2009.12.013	mouse	male	Figure 5	exposure to cocaine or LiCl-associated contextual cues	B20	
+feeding	10.1016/j.npep.2018.11.004	mouse	male	Figure  3	administration of Peptide YY(3-36) + exendin-4 (Ex4)	B20.2	
