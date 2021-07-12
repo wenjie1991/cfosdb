@@ -1,21 +1,16 @@
 # cfosdb
 
 ## Prototyping
+
 Full featured prototype: https://www.figma.com/proto/omgiSy8oK0iAFBXoCVWQbJ/cfosdb?node-id=3%3A25&scaling=min-zoom
 
-## Main features
-- behaviors matrix in the index page.
-- Search function. Default value: behavior (non selected); brain_area (all); species (mouse); gender (all).
-- Table. With search and column choosing function.
-- Network visualization (Can be left the space for @Wenjie_1991 to complete). https://echarts.apache.org/examples/en/editor.html?c=graph-circular-layout
-- Download feature: [mouse](https://github.com/wenjie1991/cfosdb/blob/master/data/clean_behavior_brain_area.json) and [rat]( https://github.com/wenjie1991/cfosdb/blob/master/data/clean_behavior_brain_area.json) files (the files do not realy, use the dummy file).
-- Help page, include three parts: 1).  Brain area annotation table, 2) Instruction, and 3) FAQ.
-
 # API script
+
 ## Start api service
 Run the nodejs file: [api.js](https://github.com/wenjie1991/cfosdb/blob/master/server/api.js)
 
 ## API
+
 ```
 localhost:8081?behavior=<behavior_list>&brain_code=<brain_area_list>&gender=<gender>&species=<species>
 behavor_list: the list of behavior, seperated by comma.
@@ -23,6 +18,7 @@ brain_area_list: the brain area list, seperated by comma.
 gender: "male", "female", or "%" for both.
 species: "Rat" or "Mouse"
 ```
+
 Exp.
 ```
 localhost:8081?behavior=pain,aggression&brain_code=R5,R7,R37&gender=%&species=Rat
@@ -40,11 +36,12 @@ There are two table in the database.
 ```sql
 CREATE TABLE brain_area_annotation ( 
   brain_code text primary key, 
+  main text,
 	long_1	text,
 	short_1	text,
-    long_2	text,
+  long_2	text,
 	short_2	text,
-    long_3	text,
+  long_3	text,
 	short_3	text,
 	species text
 )
@@ -56,7 +53,7 @@ CREATE TABLE brain_area_annotation (
 CREATE TABLE brain_area_behavior ( 
   brain_code text, 
   behavior text, 
-  strain text, 
+  species text, 
   gender text, 
   doi text, 
   condition text, 
@@ -67,4 +64,4 @@ CREATE TABLE brain_area_behavior (
 
 ## Other json files
 
-The files useful for frontend have been moved to `frontend/src/assets/`.
+The files useful for frontend is in `frontend/src/assets/`.

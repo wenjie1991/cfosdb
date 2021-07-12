@@ -34,7 +34,7 @@
     },
     {
       "value": "R2.1",
-      "display": "Accumbens nucleus，core",
+      "display": "Accumbens nucleus， core",
       "species": "Rat"
     },
     {
@@ -70,6 +70,11 @@
     {
       "value": "R3.31",
       "display": "Periaqueductal gray, ventrolateral division",
+      "species": "Rat"
+    },
+    {
+      "value": "R3.4",
+      "display": "Periaqueductal gray, rostral division",
       "species": "Rat"
     },
     {
@@ -158,6 +163,26 @@
       "species": "Rat"
     },
     {
+      "value": "R8",
+      "display": "Central gray",
+      "species": "Rat"
+    },
+    {
+      "value": "R9",
+      "display": "Dorsal nucleus raphé",
+      "species": "Rat"
+    },
+    {
+      "value": "R9.1",
+      "display": "Dorsal raphe nucleus, caudal part",
+      "species": "Rat"
+    },
+    {
+      "value": "R9.2",
+      "display": "Dorsal raphe nucleus, lateral part",
+      "species": "Rat"
+    },
+    {
       "value": "R10",
       "display": "Lateral reticular nucleus",
       "species": "Rat"
@@ -173,8 +198,28 @@
       "species": "Rat"
     },
     {
+      "value": "R11",
+      "display": "Paratrigeminal nucleus",
+      "species": "Rat"
+    },
+    {
       "value": "R12",
       "display": "Paramedian reticular nucleus",
+      "species": "Rat"
+    },
+    {
+      "value": "R13",
+      "display": "Inferior olivary complex",
+      "species": "Rat"
+    },
+    {
+      "value": "R13.1",
+      "display": "Inferior olivary complex， medial accessory olive",
+      "species": "Rat"
+    },
+    {
+      "value": "R14",
+      "display": "Intermediate reticular nucleus",
       "species": "Rat"
     },
     {
@@ -195,6 +240,51 @@
     {
       "value": "R16.1",
       "display": "Anterior cingulate area",
+      "species": "Rat"
+    },
+    {
+      "value": "R17",
+      "display": "Trigeminal ganglion",
+      "species": "Rat"
+    },
+    {
+      "value": "R17.1",
+      "display": "Trigeminal nerve",
+      "species": "Rat"
+    },
+    {
+      "value": "R18",
+      "display": "Reticular formation",
+      "species": "Rat"
+    },
+    {
+      "value": "R18.1",
+      "display": "R1 reticular formation",
+      "species": "Rat"
+    },
+    {
+      "value": "R18.2",
+      "display": "R2 reticular formation",
+      "species": "Rat"
+    },
+    {
+      "value": "R18.3",
+      "display": "R3 reticular formation",
+      "species": "Rat"
+    },
+    {
+      "value": "R19",
+      "display": "Kölliker-Fuse subnucleus (of PB)",
+      "species": "Rat"
+    },
+    {
+      "value": "R20",
+      "display": "Lateral paragigantocellular nucleus",
+      "species": "Rat"
+    },
+    {
+      "value": "R21",
+      "display": "Mediodorsal nucleus thalamus",
       "species": "Rat"
     },
     {
@@ -238,6 +328,11 @@
       "species": "Rat"
     },
     {
+      "value": "R24",
+      "display": "Nucleus raphé pallidus_sw",
+      "species": "Rat"
+    },
+    {
       "value": "R25",
       "display": "Paraventricular hypothalamic nucleus_sw",
       "species": "Rat"
@@ -260,6 +355,11 @@
     {
       "value": "R25.31",
       "display": "Paraventricular hypothalamic nucleus, lateral parvicellular part",
+      "species": "Rat"
+    },
+    {
+      "value": "R25.32",
+      "display": "Paraventricular hypothalamic nucleus, lateral magnocellular part",
       "species": "Rat"
     },
     {
@@ -298,6 +398,26 @@
       "species": "Rat"
     },
     {
+      "value": "R27",
+      "display": "Superior colliculus",
+      "species": "Rat"
+    },
+    {
+      "value": "R28",
+      "display": "Subceruleus nucleus_sw",
+      "species": "Rat"
+    },
+    {
+      "value": "R30",
+      "display": "Ventral posterolateral nucleus thalamus， principal part",
+      "species": "Rat"
+    },
+    {
+      "value": "R31",
+      "display": "Ventral posteromedial nucleus thalamus， principal part",
+      "species": "Rat"
+    },
+    {
       "value": "R32",
       "display": "Ventromedial hypothalamic nucleus",
       "species": "Rat"
@@ -313,8 +433,33 @@
       "species": "Rat"
     },
     {
+      "value": "R33",
+      "display": "Vestibular nuclei",
+      "species": "Rat"
+    },
+    {
+      "value": "R34",
+      "display": "Dorsal commissure，spinal cord",
+      "species": "Rat"
+    },
+    {
+      "value": "R35",
+      "display": "Facial nucleus_sw",
+      "species": "Rat"
+    },
+    {
+      "value": "R36",
+      "display": "Anterior hypothalamic nucleus_sw",
+      "species": "Rat"
+    },
+    {
       "value": "R37",
       "display": "Area postrema",
+      "species": "Rat"
+    },
+    {
+      "value": "R38",
+      "display": "Amygdala",
       "species": "Rat"
     },
     {
@@ -323,8 +468,158 @@
       "species": "Rat"
     },
     {
+      "value": "R38.11",
+      "display": "Basolateral amygdalar nucleus， anterior part",
+      "species": "Rat"
+    },
+    {
       "value": "R38.2",
       "display": "Central amygdalar nucleus",
+      "species": "Rat"
+    },
+    {
+      "value": "R38.21",
+      "display": "Central amygdalar nucleus， capsular part",
+      "species": "Rat"
+    },
+    {
+      "value": "R38.22",
+      "display": "Central amygdalar nucleus，lateral part",
+      "species": "Rat"
+    },
+    {
+      "value": "R38.23",
+      "display": "Central amygdalar nucleus, medial part",
+      "species": "Rat"
+    },
+    {
+      "value": "R38.3",
+      "display": "Medial amygdalar nucleus",
+      "species": "Rat"
+    },
+    {
+      "value": "R38.32",
+      "display": "Medial amygdalar nucleus, posterodorsal part",
+      "species": "Rat"
+    },
+    {
+      "value": "R38.31",
+      "display": "Medial amygdalar nucleus, anterodorsal part",
+      "species": "Rat"
+    },
+    {
+      "value": "R38.4",
+      "display": "Lateral amygdalar nucleus",
+      "species": "Rat"
+    },
+    {
+      "value": "R38.41",
+      "display": "Lateral amygdaloid nucleus， dorsolateral part",
+      "species": "Rat"
+    },
+    {
+      "value": "R38.42",
+      "display": "Lateral amygdaloid nucleus， ventromedial part",
+      "species": "Rat"
+    },
+    {
+      "value": "R38.5",
+      "display": "Cortical amygdalar nucleus_sw",
+      "species": "Rat"
+    },
+    {
+      "value": "R38.51",
+      "display": "Cortical amygdalar nucleus, anterior part_sw",
+      "species": "Rat"
+    },
+    {
+      "value": "R38.52",
+      "display": "Cortical amygdalar nucleus, posterior part_sw",
+      "species": "Rat"
+    },
+    {
+      "value": "R38.521",
+      "display": "Cortical amygdalar nucleus, posterior part, lateral zone_sw",
+      "species": "Rat"
+    },
+    {
+      "value": "R38.522",
+      "display": "Cortical amygdalar nucleus, posterior part, medial zone_sw",
+      "species": "Rat"
+    },
+    {
+      "value": "R38.6",
+      "display": "Intercalated amygdalar nuclei",
+      "species": "Rat"
+    },
+    {
+      "value": "R38.7",
+      "display": "Posterior amygdalar nucleus",
+      "species": "Rat"
+    },
+    {
+      "value": "R39",
+      "display": "Orbital area",
+      "species": "Rat"
+    },
+    {
+      "value": "R39.1",
+      "display": "Orbital area, lateral part",
+      "species": "Rat"
+    },
+    {
+      "value": "R39.2",
+      "display": "Orbital area, ventrolateral part_sw",
+      "species": "Rat"
+    },
+    {
+      "value": "R41",
+      "display": "Central canal, spinal cord/medulla_sw",
+      "species": "Rat"
+    },
+    {
+      "value": "R42",
+      "display": "Intermediate gray of the spinal cord, general",
+      "species": "Rat"
+    },
+    {
+      "value": "R43",
+      "display": "Central gray of the pons",
+      "species": "Rat"
+    },
+    {
+      "value": "R45",
+      "display": "Central lateral nucleus thalamus",
+      "species": "Rat"
+    },
+    {
+      "value": "R46",
+      "display": "Cuneate nucleus",
+      "species": "Rat"
+    },
+    {
+      "value": "R46.1",
+      "display": "External cuneate nucleus",
+      "species": "Rat"
+    },
+    {
+      "value": "R47",
+      "display": "Cuneiform nucleus",
+      "species": "Rat"
+    },
+    {
+      "value": "R49",
+      "display": "Medullary reticular nucleus",
+      "species": "Rat"
+    },
+    {
+      "value": "R49.1",
+      "display": "Medullary reticular nucleus， dorsal part",
+      "species": "Rat"
+    },
+    {
+      "value": "R49.2",
+      "display": "Medullary reticular nucleus, ventral part",
       "species": "Rat"
     },
     {
@@ -333,8 +628,88 @@
       "species": "Rat"
     },
     {
+      "value": "R51",
+      "display": "Dorsolateral fascicle_sw",
+      "species": "Rat"
+    },
+    {
+      "value": "R52",
+      "display": "Frontal region",
+      "species": "Rat"
+    },
+    {
+      "value": "R53",
+      "display": "Gracile nucleus，principal part",
+      "species": "Rat"
+    },
+    {
+      "value": "R54",
+      "display": "Hypoglossal nucleus",
+      "species": "Rat"
+    },
+    {
+      "value": "R55",
+      "display": "Inferior colliculus",
+      "species": "Rat"
+    },
+    {
+      "value": "R55.1",
+      "display": "Inferior colliculus, central nucleus",
+      "species": "Rat"
+    },
+    {
+      "value": "R55.2",
+      "display": "Inferior colliculus, dorsal nucleus",
+      "species": "Rat"
+    },
+    {
+      "value": "R55.3",
+      "display": "Inferior colliculus, external nucleus",
+      "species": "Rat"
+    },
+    {
+      "value": "R56",
+      "display": "Interfascicular nucleus raphé",
+      "species": "Rat"
+    },
+    {
       "value": "R57",
       "display": "Lateral hypothalamic area",
+      "species": "Rat"
+    },
+    {
+      "value": "R59",
+      "display": "Midbrain trigeminal nucleus",
+      "species": "Rat"
+    },
+    {
+      "value": "R60",
+      "display": "Medial mammillary nucleus, general_sw",
+      "species": "Rat"
+    },
+    {
+      "value": "R60.1",
+      "display": "Medial mammillary nucleus, median part_sw",
+      "species": "Rat"
+    },
+    {
+      "value": "R60.2",
+      "display": "Medial mammillary nucleus， lateral part",
+      "species": "Rat"
+    },
+    {
+      "value": "R61",
+      "display": "Nucleus ambiguus",
+      "species": "Rat"
+    },
+    {
+      "value": "R62",
+      "display": "Olivary pretectal nucleus",
+      "species": "Rat"
+    },
+    {
+      "value": "R63",
+      "display": "Parabrachial pigmented nucleus of the VTA",
       "species": "Rat"
     },
     {
@@ -348,8 +723,138 @@
       "species": "Rat"
     },
     {
+      "value": "R65",
+      "display": "Parafascicular nucleus",
+      "species": "Rat"
+    },
+    {
+      "value": "R66",
+      "display": "Paranigral nucleus of the VTA",
+      "species": "Rat"
+    },
+    {
+      "value": "R67",
+      "display": "Pontine reticular nucleus,caudal part",
+      "species": "Rat"
+    },
+    {
+      "value": "R68",
+      "display": "Pyramidal decussation",
+      "species": "Rat"
+    },
+    {
+      "value": "R69",
+      "display": "Posterior hypothalamic nucleus",
+      "species": "Rat"
+    },
+    {
+      "value": "R70",
+      "display": "Pia",
+      "species": "Rat"
+    },
+    {
+      "value": "R71",
+      "display": "Paraventricular thalamic nucleus",
+      "species": "Rat"
+    },
+    {
+      "value": "R71.1",
+      "display": "Paraventricular thalamic nucleus, posterior part",
+      "species": "Rat"
+    },
+    {
+      "value": "R72",
+      "display": "Pyramid",
+      "species": "Rat"
+    },
+    {
+      "value": "R73",
+      "display": "Nucleus raphé magnus",
+      "species": "Rat"
+    },
+    {
+      "value": "R74",
+      "display": "Nucleus reuniens",
+      "species": "Rat"
+    },
+    {
+      "value": "R75",
+      "display": "Rostral linear nucleus raphé",
+      "species": "Rat"
+    },
+    {
+      "value": "R76",
+      "display": "Solitary tract",
+      "species": "Rat"
+    },
+    {
+      "value": "R77",
+      "display": "Subparafascicular nucleus thalamus",
+      "species": "Rat"
+    },
+    {
+      "value": "R77.1",
+      "display": "Subparafascicular nucleus thalamus, parvicellular part",
+      "species": "Rat"
+    },
+    {
+      "value": "R77.11",
+      "display": "Subparafascicular nucleus thalamus, parvicellular part, medial division",
+      "species": "Rat"
+    },
+    {
+      "value": "R79",
+      "display": "Spinal tract of the trigeminal nerve",
+      "species": "Rat"
+    },
+    {
+      "value": "R80",
+      "display": "Superior cerebellar peduncle",
+      "species": "Rat"
+    },
+    {
+      "value": "R81",
+      "display": "Superior salivatory nucleus_sw",
+      "species": "Rat"
+    },
+    {
+      "value": "R82",
+      "display": "Supramammillary nucleus",
+      "species": "Rat"
+    },
+    {
+      "value": "R83",
+      "display": "Supraoptic commissures",
+      "species": "Rat"
+    },
+    {
+      "value": "R84",
+      "display": "Reticular nucleus spinal cord",
+      "species": "Rat"
+    },
+    {
+      "value": "R85",
+      "display": "Vestibular nerve",
+      "species": "Rat"
+    },
+    {
+      "value": "R86",
+      "display": "Anterior pretectal nucleus_sw",
+      "species": "Rat"
+    },
+    {
       "value": "R87",
       "display": "Bed nuclei stria terminalis",
+      "species": "Rat"
+    },
+    {
+      "value": "R87.1",
+      "display": "Bed nuclei stria terminalis, anterior division",
+      "species": "Rat"
+    },
+    {
+      "value": "R87.11",
+      "display": "Bed nuclei stria terminalis, anterior division, anterolateral area",
       "species": "Rat"
     },
     {
@@ -358,8 +863,83 @@
       "species": "Rat"
     },
     {
+      "value": "R87.13",
+      "display": "Bed nuclei stria terminalis, anterior division, dorsomedial nucleus",
+      "species": "Rat"
+    },
+    {
+      "value": "R87.14",
+      "display": "Bed nuclei stria terminalis, anterior division, oval nucleus",
+      "species": "Rat"
+    },
+    {
+      "value": "R87.15",
+      "display": "Bed nuclei stria terminalis, anterior division, ventral nucleus",
+      "species": "Rat"
+    },
+    {
       "value": "R87.2",
       "display": "Bed nuclei stria terminalis, posterior division",
+      "species": "Rat"
+    },
+    {
+      "value": "R87.21",
+      "display": "Bed nuclei stria terminalis, posterior division, dorsal nucleus",
+      "species": "Rat"
+    },
+    {
+      "value": "R87.3",
+      "display": "Bed nucleus of the stria terminalis, lateral division",
+      "species": "Rat"
+    },
+    {
+      "value": "R87.31",
+      "display": "Bed nucleus of the stria terminalis,lateral division, dorsal part",
+      "species": "Rat"
+    },
+    {
+      "value": "R87.32",
+      "display": "Bed nucleus of the stria terminalis,lateral division, ventral part",
+      "species": "Rat"
+    },
+    {
+      "value": "R87.33",
+      "display": "Bed nucleus of the stria terminalis,lateral division, posterior part",
+      "species": "Rat"
+    },
+    {
+      "value": "R87.4",
+      "display": "Bed nucleus of the stria terminalis， medial division",
+      "species": "Rat"
+    },
+    {
+      "value": "R87.41",
+      "display": "Bed nucleus of the stria terminalis， medial division,posteromedial part",
+      "species": "Rat"
+    },
+    {
+      "value": "R89",
+      "display": "Insular region",
+      "species": "Rat"
+    },
+    {
+      "value": "R92",
+      "display": "Parasympathetic system",
+      "species": "Rat"
+    },
+    {
+      "value": "R93",
+      "display": "Principal mammillary tract",
+      "species": "Rat"
+    },
+    {
+      "value": "R94",
+      "display": "Spinocerebellar tracts",
+      "species": "Rat"
+    },
+    {
+      "value": "R95",
+      "display": "Primary somatosensory area",
       "species": "Rat"
     },
     {
@@ -368,8 +948,88 @@
       "species": "Rat"
     },
     {
+      "value": "R96.1",
+      "display": "Supraoptic nucleus,proper",
+      "species": "Rat"
+    },
+    {
+      "value": "R97",
+      "display": "Striatum",
+      "species": "Rat"
+    },
+    {
+      "value": "R98",
+      "display": "Substantia nigra",
+      "species": "Rat"
+    },
+    {
+      "value": "R98.1",
+      "display": "Substantia nigra,compact part",
+      "species": "Rat"
+    },
+    {
+      "value": "R99",
+      "display": "Ventral posterior complex thalamus",
+      "species": "Rat"
+    },
+    {
+      "value": "R100",
+      "display": "Submedial nucleus thalamus",
+      "species": "Rat"
+    },
+    {
+      "value": "R101",
+      "display": "Superior olive",
+      "species": "Rat"
+    },
+    {
+      "value": "R102",
+      "display": "Spinal vestibular nucleus",
+      "species": "Rat"
+    },
+    {
+      "value": "R103",
+      "display": "Rhomboid nucleus thalamus",
+      "species": "Rat"
+    },
+    {
+      "value": "R104",
+      "display": "Rostral ventrolateral medulla_sw",
+      "species": "Rat"
+    },
+    {
       "value": "R106",
       "display": "Prefrontal region_sw",
+      "species": "Rat"
+    },
+    {
+      "value": "R108",
+      "display": "Dorsal roots_sw",
+      "species": "Rat"
+    },
+    {
+      "value": "R109",
+      "display": "Medulla_sw",
+      "species": "Rat"
+    },
+    {
+      "value": "R111",
+      "display": "Nucleus raphé pontis",
+      "species": "Rat"
+    },
+    {
+      "value": "R112",
+      "display": "Lateral geniculate complex",
+      "species": "Rat"
+    },
+    {
+      "value": "R112.1",
+      "display": "Lateral geniculate complex, intergeniculate leaflet_sw",
+      "species": "Rat"
+    },
+    {
+      "value": "R113",
+      "display": "Caudal linear nucleus of the raphe",
       "species": "Rat"
     },
     {
@@ -398,8 +1058,43 @@
       "species": "Rat"
     },
     {
-      "value": "R38",
-      "display": "Amygdala",
+      "value": "R116.1",
+      "display": "Dorsomedial hypothalamic nucleus, dorsal part",
+      "species": "Rat"
+    },
+    {
+      "value": "R118",
+      "display": "Perifornical nucleus",
+      "species": "Rat"
+    },
+    {
+      "value": "R120",
+      "display": "Olfactory bulb",
+      "species": "Rat"
+    },
+    {
+      "value": "R120.1",
+      "display": "Granular cell layer of the olfactory bulb",
+      "species": "Rat"
+    },
+    {
+      "value": "R121",
+      "display": "Interstitial nucleus of the posterior limb of the anterior commissure",
+      "species": "Rat"
+    },
+    {
+      "value": "R121.1",
+      "display": "Interstitial nucleus of the posterior limb of the anterior commissure, lateral part",
+      "species": "Rat"
+    },
+    {
+      "value": "R121.2",
+      "display": "Interstitial nucleus of the posterior limb of the anterior commissure， medial part",
+      "species": "Rat"
+    },
+    {
+      "value": "R123",
+      "display": "Anterior hypothalamic area",
       "species": "Rat"
     },
     {
@@ -408,8 +1103,113 @@
       "species": "Rat"
     },
     {
+      "value": "R125",
+      "display": "Anterior olfactory nucleus",
+      "species": "Rat"
+    },
+    {
+      "value": "R125.1",
+      "display": "Anterior olfactory nucleus, medial part",
+      "species": "Rat"
+    },
+    {
+      "value": "R125.2",
+      "display": "Anterior olfactory nucleus，ventral part",
+      "species": "Rat"
+    },
+    {
       "value": "R126",
       "display": "Anteroventral preoptic nucleus",
+      "species": "Rat"
+    },
+    {
+      "value": "R127",
+      "display": "Anterodorsal nucleus thalamus",
+      "species": "Rat"
+    },
+    {
+      "value": "R128",
+      "display": "Barrington's nucleus",
+      "species": "Rat"
+    },
+    {
+      "value": "R129",
+      "display": "Caudoputamen",
+      "species": "Rat"
+    },
+    {
+      "value": "R130",
+      "display": "Central medial nucleus thalamus",
+      "species": "Rat"
+    },
+    {
+      "value": "R131",
+      "display": "Cerebral aqueduct, general",
+      "species": "Rat"
+    },
+    {
+      "value": "R131.1",
+      "display": "Cerebral aqueduct proper",
+      "species": "Rat"
+    },
+    {
+      "value": "R132",
+      "display": "Dentate gyrus",
+      "species": "Rat"
+    },
+    {
+      "value": "R133",
+      "display": "Dorsal cochlear nucleus",
+      "species": "Rat"
+    },
+    {
+      "value": "R134",
+      "display": "Dorsal hippocampal commissure",
+      "species": "Rat"
+    },
+    {
+      "value": "R135",
+      "display": "Dorsal premammillary nucleus",
+      "species": "Rat"
+    },
+    {
+      "value": "R136",
+      "display": "Endopiriform nucleus",
+      "species": "Rat"
+    },
+    {
+      "value": "R136.1",
+      "display": "Endopiriform nucleus, dorsal part",
+      "species": "Rat"
+    },
+    {
+      "value": "R137",
+      "display": "Entorhinal area",
+      "species": "Rat"
+    },
+    {
+      "value": "R138",
+      "display": "Ammon’s horn",
+      "species": "Rat"
+    },
+    {
+      "value": "R138.1",
+      "display": "Field CA1 of Ammon’s horn",
+      "species": "Rat"
+    },
+    {
+      "value": "R138.2",
+      "display": "Field CA2of Ammon’s horn",
+      "species": "Rat"
+    },
+    {
+      "value": "R138.3",
+      "display": "Field CA3 of Ammon’s horn",
+      "species": "Rat"
+    },
+    {
+      "value": "R139",
+      "display": "Hippocampal region",
       "species": "Rat"
     },
     {
@@ -418,8 +1218,43 @@
       "species": "Rat"
     },
     {
+      "value": "R142",
+      "display": "Interfascicular nucleus raphé",
+      "species": "Rat"
+    },
+    {
+      "value": "R144",
+      "display": "Lateral dorsal nucleus thalamus",
+      "species": "Rat"
+    },
+    {
+      "value": "R144.1",
+      "display": "Laterodorsal thalamic nucleus， dorsomedial part",
+      "species": "Rat"
+    },
+    {
+      "value": "R145",
+      "display": "Lateral habenula",
+      "species": "Rat"
+    },
+    {
+      "value": "R145.1",
+      "display": "Lateral habenular nucleus, medial part",
+      "species": "Rat"
+    },
+    {
+      "value": "R146",
+      "display": "Lateral preoptic area",
+      "species": "Rat"
+    },
+    {
       "value": "R147",
       "display": "Lateral septal nucleus",
+      "species": "Rat"
+    },
+    {
+      "value": "R147.1",
+      "display": "Lateral septal nucleus, caudal part, ventral zone, intermediate region",
       "species": "Rat"
     },
     {
@@ -428,18 +1263,23 @@
       "species": "Rat"
     },
     {
-      "value": "R38.3",
-      "display": "Medial amygdalar nucleus",
+      "value": "R149",
+      "display": "Medial geniculate complex",
       "species": "Rat"
     },
     {
-      "value": "R38.32",
-      "display": "Medial amygdalar nucleus, posterodorsal part",
+      "value": "R149.1",
+      "display": "Medial geniculate complex, dorsal part",
       "species": "Rat"
     },
     {
-      "value": "R38.31",
-      "display": "Medial amygdalar nucleus, anterodorsal part",
+      "value": "R149.2",
+      "display": "Medial geniculate complex, medial part",
+      "species": "Rat"
+    },
+    {
+      "value": "R149.3",
+      "display": "Medial geniculate complex, ventral part",
       "species": "Rat"
     },
     {
@@ -448,13 +1288,163 @@
       "species": "Rat"
     },
     {
+      "value": "R151",
+      "display": "Medial septal nucleus",
+      "species": "Rat"
+    },
+    {
+      "value": "R152",
+      "display": "Mediodorsal nucleus",
+      "species": "Rat"
+    },
+    {
+      "value": "R153",
+      "display": "Peripeduncular nucleus",
+      "species": "Rat"
+    },
+    {
+      "value": "R154",
+      "display": "Perirhinal area",
+      "species": "Rat"
+    },
+    {
+      "value": "R155",
+      "display": "Piriform area",
+      "species": "Rat"
+    },
+    {
+      "value": "R157",
+      "display": "Posterior commissure",
+      "species": "Rat"
+    },
+    {
       "value": "R158",
       "display": "Prelimbic area",
       "species": "Rat"
     },
     {
+      "value": "R159",
+      "display": "Premammillary nucleus",
+      "species": "Rat"
+    },
+    {
+      "value": "R160",
+      "display": "Primary visual area",
+      "species": "Rat"
+    },
+    {
+      "value": "R161",
+      "display": "Retrosplenial area",
+      "species": "Rat"
+    },
+    {
+      "value": "R162",
+      "display": "Septohippocampal nucleus",
+      "species": "Rat"
+    },
+    {
+      "value": "R163",
+      "display": "Substantia innominata",
+      "species": "Rat"
+    },
+    {
+      "value": "R164",
+      "display": "Supramammillary decussation",
+      "species": "Rat"
+    },
+    {
+      "value": "R165",
+      "display": "Tuberal nucleus",
+      "species": "Rat"
+    },
+    {
+      "value": "R166",
+      "display": "Anteroventral nucleus thalamus",
+      "species": "Rat"
+    },
+    {
+      "value": "R167",
+      "display": "Anteroventral periventricular nucleus hypothalamus",
+      "species": "Rat"
+    },
+    {
       "value": "R168",
       "display": "Arcuate hypothalamic nucleus",
+      "species": "Rat"
+    },
+    {
+      "value": "R169",
+      "display": "Auditory areas",
+      "species": "Rat"
+    },
+    {
+      "value": "R170",
+      "display": "Cochlear nuclei",
+      "species": "Rat"
+    },
+    {
+      "value": "R171",
+      "display": "Hypothalamus",
+      "species": "Rat"
+    },
+    {
+      "value": "R172",
+      "display": "Median eminence",
+      "species": "Rat"
+    },
+    {
+      "value": "R173",
+      "display": "Median preoptic nucleus",
+      "species": "Rat"
+    },
+    {
+      "value": "R174",
+      "display": "Nucleus of the lateral lemniscus",
+      "species": "Rat"
+    },
+    {
+      "value": "R175",
+      "display": "Paratenial nucleus",
+      "species": "Rat"
+    },
+    {
+      "value": "R176",
+      "display": "Pedunculopontine nucleus",
+      "species": "Rat"
+    },
+    {
+      "value": "R177",
+      "display": "Preoptic periventricular nucleus",
+      "species": "Rat"
+    },
+    {
+      "value": "R178",
+      "display": "Septal region",
+      "species": "Rat"
+    },
+    {
+      "value": "R179",
+      "display": "Superior olivary complex",
+      "species": "Rat"
+    },
+    {
+      "value": "R180",
+      "display": "Suprachiasmatic nucleus",
+      "species": "Rat"
+    },
+    {
+      "value": "R181",
+      "display": "Ventral medial nucleus thalamus",
+      "species": "Rat"
+    },
+    {
+      "value": "R182",
+      "display": "Dorsal tegmental nucleus",
+      "species": "Rat"
+    },
+    {
+      "value": "R183",
+      "display": "Tuberal nucleus",
       "species": "Rat"
     },
     {
@@ -483,6 +1473,16 @@
       "species": "Rat"
     },
     {
+      "value": "R187",
+      "display": "Midbrain reticular nucleus",
+      "species": "Rat"
+    },
+    {
+      "value": "R188",
+      "display": "Posterodorsal preoptic nucleus",
+      "species": "Rat"
+    },
+    {
       "value": "R189",
       "display": "Central tegmental bundle",
       "species": "Rat"
@@ -498,8 +1498,28 @@
       "species": "Rat"
     },
     {
+      "value": "R192",
+      "display": "Reticular nucleus thalamus",
+      "species": "Rat"
+    },
+    {
+      "value": "R193",
+      "display": "Stria medullaris",
+      "species": "Rat"
+    },
+    {
+      "value": "B1",
+      "display": "Spinal trigeminal tract x",
+      "species": "Mouse"
+    },
+    {
       "value": "B1.1",
       "display": "Spinal trigeminal nucleus, caudal part",
+      "species": "Mouse"
+    },
+    {
+      "value": "B1.2",
+      "display": "Dorsomedial spinal trigeminal nucleus",
       "species": "Mouse"
     },
     {
@@ -523,8 +1543,48 @@
       "species": "Mouse"
     },
     {
+      "value": "B2.13",
+      "display": "Lateral parabrachial nucleus, superior part",
+      "species": "Mouse"
+    },
+    {
+      "value": "B3",
+      "display": "Klliker-Fuse nucleus",
+      "species": "Mouse"
+    },
+    {
+      "value": "B4",
+      "display": "Dorsomedial hypothalamic nucleus",
+      "species": "Mouse"
+    },
+    {
+      "value": "B4.1",
+      "display": "Dorsomedial hypothalamic nucleus, compact part",
+      "species": "Mouse"
+    },
+    {
+      "value": "B5",
+      "display": "Lateral paragigantocellular nucleus",
+      "species": "Mouse"
+    },
+    {
+      "value": "B10.4",
+      "display": "Basolateral amygdaloid nucleus",
+      "species": "Mouse"
+    },
+    {
       "value": "B7",
       "display": "Lateral hypothalamic area",
+      "species": "Mouse"
+    },
+    {
+      "value": "B8",
+      "display": "Thalamus",
+      "species": "Mouse"
+    },
+    {
+      "value": "B8.1",
+      "display": "Subthalamic nucleus",
       "species": "Mouse"
     },
     {
@@ -533,8 +1593,33 @@
       "species": "Mouse"
     },
     {
+      "value": "B10",
+      "display": "Amygdala",
+      "species": "Mouse"
+    },
+    {
       "value": "B10.1",
       "display": "Central amygdaloid nucleus",
+      "species": "Mouse"
+    },
+    {
+      "value": "B10.11",
+      "display": "Central amygdaloid nucleus, lateral part",
+      "species": "Mouse"
+    },
+    {
+      "value": "B10.12",
+      "display": "Central amygdaloid nucleus, medial part",
+      "species": "Mouse"
+    },
+    {
+      "value": "B10.13",
+      "display": "Central amygdaloid nucleus; capsular part",
+      "species": "Mouse"
+    },
+    {
+      "value": "B10.2",
+      "display": "Lateral amygdaloid nucleus",
       "species": "Mouse"
     },
     {
@@ -555,6 +1640,11 @@
     {
       "value": "B10.33",
       "display": "Medial amygdaloid nucleus, posteroventral part",
+      "species": "Mouse"
+    },
+    {
+      "value": "B11",
+      "display": "Ventromedial hypothalamic nucleus x",
       "species": "Mouse"
     },
     {
@@ -593,6 +1683,11 @@
       "species": "Mouse"
     },
     {
+      "value": "B14.2",
+      "display": "Cingulate cortex;area2",
+      "species": "Mouse"
+    },
+    {
       "value": "B15",
       "display": "Locus coeruleus",
       "species": "Mouse"
@@ -600,6 +1695,11 @@
     {
       "value": "B16",
       "display": "Paraventricular thalamic nucleus",
+      "species": "Mouse"
+    },
+    {
+      "value": "B17",
+      "display": "Accumbens nucleus",
       "species": "Mouse"
     },
     {
@@ -653,6 +1753,11 @@
       "species": "Mouse"
     },
     {
+      "value": "B21.1",
+      "display": "Lateral periaqueductal gray",
+      "species": "Mouse"
+    },
+    {
       "value": "B21.11",
       "display": "Dorsolateral periaqueductal gray",
       "species": "Mouse"
@@ -663,8 +1768,73 @@
       "species": "Mouse"
     },
     {
+      "value": "B22",
+      "display": "Field CA1 of the hippocampus",
+      "species": "Mouse"
+    },
+    {
+      "value": "B23",
+      "display": "Amygdalohippocampal area",
+      "species": "Mouse"
+    },
+    {
+      "value": "B24",
+      "display": "Arcuate hypothalamic nucleus",
+      "species": "Mouse"
+    },
+    {
+      "value": "B24.1",
+      "display": "Arcuate hypothalamic nucleus, dorsal part",
+      "species": "Mouse"
+    },
+    {
+      "value": "B24.2",
+      "display": "Arcuate hypothalamic nucleus, lateroposterior part",
+      "species": "Mouse"
+    },
+    {
+      "value": "B25",
+      "display": "Periventricular hypothalamic nucleus",
+      "species": "Mouse"
+    },
+    {
+      "value": "B26",
+      "display": "Agranular insular cortex, posterior part",
+      "species": "Mouse"
+    },
+    {
+      "value": "B27",
+      "display": "Area postrema",
+      "species": "Mouse"
+    },
+    {
+      "value": "B28",
+      "display": "Dorsal motor nucleus of vagus",
+      "species": "Mouse"
+    },
+    {
+      "value": "B29",
+      "display": "Lateral reticular nucleus",
+      "species": "Mouse"
+    },
+    {
       "value": "B30",
       "display": "Solitary nucleus",
+      "species": "Mouse"
+    },
+    {
+      "value": "B30.1",
+      "display": "SolRL solitary nucleus, rostrolateral part",
+      "species": "Mouse"
+    },
+    {
+      "value": "B31",
+      "display": "Parasubthalamic nucleus",
+      "species": "Mouse"
+    },
+    {
+      "value": "B32",
+      "display": "Supratrigeminal nucleus",
       "species": "Mouse"
     },
     {
@@ -683,8 +1853,18 @@
       "species": "Mouse"
     },
     {
+      "value": "B36",
+      "display": "Anteroventral thalamic nucleus",
+      "species": "Mouse"
+    },
+    {
       "value": "B37",
       "display": "Caudate putamen (striatum)",
+      "species": "Mouse"
+    },
+    {
+      "value": "B38",
+      "display": "Central gray",
       "species": "Mouse"
     },
     {
@@ -693,8 +1873,33 @@
       "species": "Mouse"
     },
     {
+      "value": "B40",
+      "display": "Cortex-amygdala transition zone",
+      "species": "Mouse"
+    },
+    {
+      "value": "B41",
+      "display": "Dorsal nucleus of the lateral lemniscus",
+      "species": "Mouse"
+    },
+    {
       "value": "B42",
       "display": "Dorsal raphe nucleus",
+      "species": "Mouse"
+    },
+    {
+      "value": "B43",
+      "display": "External cuneate nucleus",
+      "species": "Mouse"
+    },
+    {
+      "value": "B44",
+      "display": "Field CA3 of the hippocampus",
+      "species": "Mouse"
+    },
+    {
+      "value": "B45",
+      "display": "Gracile nucleus",
       "species": "Mouse"
     },
     {
@@ -703,8 +1908,8 @@
       "species": "Mouse"
     },
     {
-      "value": "B48",
-      "display": "Lateral periaqueductal gray",
+      "value": "B47",
+      "display": "Inferior colliculus",
       "species": "Mouse"
     },
     {
@@ -728,8 +1933,38 @@
       "species": "Mouse"
     },
     {
+      "value": "B53",
+      "display": "Medial vestibular nucleus",
+      "species": "Mouse"
+    },
+    {
       "value": "B54",
       "display": "Mitral cell layer of the accessory olfactory bulb",
+      "species": "Mouse"
+    },
+    {
+      "value": "B55",
+      "display": "Parafascicular thalamic nucleus",
+      "species": "Mouse"
+    },
+    {
+      "value": "B56",
+      "display": "Pontine nuclei",
+      "species": "Mouse"
+    },
+    {
+      "value": "B57",
+      "display": "Prepositus nucleus",
+      "species": "Mouse"
+    },
+    {
+      "value": "B58",
+      "display": "Spinal vestibular nucleus",
+      "species": "Mouse"
+    },
+    {
+      "value": "B58.1",
+      "display": "Superior vestibular nucleus",
       "species": "Mouse"
     },
     {
@@ -738,8 +1973,8 @@
       "species": "Mouse"
     },
     {
-      "value": "B10.4",
-      "display": "Basolateral amygdaloid nucleus",
+      "value": "B60",
+      "display": "Ventral cochlear nucleus",
       "species": "Mouse"
     },
     {
@@ -775,6 +2010,31 @@
     {
       "value": "B67",
       "display": "Medial tuberal nucleus",
+      "species": "Mouse"
+    },
+    {
+      "value": "B68",
+      "display": "Prelimbic cortex",
+      "species": "Mouse"
+    },
+    {
+      "value": "B69",
+      "display": "Infralimbic cortex",
+      "species": "Mouse"
+    },
+    {
+      "value": "B71",
+      "display": "Prefrontal cortex",
+      "species": "Mouse"
+    },
+    {
+      "value": "B71.1",
+      "display": "Medial prefrontal cortex",
+      "species": "Mouse"
+    },
+    {
+      "value": "B73",
+      "display": "Supraoptic nucleus",
       "species": "Mouse"
     }
   ]

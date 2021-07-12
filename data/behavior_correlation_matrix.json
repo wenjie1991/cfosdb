@@ -9,17 +9,17 @@
       },
       {
         "id": "Aggression",
-        "value": "8",
+        "value": "24",
         "behaviors": ["aggression", "fear"]
       },
       {
         "id": "Aggression",
-        "value": "2",
+        "value": "14",
         "behaviors": ["aggression", "feeding"]
       },
       {
         "id": "Aggression",
-        "value": "3",
+        "value": "14",
         "behaviors": ["aggression", "pain"]
       },
       {
@@ -34,7 +34,7 @@
     "value": [
       {
         "id": "Fear",
-        "value": "1",
+        "value": "13",
         "behaviors": ["fear", "aggression"]
       },
       {
@@ -44,12 +44,12 @@
       },
       {
         "id": "Fear",
-        "value": "2",
+        "value": "12",
         "behaviors": ["fear", "feeding"]
       },
       {
         "id": "Fear",
-        "value": "5",
+        "value": "13",
         "behaviors": ["fear", "pain"]
       },
       {
@@ -64,12 +64,12 @@
     "value": [
       {
         "id": "Feeding",
-        "value": "1",
+        "value": "7",
         "behaviors": ["feeding", "aggression"]
       },
       {
         "id": "Feeding",
-        "value": "4",
+        "value": "22",
         "behaviors": ["feeding", "fear"]
       },
       {
@@ -79,12 +79,12 @@
       },
       {
         "id": "Feeding",
-        "value": "2",
+        "value": "12",
         "behaviors": ["feeding", "pain"]
       },
       {
         "id": "Feeding",
-        "value": "0",
+        "value": "1",
         "behaviors": ["feeding", "sexual behavior"]
       }
     ]
@@ -94,17 +94,17 @@
     "value": [
       {
         "id": "Pain",
-        "value": "1",
+        "value": "9",
         "behaviors": ["pain", "aggression"]
       },
       {
         "id": "Pain",
-        "value": "4",
+        "value": "34",
         "behaviors": ["pain", "fear"]
       },
       {
         "id": "Pain",
-        "value": "3",
+        "value": "28",
         "behaviors": ["pain", "feeding"]
       },
       {
@@ -124,22 +124,22 @@
     "value": [
       {
         "id": "Sexual behavior",
-        "value": "1",
+        "value": "7",
         "behaviors": ["sexual behavior", "aggression"]
       },
       {
         "id": "Sexual behavior",
-        "value": "9",
+        "value": "24",
         "behaviors": ["sexual behavior", "fear"]
       },
       {
         "id": "Sexual behavior",
-        "value": "6",
+        "value": "17",
         "behaviors": ["sexual behavior", "feeding"]
       },
       {
         "id": "Sexual behavior",
-        "value": "6",
+        "value": "17",
         "behaviors": ["sexual behavior", "pain"]
       },
       {

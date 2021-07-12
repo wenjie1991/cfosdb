@@ -1,0 +1,57 @@
+brain_cdoe	full_name	abbr
+B1.1	"spinal trigeminal nucleus, caudal part "	Sp5C 
+B10.1	central amygdaloid nucleus 	Ce 
+B10.3	medial amygdaloid nucleus	Me
+B10.31	"medial amygdaloid nucleus, anterior part"	MeA
+B10.32	"medial amygdaloid nucleus, posterodorsal part "	MePD
+B10.33	"medial amygdaloid nucleus, posteroventral part"	MePV 
+B11.1	"ventromedial hypothalamic nucleus, dorsomedial part"	VMHDM 
+B11.2	"ventromedial hypothalamic nucleus, ventrolateral part"	VMHVL 
+B12.1	"premammillary nucleus, dorsal part "	PMD 
+B12.2	"premammillary nucleus, ventral part "	PMV 
+B13	piriform cortex	Pir
+B14	cingulate cortex	Cg 
+B14.1	cingulate cortex; area 1	 Cg1
+B15	locus coeruleus	 LC
+B16	paraventricular thalamic nucleus	 PV
+B18	lateral septal nucleus	LS
+B18.1	lateral septal nucleus; dorsal part	 LSD
+B18.2	"lateral septal nucleus, ventral part"	LSV
+B19	bed nucleus of the stria terminalis	 ST
+B19.1	bed nucleus of the stria terminalis; lateral division; ventral part	STLV
+B19.2	bed nucleus of the stria terminalis; medial division; ventral part	STMV
+B2	parabrachial nucleus	PB 
+B2.1	lateral parabrachial nucleus	 LPB
+B2.11	"lateral parabrachial nucleus, dorsal part "	LPBD 
+B2.12	lateral parabrachial nucleus; external part	LPBE
+B20	paraventricular hypothalamic nucleus	Pa
+B20.2	"paraventricular hypothalamic nucleus, posterior part"	PaPo
+B20.3	"paraventricular hypothalamic nucleus,ventral part"	 PaV
+B21	periaqueductal gray 	PAG 
+B21.11	dorsolateral periaqueductal gray	DLPAG
+B21.12	ventrolateral periaqueductal gray	VLPAG
+B30	nucleus of the solitary tract 	Sol 
+B33	accessory olfactory bulb 	AOB 
+B34	anterior hypothalamic area	AH
+B35	anterior olfactory area external part	 AOE
+B37	caudate putamen (striatum)	Cpu
+B39	claustrum 	CI
+B42	dorsal raphe nucleus	DR
+B46	granule cell layer of the accessory olfactory bulb	 GrA
+B48	lateral periaqueductal gray	LPAG
+B49	lateral preoptic area	LPO
+B50	laterodorsal tegmental nucleus 	LDTg 
+B51	medial preoptic area	MPA
+B52.1	"medial preoptic nucleus, medial part"	MPOM
+B54	mitral cell layer of the accessory olfactory bulb	 MiA
+B59	superior colliculus	 SC
+B6	basolateral amygdaloid nucleus	BL
+B61	ventral tegmental area	VTA
+B62	lateral habenular nucleus	 LHb
+B63	dorsal horn	DH
+B64	diagonal band of Broca 	DBB
+B65	Insular cortex	insula
+B66	ventromedial thalamic nucleus 	VM 
+B67	medial tuberal nucleus	MTu
+B7	lateral hypothalamic area	LH
+B9	dentate gyrus	DG

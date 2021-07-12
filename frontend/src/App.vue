@@ -24,9 +24,7 @@
                 tile
                 class="indigo tertiary white--text text-center"
             >
-                <v-card-text>
-                The web is under development
-                </v-card-text>
+                
                 <v-btn
                 text
                 class="white--text"
@@ -36,10 +34,19 @@
                 Zhejiang University
                 </v-btn>
 
+                <v-btn
+                text
+                class="white--text"
+                href="https://github.com/wenjie1991/cfosdb"
+                target="_blank"
+                >
+                Github Source code
+                </v-btn>
+
                 <v-divider class="my-2"></v-divider>
 
                 <v-card-text class="white--text">
-                    {{ new Date().getFullYear() }} — <strong>cFos-ANAB</strong>
+                    2021 — <strong>cFos-ANAB</strong>  
                 </v-card-text>
             </v-col>
         </v-footer>

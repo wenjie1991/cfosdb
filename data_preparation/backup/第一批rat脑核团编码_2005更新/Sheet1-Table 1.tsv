@@ -1,0 +1,96 @@
+brain_code	full_name	abbr
+1	"dorsal horn, spinal cord "	DH
+2	nucleus accumbens	ACB
+2.1	accumbens nucleus，core	AcbC
+2.2	accumbens nucleus，shell	AcbSh
+3	periaqueductal gray 	PAG
+3.1	"periaqueductal gray, dorsal division"	PAGd
+3.12	"periaqueductal gray, dorsolateral division"	PAGdl
+3.2	"periaqueductal gray, medial division "	PAGm
+3.3	lateral periaqueductal gray  	LPAG
+3.31	"periaqueductal gray, ventrolateral division"	PAGvl
+4	spinal nucleus of the trigeminal	SPV
+4.1	"spinal nucleus of the trigeminal, caudal part_sw "	SPVC
+4.2	"spinal nucleus of the trigeminal, interpolar part_sw"	SPVI
+4.3	"spinal nucleus of the trigeminal,oral part"	SPVO
+4.31	"spinal nucleus of the trigeminal, oral part, ventrolateral part"	SPVOvl
+5	Parabrachial nucleus 	PB
+5.1	"parabrachial nucleus, lateral division  "	PBl
+5.11	"parabrachial nucleus, external lateral part "	PBle
+5.12	parabrachial nucleus，central lateral part	PBlc
+5.13	parabrachial nucleus， dorsal lateral part	PBld
+5.14	parabrachial nucleus，superior lateral part	PBls
+5.15	parabrachial nucleus，internal lateral part	Pbli
+5.2	parabrachial nucleus，medial division	PBm
+5.21	parabrachial nucleus，external medial part	Pbme
+6	ventral tegmental area 	VTA
+6.1	"ventral tegmental area, rostral part"	VTAR
+7	locus ceruleus	LC
+10	lateral reticular nucleus 	LRN
+10.1	"lateral reticular nucleus, parvicellular part"	LRNp
+10.2	"lateral reticular nucleus,subtrigeminal part"	LRtS5
+12	paramedian reticular nucleus	PMR
+15	gigantocellular reticular nucleus	GRN
+15.1	gigantocellular reticular nucleus， alpha part	GiA
+16	cingulate region	CNG
+16.1	anterior cingulate area	ACA
+22	nucleus of the solitary tract	NTS
+22.1	"nucleus of the solitary tract, central part"	NTSce
+22.2	nucleus of the solitary tract，medial part_sw	NTSm
+22.3	"nucleus of the solitary tract, lateral part"	NTSl
+22.4	parasolitary nucleus_sw 	PAS
+22.5	nucleus of the solitary tract，intermediate part	SolIM
+22.6	nucleus of the solitary tract， rostrolateral part	SolRL
+23	nucleus raphé obscurus	RO
+25	paraventricular hypothalamic nucleus_sw	PVH
+25.11	"paraventricular hypothalamic nucleus, anterior magnocellular part"	PVHam
+25.12	"paraventricular hypothalamic nucleus, anterior parvicellular part"	PVHap
+25.2	"paraventricular hypothalamic nucleus, dorsal part "	PVHd
+25.31	"paraventricular hypothalamic nucleus, lateral parvicellular part"	PVHlp
+25.4	"paraventricular hypothalamic nucleus, magnocellular division"	PVHm
+25.41	"paraventricular hypothalamic nucleus, medial magnocellular part"	PVHmm
+25.42	"paraventricular hypothalamic nucleus, medial parvicellular part"	PVHmp
+25.5	"paraventricular hypothalamic nucleus, parvicellular division  "	PVHp
+25.51	"paraventricular hypothalamic nucleus, dorsal parvicellular part"	PVHpd
+25.52	"paraventricular hypothalamic nucleus, posterior magnocellular part"	PVHpm
+25.6	paraventricular hypothalamic nucleus，ventral part	PaV
+32	ventromedial hypothalamic nucleus	VMH
+32.1	"ventromedial hypothalamic nucleus, dorsomedial part"	VMHdm
+32.2	"ventromedial hypothalamic nucleus, ventrolateral part"	 VMHvl 
+37	area postrema	AP
+38	basolateral amygdalar nucleus	BLA
+44	central amygdalar nucleus	CEA
+50	dorsal motor nucleus vagus nerve	DMX
+57	lateral hypothalamic area  	LHA
+64	paragigantocellular reticular nucleus	PGRN
+64.1	"paragigantocellular reticular nucleus, lateral part"	PGRNl
+87	bed nuclei stria terminalis 	BST
+87.12	"bed nuclei stria terminalis, anterior division, anteromedial area"	BSTam
+87.2	"bed nuclei stria terminalis, posterior division "	BSTp
+96	"supraoptic nucleus, general"	SOg
+106	prefrontal region_sw	PFR
+114	thalamus_sw	TH
+115	superior central nucleus raphé_sw	CS 
+115.1	"superior central nucleus raphé, lateral part_sw"	CSl
+115.2	"superior central nucleus raphé, medial part"	CSm
+116	dorsomedial hypothalamic nucleus	DMH
+122	amygdala	AMY
+124	anterior hypothalamic nucleus	AHN
+126	anteroventral preoptic nucleus	AVP 
+140	infralimbic area	ILA
+147	lateral septal nucleus	LS
+147.2	"lateral septal nucleus, ventral part"	LSv 
+148	medial amygdalar nucleus	MEA
+148.1	"medial amygdalar nucleus, posterodorsal part"	MEApd
+148.2	"medial amygdalar nucleus, anterodorsal part"	MEAad
+150	medial preoptic area	MPO 
+158	prelimbic area	PL
+168	arcuate hypothalamic nucleus	ARH
+184	accessory olfactory bulb	AOB
+184.1	"accessory olfactory bulb, granule cell layer"	AOBgr
+184.2	"accessory olfactory bulb, mitral layer"	AOBmi
+185	bed nucleus of the accessory olfactory tract	BA
+186	medial preoptic nucleus	MPN
+189	central tegmental bundle 	ctb
+190	anterodorsal preoptic nucleus	ADP
+191	septohypothalamic nucleus	SHy

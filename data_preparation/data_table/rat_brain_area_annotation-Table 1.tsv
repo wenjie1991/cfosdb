@@ -1,0 +1,299 @@
+brain_code	main	species	"全称(L.W.Swanson, 2004)"	简称	"同义词全称(Paxinos & Watson, 2007 )"	同义词简称	其他同义词	简称
+R1	"dorsal horn, spinal cord"	Rat	"dorsal horn, spinal cord"	DH				
+R2	nucleus accumbens	Rat	nucleus accumbens	ACB	accumbens nucleus	Acb		
+R2.1	accumbens nucleus， core	Rat			accumbens nucleus， core	AcbC		Nacc
+R2.2	accumbens nucleus，shell	Rat			accumbens nucleus，shell	AcbSh		
+R3	periaqueductal gray	Rat	periaqueductal gray	PAG	periaqueductal gray	PAG		
+R3.1	"periaqueductal gray, dorsal division"	Rat	"periaqueductal gray, dorsal division"	PAGd			the dorsal PAG	
+R3.12	"periaqueductal gray, dorsolateral division"	Rat	"periaqueductal gray, dorsolateral division"	PAGdl	dorsolateral periaqueductal gray	DLPAG	dorsolateral periaqueductal gray	DLPAG
+R3.2	"periaqueductal gray, medial division"	Rat	"periaqueductal gray, medial division"	PAGm	dorsomedial periaqueductal gray	DMPAG	dorsomedial periaqueductal gray	
+R3.3	lateral periaqueductal gray	Rat			lateral periaqueductal gray	LPAG		
+R3.31	"periaqueductal gray, ventrolateral division"	Rat	"periaqueductal gray, ventrolateral division"	PAGvl	ventrolateral periaqueductal gray	VLPAG		
+R3.4	"periaqueductal gray, rostral division"	Rat	"periaqueductal gray, rostral division"	PAGr			rostral PAG	
+R4	spinal nucleus of the trigeminal	Rat	spinal nucleus of the trigeminal	SPV	spinal trigeminal nucleus	Sp5	medullary dorsal horn	Vc
+R4.1	"spinal nucleus of the trigeminal, caudal part_sw"	Rat	"spinal nucleus of the trigeminal, caudal part_sw"	SPVC	"spinal trigeminal nucleus, caudal part"	Sp5C	Trigeminal spinal nucleus caudalis	SNI
+R4.2	"spinal nucleus of the trigeminal, interpolar part_sw"	Rat	"spinal nucleus of the trigeminal, interpolar part_sw"	SPVI	"spinal trigeminal nucleus, interpolar part"	Sp5I	subnucleus interpolaris	
+R4.3	"spinal nucleus of the trigeminal,oral part"	Rat	"spinal nucleus of the trigeminal,oral part"	SPVO				
+R4.31	"spinal nucleus of the trigeminal, oral part, ventrolateral part"	Rat	"spinal nucleus of the trigeminal, oral part, ventrolateral part"	SPVOvl				
+R5	Parabrachial nucleus	Rat	Parabrachial nucleus	PB			PBN	
+R5.1	"parabrachial nucleus, lateral division"	Rat	"parabrachial nucleus, lateral division"	PBl	lateral parabrachial nucleus	LPB	lateral subnucleus	
+R5.11	"parabrachial nucleus, external lateral part"	Rat	"parabrachial nucleus, external lateral part"	PBle	"lateral parabrachial nucleus, external part"	LPBE	Pbel	
+R5.12	parabrachial nucleus，central lateral part	Rat	parabrachial nucleus，central lateral part	PBlc	"lateral parabrachial nucleus, central part"	LPBC	PBcl	
+R5.13	parabrachial nucleus， dorsal lateral part	Rat	parabrachial nucleus， dorsal lateral part	PBld	"lateral parabrachial nucleus, dorsal part"	LPBD	PBdl	
+R5.14	parabrachial nucleus，superior lateral part	Rat	parabrachial nucleus，superior lateral part	PBls	"lateral parabrachial nucleus, superior part"	LPBS	PBsl	
+R5.15	parabrachial nucleus，internal lateral part	Rat	parabrachial nucleus，internal lateral part	Pbli	"lateral parabrachial nucleus, internal part"	LPBI	PBil	
+R5.2	parabrachial nucleus，medial division	Rat	parabrachial nucleus，medial division	PBm	medial parabrachial nucleus	MPB		
+R5.21	parabrachial nucleus，external medial part	Rat	parabrachial nucleus，external medial part	Pbme	medial parabrachial nucleus external part	MPBE	Pbem	
+R6	ventral tegmental area	Rat	ventral tegmental area	VTA	ventral tegmental area	VTA		
+R6.1	"ventral tegmental area, rostral part"	Rat			"ventral tegmental area, rostral part"	VTAR	rostral sections of the VTA	
+R7	locus ceruleus	Rat	locus ceruleus	LC	locus coeruleus	LC		
+R8	central gray	Rat	central gray	CG	central gray	CG		
+R9	dorsal nucleus raphé	Rat	dorsal nucleus raphé	DR	dorsal raphe nucleus	DR		
+R9.1	"dorsal raphe nucleus, caudal part"	Rat			"dorsal raphe nucleus, caudal part"	DRC		
+R9.2	"dorsal raphe nucleus, lateral part"	Rat			"dorsal raphe nucleus, lateral part"	DRL		
+R10	lateral reticular nucleus	Rat	lateral reticular nucleus	LRN	lateral reticular nucleus	LRt		Gia
+R10.1	"lateral reticular nucleus, parvicellular part"	Rat	"lateral reticular nucleus, parvicellular part"	LRNp	"lateral reticular nucleus,parvicellular part"	LRtPC		
+R10.2	"lateral reticular nucleus,subtrigeminal part"	Rat			"lateral reticular nucleus,subtrigeminal part"	LRtS5		
+R11	paratrigeminal nucleus	Rat	paratrigeminal nucleus	PAT	paratrigeminal nucleus	Pa5		
+R12	paramedian reticular nucleus	Rat	paramedian reticular nucleus	PMR	paramedian reticular nucleus	PMn		
+R13	inferior olivary complex	Rat	inferior olivary complex	IO	inferior olive	IO	inferior olivary nuclei	
+R13.1	inferior olivary complex， medial accessory olive	Rat	inferior olivary complex， medial accessory olive	Ioma	inferior olive， medial nucleus	IOM	inferior medial olivary nucleus	
+R14	intermediate reticular nucleus	Rat			intermediate reticular nucleus	Irt		
+R15	gigantocellular reticular nucleus	Rat	gigantocellular reticular nucleus	GRN				
+R15.1	gigantocellular reticular nucleus， alpha part	Rat			gigantocellular reticular nucleus， alpha part	GiA		
+R16	cingulate region	Rat	cingulate region	CNG	cingulate cortex	Cg		Rob
+R16.1	anterior cingulate area	Rat	anterior cingulate area	ACA	"cingulate cortex, area 1/area 2"	Cg1/Cg2	anterior cingulate cortex	PVN
+R17	trigeminal ganglion	Rat	trigeminal ganglion	GV	trigeminal ganglion	5Gn	trigeminal nucleus	
+R17.1	trigeminal nerve	Rat	trigeminal nerve	Vn				
+R18	reticular formation	Rat	reticular formation	RET	mesencephalic reticular formation	mRt	dorsal reticular nucleus	
+R18.1	r1 reticular formation	Rat			r1 reticular formation	r1Rt		
+R18.2	r2 reticular formation	Rat			r2 reticular formation	r2Rt		
+R18.3	r3 reticular formation	Rat			r3 reticular formation	r3Rt		
+R19	Kölliker-Fuse subnucleus (of PB)	Rat	Kölliker-Fuse subnucleus (of PB)	KF	Kîlliker-Fuse nucleus	KF		
+R20	lateral paragigantocellular nucleus	Rat			lateral paragigantocellular nucleus	LPGi		
+R21	mediodorsal nucleus thalamus	Rat	mediodorsal nucleus thalamus	MD	mediodorsal thalamic nucleus	MD	dorsomedial nucleus	
+R22	nucleus of the solitary tract	Rat	nucleus of the solitary tract	NTS	nucleus of the solitary tract	Sol	solitary tract nucleus	
+R22.1	"nucleus of the solitary tract, central part"	Rat	"nucleus of the solitary tract, central part"	NTSce	"nucleus of the solitary tract, central part"	SolCe	central part of nucleus of the solitary tract	
+R22.2	nucleus of the solitary tract，medial part_sw	Rat	nucleus of the solitary tract，medial part_sw	NTSm	nucleus of the solitary tract， medial part	SolM	medial part of nucleus of the solitary tract	
+R22.3	"nucleus of the solitary tract, lateral part"	Rat	"nucleus of the solitary tract, lateral part"	NTSl	"nucleus of the solitary tract, lateral part"	SolL	lateral part of nucleus of the solitary tract	
+R22.4	parasolitary nucleus_sw	Rat	parasolitary nucleus_sw	PAS	solitary nucleus， dorsolateral part	SolD	dorsolateral part of nucleus of the solitary tract	
+R22.5	nucleus of the solitary tract，intermediate part	Rat			nucleus of the solitary tract，intermediate part	SolIM	dorsolateral part of nucleus of the solitary tract	
+R22.6	nucleus of the solitary tract， rostrolateral part	Rat			nucleus of the solitary tract， rostrolateral part	SolRL	rostrolateral part of nucleus of the solitary tract	
+R23	nucleus raphé obscurus	Rat	nucleus raphé obscurus	RO	raphe obscurus nucleus	Rob	nucleus raphe obscurus	CeA
+R24	nucleus raphé pallidus_sw	Rat	nucleus raphé pallidus_sw	RPA	raphe pallidus nucleus	RPa		DMN
+R25	paraventricular hypothalamic nucleus_sw	Rat	paraventricular hypothalamic nucleus_sw	PVH	paraventricular hypoth nucleus	Pa	paraventricular nucleus (PVN) of the hypothalamus	
+R25.11	"paraventricular hypothalamic nucleus, anterior magnocellular part"	Rat	"paraventricular hypothalamic nucleus, anterior magnocellular part"	PVHam			anterior commissural nucleus	PGI
+R25.12	"paraventricular hypothalamic nucleus, anterior parvicellular part"	Rat	"paraventricular hypothalamic nucleus, anterior parvicellular part"	PVHap	"paraventricular hypothalamic nucleus, anterior parvicellular part"	PaAP	parvicellular part of paraventricular hypothalamic nucleus	VLM
+R25.2	"paraventricular hypothalamic nucleus, dorsal part"	Rat	"paraventricular hypothalamic nucleus, dorsal part"	PVHd	paraventricular hypothalamic nucleus， dorsal cap	PaDC	dorsal region of the PVN	
+R25.31	"paraventricular hypothalamic nucleus, lateral parvicellular part"	Rat	"paraventricular hypothalamic nucleus, lateral parvicellular part"	PVHlp			lateral subdivision of hypothalamic paraventricular nucleus	BNSTam
+R25.32	"paraventricular hypothalamic nucleus, lateral magnocellular part"	Rat			"paraventricular hypothalamic nucleus, lateral magnocellular part"	PaLM		
+R25.4	"paraventricular hypothalamic nucleus, magnocellular division"	Rat	"paraventricular hypothalamic nucleus, magnocellular division"	PVHm			medial region of the PVN	
+R25.41	"paraventricular hypothalamic nucleus, medial magnocellular part"	Rat	"paraventricular hypothalamic nucleus, medial magnocellular part"	PVHmm	"paraventricular hypothalamic nucleus, medial magnocellular part"	PaMM	magnocellular (mPVN) regions of the PVN	
+R25.42	"paraventricular hypothalamic nucleus, medial parvicellular part"	Rat	"paraventricular hypothalamic nucleus, medial parvicellular part"	PVHmp	"paraventricular hypothalamic nucleus, medial parvicellular part"	PaMP	medial parvicellular	
+R25.5	"paraventricular hypothalamic nucleus, parvicellular division"	Rat	"paraventricular hypothalamic nucleus, parvicellular division"	PVHp			periventricular region of the PVN	PMN
+R25.51	"paraventricular hypothalamic nucleus, dorsal parvicellular part"	Rat	"paraventricular hypothalamic nucleus, dorsal parvicellular part"	PVHpd			dorsal parvocellular regions (PVN)	
+R25.52	"paraventricular hypothalamic nucleus, posterior magnocellular part"	Rat	"paraventricular hypothalamic nucleus, posterior magnocellular part"	PVHpm	"paraventricular hypothalamic nucleus, posterior part"	PaPo	Posterior paraventricular	
+R25.6	paraventricular hypothalamic nucleus，ventral part	Rat			paraventricular hypothalamic nucleus，ventral part	PaV		
+R27	superior colliculus	Rat	superior colliculus	SC				
+R28	subceruleus nucleus_sw	Rat	subceruleus nucleus_sw	SLC	subcoeruleus nucleus	SubC	the nucleus subcoeruleus	
+R30	ventral posterolateral nucleus thalamus， principal part	Rat	ventral posterolateral nucleus thalamus， principal part	VPL	ventral posterolateral thalamic nucleus	VPL	ventral posterior lateral of the thalamus	
+R31	ventral posteromedial nucleus thalamus， principal part	Rat	ventral posteromedial nucleus thalamus， principal part	VPM	ventral posteromedial thalamic nucleus	VPM	ventral posterior medial nuclei of the thalamus	
+R32	ventromedial hypothalamic nucleus	Rat	ventromedial hypothalamic nucleus	VMH	ventromedial hypothalamic nucleus	VMH	Ventromedial nucleus	
+R32.1	"ventromedial hypothalamic nucleus, dorsomedial part"	Rat	"ventromedial hypothalamic nucleus, dorsomedial part"	VMHdm	"ventromedial hypothalamic nucleus, dorsomedial part"	VMHDM	dorsomedial part of ventromedial hypothalamic nucleus	
+R32.2	"ventromedial hypothalamic nucleus, ventrolateral part"	Rat	"ventromedial hypothalamic nucleus, ventrolateral part"	VMHvl	"ventromedial hypothalamic nucleus, ventrolateral part"	VMHVL	ventrolateral part of ventromedial hypothalamic nucleus	
+R33	vestibular nuclei	Rat	vestibular nuclei	VNC				MEPD
+R34	dorsal commissure，spinal cord	Rat	dorsal commissure，spinal cord	DCM				MeAD
+R35	facial nucleus_sw	Rat	facial nucleus_sw	VII	facial nucleus	7N	facial nerve root	
+R36	anterior hypothalamic nucleus_sw	Rat	anterior hypothalamic nucleus_sw	AHN	anterior hypothalamic area	AH	anterior hypothalamus	
+R37	area postrema	Rat	area postrema	AP	area postrema	AP	postrema area	
+R38	amygdala	Rat	amygdala	AMY			medial amygdala	
+R38.1	basolateral amygdalar nucleus	Rat	basolateral amygdalar nucleus	BLA	basolateral amygdaloid nucleus	BL	basolateral nucleus of the amygdala	
+R38.11	basolateral amygdalar nucleus， anterior part	Rat	basolateral amygdalar nucleus， anterior part	BLAa	basolateral amygdaloid nucleus，anterior part	BLA	anterior part of basolateral amygdaloid nucleus	
+R38.2	central amygdalar nucleus	Rat	central amygdalar nucleus	CEA	central amygdaloid nucleus	Ce	central nucleus of the amygdala	
+R38.21	central amygdalar nucleus， capsular part	Rat	central amygdalar nucleus， capsular part	CEAc	central amygdaloid nucleus，capsular part	CeC	capsular part of central amygdaloid nucleus	
+R38.22	central amygdalar nucleus，lateral part	Rat	central amygdalar nucleus，lateral part	CEAl	"central amygdaloid nucleus, lateral division"	CeL	capsular part of central amygdaloid nucleus	CTF
+R38.23	"central amygdalar nucleus, medial part"	Rat	"central amygdalar nucleus, medial part"	CEAm			lateral division of central amygdalar nucleus	
+R38.3	medial amygdalar nucleus	Rat	medial amygdalar nucleus	MEA	medial amygdaloid nucleus	Me		
+R38.32	"medial amygdalar nucleus, posterodorsal part"	Rat	"medial amygdalar nucleus, posterodorsal part"	MEApd	"medial amygdaloid nucleus, posterodorsal part"	MePD	posterodorsal medial amygdala nucleus	
+R38.31	"medial amygdalar nucleus, anterodorsal part"	Rat	"medial amygdalar nucleus, anterodorsal part"	MEAad	"medial amygdaloid nucleus, ant dorsal"	MeAD	anterior-dorsal medial amygdala	
+R38.4	lateral amygdalar nucleus	Rat	lateral amygdalar nucleus	LA				
+R38.41	lateral amygdaloid nucleus， dorsolateral part	Rat			lateral amygdaloid nucleus， dorsolateral part	LaDL	dorsolateral part of lateral  amygdala	
+R38.42	lateral amygdaloid nucleus， ventromedial part	Rat			lateral amygdaloid nucleus， ventromedial part	LaVM	ventromedial part of lateral  amygdala	
+R38.5	cortical amygdalar nucleus_sw	Rat	cortical amygdalar nucleus_sw	COA				
+R38.51	"cortical amygdalar nucleus, anterior part_sw"	Rat	"cortical amygdalar nucleus, anterior part_sw"	COAa	anterior cortical amygdaloid nucleus	ACo		
+R38.52	"cortical amygdalar nucleus, posterior part_sw"	Rat	"cortical amygdalar nucleus, posterior part_sw"	COAp				
+R38.521	"cortical amygdalar nucleus, posterior part, lateral zone_sw"	Rat	"cortical amygdalar nucleus, posterior part, lateral zone_sw"	COApl	posterolateral cortical amygdaloid nucleus	PLCo		
+R38.522	"cortical amygdalar nucleus, posterior part, medial zone_sw"	Rat	"cortical amygdalar nucleus, posterior part, medial zone_sw"	COApm	posteromedial cortical amygdaloid nucleus	PMCo		
+R38.6	intercalated amygdalar nuclei	Rat	intercalated amygdalar nuclei	IA	intercalated nuclei of the amygdala	I		
+R38.7	posterior amygdalar nucleus	Rat	posterior amygdalar nucleus	PA	posteromedial cortical amygdaloid nucleus	PMCo		
+R39	orbital area	Rat	orbital area	ORB				
+R39.1	"orbital area, lateral part"	Rat	"orbital area, lateral part"	ORBl	lateral orbital cortex	LO	Lateralorbital	
+R39.2	"orbital area, ventrolateral part_sw"	Rat	"orbital area, ventrolateral part_sw"	ORBvl			Ventrolateral orbital cortex	
+R41	"central canal, spinal cord/medulla_sw"	Rat	"central canal, spinal cord/medulla_sw"	C	central canal	CC		
+R42	"intermediate gray of the spinal cord, general"	Rat	"intermediate gray of the spinal cord, general"	IHg	intermediate gray layer of the superior colliculus	InG	intermediolateral gray (ILG)	
+R43	central gray of the pons	Rat			central gray of the pons	CGPn	central gray pons	
+R45	central lateral nucleus thalamus	Rat	central lateral nucleus thalamus	CL	centrolateral thalamic nucleus	CL		
+R46	cuneate nucleus	Rat	cuneate nucleus	CU	cuneate nucleus	Cu		
+R46.1	external cuneate nucleus	Rat	external cuneate nucleus	ECU	external cuneate nucleus	ECu		
+R47	cuneiform nucleus	Rat	cuneiform nucleus	CUN	cuneiform nucleus	CnF		
+R49	medullary reticular nucleus	Rat	medullary reticular nucleus	MDRN				
+R49.1	medullary reticular nucleus， dorsal part	Rat	medullary reticular nucleus， dorsal part	MDRNd	"medullary reticular nucleus,dorsal part"	MdD	dorsal medullary reticular formation	
+R49.2	"medullary reticular nucleus, ventral part"	Rat	"medullary reticular nucleus, ventral part"	MDRNv	"medullary reticular nucleus, ventral part"	MdV	the ventral reticular nucleus	
+R50	dorsal motor nucleus vagus nerve	Rat	dorsal motor nucleus vagus nerve	DMX	dorsal motor nucleus of vagus	10N		
+R51	dorsolateral fascicle_sw	Rat	dorsolateral fascicle_sw	dl			dorsolateral pocket	
+R52	frontal region	Rat	frontal region	FRO	"frontal cortex, area 3"	Fr3		
+R53	gracile nucleus，principal part	Rat	gracile nucleus，principal part	GR	gracile nucleus	Gr		
+R54	hypoglossal nucleus	Rat	hypoglossal nucleus	XII	hypoglossal nucleus	12N		
+R55	inferior colliculus	Rat	inferior colliculus	IC	inferior colliculus	IC		
+R55.1	"inferior colliculus, central nucleus"	Rat	"inferior colliculus, central nucleus"	ICc	central nucleus of the inferior colliculus	CIC		
+R55.2	"inferior colliculus, dorsal nucleus"	Rat	"inferior colliculus, dorsal nucleus"	ICd	dorsal cortex of the inferior colliculus	DCIC		
+R55.3	"inferior colliculus, external nucleus"	Rat	"inferior colliculus, external nucleus"	ICe	external cortex of the inferior colliculus	ECIC		
+R56	interfascicular nucleus raphé	Rat	interfascicular nucleus raphé	IF	interfascicular nucleus	IF		
+R57	lateral hypothalamic area	Rat	lateral hypothalamic area	LHA	lateral hypothalamic area	LH		
+R59	midbrain trigeminal nucleus	Rat	midbrain trigeminal nucleus	MEV	mesencephalic trigeminal nucleus	Me5		
+R60	"medial mammillary nucleus, general_sw"	Rat	"medial mammillary nucleus, general_sw"	MMg				
+R60.1	"medial mammillary nucleus, median part_sw"	Rat	"medial mammillary nucleus, median part_sw"	MMme				
+R60.2	medial mammillary nucleus， lateral part	Rat			medial mammillary nucleus， lateral part	ML		
+R61	nucleus ambiguus	Rat	nucleus ambiguus	AMB	ambiguus nucleus	Amb		
+R62	olivary pretectal nucleus	Rat	olivary pretectal nucleus	OP	olivary pretectal nucleus	OPT		
+R63	parabrachial pigmented nucleus of the VTA	Rat			parabrachial pigmented nucleus of the VTA	PBP		
+R64	paragigantocellular reticular nucleus	Rat	paragigantocellular reticular nucleus	PGRN			paragigantocellular reticular nucleus	
+R64.1	"paragigantocellular reticular nucleus, lateral part"	Rat	"paragigantocellular reticular nucleus, lateral part"	PGRNl			ventrolateral medulla	
+R65	parafascicular nucleus	Rat	parafascicular nucleus	PF	parafascicular thalamic nucleus	PF		
+R66	paranigral nucleus of the VTA	Rat			paranigral nucleus of the VTA	PN	paranigral nucleus	
+R67	"pontine reticular nucleus,caudal part"	Rat	"pontine reticular nucleus,caudal part"	PRNc	"pontine reticular nucleus,caudal part"	PnC		
+R68	pyramidal decussation	Rat	pyramidal decussation	pyd	pyramidal decussation	pyx		
+R69	posterior hypothalamic nucleus	Rat	posterior hypothalamic nucleus	PH	posterior hypothalamic area	PHA	dorsal hypothalamic area	
+R70	pia	Rat	pia	PI				
+R71	paraventricular thalamic nucleus	Rat	paraventricular thalamic nucleus	PVT	paraventricular thalamic nucleus	PV		
+R71.1	"paraventricular thalamic nucleus, posterior part"	Rat			"paraventricular thalamic nucleus, posterior part"	PVP		
+R72	pyramid	Rat	pyramid	py	pyramidal cell layer of the hippocampus	Py		
+R73	nucleus raphé magnus	Rat	nucleus raphé magnus	RM	raphe magnus nucleus	RMg		
+R74	nucleus reuniens	Rat	nucleus reuniens	RE	reuniens thalamic nucleus	Re		
+R75	rostral linear nucleus raphé	Rat	rostral linear nucleus raphé	RL	rostral linear nucleus of the raphe	RLi	rostral linear nucleus raphe	
+R76	solitary tract	Rat	solitary tract	ts				
+R77	subparafascicular nucleus thalamus	Rat	subparafascicular nucleus thalamus	SPF	subparafascicular thalamic nucleus	SPF		
+R77.1	"subparafascicular nucleus thalamus, parvicellular part"	Rat	"subparafascicular nucleus thalamus, parvicellular part"	SPFp	"subparafascicular thalamic nucleus, parvicellular part"	SPFPC	"parvicellular part of the subparafascicular thalamic
+nucleus(SPFp)"	
+R77.11	"subparafascicular nucleus thalamus, parvicellular part, medial division"	Rat	"subparafascicular nucleus thalamus, parvicellular part, medial division"	SPFpm	"subparafascicular thalamic nucleus, parvicellular part"	SPFPC	medial parvocellular part of the subparafascicular thalamic nucleus	
+R79	spinal tract of the trigeminal nerve	Rat	spinal tract of the trigeminal nerve	sptV				
+R80	superior cerebellar peduncle	Rat	superior cerebellar peduncle	scp	superior cerebellar peduncle	scp		
+R81	superior salivatory nucleus_sw	Rat	superior salivatory nucleus_sw	SSN	superior salivatory nucleus	SuS		
+R82	supramammillary nucleus	Rat	supramammillary nucleus	SUM	supramammillary nucleus	SuM		
+R83	supraoptic commissures	Rat	supraoptic commissures	sup	supraoptic nucleus	SO		
+R84	reticular nucleus spinal cord	Rat	reticular nucleus spinal cord	RS				
+R85	vestibular nerve	Rat	vestibular nerve	vVIIIn				
+R86	anterior pretectal nucleus_sw	Rat	anterior pretectal nucleus_sw	APN	anterior pretectal nucleus	APT		
+R87	bed nuclei stria terminalis	Rat	bed nuclei stria terminalis	BST	bed nucleus of stria terminalis	ST		
+R87.1	"bed nuclei stria terminalis, anterior division"	Rat	"bed nuclei stria terminalis, anterior division"	BSTa	"bed nucleus of the stria terminalis, medial division, anterior part"	STMA		
+R87.11	"bed nuclei stria terminalis, anterior division, anterolateral area"	Rat	"bed nuclei stria terminalis, anterior division, anterolateral area"	BSTal	"bed nucleus of the stria terminalis, medial division, anterolateral part"	STMAL	"bed nucleus of the stria terminalis, anterior division lateral group"	
+R87.12	"bed nuclei stria terminalis, anterior division, anteromedial area"	Rat	"bed nuclei stria terminalis, anterior division, anteromedial area"	BSTam	"bed nucleus of the stria terminalis, medial division, anteromedial part"	STMAM	anteromedial part of the BNST	
+R87.13	"bed nuclei stria terminalis, anterior division, dorsomedial nucleus"	Rat	"bed nuclei stria terminalis, anterior division, dorsomedial nucleus"	BSTdm				
+R87.14	"bed nuclei stria terminalis, anterior division, oval nucleus"	Rat	"bed nuclei stria terminalis, anterior division, oval nucleus"	BSTov			the oval nucleus of the bed nucleus of the stria terminalis	
+R87.15	"bed nuclei stria terminalis, anterior division, ventral nucleus"	Rat	"bed nuclei stria terminalis, anterior division, ventral nucleus"	BSTv	"bed nucleus of the stria terminalis, medial division, ventral part"	STMV	ventral bed nucleus of the stria terminalis	
+R87.2	"bed nuclei stria terminalis, posterior division"	Rat	"bed nuclei stria terminalis, posterior division"	BSTp	"bed nucleus of the stria terminalis, medial division, posterior part"	STMP	Posterior nucleus of the bed nucleus of the stria terminalis	
+R87.21	"bed nuclei stria terminalis, posterior division, dorsal nucleus"	Rat	"bed nuclei stria terminalis, posterior division, dorsal nucleus"	BSTd				
+R87.3	"bed nucleus of the stria terminalis, lateral division"	Rat			"bed nucleus of the stria terminalis, lateral division"	STL	bed nucleus of the stria terminalis lateral division	
+R87.31	"bed nucleus of the stria terminalis,lateral division, dorsal part"	Rat			"bed nucleus of the stria terminalis,lateral division, dorsal part"	STLD	BST(the bed nucleus of the  stria terminalis )dl，dorsolateral part of the nucleus	
+R87.32	"bed nucleus of the stria terminalis,lateral division, ventral part"	Rat			"bed nucleus of the stria terminalis,lateral division, ventral part"	STLV	"lateral division of the bed nucleus of the stria terminalis, ventral part"	
+R87.33	"bed nucleus of the stria terminalis,lateral division, posterior part"	Rat			"bed nucleus of the stria terminalis,lateral division, posterior part"	STLP	posterolateral part of the BNST	
+R87.4	bed nucleus of the stria terminalis， medial division	Rat			bed nucleus of the stria terminalis， medial division	STM	"medial division of the bed nucleus of the stria terminalis, dorsal part"	
+R87.41	"bed nucleus of the stria terminalis， medial division,posteromedial part"	Rat			"bed nucleus of the stria terminalis， medial division,posteromedial part"	STMPM	posteromedial nucleus of the stria terminalis	
+R89	insular region	Rat	insular region	INS				
+R92	parasympathetic system	Rat	parasympathetic system	PSY				
+R93	principal mammillary tract	Rat	principal mammillary tract	pm	principal mammillary tract	pm		
+R94	spinocerebellar tracts	Rat	spinocerebellar tracts	sct				
+R95	primary somatosensory area	Rat	primary somatosensory area	SSp	primary somatosensory cortex	S1		
+R96	"supraoptic nucleus, general"	Rat	"supraoptic nucleus, general"	SOg	supraoptic nucleus	SO		
+R96.1	"supraoptic nucleus,proper"	Rat	"supraoptic nucleus,proper"	SO	supraoptic nucleus	SO		
+R97	striatum	Rat	striatum	STR	caudate putamen (striatum)	CPu		
+R98	substantia nigra	Rat	substantia nigra	SN				
+R98.1	"substantia nigra,compact part"	Rat	"substantia nigra,compact part"	SNc	"substantia nigra,compact part"	SNc		
+R99	ventral posterior complex thalamus	Rat	ventral posterior complex thalamus	VP			Ventrobasal thalamic complex	
+R100	submedial nucleus thalamus	Rat	submedial nucleus thalamus	SMT	submedius thalamic nucleus	Sub	Thalamic nucleus submedius	
+R101	superior olive	Rat	superior olive	SO	red nucleus	R	red nucleus	
+R102	spinal vestibular nucleus	Rat	spinal vestibular nucleus	SPIV	spinal vestibular nucleus	SpVe	descending vestibular nucleus	
+R103	rhomboid nucleus thalamus	Rat	rhomboid nucleus thalamus	RH	rhomboid thalamic nucleus	Rh	rhomboid nucleus	
+R104	rostral ventrolateral medulla_sw	Rat	rostral ventrolateral medulla_sw	RVM			"paragigantocellular reticular nucleus, lateral part"	
+R106	prefrontal region_sw	Rat	prefrontal region_sw	PFR			Prefrontal cortex	
+R108	dorsal roots_sw	Rat	dorsal roots_sw	drt			dorsal root ganglia	
+R109	medulla_sw	Rat	medulla_sw	MY			medulla oblongata	
+R111	nucleus raphé pontis	Rat	nucleus raphé pontis	RPO	pontine raphe nucleus	PnR	raphe pontis nucleus	
+R112	lateral geniculate complex	Rat	lateral geniculate complex	LG				
+R112.1	"lateral geniculate complex, intergeniculate leaflet_sw"	Rat	"lateral geniculate complex, intergeniculate leaflet_sw"	IGL	intergeniculate leaf	IGL	the intergeniculate leaflet	
+R113	caudal linear nucleus of the raphe	Rat			caudal linear nucleus of the raphe	Cli	caudal linear nucleus raphe	
+R114	thalamus_sw	Rat	thalamus_sw	TH				
+R115	superior central nucleus raphé_sw	Rat	superior central nucleus raphé_sw	CS	paramedian raphe nucleus	PMnR	paramedian raphe nucleus	
+R115.1	"superior central nucleus raphé, lateral part_sw"	Rat	"superior central nucleus raphé, lateral part_sw"	CSl				
+R115.2	"superior central nucleus raphé, medial part"	Rat	"superior central nucleus raphé, medial part"	CSm	median raphe nucleus	MnR	median raphe	
+R116	dorsomedial hypothalamic nucleus	Rat	dorsomedial hypothalamic nucleus	DMH	dorsomedial hypothalamic nucleus	DM	dorsomedial hypothalamus	
+R116.1	"dorsomedial hypothalamic nucleus, dorsal part"	Rat			"dorsomedial hypothalamic nucleus, dorsal part"	DMD		
+R118	perifornical nucleus	Rat			perifornical nucleus	PeF		
+R120	olfactory bulb	Rat	olfactory bulb	OB	olfactory bulb	OB		
+R120.1	granular cell layer of the olfactory bulb	Rat			granular cell layer of the olfactory bulb	GrO		
+R121	interstitial nucleus of the posterior limb of the anterior commissure	Rat	interstitial nucleus of the posterior limb of the anterior commissure	IPAC				
+R121.1	"interstitial nucleus of the posterior limb of the anterior commissure, lateral part"	Rat			"interstitial nucleus of the posterior limb of the anterior commissure, lateral part"	IPACL		
+R121.2	interstitial nucleus of the posterior limb of the anterior commissure， medial part	Rat			interstitial nucleus of the posterior limb of the anterior commissure， medial part	IPACM		
+R123	anterior hypothalamic area	Rat	anterior hypothalamic area	AHA	anterior hypothalamic area	AH		
+R124	anterior hypothalamic nucleus	Rat	anterior hypothalamic nucleus	AHN	anterior hypothalamic nucleus	LA		
+R125	anterior olfactory nucleus	Rat	anterior olfactory nucleus	AON				
+R125.1	"anterior olfactory nucleus, medial part"	Rat	"anterior olfactory nucleus, medial part"	AONm	anterior olfactory nucleus， medial part	AOM		
+R125.2	anterior olfactory nucleus，ventral part	Rat			anterior olfactory nucleus，ventral part	AOV		
+R126	anteroventral preoptic nucleus	Rat	anteroventral preoptic nucleus	AVP			AVPO	
+R127	anterodorsal nucleus thalamus	Rat	anterodorsal nucleus thalamus	AD	anterodorsal thalamic nucleus	AD		
+R128	Barrington's nucleus	Rat	Barrington's nucleus	B	Barrington’s nucleus	Bar		
+R129	caudoputamen	Rat	caudoputamen	CP	caudate putamen (striatum)	CPu		
+R130	central medial nucleus thalamus	Rat	central medial nucleus thalamus	CM	central medial thalamic nucleus	CM		
+R131	"cerebral aqueduct, general"	Rat	"cerebral aqueduct, general"	AQg	aqueduct	Aq		
+R131.1	cerebral aqueduct proper	Rat	cerebral aqueduct proper	AQ				
+R132	dentate gyrus	Rat	dentate gyrus	DG	dentate gyrus	DG		
+R133	dorsal cochlear nucleus	Rat	dorsal cochlear nucleus	DCO	dorsal cochlear nucleus	DC		
+R134	dorsal hippocampal commissure	Rat	dorsal hippocampal commissure	dhc	dorsal hippocampal commissure	dhc		
+R135	dorsal premammillary nucleus	Rat	dorsal premammillary nucleus	PMd	"premammillary nucleus, dorsal part"	PMD		
+R136	Endopiriform nucleus	Rat	Endopiriform nucleus	EP	retroendopiriform nucleus	REn		
+R136.1	"endopiriform nucleus, dorsal part"	Rat	"endopiriform nucleus, dorsal part"	EPd	dorsal endopiriform nucleus	DEn		
+R137	entorhinal area	Rat	entorhinal area	ENT	entorhinal cortex	Ent		
+R138	Ammon’s horn	Rat	Ammon’s horn	CA			hippocampus major	
+R138.1	field CA1 of Ammon’s horn	Rat	field CA1 of Ammon’s horn	CA1	field CA1 of the hippocampus	CA1		
+R138.2	field CA2of Ammon’s horn	Rat	field CA2of Ammon’s horn	CA1	field CA2 of the hippocampus	CA1		
+R138.3	field CA3 of Ammon’s horn	Rat	field CA3 of Ammon’s horn	CA3	CA3 field of hippocampus	CA3		
+R139	hippocampal region	Rat	hippocampal region	HIP				
+R140	infralimbic area	Rat	infralimbic area	ILA	infralimbic cortex	IL		
+R142	interfascicular nucleus raphé	Rat	interfascicular nucleus raphé	IF	interfascicular nucleus	IF		
+R144	lateral dorsal nucleus thalamus	Rat	lateral dorsal nucleus thalamus	LD	laterodorsal thalamic nucleus	LD		
+R144.1	laterodorsal thalamic nucleus， dorsomedial part	Rat			laterodorsal thalamic nucleus， dorsomedial part	LDDM		
+R145	lateral habenula	Rat	lateral habenula	LH	lateral habenular nucleus	LHb		
+R145.1	"lateral habenular nucleus, medial part"	Rat			"lateral habenular nucleus, medial part"	LHbM		
+R146	lateral preoptic area	Rat	lateral preoptic area	LPO	lateral preoptic area	LPO		
+R147	lateral septal nucleus	Rat	lateral septal nucleus	LS	lateral septal nucleus	LS		
+R147.1	"lateral septal nucleus, caudal part, ventral zone, intermediate region"	Rat	"lateral septal nucleus, caudal part, ventral zone, intermediate region"	LSc.v.i				
+R147.2	"lateral septal nucleus, ventral part"	Rat	"lateral septal nucleus, ventral part"	LSv	"lateral septal nucleus, ventral part"	LSV	septohypothalamic nucleus	
+R149	medial geniculate complex	Rat	medial geniculate complex	MG	medial geniculate nucleus	MG		
+R149.1	"medial geniculate complex, dorsal part"	Rat	"medial geniculate complex, dorsal part"	MGd	"medial geniculate nucleus, dorsal part"	MGD		
+R149.2	"medial geniculate complex, medial part"	Rat	"medial geniculate complex, medial part"	MGm	"medial geniculate nucleus, medial part"	MGM		
+R149.3	"medial geniculate complex, ventral part"	Rat	"medial geniculate complex, ventral part"	MGv	"medial geniculate nucleus, ventral part"	MGV		
+R150	medial preoptic area	Rat	medial preoptic area	MPO	medial preoptic area	MPA		
+R151	medial septal nucleus	Rat	medial septal nucleus	MS	medial septal nucleus	MS		
+R152	mediodorsal nucleus	Rat	mediodorsal nucleus	MnR				
+R153	peripeduncular nucleus	Rat	peripeduncular nucleus	PP	peripeduncular nucleus	PP		
+R154	perirhinal area	Rat	perirhinal area	PERI	perirhinal cortex	PRh		
+R155	piriform area	Rat	piriform area	PIR	piriform cortex	Pir		
+R157	posterior commissure	Rat	posterior commissure	pc	posterior commissure	pc		
+R158	prelimbic area	Rat	prelimbic area	PL	prelimbic cortex	PrL		
+R159	premammillary nucleus	Rat	premammillary nucleus	PM	premammillary nucleus	PM		
+R160	primary visual area	Rat	primary visual area	VISp	primary visual cortex	V1		
+R161	retrosplenial area	Rat	retrosplenial area	RSP				
+R162	septohippocampal nucleus	Rat	septohippocampal nucleus	SH	septohippocampal nucleus	Shi		
+R163	substantia innominata	Rat	substantia innominata	SI	ventral pallidum	VP		
+R164	supramammillary decussation	Rat	supramammillary decussation	smd	supramammillary decussation	sumx		
+R165	tuberal nucleus	Rat	tuberal nucleus	TU	tuberal nucleus	TU		
+R166	anteroventral nucleus thalamus	Rat	anteroventral nucleus thalamus	AV	anteroventral thalamic nucleus	AV		
+R167	anteroventral periventricular nucleus hypothalamus	Rat	anteroventral periventricular nucleus hypothalamus	AVPV	anteroventral periventricular nucleus	AVPe		
+R168	arcuate hypothalamic nucleus	Rat	arcuate hypothalamic nucleus	ARH	arcuate hypothalamic nucleus	Arc	Arcuate nucleus	
+R169	auditory areas	Rat	auditory areas	AUD	primary auditory cortex	Au1		
+R170	cochlear nuclei	Rat	cochlear nuclei	CN				
+R171	hypothalamus	Rat	hypothalamus	His	subthalamic nucleus	STh		
+R172	median eminence	Rat	median eminence	ME	median eminence	ME		
+R173	median preoptic nucleus	Rat	median preoptic nucleus	MEPO	median preoptic nucleus	MnPO		
+R174	nucleus of the lateral lemniscus	Rat	nucleus of the lateral lemniscus	NLL	lateral lemniscus	ll		
+R175	paratenial nucleus	Rat	paratenial nucleus	PT	paratenial thalamic nucleus	PT		
+R176	pedunculopontine nucleus	Rat	pedunculopontine nucleus	PPN	pedunculopontine tegmental nucleus	PTg		
+R177	preoptic periventricular nucleus	Rat	preoptic periventricular nucleus	PVpo				
+R178	septal region	Rat	septal region	SEP				
+R179	superior olivary complex	Rat	superior olivary complex	SOC	medial superior olive	MSO		
+R180	suprachiasmatic nucleus	Rat	suprachiasmatic nucleus	SCH	suprachiasmatic nucleus	SCh		
+R181	ventral medial nucleus thalamus	Rat	ventral medial nucleus thalamus	VM				
+R182	dorsal tegmental nucleus	Rat	dorsal tegmental nucleus	DTN	"dorsal tegmental nucleus, central part"	DTgC		
+R183	tuberal nucleus	Rat	tuberal nucleus	TU	medial tuberal nucleus	MTu		
+R184	accessory olfactory bulb	Rat	accessory olfactory bulb	AOB	accessory olfactory bulb	AOB		
+R184.1	"accessory olfactory bulb, granule cell layer"	Rat	"accessory olfactory bulb, granule cell layer"	AOBgr	granule cell layer of the accessory olfactory bulb	GrA		
+R184.2	"accessory olfactory bulb, mitral layer"	Rat	"accessory olfactory bulb, mitral layer"	AOBmi	mitral cell layer of the accessory olfactory bulb	MiA		
+R185	bed nucleus of the accessory olfactory tract	Rat	bed nucleus of the accessory olfactory tract	BA	bed nucleus of the accessory olfactory tract	BAOT		
+R186	medial preoptic nucleus	Rat	medial preoptic nucleus	MPN	medial preoptic nucleus	MPO		
+R187	midbrain reticular nucleus	Rat	midbrain reticular nucleus	MRN				
+R188	posterodorsal preoptic nucleus	Rat	posterodorsal preoptic nucleus	PD	posterodorsal preoptic nucleus	PDPO		
+R189	central tegmental bundle	Rat	central tegmental bundle	ctb			Central tegmental field	
+R190	anterodorsal preoptic nucleus	Rat	anterodorsal preoptic nucleus	ADP			ADPO	
+R191	septohypothalamic nucleus	Rat	septohypothalamic nucleus	SHy			Shy	
+R192	reticular nucleus thalamus	Rat	reticular nucleus thalamus	RT	reticular thalamic nucleus	Rt	thalamic reticular nucleus	
+R193	stria medullaris	Rat	stria medullaris	sm	nucleus of the stria medullaris	SM		

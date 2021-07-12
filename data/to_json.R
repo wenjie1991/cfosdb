@@ -14,7 +14,9 @@ firstup <- function(x) {
 
 ## behavior brain area table
 d1 = fread("./clean_behavior_brain_area.tsv")
-d1$behavior %<>% revalue(c("agression" = "aggression", "Sexual behavior" = "sexual behavior"))
+d1$behavior %<>% revalue(c("Pain" = "pain"))
+d1[behavior == ""]
+d1[behavior == "", behavior := "pain"]
 table(d1$behavior)
 d1$species %<>% firstup()
 d1$figure %<>% firstup()
@@ -38,14 +40,16 @@ d_merge = merge(d1, d2, by.x = c("brain_code", "species"), by.y = c("brain_code"
 
 j_mouse = jsonlite::toJSON(d_merge[species == "Mouse"], pretty = T)
 j_rat = jsonlite::toJSON(d_merge[species == "Rat"], pretty = T)
-write(j_mouse, "../frontend/public/download/m_20190202.json")
-write(j_rat, "../frontend/public/download/r_20190202.json")
+write(j_mouse, "../frontend/public/download/m_20210712.json")
+write(j_rat, "../frontend/public/download/r_20210712.json")
 
 
 ## behavior overlap
 d = fread("./clean_behavior_brain_area.tsv")
-d$behavior %<>% revalue(c("agression" = "aggression", "Sexual behavior" = "sexual behavior"))
-table(d$behavior)
+d1$behavior %<>% revalue(c("Pain" = "pain"))
+d1[behavior == ""]
+d1[behavior == "", behavior := "pain"]
+table(d1$behavior)
 
 gen_count_table = function(dd) {
     behaviors = dd$behavior %>% unique
@@ -69,14 +73,19 @@ gen_count_table = function(dd) {
 
 ## Rat joint matrix
 dd = d[grepl("R", d$brain_code)]
+dd$behavior %<>% revalue(c("Pain" = "pain"))
+dd[behavior == ""]
+dd[behavior == "", behavior := "pain"]
+table(dd$behavior)
 dd$behavior %>% table
 d1 = gen_count_table(dd)  %>% data.table
 
 ## Mouse joint matrix
 dd = d[grepl("B", d$brain_code)]
-dd$behavior %>% table
-dd[behavior == "aggression", brain_code]
-dd[behavior == "sexual behavior", brain_code]
+dd$behavior %<>% revalue(c("Pain" = "pain"))
+dd[behavior == ""]
+dd[behavior == "", behavior := "pain"]
+table(dd$behavior)
 d2 = gen_count_table(dd) %>% data.table
 
 level_v = c(d1$behavior1, d1$behavior2, d2$behavior1, d2$behavior2) %>% unique %>% sort
@@ -124,7 +133,11 @@ matrix_l %>% jsonlite::toJSON(pretty = T, auto_unbox = T) %>% write("./behavior_
 d1 = fread("./clean_behavior_brain_area.tsv")
 d2 = fread("./clean_brain_area_annotation.tsv")
 
-d1$behavior %<>% revalue(c("agression" = "aggression", "Sexual behavior" = "sexual behavior"))
+d1$behavior %<>% revalue(c("Pain" = "pain"))
+d1[behavior == ""]
+d1[behavior == "", behavior := "pain"]
+table(d1$behavior)
+
 d1$figure %<>% firstup()
 d1$condition %<>% firstup()
 d1$cell_type %<>% firstup()

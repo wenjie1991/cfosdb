@@ -1,0 +1,107 @@
+brain_code	main	species	"规范名全称(Paxinos & Franklin, 2013 )"	简称	"同义词全称（Mouse brain_Franklin & Paxinos,2007）"	简称	其他同义词	简称
+B1	spinal trigeminal tract x	Mouse	spinal trigeminal tract x	sp5	spinal trigeminal tract	sp5		
+B1.1	"spinal trigeminal nucleus, caudal part"	Mouse	"spinal trigeminal nucleus, caudal part"	Sp5C	spinal trigeminal nucleus; caudal part	Sp5C		
+B1.2	dorsomedial spinal trigeminal nucleus	Mouse	dorsomedial spinal trigeminal nucleus	DMSp5	dorsomedial spinal trigeminal nucleus		DMSp5	
+B2	parabrachial nucleus	Mouse			parabrachial nucleus	PB	PBN	
+B2.1	lateral parabrachial nucleus	Mouse	lateral parabrachial nucleus	LPB	lateral parabrachial nucleus	LPB		
+B2.11	"lateral parabrachial nucleus, dorsal part"	Mouse	"lateral parabrachial nucleus, dorsal part"	LPBD	"lateral parabrachial nucleus, dorsal part"	LPBD		
+B2.12	lateral parabrachial nucleus; external part	Mouse	lateral parabrachial nucleus; external part	LPBE	lateral parabrachial nucleus; external part	LPBE	PBNLE	
+B2.13	"lateral parabrachial nucleus, superior part"	Mouse	"lateral parabrachial nucleus, superior part"	LPBS			PBNSL	
+B3	Klliker-Fuse nucleus	Mouse	Klliker-Fuse nucleus	KF	Klliker-Fuse nucleus	KF	K-F	
+B4	dorsomedial hypothalamic nucleus	Mouse	dorsomedial hypothalamic nucleus	DM	dorsomedial hypothalamic nucleus	DM	dorsomedial hypothalamus	DMH
+B4.1	"dorsomedial hypothalamic nucleus, compact part"	Mouse	"dorsomedial hypothalamic nucleus, compact part"	DMC	"dorsomedial hypothalamic nucleus, compact part"	DMC		
+B5	lateral paragigantocellular nucleus	Mouse	lateral paragigantocellular nucleus	LPGi	lateral paragigantocellular nucleus	LPGi		
+B10.4	basolateral amygdaloid nucleus	Mouse	basolateral amygdaloid nucleus	BL	basolateral amygdaloid nucleus	BL		
+B7	lateral hypothalamic area	Mouse	lateral hypothalamic area	LH	lateral hypothalamic area	LH	lateral hypothalamus	
+B8	thalamus	Mouse			thalamus	TH		
+B8.1	subthalamic nucleus	Mouse	subthalamic nucleus	STh	subthalamic nucleus	STh	hypothalamus	
+B9	dentate gyrus	Mouse	dentate gyrus	DG	dentate gyrus	DG		
+B10	amygdala	Mouse			amygdala	AMY		
+B10.1	central amygdaloid nucleus	Mouse	central amygdaloid nucleus	Ce	central amygdaloid nucleus	Ce	central amygdala	
+B10.11	"central amygdaloid nucleus, lateral part"	Mouse	"central amygdaloid nucleus, lateral part"	CeL				
+B10.12	"central amygdaloid nucleus, medial part"	Mouse	"central amygdaloid nucleus, medial part"	CeM				
+B10.13	central amygdaloid nucleus; capsular part	Mouse	central amygdaloid nucleus; capsular part	CeC				
+B10.2	lateral amygdaloid nucleus	Mouse	lateral amygdaloid nucleus	La	lateral amygdaloid nucleus	La		
+B10.3	medial amygdaloid nucleus	Mouse	medial amygdaloid nucleus	Me	medial amygdaloid nucleus	Me	MeAmy	
+B10.31	"medial amygdaloid nucleus, anterodorsal"	Mouse	"medial amygdaloid nucleus, anterodorsal"	MeAD	"medial amygdaloid nucleus, anterior part"	MeA	anterior part of medial amygdaloid nucleus	
+B10.32	"medial amygdaloid nucleus, posterodorsal part"	Mouse	"medial amygdaloid nucleus, posterodorsal part"	MePD	"medial amygdaloid nucleus, posterodorsal part"	MePD	posterodorsal part of medial amygdaloid nucleus	MeApd
+B10.33	"medial amygdaloid nucleus, posteroventral part"	Mouse	"medial amygdaloid nucleus, posteroventral part"	MePV	"medial amygdaloid nucleus, posteroventral part"	MePV	Posteroventral Medial Amygdala	
+B11	ventromedial hypothalamic nucleus x	Mouse	ventromedial hypothalamic nucleus x	VMH	ventromedial hypothalamic nucleus	VMH	ventromedial nucleus of the hypothalamus	VMH
+B11.1	"ventromedial hypothalamic nucleus, dorsomedial part"	Mouse	"ventromedial hypothalamic nucleus, dorsomedial part"	VMHDM	"ventromedial hypothalamic nucleus, dorsomedial part"	VMHDM	dorsomedial part of the ventromedial hypothalamic nucleus	
+B11.2	"ventromedial hypothalamic nucleus, ventrolateral part"	Mouse			"ventromedial hypothalamic nucleus, ventrolateral part"	VMHVL		
+B12.1	"premammillary nucleus, dorsal part"	Mouse	"premammillary nucleus, dorsal part"	PMD	"premammillary nucleus, dorsal part"	PMD	dorsal premammillary nucleus	PMD
+B12.2	"premammillary nucleus, ventral part"	Mouse	"premammillary nucleus, ventral part"	PMV	"premammillary nucleus, ventral part"	PMV		
+B13	piriform cortex	Mouse	piriform cortex	Pir	piriform cortex	Pir		
+B14	cingulum	Mouse	cingulum	cg	cingulate cortex	Cg		
+B14.1	cingulate cortex; area 1	Mouse			cingulate cortex; area 1	Cg1		
+B14.2	cingulate cortex;area2	Mouse			cingulate cortex;area2	Cg2		
+B15	locus coeruleus	Mouse	locus coeruleus	LC	locus coeruleus	LC		
+B16	paraventricular thalamic nucleus	Mouse	paraventricular thalamic nucleus	PV	paraventricular thalamic nucleus	PV	paraventricular thalamus	PVT
+B17	accumbens nucleus	Mouse	accumbens nucleus	Acb	accumbens nucleus	Acb		
+B18	lateral septal nucleus	Mouse	lateral septal nucleus	LS	lateral septal nucleus	LS		
+B18.1	"lateral septal nucleus, dorsal part"	Mouse	"lateral septal nucleus, dorsal part"	LSD	lateral septal nucleus; dorsal part	LSD	dorsal part of lateral septal nucleus	
+B18.2	"lateral septal nucleus, ventral part"	Mouse	"lateral septal nucleus, ventral part"	LSV	"lateral septal nucleus, ventral part"	LSV	ventral part of lateral septal nucleus	
+B19	bed nucleus of the stria terminalis	Mouse	bed nucleus of the stria terminalis	ST	bed nucleus of the stria terminalis	ST		
+B19.1	bed nucleus of the stria terminalis; lateral division; ventral part	Mouse	bed nucleus of the stria terminalis; lateral division; ventral part	STLV	bed nucleus of the stria terminalis; lateral division; ventral part	STLV	"bed nucleus of the stria terminalis, ventral"	BNST-V
+B19.2	bed nucleus of the stria terminalis; medial division; ventral part	Mouse	bed nucleus of the stria terminalis; medial division; ventral part	STMV	bed nucleus of the stria terminalis; medial division; ventral part	STMV	"bed nucleus of the stria terminalis, ventral"	BNST-V
+B20	paraventricular hypothalamic nucleus	Mouse	paraventricular hypothalamic nucleus	Pa	paraventricular hypothalamic nucleus	Pa	paraventricular nuclei of the hypothalamus	PVH
+B20.2	"paraventricular hypothalamic nucleus, posterior part"	Mouse	"paraventricular hypothalamic nucleus, posterior part"	PaPo	"paraventricular hypothalamic nucleus, posterior part"	PaPo		
+B20.3	"paraventricular hypothalamic nucleus,ventral part"	Mouse	"paraventricular hypothalamic nucleus,ventral part"	PaV	paraventricular hypothalamic nucleus; ventral part	PaV		
+B21	periaqueductal gray	Mouse	periaqueductal gray	PAG	periaqueductal gray	PAG		
+B21.1	lateral periaqueductal gray	Mouse	lateral periaqueductal gray	LPAG	lateral periaqueductal gray	LPAG		
+B21.11	dorsolateral periaqueductal gray	Mouse	dorsolateral periaqueductal gray	DLPAG	dorsolateral periaqueductal gray	DLPAG		
+B21.12	ventrolateral periaqueductal gray	Mouse	ventrolateral periaqueductal gray	VLPAG	ventrolateral periaqueductal gray	VLPAG		
+B22	field CA1 of the hippocampus	Mouse	field CA1 of the hippocampus	CA1	field CA1 of the hippocampus	CA1		
+B23	amygdalohippocampal area	Mouse	amygdalohippocampal area	AHi	amygdalohippocampal area	AHi		
+B24	arcuate hypothalamic nucleus	Mouse	arcuate hypothalamic nucleus	Arc	arcuate hypothalamic nucleus	Arc	arcuate nucleus of the hypothalamus	ARH
+B24.1	"arcuate hypothalamic nucleus, dorsal part"	Mouse	"arcuate hypothalamic nucleus, dorsal part"	ArcD	"arcuate hypothalamic nucleus, dorsal part"	ArcD		
+B24.2	"arcuate hypothalamic nucleus, lateroposterior part"	Mouse	"arcuate hypothalamic nucleus, lateroposterior part"	ArcLP	"arcuate hypothalamic nucleus, lateral part"	ArcL		
+B25	periventricular hypothalamic nucleus	Mouse	periventricular hypothalamic nucleus	Pe	periventricular hypothalamic nucleus	Pe		
+B26	"agranular insular cortex, posterior part"	Mouse	"agranular insular cortex, posterior part"	AIP	"agranular insular cortex, posterior part"	AIP		
+B27	area postrema	Mouse	area postrema	AP	area postrema	AP		
+B28	dorsal motor nucleus of vagus	Mouse			dorsal motor nucleus of vagus	10N		
+B29	lateral reticular nucleus	Mouse	lateral reticular nucleus	LRt	lateral reticular nucleus	LRt		
+B30	solitary nucleus	Mouse	solitary nucleus	Sol	nucleus of the solitary tract	Sol	NTS	
+B30.1	"SolRL solitary nucleus, rostrolateral part"	Mouse	"SolRL solitary nucleus, rostrolateral part"	SolRL	"SolRL solitary nucleus, rostrolateral part"			
+B31	parasubthalamic nucleus	Mouse	parasubthalamic nucleus	PSTh	parasubthalamic nucleus	PSTh		
+B32	supratrigeminal nucleus	Mouse	supratrigeminal nucleus	Su5	supratrigeminal nucleus	Su5		
+B33	accessory olfactory bulb	Mouse	accessory olfactory bulb	AOB	accessory olfactory bulb	AOB		
+B34	anterior hypothalamic area	Mouse	anterior hypothalamic area	AH	anterior hypothalamic area	AH		
+B35	anterior olfactory area external part	Mouse	anterior olfactory area external part	AOE	anterior olfactory area external part	AOE	anterior olfactory nucleus	
+B36	anteroventral thalamic nucleus	Mouse	anteroventral thalamic nucleus	AV	anteroventral thalamic nucleus	AV		
+B37	caudate putamen (striatum)	Mouse	caudate putamen (striatum)	Cpu	caudate putamen (striatum)	Cpu		
+B38	Central gray	Mouse	Central gray	CG	Central gray	CG		
+B39	claustrum	Mouse	claustrum	cl	claustrum	CI		
+B40	cortex-amygdala transition zone	Mouse	cortex-amygdala transition zone	CxA	cortex-amygdala transition zone	CxA		
+B41	dorsal nucleus of the lateral lemniscus	Mouse	dorsal nucleus of the lateral lemniscus	DLL	dorsal nucleus of the lateral lemniscus	DLL		
+B42	dorsal raphe nucleus	Mouse	dorsal raphe nucleus	DR	dorsal raphe nucleus	DR		
+B43	external cuneate nucleus	Mouse	external cuneate nucleus	ECu	external cuneate nucleus	ECu		
+B44	field CA3 of the hippocampus	Mouse	field CA3 of the hippocampus	CA3	field CA3 of the hippocampus	CA3		
+B45	gracile nucleus	Mouse	gracile nucleus	Gr	gracile nucleus	Gr		
+B46	granule cell layer of the accessory olfactory bulb	Mouse	granule cell layer of the accessory olfactory bulb	GrA	granule cell layer of the accessory olfactory bulb	GrA	"granular cell layer,accessory olfactory bulb"	
+B47	Inferior colliculus	Mouse			Inferior colliculus	IC		
+B49	lateral preoptic area	Mouse	lateral preoptic area	LPO	lateral preoptic area	LPO		
+B50	laterodorsal tegmental nucleus	Mouse	laterodorsal tegmental nucleus	LDTg	laterodorsal tegmental nucleus	LDTg	LDT	
+B51	medial preoptic area	Mouse	medial preoptic area	MPA	medial preoptic area	MPA		
+B52.1	"medial preoptic nucleus, medial part"	Mouse	"medial preoptic nucleus, medial part"	MPOM	"medial preoptic nucleus, medial part"	MPOM		
+B53	medial vestibular nucleus	Mouse	medial vestibular nucleus	MVe	medial vestibular nucleus	MVe		
+B54	mitral cell layer of the accessory olfactory bulb	Mouse	mitral cell layer of the accessory olfactory bulb	MiA	mitral cell layer of the accessory olfactory bulb	MiA	"mitral cell layer, accessory olfactory bulb"	
+B55	parafascicular thalamic nucleus	Mouse	parafascicular thalamic nucleus	PaF	parafascicular thalamic nucleus	PF	parafascicular nucleus	
+B56	pontine nuclei	Mouse	pontine nuclei	Pn	pontine nuclei	Pn		
+B57	prepositus nucleus	Mouse	prepositus nucleus	Pr	prepositus nucleus	Pr		
+B58	spinal vestibular nucleus	Mouse	spinal vestibular nucleus	SpVe	spinal vestibular nucleus	SpVe		
+B58.1	superior vestibular nucleus	Mouse			superior vestibular nucleus	SuVe		
+B59	superior colliculus	Mouse	superior colliculus	SC	superior colliculus	SC		
+B60	ventral cochlear nucleus	Mouse	ventral cochlear nucleus	VC	ventral cochlear nucleus	VC		
+B61	"ventral tegmental area, rostral part"	Mouse	"ventral tegmental area, rostral part"	VTAR	ventral tegmental area	VTA		
+B62	lateral habenular nucleus	Mouse	lateral habenular nucleus	LHb	lateral habenular nucleus	LHb		
+B63	dorsal horn	Mouse			dorsal horn	DH		
+B64	diagonal band of Broca	Mouse			diagonal band of Broca	DBB		
+B65	Insular cortex	Mouse			Insular cortex	insula	insular cortex	IC
+B66	ventromedial thalamic nucleus x	Mouse	ventromedial thalamic nucleus x	VM	ventromedial thalamic nucleus	VM		
+B67	medial tuberal nucleus	Mouse	medial tuberal nucleus	MTu	medial tuberal nucleus	MTu		
+B68	prelimbic cortex	Mouse			prelimbic cortex	PrL		
+B69	infralimbic cortex	Mouse			infralimbic cortex	IL		
+B71	prefrontal cortex	Mouse	prefrontal cortex	PFC	prefrontal cortex	PFC		
+B71.1	medial prefrontal cortex	Mouse	medial prefrontal cortex	mPFC	medial prefrontal cortex	mPFC		
+B73	supraoptic nucleus	Mouse	supraoptic nucleus	SO	supraoptic nucleus	SO		
