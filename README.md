@@ -81,12 +81,12 @@ Run `clean.R` to format the data. It generates two files:
 
 ## Generate database
 
-1. Update the data for download.
+### 1. Update the data for download
+	
+ - Copy the `neo_cfosdb/frontend/public/download/` data to `neo_cfosdb/frontend/public/download_bk`.
+ - Update the file name under "## Create file for download" section in `neo_cfosdb/data/to_json.R` file.
 
-- Copy the `neo_cfosdb/frontend/public/download/` data to `neo_cfosdb/frontend/public/download_bk`.
-- Update the file name under "## Create file for download" section in `neo_cfosdb/data/to_json.R` file.
-
-2. Generate data
+### 2. Generate data
 
 Enter the `neo_cfosdb/data` fold. Generate the database by runging the Makefile.
 
@@ -94,11 +94,11 @@ Enter the `neo_cfosdb/data` fold. Generate the database by runging the Makefile.
 
 ## Update online database
 
-1. Compile website
+### 1. Compile website:
 
 Run Makefile in the `root` fold.
 
-2. Upload website to server
+### 2. Upload website to server:
 
 Run Makefile in the `frontend` fold
 
