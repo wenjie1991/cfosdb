@@ -24,7 +24,7 @@ Exp.
 localhost:8081?behavior=pain,aggression&brain_code=R5,R7,R37&gender=%&species=Rat
 ```
 
-# Data
+# Dataset
 
 ## Database
 
@@ -65,3 +65,41 @@ CREATE TABLE brain_area_behavior (
 ## Other json files
 
 The files useful for frontend is in `frontend/src/assets/`.
+
+# Update data
+
+## Update the data (data subfolder)
+
+Changes the data in numbers.
+
+Save the sheets in numbers as `tsv` format to `data_table` fold.
+
+Run `clean.R` to format the data. It generates two files:   
+- ./clean_behavior_brain_area.tsv 
+- ./clean_brain_area_annotation.tsv
+
+
+## Generate database
+
+1. Update the data for download.
+
+- Copy the `neo_cfosdb/frontend/public/download/` data to `neo_cfosdb/frontend/public/download_bk`.
+- Update the file name under "## Create file for download" section in `neo_cfosdb/data/to_json.R` file.
+
+2. Generate data
+
+Enter the `neo_cfosdb/data` fold. Generate the database by runging the Makefile.
+
+**Check the output information, make sure the behavior is good.**
+
+## Update online database
+
+1. Compile website
+
+Run Makefile in the `root` fold.
+
+2. Upload website to server
+
+Run Makefile in the `frontend` fold
+
+
