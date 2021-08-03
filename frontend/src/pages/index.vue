@@ -20,9 +20,7 @@
                     early neuroscience exploration.
                 </div>
                 <div class="pt-3 body-1">
-                    More detailed, see Wang, et al.(2020). cFos-ANAB: a cFos
-                    based web tool for exploring activated neurons and
-                    associated behaviors. Preprint.
+                  More detailed, see <a href="https://doi.org/10.1007/s12264-021-00744-2">Wang, F., Sun, W., Chang, L. et al. cFos-ANAB: A cFos-based Web Tool for Exploring Activated Neurons and Associated Behaviors. Neurosci. Bull. (2021).</a>
                 </div>
             </v-card-text>
             <v-card-actions class="flex-row-reverse">

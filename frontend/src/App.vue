@@ -40,7 +40,16 @@
                 href="https://github.com/wenjie1991/cfosdb"
                 target="_blank"
                 >
-                Github Source code
+                Source code
+                </v-btn>
+
+                <v-btn
+                text
+                class="white--text"
+                href="https://doi.org/10.1007/s12264-021-00744-2"
+                target="_blank"
+                >
+                Citation
                 </v-btn>
 
                 <v-divider class="my-2"></v-divider>
