@@ -8,7 +8,7 @@
                   <v-tabs-slider color="accent"></v-tabs-slider>
                   <v-tab to="/"><v-icon left>mdi-home</v-icon>index</v-tab>
                   <v-tab to="/search"><v-icon left>mdi-search-web</v-icon>search</v-tab>
-                  <v-tab to="/download"><v-icon left>mdi-download</v-icon>download</v-tab>
+                  <!-- <v-tab to="/download"><v-icon left>mdi-download</v-icon>download</v-tab> -->
                   <v-tab to="/help"><v-icon left>mdi-help-circle</v-icon>help</v-tab>
                 </v-tabs>
             </template>

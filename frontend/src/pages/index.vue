@@ -100,9 +100,9 @@
                             </v-list-item-subtitle>
                         </v-list-item-content>
                     </v-list-item>
-                    <v-card-actions class="flex-row-reverse">
-                        <v-btn text color="secondary lighten-0" to="/download">to Download</v-btn>
-                    </v-card-actions>
+                    <!-- <v-card-actions class="flex-row-reverse"> -->
+                        <!-- <v-btn text color="secondary lighten-0" to="/download">to Download</v-btn> -->
+                    <!-- </v-card-actions> -->
                 </v-card>
             </v-timeline-item>
         </v-timeline>
