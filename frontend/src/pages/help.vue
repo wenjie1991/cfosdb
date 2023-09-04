@@ -56,25 +56,25 @@
                     </p>
                   </v-list-item-content>
               </v-list-item>
-              <v-list-item line>
-                  <v-list-item-content>
-                    <v-list-item-title><span class="font-weight-black">Question 3: </span>
-                        Which type of data could to be downloaded from cFos-ANAB (1.0) for non-commercial use?
-                    </v-list-item-title>
-                    <p class="pStyle"><b>Answer: </b>
-                        Users can download any type data results for academic research, in formats preferable for programming (JSON format), including:
-                          <ol>
-                              <li>Original data.</li>
-                              <li>Data on different brain nuclei.</li>
-                              <li>Data on different behavior.</li>
-                              <li>Data on different species.</li>
-                              <li>Pictures of Network mapping.</li>
-                              <li>Overlapping rat brain nuclei (subnuclei) among different behaviors.</li>
-                              <li>Overlapping mouse brain nuclei (subnuclei) among different behaviors.</li>
-                          </ol>
-                    </p>
-                  </v-list-item-content>
-              </v-list-item>
+              <!-- <v-list-item line> -->
+              <!--     <v-list-item-content> -->
+              <!--       <v-list-item-title><span class="font-weight-black">Question 3: </span> -->
+              <!--           Which type of data could to be downloaded from cFos-ANAB (1.0) for non-commercial use? -->
+              <!--       </v-list-item-title> -->
+              <!--       <p class="pStyle"><b>Answer: </b> -->
+              <!--           Users can download any type data results for academic research, in formats preferable for programming (JSON format), including: -->
+              <!--             <ol> -->
+              <!--                 <li>Original data.</li> -->
+              <!--                 <li>Data on different brain nuclei.</li> -->
+              <!--                 <li>Data on different behavior.</li> -->
+              <!--                 <li>Data on different species.</li> -->
+              <!--                 <li>Pictures of Network mapping.</li> -->
+              <!--                 <li>Overlapping rat brain nuclei (subnuclei) among different behaviors.</li> -->
+              <!--                 <li>Overlapping mouse brain nuclei (subnuclei) among different behaviors.</li> -->
+              <!--             </ol> -->
+              <!--       </p> -->
+              <!--     </v-list-item-content> -->
+              <!-- </v-list-item> -->
             </v-col>
         </div>
 
